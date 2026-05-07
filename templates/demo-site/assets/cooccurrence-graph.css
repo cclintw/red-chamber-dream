@@ -53,5 +53,5 @@
       .panel-backdrop { position: fixed; inset: 0; z-index: 15; border: 0; background: rgba(3, 7, 18, .48); }
       body.panel-open .panel-backdrop { display: block; }
       main { grid-column: 1; grid-row: 2; }
-      .info { left: 12px; right: 12px; width: auto; max-height: 38vh; overflow: auto; }
+      .info { display: none; }
     }
