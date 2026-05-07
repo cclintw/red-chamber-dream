@@ -11,8 +11,9 @@
 <div class="app">
   <header>
     <h1>《紅樓夢》人物關係互動圖 <span class="small">D3.js 力導向圖：共現 + 主僕 / 婚姻 / 親屬等語義關係</span></h1>
+    <button class="panel-toggle" id="panelToggle" type="button" aria-expanded="false" aria-controls="graphControls">控制</button>
   </header>
-  <aside>
+  <aside id="graphControls">
     <div class="toolbar">
       <div class="card">
         <h3>搜尋人物</h3>
@@ -66,6 +67,7 @@
       </div>
     </div>
   </aside>
+  <button class="panel-backdrop" id="panelBackdrop" type="button" aria-label="關閉控制面板"></button>
   <main>
     <svg id="graph"></svg>
     <div class="tooltip is-hidden" id="tooltip"></div>
@@ -74,6 +76,17 @@
 </div>
 
 <script>
+const controlPanelToggle = document.getElementById("panelToggle");
+const controlPanelBackdrop = document.getElementById("panelBackdrop");
+function setControlPanelOpen(open) {
+  document.body.classList.toggle("panel-open", open);
+  controlPanelToggle?.setAttribute("aria-expanded", String(open));
+}
+controlPanelToggle?.addEventListener("click", () => {
+  setControlPanelOpen(!document.body.classList.contains("panel-open"));
+});
+controlPanelBackdrop?.addEventListener("click", () => setControlPanelOpen(false));
+
 const groupColors = {
   main_character: "#ff6b6b",
   family_elder: "#ffd36b",

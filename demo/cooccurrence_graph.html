@@ -12,9 +12,10 @@
 <div class="app">
   <header>
     <h1>實體共現圖</h1>
+    <button class="panel-toggle" id="panelToggle" type="button" aria-expanded="false" aria-controls="graphControls">控制</button>
     <div class="small">依段落共現建立人物、身份、空間建築、地點、花草的關聯。邊權重為共同出現的段落數。</div>
   </header>
-  <aside>
+  <aside id="graphControls">
     <div class="toolbar">
       <div class="card">
         <h3>查詢</h3>
@@ -54,6 +55,7 @@
       </div>
     </div>
   </aside>
+  <button class="panel-backdrop" id="panelBackdrop" type="button" aria-label="關閉控制面板"></button>
   <main>
     <svg id="graph"></svg>
     <div class="info" id="info"><h2>共現圖</h2><div class="small">點選節點查看共現對象。搜尋可聚焦單一實體與其鄰近節點。</div></div>
@@ -68,6 +70,17 @@ const typeMeta = {
   FLOWER: {label: '花草', color: '#f472b6'}
 };
 const $ = s => document.querySelector(s);
+const controlPanelToggle = document.getElementById('panelToggle');
+const controlPanelBackdrop = document.getElementById('panelBackdrop');
+function setControlPanelOpen(open) {
+  document.body.classList.toggle('panel-open', open);
+  controlPanelToggle?.setAttribute('aria-expanded', String(open));
+}
+controlPanelToggle?.addEventListener('click', () => {
+  setControlPanelOpen(!document.body.classList.contains('panel-open'));
+});
+controlPanelBackdrop?.addEventListener('click', () => setControlPanelOpen(false));
+
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 async function loadJson(path) {
   if (window.DEMO_JSON && window.DEMO_JSON[path]) return window.DEMO_JSON[path];

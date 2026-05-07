@@ -291,9 +291,10 @@
     @media (max-width: 1024px) {
       header { grid-template-columns: 34px minmax(0, 1fr) 34px 34px; gap: 8px; padding: 8px 10px; }
       h1 { min-width: 0; overflow: hidden; text-overflow: ellipsis; font-size: 18px; }
-      .mobile-menu-toggle { display: inline-flex; grid-column: 3; grid-row: 1; }
+      .mobile-menu-toggle { display: inline-flex; grid-column: 4; grid-row: 1; }
       #toggleReaderLeft { grid-column: 1; grid-row: 1; }
-      #toggleReaderRight { grid-column: 4; grid-row: 1; }
+      #toggleReaderRight { grid-column: 3; grid-row: 1; }
+      body:not(.reader-view) #toggleReaderRight { display: none; }
       header nav { grid-column: 1 / -1; grid-row: 2; display: none; flex-direction: column; gap: 4px; padding: 8px; border: 1px solid var(--border); border-radius: 8px; background: #fff; box-shadow: 0 12px 24px rgba(15, 23, 42, .12); }
       header.nav-open nav { display: flex; }
       header nav button { width: 100%; text-align: left; padding: 10px 12px; }
