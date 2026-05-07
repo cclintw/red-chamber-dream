@@ -1,0 +1,23 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+
+# Local dependency/runtime folders
+.deps/
+
+# Private notes and course planning
+_private/
+
+# Generated database
+corpus.sqlite
+corpus.sqlite-*
+
+# Generated exploratory annotation exports
+basic_annotated_browser.html
+annotated_paragraphs.html
+annotated_paragraphs.json
+annotated_text.xml
+
+# Early visual/reference prototypes
+3d.html
+demo/read-sample.html

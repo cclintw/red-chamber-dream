@@ -1,0 +1,22262 @@
+window.DEMO_JSON = window.DEMO_JSON || {};
+window.DEMO_JSON["data/statistics.json"] = {
+  "document": {
+    "document_id": "hongloumeng",
+    "title": "紅樓夢",
+    "author": "曹雪芹、高鶚",
+    "source_file": "red-chamber-dream.txt",
+    "language": "zh-Hant",
+    "total_chapters": "120",
+    "total_paragraphs": "3026",
+    "total_sentences": "48146",
+    "total_tokens": "661261"
+  },
+  "chapter_stats": [
+    {
+      "chapter_id": "hongloumeng_ch001",
+      "chapter_number": 1,
+      "title": "甄士隱夢幻識通靈 賈雨村風塵懷閨秀",
+      "paragraph_count": 40,
+      "char_count": 7433
+    },
+    {
+      "chapter_id": "hongloumeng_ch002",
+      "chapter_number": 2,
+      "title": "賈夫人仙逝揚州城 冷子興演說榮國府",
+      "paragraph_count": 25,
+      "char_count": 5999
+    },
+    {
+      "chapter_id": "hongloumeng_ch003",
+      "chapter_number": 3,
+      "title": "金陵城起復賈雨村 榮國府收養林黛玉",
+      "paragraph_count": 27,
+      "char_count": 8519
+    },
+    {
+      "chapter_id": "hongloumeng_ch004",
+      "chapter_number": 4,
+      "title": "薄命女偏逢薄命郎 葫蘆僧亂判葫蘆案",
+      "paragraph_count": 22,
+      "char_count": 5993
+    },
+    {
+      "chapter_id": "hongloumeng_ch005",
+      "chapter_number": 5,
+      "title": "開生面夢演紅樓夢 立新場情傳幻境情",
+      "paragraph_count": 76,
+      "char_count": 7498
+    },
+    {
+      "chapter_id": "hongloumeng_ch006",
+      "chapter_number": 6,
+      "title": "賈寶玉初試雲雨情 劉姥姥一進榮國府",
+      "paragraph_count": 28,
+      "char_count": 7375
+    },
+    {
+      "chapter_id": "hongloumeng_ch007",
+      "chapter_number": 7,
+      "title": "送宮花周瑞嘆英蓮 談肆業秦鐘結寶玉",
+      "paragraph_count": 26,
+      "char_count": 7372
+    },
+    {
+      "chapter_id": "hongloumeng_ch008",
+      "chapter_number": 8,
+      "title": "薛寶釵小恙梨香院 賈寶玉大醉絳芸軒",
+      "paragraph_count": 28,
+      "char_count": 6598
+    },
+    {
+      "chapter_id": "hongloumeng_ch009",
+      "chapter_number": 9,
+      "title": "戀風流情友入家塾 起嫌疑頑童鬧學堂",
+      "paragraph_count": 16,
+      "char_count": 5648
+    },
+    {
+      "chapter_id": "hongloumeng_ch010",
+      "chapter_number": 10,
+      "title": "金寡婦貪利權受辱 張太醫論病細窮源",
+      "paragraph_count": 17,
+      "char_count": 5058
+    },
+    {
+      "chapter_id": "hongloumeng_ch011",
+      "chapter_number": 11,
+      "title": "慶壽辰寧府排家宴 見熙鳳賈瑞起淫心",
+      "paragraph_count": 24,
+      "char_count": 5822
+    },
+    {
+      "chapter_id": "hongloumeng_ch012",
+      "chapter_number": 12,
+      "title": "王熙鳳毒設相思局 賈天祥正照風月鑑",
+      "paragraph_count": 15,
+      "char_count": 4225
+    },
+    {
+      "chapter_id": "hongloumeng_ch013",
+      "chapter_number": 13,
+      "title": "秦可卿死封龍禁尉 王熙鳳協理寧國府",
+      "paragraph_count": 21,
+      "char_count": 5127
+    },
+    {
+      "chapter_id": "hongloumeng_ch014",
+      "chapter_number": 14,
+      "title": "林如海捐館揚州城 賈寶玉路謁北靜王",
+      "paragraph_count": 24,
+      "char_count": 5533
+    },
+    {
+      "chapter_id": "hongloumeng_ch015",
+      "chapter_number": 15,
+      "title": "王鳳姐弄權鐵檻寺 秦鯨卿得趣饅頭庵",
+      "paragraph_count": 18,
+      "char_count": 5025
+    },
+    {
+      "chapter_id": "hongloumeng_ch016",
+      "chapter_number": 16,
+      "title": "賈元春才選鳳藻宮 秦鯨卿夭逝黃泉路",
+      "paragraph_count": 26,
+      "char_count": 7493
+    },
+    {
+      "chapter_id": "hongloumeng_ch017",
+      "chapter_number": 17,
+      "title": "大觀園試才題對額 怡紅院迷路探曲折",
+      "paragraph_count": 38,
+      "char_count": 7774
+    },
+    {
+      "chapter_id": "hongloumeng_ch018",
+      "chapter_number": 18,
+      "title": "林黛玉誤剪香袋囊 賈元春歸省慶元宵",
+      "paragraph_count": 43,
+      "char_count": 8400
+    },
+    {
+      "chapter_id": "hongloumeng_ch019",
+      "chapter_number": 19,
+      "title": "情切切良宵花解語 意綿綿靜日玉生香",
+      "paragraph_count": 34,
+      "char_count": 9118
+    },
+    {
+      "chapter_id": "hongloumeng_ch020",
+      "chapter_number": 20,
+      "title": "王熙鳳正言彈妒意 林黛玉俏語謔嬌音",
+      "paragraph_count": 16,
+      "char_count": 5282
+    },
+    {
+      "chapter_id": "hongloumeng_ch021",
+      "chapter_number": 21,
+      "title": "賢襲人嬌嗔箴寶玉 俏平兒軟語救賈璉",
+      "paragraph_count": 21,
+      "char_count": 5988
+    },
+    {
+      "chapter_id": "hongloumeng_ch022",
+      "chapter_number": 22,
+      "title": "聽曲文寶玉悟禪機 制燈迷賈政悲讖語",
+      "paragraph_count": 45,
+      "char_count": 6945
+    },
+    {
+      "chapter_id": "hongloumeng_ch023",
+      "chapter_number": 23,
+      "title": "西廂記妙詞通戲語 牡丹亭艷曲警芳心",
+      "paragraph_count": 25,
+      "char_count": 5369
+    },
+    {
+      "chapter_id": "hongloumeng_ch024",
+      "chapter_number": 24,
+      "title": "醉金剛輕財尚義俠 痴女兒遺帕惹相思",
+      "paragraph_count": 31,
+      "char_count": 8511
+    },
+    {
+      "chapter_id": "hongloumeng_ch025",
+      "chapter_number": 25,
+      "title": "魘魔法叔嫂逢五鬼 通靈玉蒙蔽遇雙真",
+      "paragraph_count": 31,
+      "char_count": 8061
+    },
+    {
+      "chapter_id": "hongloumeng_ch026",
+      "chapter_number": 26,
+      "title": "蜂腰橋設言傳密意 湘館春困發幽情",
+      "paragraph_count": 33,
+      "char_count": 7222
+    },
+    {
+      "chapter_id": "hongloumeng_ch027",
+      "chapter_number": 27,
+      "title": "滴翠亭楊妃戲彩蝶 埋香塚飛燕泣殘紅",
+      "paragraph_count": 20,
+      "char_count": 6280
+    },
+    {
+      "chapter_id": "hongloumeng_ch028",
+      "chapter_number": 28,
+      "title": "蔣玉菡情贈茜香羅 薛寶釵羞籠紅麝串",
+      "paragraph_count": 59,
+      "char_count": 9443
+    },
+    {
+      "chapter_id": "hongloumeng_ch029",
+      "chapter_number": 29,
+      "title": "享福人福深還禱福 痴情女情重愈斟情",
+      "paragraph_count": 26,
+      "char_count": 8567
+    },
+    {
+      "chapter_id": "hongloumeng_ch030",
+      "chapter_number": 30,
+      "title": "寶釵借扇機帶雙敲 齡官劃薔痴及局外",
+      "paragraph_count": 15,
+      "char_count": 5765
+    },
+    {
+      "chapter_id": "hongloumeng_ch031",
+      "chapter_number": 31,
+      "title": "撕扇子作千金一笑 因麒麟伏白首雙星",
+      "paragraph_count": 10,
+      "char_count": 7193
+    },
+    {
+      "chapter_id": "hongloumeng_ch032",
+      "chapter_number": 32,
+      "title": "訴肺腑心迷活寶玉 含恥辱情烈死金釧",
+      "paragraph_count": 11,
+      "char_count": 5823
+    },
+    {
+      "chapter_id": "hongloumeng_ch033",
+      "chapter_number": 33,
+      "title": "手足耽耽小動唇舌 不肖種種大承笞撻",
+      "paragraph_count": 10,
+      "char_count": 4826
+    },
+    {
+      "chapter_id": "hongloumeng_ch034",
+      "chapter_number": 34,
+      "title": "情中情因情感妹妹 錯裏錯以錯勸哥哥",
+      "paragraph_count": 18,
+      "char_count": 7300
+    },
+    {
+      "chapter_id": "hongloumeng_ch035",
+      "chapter_number": 35,
+      "title": "白玉釧親嘗蓮葉羹 黃金鶯巧結梅花絡",
+      "paragraph_count": 16,
+      "char_count": 7916
+    },
+    {
+      "chapter_id": "hongloumeng_ch036",
+      "chapter_number": 36,
+      "title": "繡鴛鴦夢兆絳芸軒 識分定情悟梨香院",
+      "paragraph_count": 13,
+      "char_count": 6731
+    },
+    {
+      "chapter_id": "hongloumeng_ch037",
+      "chapter_number": 37,
+      "title": "秋爽齋偶結海棠社 蘅蕪苑夜擬菊花題",
+      "paragraph_count": 31,
+      "char_count": 9103
+    },
+    {
+      "chapter_id": "hongloumeng_ch038",
+      "chapter_number": 38,
+      "title": "林瀟湘魁奪菊花詩 薛蘅蕪諷和螃蟹詠",
+      "paragraph_count": 29,
+      "char_count": 5530
+    },
+    {
+      "chapter_id": "hongloumeng_ch039",
+      "chapter_number": 39,
+      "title": "村姥姥是信口開合 情哥哥偏尋根究底",
+      "paragraph_count": 10,
+      "char_count": 6260
+    },
+    {
+      "chapter_id": "hongloumeng_ch040",
+      "chapter_number": 40,
+      "title": "史太君兩宴大觀園 金鴛鴦三宣牙牌令",
+      "paragraph_count": 17,
+      "char_count": 9399
+    },
+    {
+      "chapter_id": "hongloumeng_ch041",
+      "chapter_number": 41,
+      "title": "櫳翠庵茶品梅花雪 怡紅院劫遇母蝗蟲",
+      "paragraph_count": 17,
+      "char_count": 6504
+    },
+    {
+      "chapter_id": "hongloumeng_ch042",
+      "chapter_number": 42,
+      "title": "蘅蕪君蘭言解疑癖 瀟湘子雅謔補餘香",
+      "paragraph_count": 19,
+      "char_count": 7563
+    },
+    {
+      "chapter_id": "hongloumeng_ch043",
+      "chapter_number": 43,
+      "title": "閑取樂偶攢金慶壽 不了情暫撮土為香",
+      "paragraph_count": 19,
+      "char_count": 6626
+    },
+    {
+      "chapter_id": "hongloumeng_ch044",
+      "chapter_number": 44,
+      "title": "變生不測鳳姐潑醋 喜出望外平兒理妝",
+      "paragraph_count": 20,
+      "char_count": 6696
+    },
+    {
+      "chapter_id": "hongloumeng_ch045",
+      "chapter_number": 45,
+      "title": "金蘭契互剖金蘭語 風雨夕悶制風雨詞",
+      "paragraph_count": 23,
+      "char_count": 7735
+    },
+    {
+      "chapter_id": "hongloumeng_ch046",
+      "chapter_number": 46,
+      "title": "尷尬人難免尷尬事 鴛鴦女誓絕鴛鴦偶",
+      "paragraph_count": 22,
+      "char_count": 8228
+    },
+    {
+      "chapter_id": "hongloumeng_ch047",
+      "chapter_number": 47,
+      "title": "呆霸王調情遭苦打 冷郎君懼禍走他鄉",
+      "paragraph_count": 20,
+      "char_count": 7286
+    },
+    {
+      "chapter_id": "hongloumeng_ch048",
+      "chapter_number": 48,
+      "title": "濫情人情誤思游藝 慕雅女雅集苦吟詩",
+      "paragraph_count": 23,
+      "char_count": 6657
+    },
+    {
+      "chapter_id": "hongloumeng_ch049",
+      "chapter_number": 49,
+      "title": "琉璃世界白雪紅梅 脂粉香娃割腥啖膻",
+      "paragraph_count": 27,
+      "char_count": 7352
+    },
+    {
+      "chapter_id": "hongloumeng_ch050",
+      "chapter_number": 50,
+      "title": "蘆雪庵爭聯即景詩 暖香塢雅制春燈謎",
+      "paragraph_count": 106,
+      "char_count": 6881
+    },
+    {
+      "chapter_id": "hongloumeng_ch051",
+      "chapter_number": 51,
+      "title": "薛小妹新編懷古詩 胡庸醫亂用虎狼藥",
+      "paragraph_count": 31,
+      "char_count": 6879
+    },
+    {
+      "chapter_id": "hongloumeng_ch052",
+      "chapter_number": 52,
+      "title": "俏平兒情掩蝦鬚鐲 勇晴雯病補雀金裘",
+      "paragraph_count": 24,
+      "char_count": 8293
+    },
+    {
+      "chapter_id": "hongloumeng_ch053",
+      "chapter_number": 53,
+      "title": "寧國府除夕祭宗祠 國府元宵開夜宴",
+      "paragraph_count": 31,
+      "char_count": 8211
+    },
+    {
+      "chapter_id": "hongloumeng_ch054",
+      "chapter_number": 54,
+      "title": "史太君破陳腐舊套 王熙鳳效戲彩斑衣",
+      "paragraph_count": 26,
+      "char_count": 8802
+    },
+    {
+      "chapter_id": "hongloumeng_ch055",
+      "chapter_number": 55,
+      "title": "辱親女愚妾爭閑氣 欺幼主刁奴蓄險心",
+      "paragraph_count": 23,
+      "char_count": 8109
+    },
+    {
+      "chapter_id": "hongloumeng_ch056",
+      "chapter_number": 56,
+      "title": "敏探春興利除宿弊 時寶釵小惠全大體",
+      "paragraph_count": 21,
+      "char_count": 8753
+    },
+    {
+      "chapter_id": "hongloumeng_ch057",
+      "chapter_number": 57,
+      "title": "慧紫鵑情辭試忙玉 慈姨媽愛語慰痴顰",
+      "paragraph_count": 32,
+      "char_count": 11231
+    },
+    {
+      "chapter_id": "hongloumeng_ch058",
+      "chapter_number": 58,
+      "title": "杏子陰假鳳泣虛凰 茜紗窗真情揆痴理",
+      "paragraph_count": 22,
+      "char_count": 7005
+    },
+    {
+      "chapter_id": "hongloumeng_ch059",
+      "chapter_number": 59,
+      "title": "柳葉渚邊嗔鶯叱燕 絳雲軒裏召將飛符",
+      "paragraph_count": 19,
+      "char_count": 5001
+    },
+    {
+      "chapter_id": "hongloumeng_ch060",
+      "chapter_number": 60,
+      "title": "茉莉粉替去薔薇硝 玫瑰露引來茯苓霜",
+      "paragraph_count": 28,
+      "char_count": 7491
+    },
+    {
+      "chapter_id": "hongloumeng_ch061",
+      "chapter_number": 61,
+      "title": "投鼠忌器寶玉瞞贓 判冤決獄平兒行權",
+      "paragraph_count": 18,
+      "char_count": 6604
+    },
+    {
+      "chapter_id": "hongloumeng_ch062",
+      "chapter_number": 62,
+      "title": "憨湘雲醉眠芍藥裀 呆香菱情解石榴裙",
+      "paragraph_count": 50,
+      "char_count": 11869
+    },
+    {
+      "chapter_id": "hongloumeng_ch063",
+      "chapter_number": 63,
+      "title": "壽怡紅群芳開夜宴 死金丹獨艷理親喪",
+      "paragraph_count": 51,
+      "char_count": 11232
+    },
+    {
+      "chapter_id": "hongloumeng_ch064",
+      "chapter_number": 64,
+      "title": "幽淑女悲題五美吟 浪蕩子情遺九龍珮",
+      "paragraph_count": 38,
+      "char_count": 9790
+    },
+    {
+      "chapter_id": "hongloumeng_ch065",
+      "chapter_number": 65,
+      "title": "賈二舍偷娶尤二姨 尤三姐思嫁柳二郎",
+      "paragraph_count": 20,
+      "char_count": 6893
+    },
+    {
+      "chapter_id": "hongloumeng_ch066",
+      "chapter_number": 66,
+      "title": "情小妹恥情歸地府 冷二郎一冷入空門",
+      "paragraph_count": 16,
+      "char_count": 5088
+    },
+    {
+      "chapter_id": "hongloumeng_ch067",
+      "chapter_number": 67,
+      "title": "饋土物顰卿念故里 訊家童鳳姐蓄陰謀",
+      "paragraph_count": 28,
+      "char_count": 12159
+    },
+    {
+      "chapter_id": "hongloumeng_ch068",
+      "chapter_number": 68,
+      "title": "苦尤娘賺入大觀園 酸鳳姐大鬧寧國府",
+      "paragraph_count": 21,
+      "char_count": 7455
+    },
+    {
+      "chapter_id": "hongloumeng_ch069",
+      "chapter_number": 69,
+      "title": "弄小巧用借劍殺人 覺大限吞生金自逝",
+      "paragraph_count": 24,
+      "char_count": 7198
+    },
+    {
+      "chapter_id": "hongloumeng_ch070",
+      "chapter_number": 70,
+      "title": "林黛玉重建桃花社 史湘雲偶填柳絮詞",
+      "paragraph_count": 36,
+      "char_count": 6417
+    },
+    {
+      "chapter_id": "hongloumeng_ch071",
+      "chapter_number": 71,
+      "title": "嫌隙人有心生嫌隙 鴛鴦女無意遇鴛鴦",
+      "paragraph_count": 30,
+      "char_count": 9057
+    },
+    {
+      "chapter_id": "hongloumeng_ch072",
+      "chapter_number": 72,
+      "title": "王熙鳳恃強羞說病 來旺婦倚勢霸成親",
+      "paragraph_count": 20,
+      "char_count": 7538
+    },
+    {
+      "chapter_id": "hongloumeng_ch073",
+      "chapter_number": 73,
+      "title": "痴丫頭誤拾繡春囊 懦小姐不問纍金鳳",
+      "paragraph_count": 20,
+      "char_count": 7490
+    },
+    {
+      "chapter_id": "hongloumeng_ch074",
+      "chapter_number": 74,
+      "title": "惑奸讒抄檢大觀園 矢孤介杜絕寧國府",
+      "paragraph_count": 35,
+      "char_count": 11061
+    },
+    {
+      "chapter_id": "hongloumeng_ch075",
+      "chapter_number": 75,
+      "title": "開夜宴異兆發悲音 賞中秋新詞得佳讖",
+      "paragraph_count": 27,
+      "char_count": 9632
+    },
+    {
+      "chapter_id": "hongloumeng_ch076",
+      "chapter_number": 76,
+      "title": "凸碧堂品笛感淒清 凹晶館聯詩悲寂寞",
+      "paragraph_count": 66,
+      "char_count": 7471
+    },
+    {
+      "chapter_id": "hongloumeng_ch077",
+      "chapter_number": 77,
+      "title": "俏丫鬟抱屈夭風流 美優伶斬情歸水月",
+      "paragraph_count": 34,
+      "char_count": 10680
+    },
+    {
+      "chapter_id": "hongloumeng_ch078",
+      "chapter_number": 78,
+      "title": "老學士閑徵姽嫿詞 痴公子杜撰芙蓉誄",
+      "paragraph_count": 56,
+      "char_count": 10768
+    },
+    {
+      "chapter_id": "hongloumeng_ch079",
+      "chapter_number": 79,
+      "title": "薛文龍悔娶河東獅 賈迎春誤嫁中山狼",
+      "paragraph_count": 17,
+      "char_count": 4799
+    },
+    {
+      "chapter_id": "hongloumeng_ch080",
+      "chapter_number": 80,
+      "title": "懦弱迎春腸回九曲 姣怯香菱病入膏肓",
+      "paragraph_count": 22,
+      "char_count": 6871
+    },
+    {
+      "chapter_id": "hongloumeng_ch081",
+      "chapter_number": 81,
+      "title": "占旺相四美釣游魚 奉嚴詞兩番入家塾",
+      "paragraph_count": 16,
+      "char_count": 6836
+    },
+    {
+      "chapter_id": "hongloumeng_ch082",
+      "chapter_number": 82,
+      "title": "老學究講義警玩心 病瀟湘痴魂驚惡夢",
+      "paragraph_count": 15,
+      "char_count": 8395
+    },
+    {
+      "chapter_id": "hongloumeng_ch083",
+      "chapter_number": 83,
+      "title": "省宮闈賈元妃染恙 鬧閨閫薛寶釵吞聲",
+      "paragraph_count": 20,
+      "char_count": 8085
+    },
+    {
+      "chapter_id": "hongloumeng_ch084",
+      "chapter_number": 84,
+      "title": "試文字寶玉始提親 探驚風賈環重結怨",
+      "paragraph_count": 19,
+      "char_count": 7653
+    },
+    {
+      "chapter_id": "hongloumeng_ch085",
+      "chapter_number": 85,
+      "title": "賈存周報升郎中任 薛文起復惹放流刑",
+      "paragraph_count": 27,
+      "char_count": 7987
+    },
+    {
+      "chapter_id": "hongloumeng_ch086",
+      "chapter_number": 86,
+      "title": "受私賄老官翻案牘 寄閑情淑女解琴書",
+      "paragraph_count": 24,
+      "char_count": 6671
+    },
+    {
+      "chapter_id": "hongloumeng_ch087",
+      "chapter_number": 87,
+      "title": "感深秋撫琴悲往事 坐禪寂走火入邪魔",
+      "paragraph_count": 33,
+      "char_count": 6617
+    },
+    {
+      "chapter_id": "hongloumeng_ch088",
+      "chapter_number": 88,
+      "title": "博庭歡寶玉贊孤兒 正家法賈珍鞭悍僕",
+      "paragraph_count": 21,
+      "char_count": 6670
+    },
+    {
+      "chapter_id": "hongloumeng_ch089",
+      "chapter_number": 89,
+      "title": "人亡物在公子填詞 蛇影杯弓顰卿絕粒",
+      "paragraph_count": 26,
+      "char_count": 6055
+    },
+    {
+      "chapter_id": "hongloumeng_ch090",
+      "chapter_number": 90,
+      "title": "失綿衣貧女耐嗷嘈 送果品小郎驚叵測",
+      "paragraph_count": 21,
+      "char_count": 6180
+    },
+    {
+      "chapter_id": "hongloumeng_ch091",
+      "chapter_number": 91,
+      "title": "縱淫心寶蟾工設計 布疑陣寶玉妄談禪",
+      "paragraph_count": 19,
+      "char_count": 5393
+    },
+    {
+      "chapter_id": "hongloumeng_ch092",
+      "chapter_number": 92,
+      "title": "評女傳巧姐慕賢良  玩母珠賈政參聚散",
+      "paragraph_count": 16,
+      "char_count": 7072
+    },
+    {
+      "chapter_id": "hongloumeng_ch093",
+      "chapter_number": 93,
+      "title": "甄家僕投靠賈家門 水月庵掀翻風月案",
+      "paragraph_count": 23,
+      "char_count": 6491
+    },
+    {
+      "chapter_id": "hongloumeng_ch094",
+      "chapter_number": 94,
+      "title": "宴海棠賈母賞花妖 失寶玉通靈知奇禍",
+      "paragraph_count": 25,
+      "char_count": 8244
+    },
+    {
+      "chapter_id": "hongloumeng_ch095",
+      "chapter_number": 95,
+      "title": "因訛成實元妃薨逝 以假混真寶玉瘋顛",
+      "paragraph_count": 20,
+      "char_count": 6616
+    },
+    {
+      "chapter_id": "hongloumeng_ch096",
+      "chapter_number": 96,
+      "title": "瞞消息鳳姐設奇謀 洩機關顰兒迷本性",
+      "paragraph_count": 17,
+      "char_count": 6744
+    },
+    {
+      "chapter_id": "hongloumeng_ch097",
+      "chapter_number": 97,
+      "title": "林黛玉焚稿斷痴情 薛寶釵出閨成大禮",
+      "paragraph_count": 30,
+      "char_count": 9903
+    },
+    {
+      "chapter_id": "hongloumeng_ch098",
+      "chapter_number": 98,
+      "title": "苦絳珠魂歸離恨天 病神瑛淚灑相思地",
+      "paragraph_count": 20,
+      "char_count": 5886
+    },
+    {
+      "chapter_id": "hongloumeng_ch099",
+      "chapter_number": 99,
+      "title": "守官箴惡奴同破例 閱邸報老舅自擔驚",
+      "paragraph_count": 18,
+      "char_count": 5998
+    },
+    {
+      "chapter_id": "hongloumeng_ch100",
+      "chapter_number": 100,
+      "title": "破好事香菱結深恨 悲遠嫁寶玉感離情",
+      "paragraph_count": 14,
+      "char_count": 5630
+    },
+    {
+      "chapter_id": "hongloumeng_ch101",
+      "chapter_number": 101,
+      "title": "大觀園月夜感幽魂 散花寺神籤驚異兆",
+      "paragraph_count": 20,
+      "char_count": 7959
+    },
+    {
+      "chapter_id": "hongloumeng_ch102",
+      "chapter_number": 102,
+      "title": "寧國府骨肉病災祲 大觀園符水驅妖孽",
+      "paragraph_count": 16,
+      "char_count": 4932
+    },
+    {
+      "chapter_id": "hongloumeng_ch103",
+      "chapter_number": 103,
+      "title": "施毒計金桂自焚身 昧真禪雨村空遇舊",
+      "paragraph_count": 16,
+      "char_count": 6901
+    },
+    {
+      "chapter_id": "hongloumeng_ch104",
+      "chapter_number": 104,
+      "title": "醉金剛小鰍生大浪 痴公子餘痛觸前情",
+      "paragraph_count": 16,
+      "char_count": 6233
+    },
+    {
+      "chapter_id": "hongloumeng_ch105",
+      "chapter_number": 105,
+      "title": "錦衣軍查抄寧國府 驄馬使彈劾平安州",
+      "paragraph_count": 16,
+      "char_count": 5402
+    },
+    {
+      "chapter_id": "hongloumeng_ch106",
+      "chapter_number": 106,
+      "title": "王熙鳳致禍抱羞慚 賈太君禱天消禍患",
+      "paragraph_count": 17,
+      "char_count": 5755
+    },
+    {
+      "chapter_id": "hongloumeng_ch107",
+      "chapter_number": 107,
+      "title": "散餘資賈母明大義 復世職政老沐天恩",
+      "paragraph_count": 16,
+      "char_count": 6265
+    },
+    {
+      "chapter_id": "hongloumeng_ch108",
+      "chapter_number": 108,
+      "title": "強歡笑蘅蕪慶生辰 死纏綿瀟湘聞鬼哭",
+      "paragraph_count": 15,
+      "char_count": 7088
+    },
+    {
+      "chapter_id": "hongloumeng_ch109",
+      "chapter_number": 109,
+      "title": "候芳魂五兒承錯愛 還孽債迎女返真元",
+      "paragraph_count": 26,
+      "char_count": 9129
+    },
+    {
+      "chapter_id": "hongloumeng_ch110",
+      "chapter_number": 110,
+      "title": "史太君壽終歸地府 王鳳姐力詘失人心",
+      "paragraph_count": 16,
+      "char_count": 6741
+    },
+    {
+      "chapter_id": "hongloumeng_ch111",
+      "chapter_number": 111,
+      "title": "鴛鴦女殉主登太虛 狗彘奴欺天招夥盜",
+      "paragraph_count": 20,
+      "char_count": 7323
+    },
+    {
+      "chapter_id": "hongloumeng_ch112",
+      "chapter_number": 112,
+      "title": "活冤孽妙尼遭大劫 死讎仇趙妾赴冥曹",
+      "paragraph_count": 23,
+      "char_count": 7009
+    },
+    {
+      "chapter_id": "hongloumeng_ch113",
+      "chapter_number": 113,
+      "title": "懺宿冤鳳姐托村嫗 釋舊憾情婢感痴郎",
+      "paragraph_count": 18,
+      "char_count": 6986
+    },
+    {
+      "chapter_id": "hongloumeng_ch114",
+      "chapter_number": 114,
+      "title": "王熙鳳歷幻返金陵 甄應嘉蒙恩還玉闕",
+      "paragraph_count": 12,
+      "char_count": 4970
+    },
+    {
+      "chapter_id": "hongloumeng_ch115",
+      "chapter_number": 115,
+      "title": "惑偏私惜春矢素志 證同類寶玉失相知",
+      "paragraph_count": 20,
+      "char_count": 6962
+    },
+    {
+      "chapter_id": "hongloumeng_ch116",
+      "chapter_number": 116,
+      "title": "得通靈幻境悟仙緣 送慈柩故鄉全孝道",
+      "paragraph_count": 21,
+      "char_count": 6863
+    },
+    {
+      "chapter_id": "hongloumeng_ch117",
+      "chapter_number": 117,
+      "title": "阻超凡佳人雙護玉 欣聚黨惡子獨承家",
+      "paragraph_count": 18,
+      "char_count": 7707
+    },
+    {
+      "chapter_id": "hongloumeng_ch118",
+      "chapter_number": 118,
+      "title": "記微嫌舅兄欺弱女 驚謎語妻妾諫痴人",
+      "paragraph_count": 25,
+      "char_count": 7592
+    },
+    {
+      "chapter_id": "hongloumeng_ch119",
+      "chapter_number": 119,
+      "title": "中鄉魁寶玉卻塵緣 沐皇恩賈家延世澤",
+      "paragraph_count": 27,
+      "char_count": 9556
+    },
+    {
+      "chapter_id": "hongloumeng_ch120",
+      "chapter_number": 120,
+      "title": "甄士隱詳說太虛情 賈雨村歸結紅樓夢",
+      "paragraph_count": 27,
+      "char_count": 7812
+    }
+  ],
+  "ner_summary": [
+    {
+      "entity_type": "BUILDING",
+      "subtype": "garden_space",
+      "source": "rule",
+      "count": "3",
+      "unique_surface_count": "1",
+      "unique_entity_count": "1"
+    },
+    {
+      "entity_type": "BUILDING",
+      "subtype": "mansion",
+      "source": "ckip-albert-tiny+rule",
+      "count": "42",
+      "unique_surface_count": "2",
+      "unique_entity_count": "2"
+    },
+    {
+      "entity_type": "BUILDING",
+      "subtype": "mansion",
+      "source": "rule",
+      "count": "9",
+      "unique_surface_count": "2",
+      "unique_entity_count": "2"
+    },
+    {
+      "entity_type": "BUILDING",
+      "subtype": "residence",
+      "source": "ckip-albert-tiny+rule",
+      "count": "94",
+      "unique_surface_count": "4",
+      "unique_entity_count": "4"
+    },
+    {
+      "entity_type": "BUILDING",
+      "subtype": "residence",
+      "source": "rule",
+      "count": "105",
+      "unique_surface_count": "5",
+      "unique_entity_count": "5"
+    },
+    {
+      "entity_type": "BUILDING",
+      "subtype": "temple",
+      "source": "ckip-albert-tiny+rule",
+      "count": "27",
+      "unique_surface_count": "3",
+      "unique_entity_count": "3"
+    },
+    {
+      "entity_type": "BUILDING",
+      "subtype": "temple",
+      "source": "rule",
+      "count": "24",
+      "unique_surface_count": "3",
+      "unique_entity_count": "3"
+    },
+    {
+      "entity_type": "CARDINAL",
+      "subtype": "",
+      "source": "ckip-albert-tiny",
+      "count": "6698",
+      "unique_surface_count": "363",
+      "unique_entity_count": "363"
+    },
+    {
+      "entity_type": "CARDINAL",
+      "subtype": "",
+      "source": "ckip-albert-tiny+rule",
+      "count": "3",
+      "unique_surface_count": "3",
+      "unique_entity_count": "3"
+    },
+    {
+      "entity_type": "CLOTHING",
+      "subtype": "clothing",
+      "source": "rule",
+      "count": "110",
+      "unique_surface_count": "2",
+      "unique_entity_count": "2"
+    },
+    {
+      "entity_type": "CLOTHING",
+      "subtype": "ornament",
+      "source": "rule",
+      "count": "2",
+      "unique_surface_count": "1",
+      "unique_entity_count": "1"
+    },
+    {
+      "entity_type": "CLOTHING",
+      "subtype": "outerwear",
+      "source": "rule",
+      "count": "18",
+      "unique_surface_count": "1",
+      "unique_entity_count": "1"
+    },
+    {
+      "entity_type": "COLOR",
+      "subtype": "basic_color",
+      "source": "ckip-albert-tiny+rule",
+      "count": "9",
+      "unique_surface_count": "1",
+      "unique_entity_count": "1"
+    },
+    {
+      "entity_type": "COLOR",
+      "subtype": "basic_color",
+      "source": "rule",
+      "count": "1322",
+      "unique_surface_count": "5",
+      "unique_entity_count": "5"
+    },
+    {
+      "entity_type": "COLOR",
+      "subtype": "compound_color",
+      "source": "ckip-albert-tiny+rule",
+      "count": "2",
+      "unique_surface_count": "1",
+      "unique_entity_count": "1"
+    },
+    {
+      "entity_type": "COLOR",
+      "subtype": "compound_color",
+      "source": "rule",
+      "count": "18",
+      "unique_surface_count": "3",
+      "unique_entity_count": "3"
+    },
+    {
+      "entity_type": "DATE",
+      "subtype": "",
+      "source": "ckip-albert-tiny",
+      "count": "2069",
+      "unique_surface_count": "579",
+      "unique_entity_count": "579"
+    },
+    {
+      "entity_type": "DATE",
+      "subtype": "",
+      "source": "ckip-albert-tiny+rule",
+      "count": "5",
+      "unique_surface_count": "4",
+      "unique_entity_count": "4"
+    },
+    {
+      "entity_type": "EVENT",
+      "subtype": "",
+      "source": "ckip-albert-tiny",
+      "count": "15",
+      "unique_surface_count": "15",
+      "unique_entity_count": "15"
+    },
+    {
+      "entity_type": "FAC",
+      "subtype": "",
+      "source": "ckip-albert-tiny",
+      "count": "284",
+      "unique_surface_count": "197",
+      "unique_entity_count": "197"
+    },
+    {
+      "entity_type": "FAC",
+      "subtype": "",
+      "source": "ckip-albert-tiny+rule",
+      "count": "23",
+      "unique_surface_count": "16",
+      "unique_entity_count": "16"
+    },
+    {
+      "entity_type": "FLOWER",
+      "subtype": "flower",
+      "source": "ckip-albert-tiny+rule",
+      "count": "115",
+      "unique_surface_count": "7",
+      "unique_entity_count": "6"
+    },
+    {
+      "entity_type": "FLOWER",
+      "subtype": "flower",
+      "source": "rule",
+      "count": "175",
+      "unique_surface_count": "9",
+      "unique_entity_count": "8"
+    },
+    {
+      "entity_type": "FOOD",
+      "subtype": "drink",
+      "source": "ckip-albert-tiny+rule",
+      "count": "1",
+      "unique_surface_count": "1",
+      "unique_entity_count": "1"
+    },
+    {
+      "entity_type": "FOOD",
+      "subtype": "drink",
+      "source": "rule",
+      "count": "1086",
+      "unique_surface_count": "2",
+      "unique_entity_count": "2"
+    },
+    {
+      "entity_type": "FOOD",
+      "subtype": "food",
+      "source": "ckip-albert-tiny+rule",
+      "count": "2",
+      "unique_surface_count": "1",
+      "unique_entity_count": "1"
+    },
+    {
+      "entity_type": "FOOD",
+      "subtype": "food",
+      "source": "rule",
+      "count": "59",
+      "unique_surface_count": "2",
+      "unique_entity_count": "2"
+    },
+    {
+      "entity_type": "GPE",
+      "subtype": "",
+      "source": "ckip-albert-tiny",
+      "count": "495",
+      "unique_surface_count": "262",
+      "unique_entity_count": "262"
+    },
+    {
+      "entity_type": "GPE",
+      "subtype": "",
+      "source": "ckip-albert-tiny+rule",
+      "count": "6",
+      "unique_surface_count": "5",
+      "unique_entity_count": "5"
+    },
+    {
+      "entity_type": "LANGUAGE",
+      "subtype": "",
+      "source": "ckip-albert-tiny",
+      "count": "8",
+      "unique_surface_count": "8",
+      "unique_entity_count": "8"
+    },
+    {
+      "entity_type": "LOC",
+      "subtype": "",
+      "source": "ckip-albert-tiny",
+      "count": "100",
+      "unique_surface_count": "80",
+      "unique_entity_count": "80"
+    },
+    {
+      "entity_type": "LOC",
+      "subtype": "",
+      "source": "ckip-albert-tiny+rule",
+      "count": "4",
+      "unique_surface_count": "3",
+      "unique_entity_count": "3"
+    },
+    {
+      "entity_type": "MEDICINE",
+      "subtype": "medicine",
+      "source": "rule",
+      "count": "2",
+      "unique_surface_count": "1",
+      "unique_entity_count": "1"
+    },
+    {
+      "entity_type": "MONEY",
+      "subtype": "",
+      "source": "ckip-albert-tiny",
+      "count": "64",
+      "unique_surface_count": "41",
+      "unique_entity_count": "41"
+    },
+    {
+      "entity_type": "MONEY",
+      "subtype": "",
+      "source": "ckip-albert-tiny+rule",
+      "count": "3",
+      "unique_surface_count": "3",
+      "unique_entity_count": "3"
+    },
+    {
+      "entity_type": "MOTIF",
+      "subtype": "dream",
+      "source": "rule",
+      "count": "150",
+      "unique_surface_count": "1",
+      "unique_entity_count": "1"
+    },
+    {
+      "entity_type": "MOTIF",
+      "subtype": "illness",
+      "source": "rule",
+      "count": "657",
+      "unique_surface_count": "1",
+      "unique_entity_count": "1"
+    },
+    {
+      "entity_type": "MOTIF",
+      "subtype": "tears",
+      "source": "rule",
+      "count": "356",
+      "unique_surface_count": "1",
+      "unique_entity_count": "1"
+    },
+    {
+      "entity_type": "NORP",
+      "subtype": "",
+      "source": "ckip-albert-tiny",
+      "count": "50",
+      "unique_surface_count": "39",
+      "unique_entity_count": "39"
+    },
+    {
+      "entity_type": "NORP",
+      "subtype": "",
+      "source": "ckip-albert-tiny+rule",
+      "count": "1",
+      "unique_surface_count": "1",
+      "unique_entity_count": "1"
+    },
+    {
+      "entity_type": "OBJECT",
+      "subtype": "fragrance",
+      "source": "rule",
+      "count": "476",
+      "unique_surface_count": "1",
+      "unique_entity_count": "1"
+    },
+    {
+      "entity_type": "OBJECT",
+      "subtype": "jade",
+      "source": "rule",
+      "count": "305",
+      "unique_surface_count": "1",
+      "unique_entity_count": "1"
+    },
+    {
+      "entity_type": "OBJECT",
+      "subtype": "symbolic_object",
+      "source": "alias+rule",
+      "count": "4",
+      "unique_surface_count": "1",
+      "unique_entity_count": "1"
+    },
+    {
+      "entity_type": "OBJECT",
+      "subtype": "symbolic_object",
+      "source": "ckip-albert-tiny+alias",
+      "count": "1",
+      "unique_surface_count": "1",
+      "unique_entity_count": "1"
+    },
+    {
+      "entity_type": "OBJECT",
+      "subtype": "symbolic_object",
+      "source": "ckip-albert-tiny+rule",
+      "count": "1",
+      "unique_surface_count": "1",
+      "unique_entity_count": "1"
+    },
+    {
+      "entity_type": "ORDINAL",
+      "subtype": "",
+      "source": "ckip-albert-tiny",
+      "count": "191",
+      "unique_surface_count": "24",
+      "unique_entity_count": "24"
+    },
+    {
+      "entity_type": "ORG",
+      "subtype": "",
+      "source": "ckip-albert-tiny",
+      "count": "224",
+      "unique_surface_count": "142",
+      "unique_entity_count": "142"
+    },
+    {
+      "entity_type": "ORG",
+      "subtype": "",
+      "source": "ckip-albert-tiny+rule",
+      "count": "6",
+      "unique_surface_count": "5",
+      "unique_entity_count": "5"
+    },
+    {
+      "entity_type": "PERCENT",
+      "subtype": "",
+      "source": "ckip-albert-tiny",
+      "count": "1",
+      "unique_surface_count": "1",
+      "unique_entity_count": "1"
+    },
+    {
+      "entity_type": "PERSON",
+      "subtype": "",
+      "source": "ckip-albert-tiny",
+      "count": "5053",
+      "unique_surface_count": "1541",
+      "unique_entity_count": "1541"
+    },
+    {
+      "entity_type": "PERSON",
+      "subtype": "",
+      "source": "ckip-albert-tiny+rule",
+      "count": "336",
+      "unique_surface_count": "112",
+      "unique_entity_count": "112"
+    },
+    {
+      "entity_type": "PERSON",
+      "subtype": "concubine",
+      "source": "alias+rule",
+      "count": "6",
+      "unique_surface_count": "1",
+      "unique_entity_count": "1"
+    },
+    {
+      "entity_type": "PERSON",
+      "subtype": "concubine",
+      "source": "ckip-albert-tiny+alias",
+      "count": "129",
+      "unique_surface_count": "1",
+      "unique_entity_count": "1"
+    },
+    {
+      "entity_type": "PERSON",
+      "subtype": "elder",
+      "source": "alias",
+      "count": "334",
+      "unique_surface_count": "2",
+      "unique_entity_count": "1"
+    },
+    {
+      "entity_type": "PERSON",
+      "subtype": "elder",
+      "source": "alias+rule",
+      "count": "983",
+      "unique_surface_count": "1",
+      "unique_entity_count": "1"
+    },
+    {
+      "entity_type": "PERSON",
+      "subtype": "elder",
+      "source": "ckip-albert-tiny+alias",
+      "count": "1352",
+      "unique_surface_count": "2",
+      "unique_entity_count": "1"
+    },
+    {
+      "entity_type": "PERSON",
+      "subtype": "family_elder",
+      "source": "alias",
+      "count": "419",
+      "unique_surface_count": "7",
+      "unique_entity_count": "5"
+    },
+    {
+      "entity_type": "PERSON",
+      "subtype": "family_elder",
+      "source": "ckip-albert-tiny+alias",
+      "count": "2666",
+      "unique_surface_count": "6",
+      "unique_entity_count": "5"
+    },
+    {
+      "entity_type": "PERSON",
+      "subtype": "family_member",
+      "source": "alias",
+      "count": "130",
+      "unique_surface_count": "5",
+      "unique_entity_count": "5"
+    },
+    {
+      "entity_type": "PERSON",
+      "subtype": "family_member",
+      "source": "ckip-albert-tiny+alias",
+      "count": "699",
+      "unique_surface_count": "5",
+      "unique_entity_count": "5"
+    },
+    {
+      "entity_type": "PERSON",
+      "subtype": "maid",
+      "source": "alias",
+      "count": "2691",
+      "unique_surface_count": "12",
+      "unique_entity_count": "12"
+    },
+    {
+      "entity_type": "PERSON",
+      "subtype": "maid",
+      "source": "alias+rule",
+      "count": "366",
+      "unique_surface_count": "2",
+      "unique_entity_count": "2"
+    },
+    {
+      "entity_type": "PERSON",
+      "subtype": "maid",
+      "source": "ckip-albert-tiny+alias",
+      "count": "824",
+      "unique_surface_count": "12",
+      "unique_entity_count": "12"
+    },
+    {
+      "entity_type": "PERSON",
+      "subtype": "main_character",
+      "source": "alias",
+      "count": "2637",
+      "unique_surface_count": "19",
+      "unique_entity_count": "12"
+    },
+    {
+      "entity_type": "PERSON",
+      "subtype": "main_character",
+      "source": "alias+rule",
+      "count": "994",
+      "unique_surface_count": "10",
+      "unique_entity_count": "6"
+    },
+    {
+      "entity_type": "PERSON",
+      "subtype": "main_character",
+      "source": "ckip-albert-tiny+alias",
+      "count": "7480",
+      "unique_surface_count": "27",
+      "unique_entity_count": "12"
+    },
+    {
+      "entity_type": "PERSON",
+      "subtype": "official",
+      "source": "alias",
+      "count": "109",
+      "unique_surface_count": "2",
+      "unique_entity_count": "1"
+    },
+    {
+      "entity_type": "PERSON",
+      "subtype": "official",
+      "source": "ckip-albert-tiny+alias",
+      "count": "74",
+      "unique_surface_count": "2",
+      "unique_entity_count": "1"
+    },
+    {
+      "entity_type": "PERSON",
+      "subtype": "opening_character",
+      "source": "alias",
+      "count": "72",
+      "unique_surface_count": "2",
+      "unique_entity_count": "1"
+    },
+    {
+      "entity_type": "PERSON",
+      "subtype": "opening_character",
+      "source": "ckip-albert-tiny+alias",
+      "count": "2",
+      "unique_surface_count": "1",
+      "unique_entity_count": "1"
+    },
+    {
+      "entity_type": "PERSON",
+      "subtype": "secondary",
+      "source": "alias",
+      "count": "82",
+      "unique_surface_count": "4",
+      "unique_entity_count": "4"
+    },
+    {
+      "entity_type": "PERSON",
+      "subtype": "secondary",
+      "source": "ckip-albert-tiny+alias",
+      "count": "347",
+      "unique_surface_count": "4",
+      "unique_entity_count": "4"
+    },
+    {
+      "entity_type": "PERSON",
+      "subtype": "servant",
+      "source": "alias",
+      "count": "20",
+      "unique_surface_count": "2",
+      "unique_entity_count": "2"
+    },
+    {
+      "entity_type": "PERSON",
+      "subtype": "servant",
+      "source": "ckip-albert-tiny+alias",
+      "count": "238",
+      "unique_surface_count": "2",
+      "unique_entity_count": "2"
+    },
+    {
+      "entity_type": "PERSON",
+      "subtype": "servant_concubine",
+      "source": "alias+rule",
+      "count": "172",
+      "unique_surface_count": "2",
+      "unique_entity_count": "1"
+    },
+    {
+      "entity_type": "PERSON",
+      "subtype": "servant_concubine",
+      "source": "ckip-albert-tiny+alias",
+      "count": "110",
+      "unique_surface_count": "2",
+      "unique_entity_count": "1"
+    },
+    {
+      "entity_type": "PLACE",
+      "subtype": "garden",
+      "source": "ckip-albert-tiny+rule",
+      "count": "3",
+      "unique_surface_count": "1",
+      "unique_entity_count": "1"
+    },
+    {
+      "entity_type": "PLACE",
+      "subtype": "garden",
+      "source": "rule",
+      "count": "43",
+      "unique_surface_count": "1",
+      "unique_entity_count": "1"
+    },
+    {
+      "entity_type": "PLANT",
+      "subtype": "plant",
+      "source": "ckip-albert-tiny+rule",
+      "count": "101",
+      "unique_surface_count": "2",
+      "unique_entity_count": "2"
+    },
+    {
+      "entity_type": "PLANT",
+      "subtype": "plant",
+      "source": "rule",
+      "count": "157",
+      "unique_surface_count": "2",
+      "unique_entity_count": "2"
+    },
+    {
+      "entity_type": "PRODUCT",
+      "subtype": "",
+      "source": "ckip-albert-tiny",
+      "count": "32",
+      "unique_surface_count": "31",
+      "unique_entity_count": "31"
+    },
+    {
+      "entity_type": "PRODUCT",
+      "subtype": "",
+      "source": "ckip-albert-tiny+rule",
+      "count": "9",
+      "unique_surface_count": "9",
+      "unique_entity_count": "9"
+    },
+    {
+      "entity_type": "QUANTITY",
+      "subtype": "",
+      "source": "ckip-albert-tiny",
+      "count": "58",
+      "unique_surface_count": "47",
+      "unique_entity_count": "47"
+    },
+    {
+      "entity_type": "ROOM_SPACE",
+      "subtype": "corridor",
+      "source": "rule",
+      "count": "14",
+      "unique_surface_count": "1",
+      "unique_entity_count": "1"
+    },
+    {
+      "entity_type": "ROOM_SPACE",
+      "subtype": "garden_space",
+      "source": "rule",
+      "count": "114",
+      "unique_surface_count": "1",
+      "unique_entity_count": "1"
+    },
+    {
+      "entity_type": "ROOM_SPACE",
+      "subtype": "room",
+      "source": "rule",
+      "count": "86",
+      "unique_surface_count": "2",
+      "unique_entity_count": "2"
+    },
+    {
+      "entity_type": "TIME",
+      "subtype": "",
+      "source": "ckip-albert-tiny",
+      "count": "399",
+      "unique_surface_count": "127",
+      "unique_entity_count": "127"
+    },
+    {
+      "entity_type": "TIME",
+      "subtype": "",
+      "source": "ckip-albert-tiny+rule",
+      "count": "4",
+      "unique_surface_count": "3",
+      "unique_entity_count": "3"
+    },
+    {
+      "entity_type": "TIME",
+      "subtype": "date",
+      "source": "ckip-albert-tiny+rule",
+      "count": "1",
+      "unique_surface_count": "1",
+      "unique_entity_count": "1"
+    },
+    {
+      "entity_type": "TIME",
+      "subtype": "festival",
+      "source": "ckip-albert-tiny+rule",
+      "count": "9",
+      "unique_surface_count": "2",
+      "unique_entity_count": "2"
+    },
+    {
+      "entity_type": "TIME",
+      "subtype": "festival",
+      "source": "rule",
+      "count": "17",
+      "unique_surface_count": "3",
+      "unique_entity_count": "3"
+    },
+    {
+      "entity_type": "TITLE_ROLE",
+      "subtype": "court_title",
+      "source": "rule",
+      "count": "77",
+      "unique_surface_count": "2",
+      "unique_entity_count": "2"
+    },
+    {
+      "entity_type": "TITLE_ROLE",
+      "subtype": "family_title",
+      "source": "ckip-albert-tiny+rule",
+      "count": "24",
+      "unique_surface_count": "3",
+      "unique_entity_count": "3"
+    },
+    {
+      "entity_type": "TITLE_ROLE",
+      "subtype": "family_title",
+      "source": "rule",
+      "count": "2628",
+      "unique_surface_count": "4",
+      "unique_entity_count": "4"
+    },
+    {
+      "entity_type": "TITLE_ROLE",
+      "subtype": "religious",
+      "source": "ckip-albert-tiny+rule",
+      "count": "32",
+      "unique_surface_count": "1",
+      "unique_entity_count": "1"
+    },
+    {
+      "entity_type": "TITLE_ROLE",
+      "subtype": "religious",
+      "source": "rule",
+      "count": "136",
+      "unique_surface_count": "2",
+      "unique_entity_count": "2"
+    },
+    {
+      "entity_type": "TITLE_ROLE",
+      "subtype": "servant",
+      "source": "ckip-albert-tiny+rule",
+      "count": "29",
+      "unique_surface_count": "3",
+      "unique_entity_count": "3"
+    },
+    {
+      "entity_type": "TITLE_ROLE",
+      "subtype": "servant",
+      "source": "rule",
+      "count": "828",
+      "unique_surface_count": "4",
+      "unique_entity_count": "4"
+    },
+    {
+      "entity_type": "WORK_OF_ART",
+      "subtype": "",
+      "source": "ckip-albert-tiny",
+      "count": "243",
+      "unique_surface_count": "185",
+      "unique_entity_count": "185"
+    },
+    {
+      "entity_type": "WORK_OF_ART",
+      "subtype": "",
+      "source": "ckip-albert-tiny+rule",
+      "count": "21",
+      "unique_surface_count": "14",
+      "unique_entity_count": "14"
+    }
+  ],
+  "entity_occurrence_summary": [
+    {
+      "entity_key": "building_daoxiangcun",
+      "canonical_name": "稻香村",
+      "entity_type": "BUILDING",
+      "subtype": "residence",
+      "total_occurrences": "20",
+      "first_chapter": "17",
+      "last_chapter": "98",
+      "chapter_count": "15",
+      "surface_forms": "稻香村"
+    },
+    {
+      "entity_key": "building_hengwuyuan",
+      "canonical_name": "蘅蕪苑",
+      "entity_type": "BUILDING",
+      "subtype": "residence",
+      "total_occurrences": "20",
+      "first_chapter": "18",
+      "last_chapter": "78",
+      "chapter_count": "13",
+      "surface_forms": "蘅蕪苑"
+    },
+    {
+      "entity_key": "building_hulu_miao",
+      "canonical_name": "葫蘆廟",
+      "entity_type": "BUILDING",
+      "subtype": "temple",
+      "total_occurrences": "7",
+      "first_chapter": "1",
+      "last_chapter": "4",
+      "chapter_count": "2",
+      "surface_forms": "葫蘆廟"
+    },
+    {
+      "entity_key": "building_longcui_an",
+      "canonical_name": "櫳翠庵",
+      "entity_type": "BUILDING",
+      "subtype": "temple",
+      "total_occurrences": "20",
+      "first_chapter": "41",
+      "last_chapter": "120",
+      "chapter_count": "14",
+      "surface_forms": "櫳翠庵"
+    },
+    {
+      "entity_key": "building_ningguofu",
+      "canonical_name": "寧國府",
+      "entity_type": "BUILDING",
+      "subtype": "mansion",
+      "total_occurrences": "21",
+      "first_chapter": "2",
+      "last_chapter": "120",
+      "chapter_count": "13",
+      "surface_forms": "寧國府"
+    },
+    {
+      "entity_key": "building_nuanxiangwu",
+      "canonical_name": "暖香塢",
+      "entity_type": "BUILDING",
+      "subtype": "garden_space",
+      "total_occurrences": "3",
+      "first_chapter": "48",
+      "last_chapter": "74",
+      "chapter_count": "3",
+      "surface_forms": "暖香塢"
+    },
+    {
+      "entity_key": "building_qiushuangzhai",
+      "canonical_name": "秋爽齋",
+      "entity_type": "BUILDING",
+      "subtype": "residence",
+      "total_occurrences": "6",
+      "first_chapter": "23",
+      "last_chapter": "101",
+      "chapter_count": "5",
+      "surface_forms": "秋爽齋"
+    },
+    {
+      "entity_key": "building_rongguofu",
+      "canonical_name": "榮國府",
+      "entity_type": "BUILDING",
+      "subtype": "mansion",
+      "total_occurrences": "30",
+      "first_chapter": "2",
+      "last_chapter": "117",
+      "chapter_count": "18",
+      "surface_forms": "榮國府"
+    },
+    {
+      "entity_key": "building_tiexian_si",
+      "canonical_name": "鐵檻寺",
+      "entity_type": "BUILDING",
+      "subtype": "temple",
+      "total_occurrences": "24",
+      "first_chapter": "12",
+      "last_chapter": "115",
+      "chapter_count": "13",
+      "surface_forms": "鐵檻寺"
+    },
+    {
+      "entity_key": "building_xiaoxiangguan",
+      "canonical_name": "瀟湘館",
+      "entity_type": "BUILDING",
+      "subtype": "residence",
+      "total_occurrences": "68",
+      "first_chapter": "18",
+      "last_chapter": "108",
+      "chapter_count": "38",
+      "surface_forms": "瀟湘館"
+    },
+    {
+      "entity_key": "building_yihongyuan",
+      "canonical_name": "怡紅院",
+      "entity_type": "BUILDING",
+      "subtype": "residence",
+      "total_occurrences": "85",
+      "first_chapter": "18",
+      "last_chapter": "108",
+      "chapter_count": "45",
+      "surface_forms": "怡紅院"
+    },
+    {
+      "entity_key": "object_fengyue_baojian",
+      "canonical_name": "風月寶鑑",
+      "entity_type": "OBJECT",
+      "subtype": "symbolic_object",
+      "total_occurrences": "1",
+      "first_chapter": "12",
+      "last_chapter": "12",
+      "chapter_count": "1",
+      "surface_forms": "風月寶鑑"
+    },
+    {
+      "entity_key": "object_tongling_baoyu",
+      "canonical_name": "通靈寶玉",
+      "entity_type": "OBJECT",
+      "subtype": "symbolic_object",
+      "total_occurrences": "5",
+      "first_chapter": "1",
+      "last_chapter": "94",
+      "chapter_count": "4",
+      "surface_forms": "通靈寶玉"
+    },
+    {
+      "entity_key": "object_yu",
+      "canonical_name": "玉",
+      "entity_type": "OBJECT",
+      "subtype": "jade",
+      "total_occurrences": "305",
+      "first_chapter": "1",
+      "last_chapter": "120",
+      "chapter_count": "76",
+      "surface_forms": "玉"
+    },
+    {
+      "entity_key": "person_jia_baoyu",
+      "canonical_name": "賈寶玉",
+      "entity_type": "PERSON",
+      "subtype": "main_character",
+      "total_occurrences": "4068",
+      "first_chapter": "2",
+      "last_chapter": "120",
+      "chapter_count": "116",
+      "surface_forms": "寶二爺|寶玉|怡紅公子"
+    },
+    {
+      "entity_key": "person_jia_huan",
+      "canonical_name": "賈環",
+      "entity_type": "PERSON",
+      "subtype": "family_member",
+      "total_occurrences": "151",
+      "first_chapter": "18",
+      "last_chapter": "119",
+      "chapter_count": "32",
+      "surface_forms": "賈環"
+    },
+    {
+      "entity_key": "person_jia_lan",
+      "canonical_name": "賈蘭",
+      "entity_type": "PERSON",
+      "subtype": "family_member",
+      "total_occurrences": "93",
+      "first_chapter": "4",
+      "last_chapter": "120",
+      "chapter_count": "24",
+      "surface_forms": "賈蘭"
+    },
+    {
+      "entity_key": "person_jia_lian",
+      "canonical_name": "賈璉",
+      "entity_type": "PERSON",
+      "subtype": "main_character",
+      "total_occurrences": "805",
+      "first_chapter": "2",
+      "last_chapter": "120",
+      "chapter_count": "74",
+      "surface_forms": "璉二爺|賈璉"
+    },
+    {
+      "entity_key": "person_jia_mu",
+      "canonical_name": "賈母",
+      "entity_type": "PERSON",
+      "subtype": "elder",
+      "total_occurrences": "2669",
+      "first_chapter": "3",
+      "last_chapter": "120",
+      "chapter_count": "117",
+      "surface_forms": "史太君|老太太|賈母"
+    },
+    {
+      "entity_key": "person_jia_rong",
+      "canonical_name": "賈蓉",
+      "entity_type": "PERSON",
+      "subtype": "family_member",
+      "total_occurrences": "231",
+      "first_chapter": "2",
+      "last_chapter": "120",
+      "chapter_count": "40",
+      "surface_forms": "賈蓉"
+    },
+    {
+      "entity_key": "person_jia_she",
+      "canonical_name": "賈赦",
+      "entity_type": "PERSON",
+      "subtype": "family_elder",
+      "total_occurrences": "194",
+      "first_chapter": "2",
+      "last_chapter": "120",
+      "chapter_count": "36",
+      "surface_forms": "賈赦"
+    },
+    {
+      "entity_key": "person_jia_tanchun",
+      "canonical_name": "賈探春",
+      "entity_type": "PERSON",
+      "subtype": "main_character",
+      "total_occurrences": "439",
+      "first_chapter": "2",
+      "last_chapter": "119",
+      "chapter_count": "61",
+      "surface_forms": "探春"
+    },
+    {
+      "entity_key": "person_jia_xichun",
+      "canonical_name": "賈惜春",
+      "entity_type": "PERSON",
+      "subtype": "main_character",
+      "total_occurrences": "192",
+      "first_chapter": "2",
+      "last_chapter": "119",
+      "chapter_count": "51",
+      "surface_forms": "惜春"
+    },
+    {
+      "entity_key": "person_jia_yingchun",
+      "canonical_name": "賈迎春",
+      "entity_type": "PERSON",
+      "subtype": "main_character",
+      "total_occurrences": "143",
+      "first_chapter": "2",
+      "last_chapter": "116",
+      "chapter_count": "45",
+      "surface_forms": "迎春"
+    },
+    {
+      "entity_key": "person_jia_yuanchun",
+      "canonical_name": "賈元春",
+      "entity_type": "PERSON",
+      "subtype": "main_character",
+      "total_occurrences": "63",
+      "first_chapter": "2",
+      "last_chapter": "120",
+      "chapter_count": "23",
+      "surface_forms": "元妃|元春|賈元春"
+    },
+    {
+      "entity_key": "person_jia_yucun",
+      "canonical_name": "賈雨村",
+      "entity_type": "PERSON",
+      "subtype": "official",
+      "total_occurrences": "183",
+      "first_chapter": "1",
+      "last_chapter": "120",
+      "chapter_count": "20",
+      "surface_forms": "賈雨村|雨村"
+    },
+    {
+      "entity_key": "person_jia_zhen",
+      "canonical_name": "賈珍",
+      "entity_type": "PERSON",
+      "subtype": "family_elder",
+      "total_occurrences": "426",
+      "first_chapter": "2",
+      "last_chapter": "120",
+      "chapter_count": "57",
+      "surface_forms": "珍大爺|賈珍"
+    },
+    {
+      "entity_key": "person_jia_zheng",
+      "canonical_name": "賈政",
+      "entity_type": "PERSON",
+      "subtype": "family_elder",
+      "total_occurrences": "939",
+      "first_chapter": "2",
+      "last_chapter": "120",
+      "chapter_count": "67",
+      "surface_forms": "政老爹|賈政"
+    },
+    {
+      "entity_key": "person_jinchuan",
+      "canonical_name": "金釧",
+      "entity_type": "PERSON",
+      "subtype": "maid",
+      "total_occurrences": "51",
+      "first_chapter": "7",
+      "last_chapter": "46",
+      "chapter_count": "13",
+      "surface_forms": "金釧"
+    },
+    {
+      "entity_key": "person_lai_da",
+      "canonical_name": "賴大",
+      "entity_type": "PERSON",
+      "subtype": "servant",
+      "total_occurrences": "90",
+      "first_chapter": "16",
+      "last_chapter": "115",
+      "chapter_count": "25",
+      "surface_forms": "賴大"
+    },
+    {
+      "entity_key": "person_leng_zixing",
+      "canonical_name": "冷子興",
+      "entity_type": "PERSON",
+      "subtype": "secondary",
+      "total_occurrences": "8",
+      "first_chapter": "2",
+      "last_chapter": "104",
+      "chapter_count": "4",
+      "surface_forms": "冷子興"
+    },
+    {
+      "entity_key": "person_li_wan",
+      "canonical_name": "李紈",
+      "entity_type": "PERSON",
+      "subtype": "main_character",
+      "total_occurrences": "375",
+      "first_chapter": "4",
+      "last_chapter": "119",
+      "chapter_count": "59",
+      "surface_forms": "李紈|稻香老農"
+    },
+    {
+      "entity_key": "person_lin_daiyu",
+      "canonical_name": "林黛玉",
+      "entity_type": "PERSON",
+      "subtype": "main_character",
+      "total_occurrences": "1535",
+      "first_chapter": "2",
+      "last_chapter": "120",
+      "chapter_count": "94",
+      "surface_forms": "林姑娘|林黛玉|瀟湘妃子|顰兒|黛玉"
+    },
+    {
+      "entity_key": "person_lin_ruhai",
+      "canonical_name": "林如海",
+      "entity_type": "PERSON",
+      "subtype": "family_member",
+      "total_occurrences": "10",
+      "first_chapter": "2",
+      "last_chapter": "92",
+      "chapter_count": "5",
+      "surface_forms": "林如海"
+    },
+    {
+      "entity_key": "person_liu_laolao",
+      "canonical_name": "劉姥姥",
+      "entity_type": "PERSON",
+      "subtype": "secondary",
+      "total_occurrences": "287",
+      "first_chapter": "6",
+      "last_chapter": "120",
+      "chapter_count": "9",
+      "surface_forms": "劉姥姥"
+    },
+    {
+      "entity_key": "person_miaoyu",
+      "canonical_name": "妙玉",
+      "entity_type": "PERSON",
+      "subtype": "main_character",
+      "total_occurrences": "153",
+      "first_chapter": "18",
+      "last_chapter": "118",
+      "chapter_count": "18",
+      "surface_forms": "妙玉"
+    },
+    {
+      "entity_key": "person_ping_er",
+      "canonical_name": "平兒",
+      "entity_type": "PERSON",
+      "subtype": "maid",
+      "total_occurrences": "693",
+      "first_chapter": "6",
+      "last_chapter": "120",
+      "chapter_count": "70",
+      "surface_forms": "平兒"
+    },
+    {
+      "entity_key": "person_qin_keqing",
+      "canonical_name": "秦可卿",
+      "entity_type": "PERSON",
+      "subtype": "main_character",
+      "total_occurrences": "8",
+      "first_chapter": "5",
+      "last_chapter": "111",
+      "chapter_count": "2",
+      "surface_forms": "可卿"
+    },
+    {
+      "entity_key": "person_qingwen",
+      "canonical_name": "晴雯",
+      "entity_type": "PERSON",
+      "subtype": "maid",
+      "total_occurrences": "339",
+      "first_chapter": "5",
+      "last_chapter": "116",
+      "chapter_count": "44",
+      "surface_forms": "晴雯"
+    },
+    {
+      "entity_key": "person_qiuwen",
+      "canonical_name": "秋紋",
+      "entity_type": "PERSON",
+      "subtype": "maid",
+      "total_occurrences": "97",
+      "first_chapter": "19",
+      "last_chapter": "120",
+      "chapter_count": "32",
+      "surface_forms": "秋紋"
+    },
+    {
+      "entity_key": "person_ruhua",
+      "canonical_name": "入畫",
+      "entity_type": "PERSON",
+      "subtype": "maid",
+      "total_occurrences": "19",
+      "first_chapter": "7",
+      "last_chapter": "78",
+      "chapter_count": "9",
+      "surface_forms": "入畫"
+    },
+    {
+      "entity_key": "person_she_yue",
+      "canonical_name": "麝月",
+      "entity_type": "PERSON",
+      "subtype": "maid",
+      "total_occurrences": "233",
+      "first_chapter": "5",
+      "last_chapter": "118",
+      "chapter_count": "46",
+      "surface_forms": "麝月"
+    },
+    {
+      "entity_key": "person_shi_xiangyun",
+      "canonical_name": "史湘雲",
+      "entity_type": "PERSON",
+      "subtype": "main_character",
+      "total_occurrences": "417",
+      "first_chapter": "20",
+      "last_chapter": "119",
+      "chapter_count": "44",
+      "surface_forms": "史湘雲|湘雲|雲妹妹"
+    },
+    {
+      "entity_key": "person_shishu",
+      "canonical_name": "侍書",
+      "entity_type": "PERSON",
+      "subtype": "maid",
+      "total_occurrences": "28",
+      "first_chapter": "55",
+      "last_chapter": "90",
+      "chapter_count": "4",
+      "surface_forms": "侍書"
+    },
+    {
+      "entity_key": "person_siqi",
+      "canonical_name": "司棋",
+      "entity_type": "PERSON",
+      "subtype": "maid",
+      "total_occurrences": "81",
+      "first_chapter": "7",
+      "last_chapter": "92",
+      "chapter_count": "15",
+      "surface_forms": "司棋"
+    },
+    {
+      "entity_key": "person_wang_furen",
+      "canonical_name": "王夫人",
+      "entity_type": "PERSON",
+      "subtype": "family_elder",
+      "total_occurrences": "1071",
+      "first_chapter": "3",
+      "last_chapter": "120",
+      "chapter_count": "106",
+      "surface_forms": "王夫人"
+    },
+    {
+      "entity_key": "person_wang_xifeng",
+      "canonical_name": "王熙鳳",
+      "entity_type": "PERSON",
+      "subtype": "main_character",
+      "total_occurrences": "1765",
+      "first_chapter": "3",
+      "last_chapter": "120",
+      "chapter_count": "104",
+      "surface_forms": "熙鳳|王熙鳳|璉二奶奶|鳳姐|鳳姐兒"
+    },
+    {
+      "entity_key": "person_xiangling",
+      "canonical_name": "香菱",
+      "entity_type": "PERSON",
+      "subtype": "servant_concubine",
+      "total_occurrences": "282",
+      "first_chapter": "1",
+      "last_chapter": "120",
+      "chapter_count": "34",
+      "surface_forms": "英蓮|香菱"
+    },
+    {
+      "entity_key": "person_xiren",
+      "canonical_name": "襲人",
+      "entity_type": "PERSON",
+      "subtype": "maid",
+      "total_occurrences": "1151",
+      "first_chapter": "3",
+      "last_chapter": "120",
+      "chapter_count": "88",
+      "surface_forms": "襲人"
+    },
+    {
+      "entity_key": "person_xue_baochai",
+      "canonical_name": "薛寶釵",
+      "entity_type": "PERSON",
+      "subtype": "main_character",
+      "total_occurrences": "1148",
+      "first_chapter": "4",
+      "last_chapter": "120",
+      "chapter_count": "100",
+      "surface_forms": "寶姑娘|寶釵|薛寶釵|蘅蕪君"
+    },
+    {
+      "entity_key": "person_xue_yima",
+      "canonical_name": "薛姨媽",
+      "entity_type": "PERSON",
+      "subtype": "family_elder",
+      "total_occurrences": "455",
+      "first_chapter": "4",
+      "last_chapter": "120",
+      "chapter_count": "60",
+      "surface_forms": "薛姨媽"
+    },
+    {
+      "entity_key": "person_xueyan",
+      "canonical_name": "雪雁",
+      "entity_type": "PERSON",
+      "subtype": "maid",
+      "total_occurrences": "151",
+      "first_chapter": "3",
+      "last_chapter": "100",
+      "chapter_count": "22",
+      "surface_forms": "雪雁"
+    },
+    {
+      "entity_key": "person_ying_er",
+      "canonical_name": "鶯兒",
+      "entity_type": "PERSON",
+      "subtype": "maid",
+      "total_occurrences": "131",
+      "first_chapter": "7",
+      "last_chapter": "119",
+      "chapter_count": "26",
+      "surface_forms": "鶯兒"
+    },
+    {
+      "entity_key": "person_you_erjie",
+      "canonical_name": "尤二姐",
+      "entity_type": "PERSON",
+      "subtype": "secondary",
+      "total_occurrences": "95",
+      "first_chapter": "63",
+      "last_chapter": "113",
+      "chapter_count": "13",
+      "surface_forms": "尤二姐"
+    },
+    {
+      "entity_key": "person_you_sanjie",
+      "canonical_name": "尤三姐",
+      "entity_type": "PERSON",
+      "subtype": "secondary",
+      "total_occurrences": "39",
+      "first_chapter": "63",
+      "last_chapter": "116",
+      "chapter_count": "7",
+      "surface_forms": "尤三姐"
+    },
+    {
+      "entity_key": "person_you_shi",
+      "canonical_name": "尤氏",
+      "entity_type": "PERSON",
+      "subtype": "family_member",
+      "total_occurrences": "344",
+      "first_chapter": "5",
+      "last_chapter": "119",
+      "chapter_count": "47",
+      "surface_forms": "尤氏"
+    },
+    {
+      "entity_key": "person_yuanyang",
+      "canonical_name": "鴛鴦",
+      "entity_type": "PERSON",
+      "subtype": "maid",
+      "total_occurrences": "417",
+      "first_chapter": "1",
+      "last_chapter": "120",
+      "chapter_count": "54",
+      "surface_forms": "鴛鴦"
+    },
+    {
+      "entity_key": "person_yuchuan",
+      "canonical_name": "玉釧",
+      "entity_type": "PERSON",
+      "subtype": "maid",
+      "total_occurrences": "52",
+      "first_chapter": "25",
+      "last_chapter": "117",
+      "chapter_count": "14",
+      "surface_forms": "玉釧"
+    },
+    {
+      "entity_key": "person_zhao_yiniang",
+      "canonical_name": "趙姨娘",
+      "entity_type": "PERSON",
+      "subtype": "concubine",
+      "total_occurrences": "135",
+      "first_chapter": "20",
+      "last_chapter": "119",
+      "chapter_count": "30",
+      "surface_forms": "趙姨娘"
+    },
+    {
+      "entity_key": "person_zhen_shiyin",
+      "canonical_name": "甄士隱",
+      "entity_type": "PERSON",
+      "subtype": "opening_character",
+      "total_occurrences": "74",
+      "first_chapter": "1",
+      "last_chapter": "120",
+      "chapter_count": "6",
+      "surface_forms": "士隱|甄士隱"
+    },
+    {
+      "entity_key": "person_zhou_rui_jia",
+      "canonical_name": "周瑞家的",
+      "entity_type": "PERSON",
+      "subtype": "servant",
+      "total_occurrences": "168",
+      "first_chapter": "6",
+      "last_chapter": "112",
+      "chapter_count": "16",
+      "surface_forms": "周瑞家的"
+    },
+    {
+      "entity_key": "person_zijuan",
+      "canonical_name": "紫鵑",
+      "entity_type": "PERSON",
+      "subtype": "maid",
+      "total_occurrences": "438",
+      "first_chapter": "8",
+      "last_chapter": "119",
+      "chapter_count": "46",
+      "surface_forms": "紫鵑"
+    },
+    {
+      "entity_key": "place_daguanyuan",
+      "canonical_name": "大觀園",
+      "entity_type": "PLACE",
+      "subtype": "garden",
+      "total_occurrences": "46",
+      "first_chapter": "18",
+      "last_chapter": "116",
+      "chapter_count": "31",
+      "surface_forms": "大觀園"
+    },
+    {
+      "entity_key": "plant_furong",
+      "canonical_name": "芙蓉",
+      "entity_type": "FLOWER",
+      "subtype": "flower",
+      "total_occurrences": "27",
+      "first_chapter": "7",
+      "last_chapter": "116",
+      "chapter_count": "13",
+      "surface_forms": "芙蓉"
+    },
+    {
+      "entity_key": "plant_haitang",
+      "canonical_name": "海棠",
+      "entity_type": "FLOWER",
+      "subtype": "flower",
+      "total_occurrences": "44",
+      "first_chapter": "5",
+      "last_chapter": "95",
+      "chapter_count": "22",
+      "surface_forms": "海棠"
+    },
+    {
+      "entity_key": "plant_jiaoqiangwei",
+      "canonical_name": "薔薇",
+      "entity_type": "FLOWER",
+      "subtype": "flower",
+      "total_occurrences": "12",
+      "first_chapter": "17",
+      "last_chapter": "60",
+      "chapter_count": "7",
+      "surface_forms": "薔薇"
+    },
+    {
+      "entity_key": "plant_juhua",
+      "canonical_name": "菊花",
+      "entity_type": "FLOWER",
+      "subtype": "flower",
+      "total_occurrences": "14",
+      "first_chapter": "11",
+      "last_chapter": "87",
+      "chapter_count": "7",
+      "surface_forms": "菊花"
+    },
+    {
+      "entity_key": "plant_lian",
+      "canonical_name": "蓮",
+      "entity_type": "FLOWER",
+      "subtype": "flower",
+      "total_occurrences": "117",
+      "first_chapter": "5",
+      "last_chapter": "89",
+      "chapter_count": "21",
+      "surface_forms": "蓮|蓮花"
+    },
+    {
+      "entity_key": "plant_liu",
+      "canonical_name": "柳",
+      "entity_type": "PLANT",
+      "subtype": "plant",
+      "total_occurrences": "168",
+      "first_chapter": "1",
+      "last_chapter": "108",
+      "chapter_count": "46",
+      "surface_forms": "柳"
+    },
+    {
+      "entity_key": "plant_meihua",
+      "canonical_name": "梅花",
+      "entity_type": "FLOWER",
+      "subtype": "flower",
+      "total_occurrences": "36",
+      "first_chapter": "3",
+      "last_chapter": "118",
+      "chapter_count": "18",
+      "surface_forms": "梅花"
+    },
+    {
+      "entity_key": "plant_mudan",
+      "canonical_name": "牡丹",
+      "entity_type": "FLOWER",
+      "subtype": "flower",
+      "total_occurrences": "12",
+      "first_chapter": "7",
+      "last_chapter": "110",
+      "chapter_count": "9",
+      "surface_forms": "牡丹"
+    },
+    {
+      "entity_key": "plant_taohua",
+      "canonical_name": "桃花",
+      "entity_type": "FLOWER",
+      "subtype": "flower",
+      "total_occurrences": "28",
+      "first_chapter": "17",
+      "last_chapter": "120",
+      "chapter_count": "11",
+      "surface_forms": "桃花"
+    },
+    {
+      "entity_key": "plant_zhu",
+      "canonical_name": "竹",
+      "entity_type": "PLANT",
+      "subtype": "plant",
+      "total_occurrences": "90",
+      "first_chapter": "1",
+      "last_chapter": "116",
+      "chapter_count": "37",
+      "surface_forms": "竹"
+    },
+    {
+      "entity_key": "space_langxia",
+      "canonical_name": "廊下",
+      "entity_type": "ROOM_SPACE",
+      "subtype": "corridor",
+      "total_occurrences": "14",
+      "first_chapter": "16",
+      "last_chapter": "117",
+      "chapter_count": "12",
+      "surface_forms": "廊下"
+    },
+    {
+      "entity_key": "space_neishi",
+      "canonical_name": "內室",
+      "entity_type": "ROOM_SPACE",
+      "subtype": "room",
+      "total_occurrences": "4",
+      "first_chapter": "3",
+      "last_chapter": "73",
+      "chapter_count": "4",
+      "surface_forms": "內室"
+    },
+    {
+      "entity_key": "space_shufang",
+      "canonical_name": "書房",
+      "entity_type": "ROOM_SPACE",
+      "subtype": "room",
+      "total_occurrences": "82",
+      "first_chapter": "1",
+      "last_chapter": "117",
+      "chapter_count": "48",
+      "surface_forms": "書房"
+    },
+    {
+      "entity_key": "space_yuanzi",
+      "canonical_name": "園子",
+      "entity_type": "ROOM_SPACE",
+      "subtype": "garden_space",
+      "total_occurrences": "114",
+      "first_chapter": "2",
+      "last_chapter": "118",
+      "chapter_count": "51",
+      "surface_forms": "園子"
+    }
+  ],
+  "motif_summary": [
+    {
+      "motif_key": "motif_bamboo",
+      "motif_type": "花木",
+      "subtype": "竹",
+      "count": "90",
+      "surface_forms": "竹"
+    },
+    {
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "670",
+      "surface_forms": "書"
+    },
+    {
+      "motif_key": "motif_chrysanthemum",
+      "motif_type": "花木",
+      "subtype": "菊花",
+      "count": "14",
+      "surface_forms": "菊花"
+    },
+    {
+      "motif_key": "motif_dream",
+      "motif_type": "夢幻",
+      "subtype": "夢",
+      "count": "165",
+      "surface_forms": "夢"
+    },
+    {
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "865",
+      "surface_forms": "花"
+    },
+    {
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "804",
+      "surface_forms": "香"
+    },
+    {
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "662",
+      "surface_forms": "金"
+    },
+    {
+      "motif_key": "motif_green",
+      "motif_type": "顏色",
+      "subtype": "綠色",
+      "count": "93",
+      "surface_forms": "綠"
+    },
+    {
+      "motif_key": "motif_green_blue",
+      "motif_type": "顏色",
+      "subtype": "青色",
+      "count": "181",
+      "surface_forms": "青"
+    },
+    {
+      "motif_key": "motif_haitang",
+      "motif_type": "花木",
+      "subtype": "海棠",
+      "count": "44",
+      "surface_forms": "海棠"
+    },
+    {
+      "motif_key": "motif_hibiscus",
+      "motif_type": "花木",
+      "subtype": "芙蓉",
+      "count": "27",
+      "surface_forms": "芙蓉"
+    },
+    {
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "661",
+      "surface_forms": "病"
+    },
+    {
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "6052",
+      "surface_forms": "玉|通靈寶玉"
+    },
+    {
+      "motif_key": "motif_lotus",
+      "motif_type": "花木",
+      "subtype": "蓮",
+      "count": "132",
+      "surface_forms": "蓮"
+    },
+    {
+      "motif_key": "motif_medicine",
+      "motif_type": "身體",
+      "subtype": "藥",
+      "count": "304",
+      "surface_forms": "藥"
+    },
+    {
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "798",
+      "surface_forms": "月"
+    },
+    {
+      "motif_key": "motif_peach_blossom",
+      "motif_type": "花木",
+      "subtype": "桃花",
+      "count": "28",
+      "surface_forms": "桃花"
+    },
+    {
+      "motif_key": "motif_peony",
+      "motif_type": "花木",
+      "subtype": "牡丹",
+      "count": "12",
+      "surface_forms": "牡丹"
+    },
+    {
+      "motif_key": "motif_plum_blossom",
+      "motif_type": "花木",
+      "subtype": "梅花",
+      "count": "36",
+      "surface_forms": "梅花"
+    },
+    {
+      "motif_key": "motif_poetry",
+      "motif_type": "文藝",
+      "subtype": "詩",
+      "count": "318",
+      "surface_forms": "詩"
+    },
+    {
+      "motif_key": "motif_purple",
+      "motif_type": "顏色",
+      "subtype": "紫色",
+      "count": "564",
+      "surface_forms": "紫"
+    },
+    {
+      "motif_key": "motif_rain",
+      "motif_type": "自然",
+      "subtype": "雨",
+      "count": "298",
+      "surface_forms": "雨"
+    },
+    {
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "664",
+      "surface_forms": "紅"
+    },
+    {
+      "motif_key": "motif_snow",
+      "motif_type": "自然",
+      "subtype": "雪",
+      "count": "289",
+      "surface_forms": "雪"
+    },
+    {
+      "motif_key": "motif_song_drama",
+      "motif_type": "文藝",
+      "subtype": "曲",
+      "count": "89",
+      "surface_forms": "曲"
+    },
+    {
+      "motif_key": "motif_stone",
+      "motif_type": "物象",
+      "subtype": "石",
+      "count": "233",
+      "surface_forms": "石"
+    },
+    {
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "486",
+      "surface_forms": "茶"
+    },
+    {
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "610",
+      "surface_forms": "哭"
+    },
+    {
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "356",
+      "surface_forms": "淚"
+    },
+    {
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "606",
+      "surface_forms": "白"
+    },
+    {
+      "motif_key": "motif_willow",
+      "motif_type": "花木",
+      "subtype": "柳",
+      "count": "189",
+      "surface_forms": "柳"
+    },
+    {
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "472",
+      "surface_forms": "風"
+    },
+    {
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "609",
+      "surface_forms": "酒"
+    }
+  ],
+  "motif_chapter_summary": [
+    {
+      "chapter_id": "hongloumeng_ch001",
+      "chapter_number": "1",
+      "motif_key": "motif_bamboo",
+      "motif_type": "花木",
+      "subtype": "竹",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch001",
+      "chapter_number": "1",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "19"
+    },
+    {
+      "chapter_id": "hongloumeng_ch001",
+      "chapter_number": "1",
+      "motif_key": "motif_dream",
+      "motif_type": "夢幻",
+      "subtype": "夢",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch001",
+      "chapter_number": "1",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "7"
+    },
+    {
+      "chapter_id": "hongloumeng_ch001",
+      "chapter_number": "1",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch001",
+      "chapter_number": "1",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch001",
+      "chapter_number": "1",
+      "motif_key": "motif_green",
+      "motif_type": "顏色",
+      "subtype": "綠色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch001",
+      "chapter_number": "1",
+      "motif_key": "motif_green_blue",
+      "motif_type": "顏色",
+      "subtype": "青色",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch001",
+      "chapter_number": "1",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch001",
+      "chapter_number": "1",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "10"
+    },
+    {
+      "chapter_id": "hongloumeng_ch001",
+      "chapter_number": "1",
+      "motif_key": "motif_lotus",
+      "motif_type": "花木",
+      "subtype": "蓮",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch001",
+      "chapter_number": "1",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "12"
+    },
+    {
+      "chapter_id": "hongloumeng_ch001",
+      "chapter_number": "1",
+      "motif_key": "motif_poetry",
+      "motif_type": "文藝",
+      "subtype": "詩",
+      "count": "8"
+    },
+    {
+      "chapter_id": "hongloumeng_ch001",
+      "chapter_number": "1",
+      "motif_key": "motif_purple",
+      "motif_type": "顏色",
+      "subtype": "紫色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch001",
+      "chapter_number": "1",
+      "motif_key": "motif_rain",
+      "motif_type": "自然",
+      "subtype": "雨",
+      "count": "25"
+    },
+    {
+      "chapter_id": "hongloumeng_ch001",
+      "chapter_number": "1",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "11"
+    },
+    {
+      "chapter_id": "hongloumeng_ch001",
+      "chapter_number": "1",
+      "motif_key": "motif_snow",
+      "motif_type": "自然",
+      "subtype": "雪",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch001",
+      "chapter_number": "1",
+      "motif_key": "motif_stone",
+      "motif_type": "物象",
+      "subtype": "石",
+      "count": "24"
+    },
+    {
+      "chapter_id": "hongloumeng_ch001",
+      "chapter_number": "1",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch001",
+      "chapter_number": "1",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch001",
+      "chapter_number": "1",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch001",
+      "chapter_number": "1",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "7"
+    },
+    {
+      "chapter_id": "hongloumeng_ch001",
+      "chapter_number": "1",
+      "motif_key": "motif_willow",
+      "motif_type": "花木",
+      "subtype": "柳",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch001",
+      "chapter_number": "1",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "14"
+    },
+    {
+      "chapter_id": "hongloumeng_ch001",
+      "chapter_number": "1",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "7"
+    },
+    {
+      "chapter_id": "hongloumeng_ch002",
+      "chapter_number": "2",
+      "motif_key": "motif_bamboo",
+      "motif_type": "花木",
+      "subtype": "竹",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch002",
+      "chapter_number": "2",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "14"
+    },
+    {
+      "chapter_id": "hongloumeng_ch002",
+      "chapter_number": "2",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch002",
+      "chapter_number": "2",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch002",
+      "chapter_number": "2",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch002",
+      "chapter_number": "2",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch002",
+      "chapter_number": "2",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "7"
+    },
+    {
+      "chapter_id": "hongloumeng_ch002",
+      "chapter_number": "2",
+      "motif_key": "motif_medicine",
+      "motif_type": "身體",
+      "subtype": "藥",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch002",
+      "chapter_number": "2",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch002",
+      "chapter_number": "2",
+      "motif_key": "motif_poetry",
+      "motif_type": "文藝",
+      "subtype": "詩",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch002",
+      "chapter_number": "2",
+      "motif_key": "motif_rain",
+      "motif_type": "自然",
+      "subtype": "雨",
+      "count": "39"
+    },
+    {
+      "chapter_id": "hongloumeng_ch002",
+      "chapter_number": "2",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch002",
+      "chapter_number": "2",
+      "motif_key": "motif_stone",
+      "motif_type": "物象",
+      "subtype": "石",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch002",
+      "chapter_number": "2",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch002",
+      "chapter_number": "2",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch002",
+      "chapter_number": "2",
+      "motif_key": "motif_willow",
+      "motif_type": "花木",
+      "subtype": "柳",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch002",
+      "chapter_number": "2",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "8"
+    },
+    {
+      "chapter_id": "hongloumeng_ch002",
+      "chapter_number": "2",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch003",
+      "chapter_number": "3",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "19"
+    },
+    {
+      "chapter_id": "hongloumeng_ch003",
+      "chapter_number": "3",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "20"
+    },
+    {
+      "chapter_id": "hongloumeng_ch003",
+      "chapter_number": "3",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch003",
+      "chapter_number": "3",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "16"
+    },
+    {
+      "chapter_id": "hongloumeng_ch003",
+      "chapter_number": "3",
+      "motif_key": "motif_green",
+      "motif_type": "顏色",
+      "subtype": "綠色",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch003",
+      "chapter_number": "3",
+      "motif_key": "motif_green_blue",
+      "motif_type": "顏色",
+      "subtype": "青色",
+      "count": "10"
+    },
+    {
+      "chapter_id": "hongloumeng_ch003",
+      "chapter_number": "3",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "7"
+    },
+    {
+      "chapter_id": "hongloumeng_ch003",
+      "chapter_number": "3",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "119"
+    },
+    {
+      "chapter_id": "hongloumeng_ch003",
+      "chapter_number": "3",
+      "motif_key": "motif_medicine",
+      "motif_type": "身體",
+      "subtype": "藥",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch003",
+      "chapter_number": "3",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "8"
+    },
+    {
+      "chapter_id": "hongloumeng_ch003",
+      "chapter_number": "3",
+      "motif_key": "motif_plum_blossom",
+      "motif_type": "花木",
+      "subtype": "梅花",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch003",
+      "chapter_number": "3",
+      "motif_key": "motif_poetry",
+      "motif_type": "文藝",
+      "subtype": "詩",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch003",
+      "chapter_number": "3",
+      "motif_key": "motif_purple",
+      "motif_type": "顏色",
+      "subtype": "紫色",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch003",
+      "chapter_number": "3",
+      "motif_key": "motif_rain",
+      "motif_type": "自然",
+      "subtype": "雨",
+      "count": "14"
+    },
+    {
+      "chapter_id": "hongloumeng_ch003",
+      "chapter_number": "3",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "10"
+    },
+    {
+      "chapter_id": "hongloumeng_ch003",
+      "chapter_number": "3",
+      "motif_key": "motif_snow",
+      "motif_type": "自然",
+      "subtype": "雪",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch003",
+      "chapter_number": "3",
+      "motif_key": "motif_stone",
+      "motif_type": "物象",
+      "subtype": "石",
+      "count": "7"
+    },
+    {
+      "chapter_id": "hongloumeng_ch003",
+      "chapter_number": "3",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "14"
+    },
+    {
+      "chapter_id": "hongloumeng_ch003",
+      "chapter_number": "3",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch003",
+      "chapter_number": "3",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch003",
+      "chapter_number": "3",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch003",
+      "chapter_number": "3",
+      "motif_key": "motif_willow",
+      "motif_type": "花木",
+      "subtype": "柳",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch003",
+      "chapter_number": "3",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch004",
+      "chapter_number": "4",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "15"
+    },
+    {
+      "chapter_id": "hongloumeng_ch004",
+      "chapter_number": "4",
+      "motif_key": "motif_dream",
+      "motif_type": "夢幻",
+      "subtype": "夢",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch004",
+      "chapter_number": "4",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch004",
+      "chapter_number": "4",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch004",
+      "chapter_number": "4",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "7"
+    },
+    {
+      "chapter_id": "hongloumeng_ch004",
+      "chapter_number": "4",
+      "motif_key": "motif_green_blue",
+      "motif_type": "顏色",
+      "subtype": "青色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch004",
+      "chapter_number": "4",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch004",
+      "chapter_number": "4",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch004",
+      "chapter_number": "4",
+      "motif_key": "motif_lotus",
+      "motif_type": "花木",
+      "subtype": "蓮",
+      "count": "8"
+    },
+    {
+      "chapter_id": "hongloumeng_ch004",
+      "chapter_number": "4",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch004",
+      "chapter_number": "4",
+      "motif_key": "motif_poetry",
+      "motif_type": "文藝",
+      "subtype": "詩",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch004",
+      "chapter_number": "4",
+      "motif_key": "motif_purple",
+      "motif_type": "顏色",
+      "subtype": "紫色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch004",
+      "chapter_number": "4",
+      "motif_key": "motif_rain",
+      "motif_type": "自然",
+      "subtype": "雨",
+      "count": "26"
+    },
+    {
+      "chapter_id": "hongloumeng_ch004",
+      "chapter_number": "4",
+      "motif_key": "motif_snow",
+      "motif_type": "自然",
+      "subtype": "雪",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch004",
+      "chapter_number": "4",
+      "motif_key": "motif_stone",
+      "motif_type": "物象",
+      "subtype": "石",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch004",
+      "chapter_number": "4",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch004",
+      "chapter_number": "4",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch004",
+      "chapter_number": "4",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch004",
+      "chapter_number": "4",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch005",
+      "chapter_number": "5",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "8"
+    },
+    {
+      "chapter_id": "hongloumeng_ch005",
+      "chapter_number": "5",
+      "motif_key": "motif_dream",
+      "motif_type": "夢幻",
+      "subtype": "夢",
+      "count": "16"
+    },
+    {
+      "chapter_id": "hongloumeng_ch005",
+      "chapter_number": "5",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "18"
+    },
+    {
+      "chapter_id": "hongloumeng_ch005",
+      "chapter_number": "5",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "17"
+    },
+    {
+      "chapter_id": "hongloumeng_ch005",
+      "chapter_number": "5",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "19"
+    },
+    {
+      "chapter_id": "hongloumeng_ch005",
+      "chapter_number": "5",
+      "motif_key": "motif_green",
+      "motif_type": "顏色",
+      "subtype": "綠色",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch005",
+      "chapter_number": "5",
+      "motif_key": "motif_green_blue",
+      "motif_type": "顏色",
+      "subtype": "青色",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch005",
+      "chapter_number": "5",
+      "motif_key": "motif_haitang",
+      "motif_type": "花木",
+      "subtype": "海棠",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch005",
+      "chapter_number": "5",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "87"
+    },
+    {
+      "chapter_id": "hongloumeng_ch005",
+      "chapter_number": "5",
+      "motif_key": "motif_lotus",
+      "motif_type": "花木",
+      "subtype": "蓮",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch005",
+      "chapter_number": "5",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "14"
+    },
+    {
+      "chapter_id": "hongloumeng_ch005",
+      "chapter_number": "5",
+      "motif_key": "motif_plum_blossom",
+      "motif_type": "花木",
+      "subtype": "梅花",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch005",
+      "chapter_number": "5",
+      "motif_key": "motif_poetry",
+      "motif_type": "文藝",
+      "subtype": "詩",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch005",
+      "chapter_number": "5",
+      "motif_key": "motif_purple",
+      "motif_type": "顏色",
+      "subtype": "紫色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch005",
+      "chapter_number": "5",
+      "motif_key": "motif_rain",
+      "motif_type": "自然",
+      "subtype": "雨",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch005",
+      "chapter_number": "5",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "10"
+    },
+    {
+      "chapter_id": "hongloumeng_ch005",
+      "chapter_number": "5",
+      "motif_key": "motif_snow",
+      "motif_type": "自然",
+      "subtype": "雪",
+      "count": "7"
+    },
+    {
+      "chapter_id": "hongloumeng_ch005",
+      "chapter_number": "5",
+      "motif_key": "motif_song_drama",
+      "motif_type": "文藝",
+      "subtype": "曲",
+      "count": "9"
+    },
+    {
+      "chapter_id": "hongloumeng_ch005",
+      "chapter_number": "5",
+      "motif_key": "motif_stone",
+      "motif_type": "物象",
+      "subtype": "石",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch005",
+      "chapter_number": "5",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch005",
+      "chapter_number": "5",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch005",
+      "chapter_number": "5",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch005",
+      "chapter_number": "5",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch005",
+      "chapter_number": "5",
+      "motif_key": "motif_willow",
+      "motif_type": "花木",
+      "subtype": "柳",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch005",
+      "chapter_number": "5",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "18"
+    },
+    {
+      "chapter_id": "hongloumeng_ch005",
+      "chapter_number": "5",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "9"
+    },
+    {
+      "chapter_id": "hongloumeng_ch006",
+      "chapter_number": "6",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch006",
+      "chapter_number": "6",
+      "motif_key": "motif_dream",
+      "motif_type": "夢幻",
+      "subtype": "夢",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch006",
+      "chapter_number": "6",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch006",
+      "chapter_number": "6",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch006",
+      "chapter_number": "6",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch006",
+      "chapter_number": "6",
+      "motif_key": "motif_green",
+      "motif_type": "顏色",
+      "subtype": "綠色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch006",
+      "chapter_number": "6",
+      "motif_key": "motif_green_blue",
+      "motif_type": "顏色",
+      "subtype": "青色",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch006",
+      "chapter_number": "6",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch006",
+      "chapter_number": "6",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "14"
+    },
+    {
+      "chapter_id": "hongloumeng_ch006",
+      "chapter_number": "6",
+      "motif_key": "motif_purple",
+      "motif_type": "顏色",
+      "subtype": "紫色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch006",
+      "chapter_number": "6",
+      "motif_key": "motif_rain",
+      "motif_type": "自然",
+      "subtype": "雨",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch006",
+      "chapter_number": "6",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "8"
+    },
+    {
+      "chapter_id": "hongloumeng_ch006",
+      "chapter_number": "6",
+      "motif_key": "motif_stone",
+      "motif_type": "物象",
+      "subtype": "石",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch006",
+      "chapter_number": "6",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "7"
+    },
+    {
+      "chapter_id": "hongloumeng_ch006",
+      "chapter_number": "6",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch006",
+      "chapter_number": "6",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch006",
+      "chapter_number": "6",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch007",
+      "chapter_number": "7",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "9"
+    },
+    {
+      "chapter_id": "hongloumeng_ch007",
+      "chapter_number": "7",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "25"
+    },
+    {
+      "chapter_id": "hongloumeng_ch007",
+      "chapter_number": "7",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "10"
+    },
+    {
+      "chapter_id": "hongloumeng_ch007",
+      "chapter_number": "7",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "9"
+    },
+    {
+      "chapter_id": "hongloumeng_ch007",
+      "chapter_number": "7",
+      "motif_key": "motif_hibiscus",
+      "motif_type": "花木",
+      "subtype": "芙蓉",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch007",
+      "chapter_number": "7",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "10"
+    },
+    {
+      "chapter_id": "hongloumeng_ch007",
+      "chapter_number": "7",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "34"
+    },
+    {
+      "chapter_id": "hongloumeng_ch007",
+      "chapter_number": "7",
+      "motif_key": "motif_medicine",
+      "motif_type": "身體",
+      "subtype": "藥",
+      "count": "11"
+    },
+    {
+      "chapter_id": "hongloumeng_ch007",
+      "chapter_number": "7",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch007",
+      "chapter_number": "7",
+      "motif_key": "motif_peony",
+      "motif_type": "花木",
+      "subtype": "牡丹",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch007",
+      "chapter_number": "7",
+      "motif_key": "motif_plum_blossom",
+      "motif_type": "花木",
+      "subtype": "梅花",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch007",
+      "chapter_number": "7",
+      "motif_key": "motif_rain",
+      "motif_type": "自然",
+      "subtype": "雨",
+      "count": "7"
+    },
+    {
+      "chapter_id": "hongloumeng_ch007",
+      "chapter_number": "7",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch007",
+      "chapter_number": "7",
+      "motif_key": "motif_snow",
+      "motif_type": "自然",
+      "subtype": "雪",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch007",
+      "chapter_number": "7",
+      "motif_key": "motif_song_drama",
+      "motif_type": "文藝",
+      "subtype": "曲",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch007",
+      "chapter_number": "7",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch007",
+      "chapter_number": "7",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch007",
+      "chapter_number": "7",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "11"
+    },
+    {
+      "chapter_id": "hongloumeng_ch007",
+      "chapter_number": "7",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch007",
+      "chapter_number": "7",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "8"
+    },
+    {
+      "chapter_id": "hongloumeng_ch008",
+      "chapter_number": "8",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch008",
+      "chapter_number": "8",
+      "motif_key": "motif_dream",
+      "motif_type": "夢幻",
+      "subtype": "夢",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch008",
+      "chapter_number": "8",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch008",
+      "chapter_number": "8",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "10"
+    },
+    {
+      "chapter_id": "hongloumeng_ch008",
+      "chapter_number": "8",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "8"
+    },
+    {
+      "chapter_id": "hongloumeng_ch008",
+      "chapter_number": "8",
+      "motif_key": "motif_green_blue",
+      "motif_type": "顏色",
+      "subtype": "青色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch008",
+      "chapter_number": "8",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch008",
+      "chapter_number": "8",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "110"
+    },
+    {
+      "chapter_id": "hongloumeng_ch008",
+      "chapter_number": "8",
+      "motif_key": "motif_medicine",
+      "motif_type": "身體",
+      "subtype": "藥",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch008",
+      "chapter_number": "8",
+      "motif_key": "motif_poetry",
+      "motif_type": "文藝",
+      "subtype": "詩",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch008",
+      "chapter_number": "8",
+      "motif_key": "motif_purple",
+      "motif_type": "顏色",
+      "subtype": "紫色",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch008",
+      "chapter_number": "8",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch008",
+      "chapter_number": "8",
+      "motif_key": "motif_snow",
+      "motif_type": "自然",
+      "subtype": "雪",
+      "count": "11"
+    },
+    {
+      "chapter_id": "hongloumeng_ch008",
+      "chapter_number": "8",
+      "motif_key": "motif_stone",
+      "motif_type": "物象",
+      "subtype": "石",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch008",
+      "chapter_number": "8",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "14"
+    },
+    {
+      "chapter_id": "hongloumeng_ch008",
+      "chapter_number": "8",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch008",
+      "chapter_number": "8",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch008",
+      "chapter_number": "8",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "13"
+    },
+    {
+      "chapter_id": "hongloumeng_ch009",
+      "chapter_number": "9",
+      "motif_key": "motif_bamboo",
+      "motif_type": "花木",
+      "subtype": "竹",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch009",
+      "chapter_number": "9",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "22"
+    },
+    {
+      "chapter_id": "hongloumeng_ch009",
+      "chapter_number": "9",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch009",
+      "chapter_number": "9",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "13"
+    },
+    {
+      "chapter_id": "hongloumeng_ch009",
+      "chapter_number": "9",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "31"
+    },
+    {
+      "chapter_id": "hongloumeng_ch009",
+      "chapter_number": "9",
+      "motif_key": "motif_green_blue",
+      "motif_type": "顏色",
+      "subtype": "青色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch009",
+      "chapter_number": "9",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "46"
+    },
+    {
+      "chapter_id": "hongloumeng_ch009",
+      "chapter_number": "9",
+      "motif_key": "motif_medicine",
+      "motif_type": "身體",
+      "subtype": "藥",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch009",
+      "chapter_number": "9",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch009",
+      "chapter_number": "9",
+      "motif_key": "motif_poetry",
+      "motif_type": "文藝",
+      "subtype": "詩",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch009",
+      "chapter_number": "9",
+      "motif_key": "motif_rain",
+      "motif_type": "自然",
+      "subtype": "雨",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch009",
+      "chapter_number": "9",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch009",
+      "chapter_number": "9",
+      "motif_key": "motif_song_drama",
+      "motif_type": "文藝",
+      "subtype": "曲",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch009",
+      "chapter_number": "9",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch009",
+      "chapter_number": "9",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch009",
+      "chapter_number": "9",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch009",
+      "chapter_number": "9",
+      "motif_key": "motif_willow",
+      "motif_type": "花木",
+      "subtype": "柳",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch009",
+      "chapter_number": "9",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch009",
+      "chapter_number": "9",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch010",
+      "chapter_number": "10",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch010",
+      "chapter_number": "10",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch010",
+      "chapter_number": "10",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "11"
+    },
+    {
+      "chapter_id": "hongloumeng_ch010",
+      "chapter_number": "10",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "22"
+    },
+    {
+      "chapter_id": "hongloumeng_ch010",
+      "chapter_number": "10",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch010",
+      "chapter_number": "10",
+      "motif_key": "motif_lotus",
+      "motif_type": "花木",
+      "subtype": "蓮",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch010",
+      "chapter_number": "10",
+      "motif_key": "motif_medicine",
+      "motif_type": "身體",
+      "subtype": "藥",
+      "count": "10"
+    },
+    {
+      "chapter_id": "hongloumeng_ch010",
+      "chapter_number": "10",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch010",
+      "chapter_number": "10",
+      "motif_key": "motif_purple",
+      "motif_type": "顏色",
+      "subtype": "紫色",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch010",
+      "chapter_number": "10",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch010",
+      "chapter_number": "10",
+      "motif_key": "motif_song_drama",
+      "motif_type": "文藝",
+      "subtype": "曲",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch010",
+      "chapter_number": "10",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch010",
+      "chapter_number": "10",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch010",
+      "chapter_number": "10",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch011",
+      "chapter_number": "11",
+      "motif_key": "motif_chrysanthemum",
+      "motif_type": "花木",
+      "subtype": "菊花",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch011",
+      "chapter_number": "11",
+      "motif_key": "motif_dream",
+      "motif_type": "夢幻",
+      "subtype": "夢",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch011",
+      "chapter_number": "11",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch011",
+      "chapter_number": "11",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch011",
+      "chapter_number": "11",
+      "motif_key": "motif_haitang",
+      "motif_type": "花木",
+      "subtype": "海棠",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch011",
+      "chapter_number": "11",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "19"
+    },
+    {
+      "chapter_id": "hongloumeng_ch011",
+      "chapter_number": "11",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "10"
+    },
+    {
+      "chapter_id": "hongloumeng_ch011",
+      "chapter_number": "11",
+      "motif_key": "motif_medicine",
+      "motif_type": "身體",
+      "subtype": "藥",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch011",
+      "chapter_number": "11",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "7"
+    },
+    {
+      "chapter_id": "hongloumeng_ch011",
+      "chapter_number": "11",
+      "motif_key": "motif_purple",
+      "motif_type": "顏色",
+      "subtype": "紫色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch011",
+      "chapter_number": "11",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch011",
+      "chapter_number": "11",
+      "motif_key": "motif_song_drama",
+      "motif_type": "文藝",
+      "subtype": "曲",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch011",
+      "chapter_number": "11",
+      "motif_key": "motif_stone",
+      "motif_type": "物象",
+      "subtype": "石",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch011",
+      "chapter_number": "11",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch011",
+      "chapter_number": "11",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch011",
+      "chapter_number": "11",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch011",
+      "chapter_number": "11",
+      "motif_key": "motif_willow",
+      "motif_type": "花木",
+      "subtype": "柳",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch011",
+      "chapter_number": "11",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch011",
+      "chapter_number": "11",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch012",
+      "chapter_number": "12",
+      "motif_key": "motif_bamboo",
+      "motif_type": "花木",
+      "subtype": "竹",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch012",
+      "chapter_number": "12",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch012",
+      "chapter_number": "12",
+      "motif_key": "motif_dream",
+      "motif_type": "夢幻",
+      "subtype": "夢",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch012",
+      "chapter_number": "12",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch012",
+      "chapter_number": "12",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch012",
+      "chapter_number": "12",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch012",
+      "chapter_number": "12",
+      "motif_key": "motif_medicine",
+      "motif_type": "身體",
+      "subtype": "藥",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch012",
+      "chapter_number": "12",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch012",
+      "chapter_number": "12",
+      "motif_key": "motif_rain",
+      "motif_type": "自然",
+      "subtype": "雨",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch012",
+      "chapter_number": "12",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch012",
+      "chapter_number": "12",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch012",
+      "chapter_number": "12",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch012",
+      "chapter_number": "12",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "7"
+    },
+    {
+      "chapter_id": "hongloumeng_ch012",
+      "chapter_number": "12",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch013",
+      "chapter_number": "13",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch013",
+      "chapter_number": "13",
+      "motif_key": "motif_dream",
+      "motif_type": "夢幻",
+      "subtype": "夢",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch013",
+      "chapter_number": "13",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch013",
+      "chapter_number": "13",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch013",
+      "chapter_number": "13",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch013",
+      "chapter_number": "13",
+      "motif_key": "motif_green_blue",
+      "motif_type": "顏色",
+      "subtype": "青色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch013",
+      "chapter_number": "13",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch013",
+      "chapter_number": "13",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "15"
+    },
+    {
+      "chapter_id": "hongloumeng_ch013",
+      "chapter_number": "13",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch013",
+      "chapter_number": "13",
+      "motif_key": "motif_poetry",
+      "motif_type": "文藝",
+      "subtype": "詩",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch013",
+      "chapter_number": "13",
+      "motif_key": "motif_purple",
+      "motif_type": "顏色",
+      "subtype": "紫色",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch013",
+      "chapter_number": "13",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch013",
+      "chapter_number": "13",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch013",
+      "chapter_number": "13",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch013",
+      "chapter_number": "13",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch013",
+      "chapter_number": "13",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch013",
+      "chapter_number": "13",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch014",
+      "chapter_number": "14",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch014",
+      "chapter_number": "14",
+      "motif_key": "motif_dream",
+      "motif_type": "夢幻",
+      "subtype": "夢",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch014",
+      "chapter_number": "14",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch014",
+      "chapter_number": "14",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch014",
+      "chapter_number": "14",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch014",
+      "chapter_number": "14",
+      "motif_key": "motif_green_blue",
+      "motif_type": "顏色",
+      "subtype": "青色",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch014",
+      "chapter_number": "14",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch014",
+      "chapter_number": "14",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "17"
+    },
+    {
+      "chapter_id": "hongloumeng_ch014",
+      "chapter_number": "14",
+      "motif_key": "motif_medicine",
+      "motif_type": "身體",
+      "subtype": "藥",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch014",
+      "chapter_number": "14",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch014",
+      "chapter_number": "14",
+      "motif_key": "motif_purple",
+      "motif_type": "顏色",
+      "subtype": "紫色",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch014",
+      "chapter_number": "14",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch014",
+      "chapter_number": "14",
+      "motif_key": "motif_song_drama",
+      "motif_type": "文藝",
+      "subtype": "曲",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch014",
+      "chapter_number": "14",
+      "motif_key": "motif_stone",
+      "motif_type": "物象",
+      "subtype": "石",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch014",
+      "chapter_number": "14",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "13"
+    },
+    {
+      "chapter_id": "hongloumeng_ch014",
+      "chapter_number": "14",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch014",
+      "chapter_number": "14",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch014",
+      "chapter_number": "14",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch014",
+      "chapter_number": "14",
+      "motif_key": "motif_willow",
+      "motif_type": "花木",
+      "subtype": "柳",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch014",
+      "chapter_number": "14",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch014",
+      "chapter_number": "14",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch015",
+      "chapter_number": "15",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch015",
+      "chapter_number": "15",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch015",
+      "chapter_number": "15",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch015",
+      "chapter_number": "15",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "7"
+    },
+    {
+      "chapter_id": "hongloumeng_ch015",
+      "chapter_number": "15",
+      "motif_key": "motif_green_blue",
+      "motif_type": "顏色",
+      "subtype": "青色",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch015",
+      "chapter_number": "15",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch015",
+      "chapter_number": "15",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "61"
+    },
+    {
+      "chapter_id": "hongloumeng_ch015",
+      "chapter_number": "15",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch015",
+      "chapter_number": "15",
+      "motif_key": "motif_poetry",
+      "motif_type": "文藝",
+      "subtype": "詩",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch015",
+      "chapter_number": "15",
+      "motif_key": "motif_rain",
+      "motif_type": "自然",
+      "subtype": "雨",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch015",
+      "chapter_number": "15",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch015",
+      "chapter_number": "15",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "11"
+    },
+    {
+      "chapter_id": "hongloumeng_ch015",
+      "chapter_number": "15",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch015",
+      "chapter_number": "15",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch015",
+      "chapter_number": "15",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch016",
+      "chapter_number": "16",
+      "motif_key": "motif_bamboo",
+      "motif_type": "花木",
+      "subtype": "竹",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch016",
+      "chapter_number": "16",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "10"
+    },
+    {
+      "chapter_id": "hongloumeng_ch016",
+      "chapter_number": "16",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch016",
+      "chapter_number": "16",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "9"
+    },
+    {
+      "chapter_id": "hongloumeng_ch016",
+      "chapter_number": "16",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch016",
+      "chapter_number": "16",
+      "motif_key": "motif_green_blue",
+      "motif_type": "顏色",
+      "subtype": "青色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch016",
+      "chapter_number": "16",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch016",
+      "chapter_number": "16",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "33"
+    },
+    {
+      "chapter_id": "hongloumeng_ch016",
+      "chapter_number": "16",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch016",
+      "chapter_number": "16",
+      "motif_key": "motif_rain",
+      "motif_type": "自然",
+      "subtype": "雨",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch016",
+      "chapter_number": "16",
+      "motif_key": "motif_stone",
+      "motif_type": "物象",
+      "subtype": "石",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch016",
+      "chapter_number": "16",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch016",
+      "chapter_number": "16",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch016",
+      "chapter_number": "16",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch016",
+      "chapter_number": "16",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch016",
+      "chapter_number": "16",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch016",
+      "chapter_number": "16",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "9"
+    },
+    {
+      "chapter_id": "hongloumeng_ch017",
+      "chapter_number": "17",
+      "motif_key": "motif_bamboo",
+      "motif_type": "花木",
+      "subtype": "竹",
+      "count": "8"
+    },
+    {
+      "chapter_id": "hongloumeng_ch017",
+      "chapter_number": "17",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "14"
+    },
+    {
+      "chapter_id": "hongloumeng_ch017",
+      "chapter_number": "17",
+      "motif_key": "motif_dream",
+      "motif_type": "夢幻",
+      "subtype": "夢",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch017",
+      "chapter_number": "17",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "37"
+    },
+    {
+      "chapter_id": "hongloumeng_ch017",
+      "chapter_number": "17",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "14"
+    },
+    {
+      "chapter_id": "hongloumeng_ch017",
+      "chapter_number": "17",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "7"
+    },
+    {
+      "chapter_id": "hongloumeng_ch017",
+      "chapter_number": "17",
+      "motif_key": "motif_green",
+      "motif_type": "顏色",
+      "subtype": "綠色",
+      "count": "9"
+    },
+    {
+      "chapter_id": "hongloumeng_ch017",
+      "chapter_number": "17",
+      "motif_key": "motif_green_blue",
+      "motif_type": "顏色",
+      "subtype": "青色",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch017",
+      "chapter_number": "17",
+      "motif_key": "motif_haitang",
+      "motif_type": "花木",
+      "subtype": "海棠",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch017",
+      "chapter_number": "17",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch017",
+      "chapter_number": "17",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "54"
+    },
+    {
+      "chapter_id": "hongloumeng_ch017",
+      "chapter_number": "17",
+      "motif_key": "motif_lotus",
+      "motif_type": "花木",
+      "subtype": "蓮",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch017",
+      "chapter_number": "17",
+      "motif_key": "motif_medicine",
+      "motif_type": "身體",
+      "subtype": "藥",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch017",
+      "chapter_number": "17",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch017",
+      "chapter_number": "17",
+      "motif_key": "motif_peach_blossom",
+      "motif_type": "花木",
+      "subtype": "桃花",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch017",
+      "chapter_number": "17",
+      "motif_key": "motif_peony",
+      "motif_type": "花木",
+      "subtype": "牡丹",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch017",
+      "chapter_number": "17",
+      "motif_key": "motif_poetry",
+      "motif_type": "文藝",
+      "subtype": "詩",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch017",
+      "chapter_number": "17",
+      "motif_key": "motif_purple",
+      "motif_type": "顏色",
+      "subtype": "紫色",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch017",
+      "chapter_number": "17",
+      "motif_key": "motif_rain",
+      "motif_type": "自然",
+      "subtype": "雨",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch017",
+      "chapter_number": "17",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch017",
+      "chapter_number": "17",
+      "motif_key": "motif_snow",
+      "motif_type": "自然",
+      "subtype": "雪",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch017",
+      "chapter_number": "17",
+      "motif_key": "motif_song_drama",
+      "motif_type": "文藝",
+      "subtype": "曲",
+      "count": "7"
+    },
+    {
+      "chapter_id": "hongloumeng_ch017",
+      "chapter_number": "17",
+      "motif_key": "motif_stone",
+      "motif_type": "物象",
+      "subtype": "石",
+      "count": "22"
+    },
+    {
+      "chapter_id": "hongloumeng_ch017",
+      "chapter_number": "17",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch017",
+      "chapter_number": "17",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch017",
+      "chapter_number": "17",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "8"
+    },
+    {
+      "chapter_id": "hongloumeng_ch017",
+      "chapter_number": "17",
+      "motif_key": "motif_willow",
+      "motif_type": "花木",
+      "subtype": "柳",
+      "count": "7"
+    },
+    {
+      "chapter_id": "hongloumeng_ch017",
+      "chapter_number": "17",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch017",
+      "chapter_number": "17",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch018",
+      "chapter_number": "18",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "10"
+    },
+    {
+      "chapter_id": "hongloumeng_ch018",
+      "chapter_number": "18",
+      "motif_key": "motif_dream",
+      "motif_type": "夢幻",
+      "subtype": "夢",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch018",
+      "chapter_number": "18",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "13"
+    },
+    {
+      "chapter_id": "hongloumeng_ch018",
+      "chapter_number": "18",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "22"
+    },
+    {
+      "chapter_id": "hongloumeng_ch018",
+      "chapter_number": "18",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "24"
+    },
+    {
+      "chapter_id": "hongloumeng_ch018",
+      "chapter_number": "18",
+      "motif_key": "motif_green",
+      "motif_type": "顏色",
+      "subtype": "綠色",
+      "count": "16"
+    },
+    {
+      "chapter_id": "hongloumeng_ch018",
+      "chapter_number": "18",
+      "motif_key": "motif_green_blue",
+      "motif_type": "顏色",
+      "subtype": "青色",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch018",
+      "chapter_number": "18",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch018",
+      "chapter_number": "18",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "74"
+    },
+    {
+      "chapter_id": "hongloumeng_ch018",
+      "chapter_number": "18",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "9"
+    },
+    {
+      "chapter_id": "hongloumeng_ch018",
+      "chapter_number": "18",
+      "motif_key": "motif_poetry",
+      "motif_type": "文藝",
+      "subtype": "詩",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch018",
+      "chapter_number": "18",
+      "motif_key": "motif_purple",
+      "motif_type": "顏色",
+      "subtype": "紫色",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch018",
+      "chapter_number": "18",
+      "motif_key": "motif_rain",
+      "motif_type": "自然",
+      "subtype": "雨",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch018",
+      "chapter_number": "18",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "14"
+    },
+    {
+      "chapter_id": "hongloumeng_ch018",
+      "chapter_number": "18",
+      "motif_key": "motif_snow",
+      "motif_type": "自然",
+      "subtype": "雪",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch018",
+      "chapter_number": "18",
+      "motif_key": "motif_song_drama",
+      "motif_type": "文藝",
+      "subtype": "曲",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch018",
+      "chapter_number": "18",
+      "motif_key": "motif_stone",
+      "motif_type": "物象",
+      "subtype": "石",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch018",
+      "chapter_number": "18",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch018",
+      "chapter_number": "18",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "9"
+    },
+    {
+      "chapter_id": "hongloumeng_ch018",
+      "chapter_number": "18",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch018",
+      "chapter_number": "18",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch018",
+      "chapter_number": "18",
+      "motif_key": "motif_willow",
+      "motif_type": "花木",
+      "subtype": "柳",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch018",
+      "chapter_number": "18",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "9"
+    },
+    {
+      "chapter_id": "hongloumeng_ch018",
+      "chapter_number": "18",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch019",
+      "chapter_number": "19",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "9"
+    },
+    {
+      "chapter_id": "hongloumeng_ch019",
+      "chapter_number": "19",
+      "motif_key": "motif_dream",
+      "motif_type": "夢幻",
+      "subtype": "夢",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch019",
+      "chapter_number": "19",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "18"
+    },
+    {
+      "chapter_id": "hongloumeng_ch019",
+      "chapter_number": "19",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "28"
+    },
+    {
+      "chapter_id": "hongloumeng_ch019",
+      "chapter_number": "19",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch019",
+      "chapter_number": "19",
+      "motif_key": "motif_green_blue",
+      "motif_type": "顏色",
+      "subtype": "青色",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch019",
+      "chapter_number": "19",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch019",
+      "chapter_number": "19",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "152"
+    },
+    {
+      "chapter_id": "hongloumeng_ch019",
+      "chapter_number": "19",
+      "motif_key": "motif_medicine",
+      "motif_type": "身體",
+      "subtype": "藥",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch019",
+      "chapter_number": "19",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch019",
+      "chapter_number": "19",
+      "motif_key": "motif_plum_blossom",
+      "motif_type": "花木",
+      "subtype": "梅花",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch019",
+      "chapter_number": "19",
+      "motif_key": "motif_poetry",
+      "motif_type": "文藝",
+      "subtype": "詩",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch019",
+      "chapter_number": "19",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "8"
+    },
+    {
+      "chapter_id": "hongloumeng_ch019",
+      "chapter_number": "19",
+      "motif_key": "motif_snow",
+      "motif_type": "自然",
+      "subtype": "雪",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch019",
+      "chapter_number": "19",
+      "motif_key": "motif_stone",
+      "motif_type": "物象",
+      "subtype": "石",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch019",
+      "chapter_number": "19",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "8"
+    },
+    {
+      "chapter_id": "hongloumeng_ch019",
+      "chapter_number": "19",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch019",
+      "chapter_number": "19",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch019",
+      "chapter_number": "19",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch019",
+      "chapter_number": "19",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch020",
+      "chapter_number": "20",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch020",
+      "chapter_number": "20",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch020",
+      "chapter_number": "20",
+      "motif_key": "motif_green",
+      "motif_type": "顏色",
+      "subtype": "綠色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch020",
+      "chapter_number": "20",
+      "motif_key": "motif_green_blue",
+      "motif_type": "顏色",
+      "subtype": "青色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch020",
+      "chapter_number": "20",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch020",
+      "chapter_number": "20",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "78"
+    },
+    {
+      "chapter_id": "hongloumeng_ch020",
+      "chapter_number": "20",
+      "motif_key": "motif_medicine",
+      "motif_type": "身體",
+      "subtype": "藥",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch020",
+      "chapter_number": "20",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "16"
+    },
+    {
+      "chapter_id": "hongloumeng_ch020",
+      "chapter_number": "20",
+      "motif_key": "motif_snow",
+      "motif_type": "自然",
+      "subtype": "雪",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch020",
+      "chapter_number": "20",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch020",
+      "chapter_number": "20",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "8"
+    },
+    {
+      "chapter_id": "hongloumeng_ch020",
+      "chapter_number": "20",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch020",
+      "chapter_number": "20",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch020",
+      "chapter_number": "20",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch020",
+      "chapter_number": "20",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch021",
+      "chapter_number": "21",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch021",
+      "chapter_number": "21",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch021",
+      "chapter_number": "21",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "11"
+    },
+    {
+      "chapter_id": "hongloumeng_ch021",
+      "chapter_number": "21",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch021",
+      "chapter_number": "21",
+      "motif_key": "motif_green_blue",
+      "motif_type": "顏色",
+      "subtype": "青色",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch021",
+      "chapter_number": "21",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch021",
+      "chapter_number": "21",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "65"
+    },
+    {
+      "chapter_id": "hongloumeng_ch021",
+      "chapter_number": "21",
+      "motif_key": "motif_medicine",
+      "motif_type": "身體",
+      "subtype": "藥",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch021",
+      "chapter_number": "21",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "9"
+    },
+    {
+      "chapter_id": "hongloumeng_ch021",
+      "chapter_number": "21",
+      "motif_key": "motif_purple",
+      "motif_type": "顏色",
+      "subtype": "紫色",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch021",
+      "chapter_number": "21",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch021",
+      "chapter_number": "21",
+      "motif_key": "motif_snow",
+      "motif_type": "自然",
+      "subtype": "雪",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch021",
+      "chapter_number": "21",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch021",
+      "chapter_number": "21",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch021",
+      "chapter_number": "21",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch021",
+      "chapter_number": "21",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch022",
+      "chapter_number": "22",
+      "motif_key": "motif_bamboo",
+      "motif_type": "花木",
+      "subtype": "竹",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch022",
+      "chapter_number": "22",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch022",
+      "chapter_number": "22",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch022",
+      "chapter_number": "22",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch022",
+      "chapter_number": "22",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch022",
+      "chapter_number": "22",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "72"
+    },
+    {
+      "chapter_id": "hongloumeng_ch022",
+      "chapter_number": "22",
+      "motif_key": "motif_lotus",
+      "motif_type": "花木",
+      "subtype": "蓮",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch022",
+      "chapter_number": "22",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch022",
+      "chapter_number": "22",
+      "motif_key": "motif_poetry",
+      "motif_type": "文藝",
+      "subtype": "詩",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch022",
+      "chapter_number": "22",
+      "motif_key": "motif_rain",
+      "motif_type": "自然",
+      "subtype": "雨",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch022",
+      "chapter_number": "22",
+      "motif_key": "motif_song_drama",
+      "motif_type": "文藝",
+      "subtype": "曲",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch022",
+      "chapter_number": "22",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch022",
+      "chapter_number": "22",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch022",
+      "chapter_number": "22",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch022",
+      "chapter_number": "22",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch022",
+      "chapter_number": "22",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch022",
+      "chapter_number": "22",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "12"
+    },
+    {
+      "chapter_id": "hongloumeng_ch023",
+      "chapter_number": "23",
+      "motif_key": "motif_bamboo",
+      "motif_type": "花木",
+      "subtype": "竹",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch023",
+      "chapter_number": "23",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "14"
+    },
+    {
+      "chapter_id": "hongloumeng_ch023",
+      "chapter_number": "23",
+      "motif_key": "motif_dream",
+      "motif_type": "夢幻",
+      "subtype": "夢",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch023",
+      "chapter_number": "23",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "27"
+    },
+    {
+      "chapter_id": "hongloumeng_ch023",
+      "chapter_number": "23",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch023",
+      "chapter_number": "23",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "7"
+    },
+    {
+      "chapter_id": "hongloumeng_ch023",
+      "chapter_number": "23",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch023",
+      "chapter_number": "23",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "73"
+    },
+    {
+      "chapter_id": "hongloumeng_ch023",
+      "chapter_number": "23",
+      "motif_key": "motif_medicine",
+      "motif_type": "身體",
+      "subtype": "藥",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch023",
+      "chapter_number": "23",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "8"
+    },
+    {
+      "chapter_id": "hongloumeng_ch023",
+      "chapter_number": "23",
+      "motif_key": "motif_peach_blossom",
+      "motif_type": "花木",
+      "subtype": "桃花",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch023",
+      "chapter_number": "23",
+      "motif_key": "motif_poetry",
+      "motif_type": "文藝",
+      "subtype": "詩",
+      "count": "8"
+    },
+    {
+      "chapter_id": "hongloumeng_ch023",
+      "chapter_number": "23",
+      "motif_key": "motif_purple",
+      "motif_type": "顏色",
+      "subtype": "紫色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch023",
+      "chapter_number": "23",
+      "motif_key": "motif_rain",
+      "motif_type": "自然",
+      "subtype": "雨",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch023",
+      "chapter_number": "23",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "7"
+    },
+    {
+      "chapter_id": "hongloumeng_ch023",
+      "chapter_number": "23",
+      "motif_key": "motif_snow",
+      "motif_type": "自然",
+      "subtype": "雪",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch023",
+      "chapter_number": "23",
+      "motif_key": "motif_song_drama",
+      "motif_type": "文藝",
+      "subtype": "曲",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch023",
+      "chapter_number": "23",
+      "motif_key": "motif_stone",
+      "motif_type": "物象",
+      "subtype": "石",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch023",
+      "chapter_number": "23",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch023",
+      "chapter_number": "23",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch023",
+      "chapter_number": "23",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch023",
+      "chapter_number": "23",
+      "motif_key": "motif_willow",
+      "motif_type": "花木",
+      "subtype": "柳",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch023",
+      "chapter_number": "23",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "7"
+    },
+    {
+      "chapter_id": "hongloumeng_ch023",
+      "chapter_number": "23",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch024",
+      "chapter_number": "24",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch024",
+      "chapter_number": "24",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "8"
+    },
+    {
+      "chapter_id": "hongloumeng_ch024",
+      "chapter_number": "24",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "15"
+    },
+    {
+      "chapter_id": "hongloumeng_ch024",
+      "chapter_number": "24",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch024",
+      "chapter_number": "24",
+      "motif_key": "motif_green_blue",
+      "motif_type": "顏色",
+      "subtype": "青色",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch024",
+      "chapter_number": "24",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch024",
+      "chapter_number": "24",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "55"
+    },
+    {
+      "chapter_id": "hongloumeng_ch024",
+      "chapter_number": "24",
+      "motif_key": "motif_medicine",
+      "motif_type": "身體",
+      "subtype": "藥",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch024",
+      "chapter_number": "24",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch024",
+      "chapter_number": "24",
+      "motif_key": "motif_purple",
+      "motif_type": "顏色",
+      "subtype": "紫色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch024",
+      "chapter_number": "24",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "15"
+    },
+    {
+      "chapter_id": "hongloumeng_ch024",
+      "chapter_number": "24",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "18"
+    },
+    {
+      "chapter_id": "hongloumeng_ch024",
+      "chapter_number": "24",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch024",
+      "chapter_number": "24",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch024",
+      "chapter_number": "24",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch025",
+      "chapter_number": "25",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch025",
+      "chapter_number": "25",
+      "motif_key": "motif_dream",
+      "motif_type": "夢幻",
+      "subtype": "夢",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch025",
+      "chapter_number": "25",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "7"
+    },
+    {
+      "chapter_id": "hongloumeng_ch025",
+      "chapter_number": "25",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch025",
+      "chapter_number": "25",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch025",
+      "chapter_number": "25",
+      "motif_key": "motif_green_blue",
+      "motif_type": "顏色",
+      "subtype": "青色",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch025",
+      "chapter_number": "25",
+      "motif_key": "motif_haitang",
+      "motif_type": "花木",
+      "subtype": "海棠",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch025",
+      "chapter_number": "25",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch025",
+      "chapter_number": "25",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "88"
+    },
+    {
+      "chapter_id": "hongloumeng_ch025",
+      "chapter_number": "25",
+      "motif_key": "motif_medicine",
+      "motif_type": "身體",
+      "subtype": "藥",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch025",
+      "chapter_number": "25",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch025",
+      "chapter_number": "25",
+      "motif_key": "motif_purple",
+      "motif_type": "顏色",
+      "subtype": "紫色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch025",
+      "chapter_number": "25",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "12"
+    },
+    {
+      "chapter_id": "hongloumeng_ch025",
+      "chapter_number": "25",
+      "motif_key": "motif_snow",
+      "motif_type": "自然",
+      "subtype": "雪",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch025",
+      "chapter_number": "25",
+      "motif_key": "motif_song_drama",
+      "motif_type": "文藝",
+      "subtype": "曲",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch025",
+      "chapter_number": "25",
+      "motif_key": "motif_stone",
+      "motif_type": "物象",
+      "subtype": "石",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch025",
+      "chapter_number": "25",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "7"
+    },
+    {
+      "chapter_id": "hongloumeng_ch025",
+      "chapter_number": "25",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "7"
+    },
+    {
+      "chapter_id": "hongloumeng_ch025",
+      "chapter_number": "25",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch025",
+      "chapter_number": "25",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch025",
+      "chapter_number": "25",
+      "motif_key": "motif_willow",
+      "motif_type": "花木",
+      "subtype": "柳",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch025",
+      "chapter_number": "25",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch025",
+      "chapter_number": "25",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch026",
+      "chapter_number": "26",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch026",
+      "chapter_number": "26",
+      "motif_key": "motif_dream",
+      "motif_type": "夢幻",
+      "subtype": "夢",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch026",
+      "chapter_number": "26",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "12"
+    },
+    {
+      "chapter_id": "hongloumeng_ch026",
+      "chapter_number": "26",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch026",
+      "chapter_number": "26",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch026",
+      "chapter_number": "26",
+      "motif_key": "motif_green",
+      "motif_type": "顏色",
+      "subtype": "綠色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch026",
+      "chapter_number": "26",
+      "motif_key": "motif_green_blue",
+      "motif_type": "顏色",
+      "subtype": "青色",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch026",
+      "chapter_number": "26",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch026",
+      "chapter_number": "26",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "116"
+    },
+    {
+      "chapter_id": "hongloumeng_ch026",
+      "chapter_number": "26",
+      "motif_key": "motif_medicine",
+      "motif_type": "身體",
+      "subtype": "藥",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch026",
+      "chapter_number": "26",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch026",
+      "chapter_number": "26",
+      "motif_key": "motif_poetry",
+      "motif_type": "文藝",
+      "subtype": "詩",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch026",
+      "chapter_number": "26",
+      "motif_key": "motif_purple",
+      "motif_type": "顏色",
+      "subtype": "紫色",
+      "count": "17"
+    },
+    {
+      "chapter_id": "hongloumeng_ch026",
+      "chapter_number": "26",
+      "motif_key": "motif_rain",
+      "motif_type": "自然",
+      "subtype": "雨",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch026",
+      "chapter_number": "26",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "42"
+    },
+    {
+      "chapter_id": "hongloumeng_ch026",
+      "chapter_number": "26",
+      "motif_key": "motif_song_drama",
+      "motif_type": "文藝",
+      "subtype": "曲",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch026",
+      "chapter_number": "26",
+      "motif_key": "motif_stone",
+      "motif_type": "物象",
+      "subtype": "石",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch026",
+      "chapter_number": "26",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "12"
+    },
+    {
+      "chapter_id": "hongloumeng_ch026",
+      "chapter_number": "26",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch026",
+      "chapter_number": "26",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch026",
+      "chapter_number": "26",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch026",
+      "chapter_number": "26",
+      "motif_key": "motif_willow",
+      "motif_type": "花木",
+      "subtype": "柳",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch026",
+      "chapter_number": "26",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch026",
+      "chapter_number": "26",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch027",
+      "chapter_number": "27",
+      "motif_key": "motif_bamboo",
+      "motif_type": "花木",
+      "subtype": "竹",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch027",
+      "chapter_number": "27",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch027",
+      "chapter_number": "27",
+      "motif_key": "motif_dream",
+      "motif_type": "夢幻",
+      "subtype": "夢",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch027",
+      "chapter_number": "27",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "29"
+    },
+    {
+      "chapter_id": "hongloumeng_ch027",
+      "chapter_number": "27",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "9"
+    },
+    {
+      "chapter_id": "hongloumeng_ch027",
+      "chapter_number": "27",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch027",
+      "chapter_number": "27",
+      "motif_key": "motif_green_blue",
+      "motif_type": "顏色",
+      "subtype": "青色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch027",
+      "chapter_number": "27",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "71"
+    },
+    {
+      "chapter_id": "hongloumeng_ch027",
+      "chapter_number": "27",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch027",
+      "chapter_number": "27",
+      "motif_key": "motif_peach_blossom",
+      "motif_type": "花木",
+      "subtype": "桃花",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch027",
+      "chapter_number": "27",
+      "motif_key": "motif_purple",
+      "motif_type": "顏色",
+      "subtype": "紫色",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch027",
+      "chapter_number": "27",
+      "motif_key": "motif_rain",
+      "motif_type": "自然",
+      "subtype": "雨",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch027",
+      "chapter_number": "27",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "34"
+    },
+    {
+      "chapter_id": "hongloumeng_ch027",
+      "chapter_number": "27",
+      "motif_key": "motif_snow",
+      "motif_type": "自然",
+      "subtype": "雪",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch027",
+      "chapter_number": "27",
+      "motif_key": "motif_song_drama",
+      "motif_type": "文藝",
+      "subtype": "曲",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch027",
+      "chapter_number": "27",
+      "motif_key": "motif_stone",
+      "motif_type": "物象",
+      "subtype": "石",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch027",
+      "chapter_number": "27",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch027",
+      "chapter_number": "27",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch027",
+      "chapter_number": "27",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch027",
+      "chapter_number": "27",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch027",
+      "chapter_number": "27",
+      "motif_key": "motif_willow",
+      "motif_type": "花木",
+      "subtype": "柳",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch027",
+      "chapter_number": "27",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "7"
+    },
+    {
+      "chapter_id": "hongloumeng_ch028",
+      "chapter_number": "28",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch028",
+      "chapter_number": "28",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "26"
+    },
+    {
+      "chapter_id": "hongloumeng_ch028",
+      "chapter_number": "28",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "8"
+    },
+    {
+      "chapter_id": "hongloumeng_ch028",
+      "chapter_number": "28",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "12"
+    },
+    {
+      "chapter_id": "hongloumeng_ch028",
+      "chapter_number": "28",
+      "motif_key": "motif_green",
+      "motif_type": "顏色",
+      "subtype": "綠色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch028",
+      "chapter_number": "28",
+      "motif_key": "motif_green_blue",
+      "motif_type": "顏色",
+      "subtype": "青色",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch028",
+      "chapter_number": "28",
+      "motif_key": "motif_hibiscus",
+      "motif_type": "花木",
+      "subtype": "芙蓉",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch028",
+      "chapter_number": "28",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch028",
+      "chapter_number": "28",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "166"
+    },
+    {
+      "chapter_id": "hongloumeng_ch028",
+      "chapter_number": "28",
+      "motif_key": "motif_medicine",
+      "motif_type": "身體",
+      "subtype": "藥",
+      "count": "18"
+    },
+    {
+      "chapter_id": "hongloumeng_ch028",
+      "chapter_number": "28",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch028",
+      "chapter_number": "28",
+      "motif_key": "motif_poetry",
+      "motif_type": "文藝",
+      "subtype": "詩",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch028",
+      "chapter_number": "28",
+      "motif_key": "motif_purple",
+      "motif_type": "顏色",
+      "subtype": "紫色",
+      "count": "13"
+    },
+    {
+      "chapter_id": "hongloumeng_ch028",
+      "chapter_number": "28",
+      "motif_key": "motif_rain",
+      "motif_type": "自然",
+      "subtype": "雨",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch028",
+      "chapter_number": "28",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "12"
+    },
+    {
+      "chapter_id": "hongloumeng_ch028",
+      "chapter_number": "28",
+      "motif_key": "motif_snow",
+      "motif_type": "自然",
+      "subtype": "雪",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch028",
+      "chapter_number": "28",
+      "motif_key": "motif_song_drama",
+      "motif_type": "文藝",
+      "subtype": "曲",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch028",
+      "chapter_number": "28",
+      "motif_key": "motif_stone",
+      "motif_type": "物象",
+      "subtype": "石",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch028",
+      "chapter_number": "28",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch028",
+      "chapter_number": "28",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch028",
+      "chapter_number": "28",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch028",
+      "chapter_number": "28",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch028",
+      "chapter_number": "28",
+      "motif_key": "motif_willow",
+      "motif_type": "花木",
+      "subtype": "柳",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch028",
+      "chapter_number": "28",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "8"
+    },
+    {
+      "chapter_id": "hongloumeng_ch028",
+      "chapter_number": "28",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "16"
+    },
+    {
+      "chapter_id": "hongloumeng_ch029",
+      "chapter_number": "29",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch029",
+      "chapter_number": "29",
+      "motif_key": "motif_dream",
+      "motif_type": "夢幻",
+      "subtype": "夢",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch029",
+      "chapter_number": "29",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch029",
+      "chapter_number": "29",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch029",
+      "chapter_number": "29",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "9"
+    },
+    {
+      "chapter_id": "hongloumeng_ch029",
+      "chapter_number": "29",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "8"
+    },
+    {
+      "chapter_id": "hongloumeng_ch029",
+      "chapter_number": "29",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "97"
+    },
+    {
+      "chapter_id": "hongloumeng_ch029",
+      "chapter_number": "29",
+      "motif_key": "motif_medicine",
+      "motif_type": "身體",
+      "subtype": "藥",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch029",
+      "chapter_number": "29",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch029",
+      "chapter_number": "29",
+      "motif_key": "motif_poetry",
+      "motif_type": "文藝",
+      "subtype": "詩",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch029",
+      "chapter_number": "29",
+      "motif_key": "motif_purple",
+      "motif_type": "顏色",
+      "subtype": "紫色",
+      "count": "11"
+    },
+    {
+      "chapter_id": "hongloumeng_ch029",
+      "chapter_number": "29",
+      "motif_key": "motif_rain",
+      "motif_type": "自然",
+      "subtype": "雨",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch029",
+      "chapter_number": "29",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch029",
+      "chapter_number": "29",
+      "motif_key": "motif_snow",
+      "motif_type": "自然",
+      "subtype": "雪",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch029",
+      "chapter_number": "29",
+      "motif_key": "motif_song_drama",
+      "motif_type": "文藝",
+      "subtype": "曲",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch029",
+      "chapter_number": "29",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch029",
+      "chapter_number": "29",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "8"
+    },
+    {
+      "chapter_id": "hongloumeng_ch029",
+      "chapter_number": "29",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "11"
+    },
+    {
+      "chapter_id": "hongloumeng_ch029",
+      "chapter_number": "29",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch029",
+      "chapter_number": "29",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch029",
+      "chapter_number": "29",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch030",
+      "chapter_number": "30",
+      "motif_key": "motif_dream",
+      "motif_type": "夢幻",
+      "subtype": "夢",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch030",
+      "chapter_number": "30",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "11"
+    },
+    {
+      "chapter_id": "hongloumeng_ch030",
+      "chapter_number": "30",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch030",
+      "chapter_number": "30",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "16"
+    },
+    {
+      "chapter_id": "hongloumeng_ch030",
+      "chapter_number": "30",
+      "motif_key": "motif_green",
+      "motif_type": "顏色",
+      "subtype": "綠色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch030",
+      "chapter_number": "30",
+      "motif_key": "motif_green_blue",
+      "motif_type": "顏色",
+      "subtype": "青色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch030",
+      "chapter_number": "30",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch030",
+      "chapter_number": "30",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "103"
+    },
+    {
+      "chapter_id": "hongloumeng_ch030",
+      "chapter_number": "30",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch030",
+      "chapter_number": "30",
+      "motif_key": "motif_poetry",
+      "motif_type": "文藝",
+      "subtype": "詩",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch030",
+      "chapter_number": "30",
+      "motif_key": "motif_purple",
+      "motif_type": "顏色",
+      "subtype": "紫色",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch030",
+      "chapter_number": "30",
+      "motif_key": "motif_rain",
+      "motif_type": "自然",
+      "subtype": "雨",
+      "count": "12"
+    },
+    {
+      "chapter_id": "hongloumeng_ch030",
+      "chapter_number": "30",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch030",
+      "chapter_number": "30",
+      "motif_key": "motif_snow",
+      "motif_type": "自然",
+      "subtype": "雪",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch030",
+      "chapter_number": "30",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "8"
+    },
+    {
+      "chapter_id": "hongloumeng_ch030",
+      "chapter_number": "30",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "8"
+    },
+    {
+      "chapter_id": "hongloumeng_ch030",
+      "chapter_number": "30",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch030",
+      "chapter_number": "30",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch031",
+      "chapter_number": "31",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "7"
+    },
+    {
+      "chapter_id": "hongloumeng_ch031",
+      "chapter_number": "31",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "8"
+    },
+    {
+      "chapter_id": "hongloumeng_ch031",
+      "chapter_number": "31",
+      "motif_key": "motif_green_blue",
+      "motif_type": "顏色",
+      "subtype": "青色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch031",
+      "chapter_number": "31",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "78"
+    },
+    {
+      "chapter_id": "hongloumeng_ch031",
+      "chapter_number": "31",
+      "motif_key": "motif_medicine",
+      "motif_type": "身體",
+      "subtype": "藥",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch031",
+      "chapter_number": "31",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "12"
+    },
+    {
+      "chapter_id": "hongloumeng_ch031",
+      "chapter_number": "31",
+      "motif_key": "motif_purple",
+      "motif_type": "顏色",
+      "subtype": "紫色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch031",
+      "chapter_number": "31",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch031",
+      "chapter_number": "31",
+      "motif_key": "motif_snow",
+      "motif_type": "自然",
+      "subtype": "雪",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch031",
+      "chapter_number": "31",
+      "motif_key": "motif_stone",
+      "motif_type": "物象",
+      "subtype": "石",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch031",
+      "chapter_number": "31",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch031",
+      "chapter_number": "31",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch031",
+      "chapter_number": "31",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch031",
+      "chapter_number": "31",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "7"
+    },
+    {
+      "chapter_id": "hongloumeng_ch031",
+      "chapter_number": "31",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch031",
+      "chapter_number": "31",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch032",
+      "chapter_number": "32",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch032",
+      "chapter_number": "32",
+      "motif_key": "motif_dream",
+      "motif_type": "夢幻",
+      "subtype": "夢",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch032",
+      "chapter_number": "32",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch032",
+      "chapter_number": "32",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch032",
+      "chapter_number": "32",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "9"
+    },
+    {
+      "chapter_id": "hongloumeng_ch032",
+      "chapter_number": "32",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "7"
+    },
+    {
+      "chapter_id": "hongloumeng_ch032",
+      "chapter_number": "32",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "50"
+    },
+    {
+      "chapter_id": "hongloumeng_ch032",
+      "chapter_number": "32",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch032",
+      "chapter_number": "32",
+      "motif_key": "motif_purple",
+      "motif_type": "顏色",
+      "subtype": "紫色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch032",
+      "chapter_number": "32",
+      "motif_key": "motif_rain",
+      "motif_type": "自然",
+      "subtype": "雨",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch032",
+      "chapter_number": "32",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch032",
+      "chapter_number": "32",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch032",
+      "chapter_number": "32",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch032",
+      "chapter_number": "32",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "12"
+    },
+    {
+      "chapter_id": "hongloumeng_ch032",
+      "chapter_number": "32",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "7"
+    },
+    {
+      "chapter_id": "hongloumeng_ch032",
+      "chapter_number": "32",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch033",
+      "chapter_number": "33",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch033",
+      "chapter_number": "33",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch033",
+      "chapter_number": "33",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "9"
+    },
+    {
+      "chapter_id": "hongloumeng_ch033",
+      "chapter_number": "33",
+      "motif_key": "motif_green",
+      "motif_type": "顏色",
+      "subtype": "綠色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch033",
+      "chapter_number": "33",
+      "motif_key": "motif_green_blue",
+      "motif_type": "顏色",
+      "subtype": "青色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch033",
+      "chapter_number": "33",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "37"
+    },
+    {
+      "chapter_id": "hongloumeng_ch033",
+      "chapter_number": "33",
+      "motif_key": "motif_purple",
+      "motif_type": "顏色",
+      "subtype": "紫色",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch033",
+      "chapter_number": "33",
+      "motif_key": "motif_rain",
+      "motif_type": "自然",
+      "subtype": "雨",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch033",
+      "chapter_number": "33",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch033",
+      "chapter_number": "33",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch033",
+      "chapter_number": "33",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "13"
+    },
+    {
+      "chapter_id": "hongloumeng_ch033",
+      "chapter_number": "33",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch033",
+      "chapter_number": "33",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch034",
+      "chapter_number": "34",
+      "motif_key": "motif_bamboo",
+      "motif_type": "花木",
+      "subtype": "竹",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch034",
+      "chapter_number": "34",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch034",
+      "chapter_number": "34",
+      "motif_key": "motif_dream",
+      "motif_type": "夢幻",
+      "subtype": "夢",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch034",
+      "chapter_number": "34",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch034",
+      "chapter_number": "34",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "7"
+    },
+    {
+      "chapter_id": "hongloumeng_ch034",
+      "chapter_number": "34",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch034",
+      "chapter_number": "34",
+      "motif_key": "motif_green_blue",
+      "motif_type": "顏色",
+      "subtype": "青色",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch034",
+      "chapter_number": "34",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch034",
+      "chapter_number": "34",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "62"
+    },
+    {
+      "chapter_id": "hongloumeng_ch034",
+      "chapter_number": "34",
+      "motif_key": "motif_medicine",
+      "motif_type": "身體",
+      "subtype": "藥",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch034",
+      "chapter_number": "34",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch034",
+      "chapter_number": "34",
+      "motif_key": "motif_peach_blossom",
+      "motif_type": "花木",
+      "subtype": "桃花",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch034",
+      "chapter_number": "34",
+      "motif_key": "motif_purple",
+      "motif_type": "顏色",
+      "subtype": "紫色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch034",
+      "chapter_number": "34",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch034",
+      "chapter_number": "34",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch034",
+      "chapter_number": "34",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "8"
+    },
+    {
+      "chapter_id": "hongloumeng_ch034",
+      "chapter_number": "34",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "9"
+    },
+    {
+      "chapter_id": "hongloumeng_ch034",
+      "chapter_number": "34",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "8"
+    },
+    {
+      "chapter_id": "hongloumeng_ch034",
+      "chapter_number": "34",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch034",
+      "chapter_number": "34",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch035",
+      "chapter_number": "35",
+      "motif_key": "motif_bamboo",
+      "motif_type": "花木",
+      "subtype": "竹",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch035",
+      "chapter_number": "35",
+      "motif_key": "motif_chrysanthemum",
+      "motif_type": "花木",
+      "subtype": "菊花",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch035",
+      "chapter_number": "35",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "14"
+    },
+    {
+      "chapter_id": "hongloumeng_ch035",
+      "chapter_number": "35",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch035",
+      "chapter_number": "35",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "7"
+    },
+    {
+      "chapter_id": "hongloumeng_ch035",
+      "chapter_number": "35",
+      "motif_key": "motif_green",
+      "motif_type": "顏色",
+      "subtype": "綠色",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch035",
+      "chapter_number": "35",
+      "motif_key": "motif_green_blue",
+      "motif_type": "顏色",
+      "subtype": "青色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch035",
+      "chapter_number": "35",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch035",
+      "chapter_number": "35",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "112"
+    },
+    {
+      "chapter_id": "hongloumeng_ch035",
+      "chapter_number": "35",
+      "motif_key": "motif_lotus",
+      "motif_type": "花木",
+      "subtype": "蓮",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch035",
+      "chapter_number": "35",
+      "motif_key": "motif_medicine",
+      "motif_type": "身體",
+      "subtype": "藥",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch035",
+      "chapter_number": "35",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch035",
+      "chapter_number": "35",
+      "motif_key": "motif_plum_blossom",
+      "motif_type": "花木",
+      "subtype": "梅花",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch035",
+      "chapter_number": "35",
+      "motif_key": "motif_poetry",
+      "motif_type": "文藝",
+      "subtype": "詩",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch035",
+      "chapter_number": "35",
+      "motif_key": "motif_purple",
+      "motif_type": "顏色",
+      "subtype": "紫色",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch035",
+      "chapter_number": "35",
+      "motif_key": "motif_rain",
+      "motif_type": "自然",
+      "subtype": "雨",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch035",
+      "chapter_number": "35",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "12"
+    },
+    {
+      "chapter_id": "hongloumeng_ch035",
+      "chapter_number": "35",
+      "motif_key": "motif_snow",
+      "motif_type": "自然",
+      "subtype": "雪",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch035",
+      "chapter_number": "35",
+      "motif_key": "motif_stone",
+      "motif_type": "物象",
+      "subtype": "石",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch035",
+      "chapter_number": "35",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "7"
+    },
+    {
+      "chapter_id": "hongloumeng_ch035",
+      "chapter_number": "35",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch035",
+      "chapter_number": "35",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "9"
+    },
+    {
+      "chapter_id": "hongloumeng_ch035",
+      "chapter_number": "35",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch035",
+      "chapter_number": "35",
+      "motif_key": "motif_willow",
+      "motif_type": "花木",
+      "subtype": "柳",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch035",
+      "chapter_number": "35",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch036",
+      "chapter_number": "36",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch036",
+      "chapter_number": "36",
+      "motif_key": "motif_dream",
+      "motif_type": "夢幻",
+      "subtype": "夢",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch036",
+      "chapter_number": "36",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch036",
+      "chapter_number": "36",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch036",
+      "chapter_number": "36",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch036",
+      "chapter_number": "36",
+      "motif_key": "motif_green",
+      "motif_type": "顏色",
+      "subtype": "綠色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch036",
+      "chapter_number": "36",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch036",
+      "chapter_number": "36",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "74"
+    },
+    {
+      "chapter_id": "hongloumeng_ch036",
+      "chapter_number": "36",
+      "motif_key": "motif_lotus",
+      "motif_type": "花木",
+      "subtype": "蓮",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch036",
+      "chapter_number": "36",
+      "motif_key": "motif_medicine",
+      "motif_type": "身體",
+      "subtype": "藥",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch036",
+      "chapter_number": "36",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "19"
+    },
+    {
+      "chapter_id": "hongloumeng_ch036",
+      "chapter_number": "36",
+      "motif_key": "motif_peony",
+      "motif_type": "花木",
+      "subtype": "牡丹",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch036",
+      "chapter_number": "36",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "7"
+    },
+    {
+      "chapter_id": "hongloumeng_ch036",
+      "chapter_number": "36",
+      "motif_key": "motif_song_drama",
+      "motif_type": "文藝",
+      "subtype": "曲",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch036",
+      "chapter_number": "36",
+      "motif_key": "motif_stone",
+      "motif_type": "物象",
+      "subtype": "石",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch036",
+      "chapter_number": "36",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch036",
+      "chapter_number": "36",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch036",
+      "chapter_number": "36",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch036",
+      "chapter_number": "36",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch036",
+      "chapter_number": "36",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch037",
+      "chapter_number": "37",
+      "motif_key": "motif_bamboo",
+      "motif_type": "花木",
+      "subtype": "竹",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch037",
+      "chapter_number": "37",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch037",
+      "chapter_number": "37",
+      "motif_key": "motif_chrysanthemum",
+      "motif_type": "花木",
+      "subtype": "菊花",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch037",
+      "chapter_number": "37",
+      "motif_key": "motif_dream",
+      "motif_type": "夢幻",
+      "subtype": "夢",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch037",
+      "chapter_number": "37",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "21"
+    },
+    {
+      "chapter_id": "hongloumeng_ch037",
+      "chapter_number": "37",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "10"
+    },
+    {
+      "chapter_id": "hongloumeng_ch037",
+      "chapter_number": "37",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch037",
+      "chapter_number": "37",
+      "motif_key": "motif_haitang",
+      "motif_type": "花木",
+      "subtype": "海棠",
+      "count": "11"
+    },
+    {
+      "chapter_id": "hongloumeng_ch037",
+      "chapter_number": "37",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch037",
+      "chapter_number": "37",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "57"
+    },
+    {
+      "chapter_id": "hongloumeng_ch037",
+      "chapter_number": "37",
+      "motif_key": "motif_lotus",
+      "motif_type": "花木",
+      "subtype": "蓮",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch037",
+      "chapter_number": "37",
+      "motif_key": "motif_medicine",
+      "motif_type": "身體",
+      "subtype": "藥",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch037",
+      "chapter_number": "37",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "16"
+    },
+    {
+      "chapter_id": "hongloumeng_ch037",
+      "chapter_number": "37",
+      "motif_key": "motif_plum_blossom",
+      "motif_type": "花木",
+      "subtype": "梅花",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch037",
+      "chapter_number": "37",
+      "motif_key": "motif_poetry",
+      "motif_type": "文藝",
+      "subtype": "詩",
+      "count": "41"
+    },
+    {
+      "chapter_id": "hongloumeng_ch037",
+      "chapter_number": "37",
+      "motif_key": "motif_purple",
+      "motif_type": "顏色",
+      "subtype": "紫色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch037",
+      "chapter_number": "37",
+      "motif_key": "motif_rain",
+      "motif_type": "自然",
+      "subtype": "雨",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch037",
+      "chapter_number": "37",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch037",
+      "chapter_number": "37",
+      "motif_key": "motif_snow",
+      "motif_type": "自然",
+      "subtype": "雪",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch037",
+      "chapter_number": "37",
+      "motif_key": "motif_stone",
+      "motif_type": "物象",
+      "subtype": "石",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch037",
+      "chapter_number": "37",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch037",
+      "chapter_number": "37",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch037",
+      "chapter_number": "37",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "10"
+    },
+    {
+      "chapter_id": "hongloumeng_ch037",
+      "chapter_number": "37",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "7"
+    },
+    {
+      "chapter_id": "hongloumeng_ch037",
+      "chapter_number": "37",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch038",
+      "chapter_number": "38",
+      "motif_key": "motif_bamboo",
+      "motif_type": "花木",
+      "subtype": "竹",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch038",
+      "chapter_number": "38",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch038",
+      "chapter_number": "38",
+      "motif_key": "motif_chrysanthemum",
+      "motif_type": "花木",
+      "subtype": "菊花",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch038",
+      "chapter_number": "38",
+      "motif_key": "motif_dream",
+      "motif_type": "夢幻",
+      "subtype": "夢",
+      "count": "8"
+    },
+    {
+      "chapter_id": "hongloumeng_ch038",
+      "chapter_number": "38",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "15"
+    },
+    {
+      "chapter_id": "hongloumeng_ch038",
+      "chapter_number": "38",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "20"
+    },
+    {
+      "chapter_id": "hongloumeng_ch038",
+      "chapter_number": "38",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch038",
+      "chapter_number": "38",
+      "motif_key": "motif_green",
+      "motif_type": "顏色",
+      "subtype": "綠色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch038",
+      "chapter_number": "38",
+      "motif_key": "motif_green_blue",
+      "motif_type": "顏色",
+      "subtype": "青色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch038",
+      "chapter_number": "38",
+      "motif_key": "motif_haitang",
+      "motif_type": "花木",
+      "subtype": "海棠",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch038",
+      "chapter_number": "38",
+      "motif_key": "motif_hibiscus",
+      "motif_type": "花木",
+      "subtype": "芙蓉",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch038",
+      "chapter_number": "38",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch038",
+      "chapter_number": "38",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "30"
+    },
+    {
+      "chapter_id": "hongloumeng_ch038",
+      "chapter_number": "38",
+      "motif_key": "motif_medicine",
+      "motif_type": "身體",
+      "subtype": "藥",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch038",
+      "chapter_number": "38",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "8"
+    },
+    {
+      "chapter_id": "hongloumeng_ch038",
+      "chapter_number": "38",
+      "motif_key": "motif_plum_blossom",
+      "motif_type": "花木",
+      "subtype": "梅花",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch038",
+      "chapter_number": "38",
+      "motif_key": "motif_poetry",
+      "motif_type": "文藝",
+      "subtype": "詩",
+      "count": "11"
+    },
+    {
+      "chapter_id": "hongloumeng_ch038",
+      "chapter_number": "38",
+      "motif_key": "motif_purple",
+      "motif_type": "顏色",
+      "subtype": "紫色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch038",
+      "chapter_number": "38",
+      "motif_key": "motif_rain",
+      "motif_type": "自然",
+      "subtype": "雨",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch038",
+      "chapter_number": "38",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch038",
+      "chapter_number": "38",
+      "motif_key": "motif_snow",
+      "motif_type": "自然",
+      "subtype": "雪",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch038",
+      "chapter_number": "38",
+      "motif_key": "motif_song_drama",
+      "motif_type": "文藝",
+      "subtype": "曲",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch038",
+      "chapter_number": "38",
+      "motif_key": "motif_stone",
+      "motif_type": "物象",
+      "subtype": "石",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch038",
+      "chapter_number": "38",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch038",
+      "chapter_number": "38",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch038",
+      "chapter_number": "38",
+      "motif_key": "motif_willow",
+      "motif_type": "花木",
+      "subtype": "柳",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch038",
+      "chapter_number": "38",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "11"
+    },
+    {
+      "chapter_id": "hongloumeng_ch038",
+      "chapter_number": "38",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "19"
+    },
+    {
+      "chapter_id": "hongloumeng_ch039",
+      "chapter_number": "39",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch039",
+      "chapter_number": "39",
+      "motif_key": "motif_chrysanthemum",
+      "motif_type": "花木",
+      "subtype": "菊花",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch039",
+      "chapter_number": "39",
+      "motif_key": "motif_dream",
+      "motif_type": "夢幻",
+      "subtype": "夢",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch039",
+      "chapter_number": "39",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch039",
+      "chapter_number": "39",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch039",
+      "chapter_number": "39",
+      "motif_key": "motif_green_blue",
+      "motif_type": "顏色",
+      "subtype": "青色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch039",
+      "chapter_number": "39",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch039",
+      "chapter_number": "39",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "28"
+    },
+    {
+      "chapter_id": "hongloumeng_ch039",
+      "chapter_number": "39",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch039",
+      "chapter_number": "39",
+      "motif_key": "motif_poetry",
+      "motif_type": "文藝",
+      "subtype": "詩",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch039",
+      "chapter_number": "39",
+      "motif_key": "motif_rain",
+      "motif_type": "自然",
+      "subtype": "雨",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch039",
+      "chapter_number": "39",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch039",
+      "chapter_number": "39",
+      "motif_key": "motif_snow",
+      "motif_type": "自然",
+      "subtype": "雪",
+      "count": "9"
+    },
+    {
+      "chapter_id": "hongloumeng_ch039",
+      "chapter_number": "39",
+      "motif_key": "motif_stone",
+      "motif_type": "物象",
+      "subtype": "石",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch039",
+      "chapter_number": "39",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch039",
+      "chapter_number": "39",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch039",
+      "chapter_number": "39",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch039",
+      "chapter_number": "39",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch039",
+      "chapter_number": "39",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch039",
+      "chapter_number": "39",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch040",
+      "chapter_number": "40",
+      "motif_key": "motif_bamboo",
+      "motif_type": "花木",
+      "subtype": "竹",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch040",
+      "chapter_number": "40",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch040",
+      "chapter_number": "40",
+      "motif_key": "motif_chrysanthemum",
+      "motif_type": "花木",
+      "subtype": "菊花",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch040",
+      "chapter_number": "40",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "19"
+    },
+    {
+      "chapter_id": "hongloumeng_ch040",
+      "chapter_number": "40",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "8"
+    },
+    {
+      "chapter_id": "hongloumeng_ch040",
+      "chapter_number": "40",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch040",
+      "chapter_number": "40",
+      "motif_key": "motif_green",
+      "motif_type": "顏色",
+      "subtype": "綠色",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch040",
+      "chapter_number": "40",
+      "motif_key": "motif_green_blue",
+      "motif_type": "顏色",
+      "subtype": "青色",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch040",
+      "chapter_number": "40",
+      "motif_key": "motif_haitang",
+      "motif_type": "花木",
+      "subtype": "海棠",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch040",
+      "chapter_number": "40",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "29"
+    },
+    {
+      "chapter_id": "hongloumeng_ch040",
+      "chapter_number": "40",
+      "motif_key": "motif_medicine",
+      "motif_type": "身體",
+      "subtype": "藥",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch040",
+      "chapter_number": "40",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch040",
+      "chapter_number": "40",
+      "motif_key": "motif_peach_blossom",
+      "motif_type": "花木",
+      "subtype": "桃花",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch040",
+      "chapter_number": "40",
+      "motif_key": "motif_plum_blossom",
+      "motif_type": "花木",
+      "subtype": "梅花",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch040",
+      "chapter_number": "40",
+      "motif_key": "motif_poetry",
+      "motif_type": "文藝",
+      "subtype": "詩",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch040",
+      "chapter_number": "40",
+      "motif_key": "motif_purple",
+      "motif_type": "顏色",
+      "subtype": "紫色",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch040",
+      "chapter_number": "40",
+      "motif_key": "motif_rain",
+      "motif_type": "自然",
+      "subtype": "雨",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch040",
+      "chapter_number": "40",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "11"
+    },
+    {
+      "chapter_id": "hongloumeng_ch040",
+      "chapter_number": "40",
+      "motif_key": "motif_snow",
+      "motif_type": "自然",
+      "subtype": "雪",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch040",
+      "chapter_number": "40",
+      "motif_key": "motif_song_drama",
+      "motif_type": "文藝",
+      "subtype": "曲",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch040",
+      "chapter_number": "40",
+      "motif_key": "motif_stone",
+      "motif_type": "物象",
+      "subtype": "石",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch040",
+      "chapter_number": "40",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "11"
+    },
+    {
+      "chapter_id": "hongloumeng_ch040",
+      "chapter_number": "40",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch040",
+      "chapter_number": "40",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch040",
+      "chapter_number": "40",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch040",
+      "chapter_number": "40",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "8"
+    },
+    {
+      "chapter_id": "hongloumeng_ch040",
+      "chapter_number": "40",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "11"
+    },
+    {
+      "chapter_id": "hongloumeng_ch041",
+      "chapter_number": "41",
+      "motif_key": "motif_bamboo",
+      "motif_type": "花木",
+      "subtype": "竹",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch041",
+      "chapter_number": "41",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch041",
+      "chapter_number": "41",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "15"
+    },
+    {
+      "chapter_id": "hongloumeng_ch041",
+      "chapter_number": "41",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "10"
+    },
+    {
+      "chapter_id": "hongloumeng_ch041",
+      "chapter_number": "41",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "7"
+    },
+    {
+      "chapter_id": "hongloumeng_ch041",
+      "chapter_number": "41",
+      "motif_key": "motif_green",
+      "motif_type": "顏色",
+      "subtype": "綠色",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch041",
+      "chapter_number": "41",
+      "motif_key": "motif_green_blue",
+      "motif_type": "顏色",
+      "subtype": "青色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch041",
+      "chapter_number": "41",
+      "motif_key": "motif_haitang",
+      "motif_type": "花木",
+      "subtype": "海棠",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch041",
+      "chapter_number": "41",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "61"
+    },
+    {
+      "chapter_id": "hongloumeng_ch041",
+      "chapter_number": "41",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch041",
+      "chapter_number": "41",
+      "motif_key": "motif_peony",
+      "motif_type": "花木",
+      "subtype": "牡丹",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch041",
+      "chapter_number": "41",
+      "motif_key": "motif_plum_blossom",
+      "motif_type": "花木",
+      "subtype": "梅花",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch041",
+      "chapter_number": "41",
+      "motif_key": "motif_purple",
+      "motif_type": "顏色",
+      "subtype": "紫色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch041",
+      "chapter_number": "41",
+      "motif_key": "motif_rain",
+      "motif_type": "自然",
+      "subtype": "雨",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch041",
+      "chapter_number": "41",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch041",
+      "chapter_number": "41",
+      "motif_key": "motif_snow",
+      "motif_type": "自然",
+      "subtype": "雪",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch041",
+      "chapter_number": "41",
+      "motif_key": "motif_song_drama",
+      "motif_type": "文藝",
+      "subtype": "曲",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch041",
+      "chapter_number": "41",
+      "motif_key": "motif_stone",
+      "motif_type": "物象",
+      "subtype": "石",
+      "count": "10"
+    },
+    {
+      "chapter_id": "hongloumeng_ch041",
+      "chapter_number": "41",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "18"
+    },
+    {
+      "chapter_id": "hongloumeng_ch041",
+      "chapter_number": "41",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch041",
+      "chapter_number": "41",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch041",
+      "chapter_number": "41",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch041",
+      "chapter_number": "41",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "16"
+    },
+    {
+      "chapter_id": "hongloumeng_ch042",
+      "chapter_number": "42",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "13"
+    },
+    {
+      "chapter_id": "hongloumeng_ch042",
+      "chapter_number": "42",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch042",
+      "chapter_number": "42",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch042",
+      "chapter_number": "42",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch042",
+      "chapter_number": "42",
+      "motif_key": "motif_green",
+      "motif_type": "顏色",
+      "subtype": "綠色",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch042",
+      "chapter_number": "42",
+      "motif_key": "motif_green_blue",
+      "motif_type": "顏色",
+      "subtype": "青色",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch042",
+      "chapter_number": "42",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch042",
+      "chapter_number": "42",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "36"
+    },
+    {
+      "chapter_id": "hongloumeng_ch042",
+      "chapter_number": "42",
+      "motif_key": "motif_medicine",
+      "motif_type": "身體",
+      "subtype": "藥",
+      "count": "7"
+    },
+    {
+      "chapter_id": "hongloumeng_ch042",
+      "chapter_number": "42",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch042",
+      "chapter_number": "42",
+      "motif_key": "motif_peony",
+      "motif_type": "花木",
+      "subtype": "牡丹",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch042",
+      "chapter_number": "42",
+      "motif_key": "motif_plum_blossom",
+      "motif_type": "花木",
+      "subtype": "梅花",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch042",
+      "chapter_number": "42",
+      "motif_key": "motif_poetry",
+      "motif_type": "文藝",
+      "subtype": "詩",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch042",
+      "chapter_number": "42",
+      "motif_key": "motif_purple",
+      "motif_type": "顏色",
+      "subtype": "紫色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch042",
+      "chapter_number": "42",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch042",
+      "chapter_number": "42",
+      "motif_key": "motif_snow",
+      "motif_type": "自然",
+      "subtype": "雪",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch042",
+      "chapter_number": "42",
+      "motif_key": "motif_song_drama",
+      "motif_type": "文藝",
+      "subtype": "曲",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch042",
+      "chapter_number": "42",
+      "motif_key": "motif_stone",
+      "motif_type": "物象",
+      "subtype": "石",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch042",
+      "chapter_number": "42",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch042",
+      "chapter_number": "42",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch042",
+      "chapter_number": "42",
+      "motif_key": "motif_willow",
+      "motif_type": "花木",
+      "subtype": "柳",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch042",
+      "chapter_number": "42",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch042",
+      "chapter_number": "42",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch043",
+      "chapter_number": "43",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch043",
+      "chapter_number": "43",
+      "motif_key": "motif_dream",
+      "motif_type": "夢幻",
+      "subtype": "夢",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch043",
+      "chapter_number": "43",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch043",
+      "chapter_number": "43",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "12"
+    },
+    {
+      "chapter_id": "hongloumeng_ch043",
+      "chapter_number": "43",
+      "motif_key": "motif_green",
+      "motif_type": "顏色",
+      "subtype": "綠色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch043",
+      "chapter_number": "43",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "37"
+    },
+    {
+      "chapter_id": "hongloumeng_ch043",
+      "chapter_number": "43",
+      "motif_key": "motif_medicine",
+      "motif_type": "身體",
+      "subtype": "藥",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch043",
+      "chapter_number": "43",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch043",
+      "chapter_number": "43",
+      "motif_key": "motif_poetry",
+      "motif_type": "文藝",
+      "subtype": "詩",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch043",
+      "chapter_number": "43",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch043",
+      "chapter_number": "43",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch043",
+      "chapter_number": "43",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch043",
+      "chapter_number": "43",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch043",
+      "chapter_number": "43",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch043",
+      "chapter_number": "43",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch043",
+      "chapter_number": "43",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch044",
+      "chapter_number": "44",
+      "motif_key": "motif_bamboo",
+      "motif_type": "花木",
+      "subtype": "竹",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch044",
+      "chapter_number": "44",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch044",
+      "chapter_number": "44",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch044",
+      "chapter_number": "44",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch044",
+      "chapter_number": "44",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch044",
+      "chapter_number": "44",
+      "motif_key": "motif_green_blue",
+      "motif_type": "顏色",
+      "subtype": "青色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch044",
+      "chapter_number": "44",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "16"
+    },
+    {
+      "chapter_id": "hongloumeng_ch044",
+      "chapter_number": "44",
+      "motif_key": "motif_medicine",
+      "motif_type": "身體",
+      "subtype": "藥",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch044",
+      "chapter_number": "44",
+      "motif_key": "motif_purple",
+      "motif_type": "顏色",
+      "subtype": "紫色",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch044",
+      "chapter_number": "44",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch044",
+      "chapter_number": "44",
+      "motif_key": "motif_song_drama",
+      "motif_type": "文藝",
+      "subtype": "曲",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch044",
+      "chapter_number": "44",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "12"
+    },
+    {
+      "chapter_id": "hongloumeng_ch044",
+      "chapter_number": "44",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch044",
+      "chapter_number": "44",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch044",
+      "chapter_number": "44",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch044",
+      "chapter_number": "44",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "18"
+    },
+    {
+      "chapter_id": "hongloumeng_ch045",
+      "chapter_number": "45",
+      "motif_key": "motif_bamboo",
+      "motif_type": "花木",
+      "subtype": "竹",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch045",
+      "chapter_number": "45",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch045",
+      "chapter_number": "45",
+      "motif_key": "motif_dream",
+      "motif_type": "夢幻",
+      "subtype": "夢",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch045",
+      "chapter_number": "45",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "10"
+    },
+    {
+      "chapter_id": "hongloumeng_ch045",
+      "chapter_number": "45",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch045",
+      "chapter_number": "45",
+      "motif_key": "motif_green",
+      "motif_type": "顏色",
+      "subtype": "綠色",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch045",
+      "chapter_number": "45",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "7"
+    },
+    {
+      "chapter_id": "hongloumeng_ch045",
+      "chapter_number": "45",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "47"
+    },
+    {
+      "chapter_id": "hongloumeng_ch045",
+      "chapter_number": "45",
+      "motif_key": "motif_medicine",
+      "motif_type": "身體",
+      "subtype": "藥",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch045",
+      "chapter_number": "45",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch045",
+      "chapter_number": "45",
+      "motif_key": "motif_poetry",
+      "motif_type": "文藝",
+      "subtype": "詩",
+      "count": "7"
+    },
+    {
+      "chapter_id": "hongloumeng_ch045",
+      "chapter_number": "45",
+      "motif_key": "motif_purple",
+      "motif_type": "顏色",
+      "subtype": "紫色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch045",
+      "chapter_number": "45",
+      "motif_key": "motif_rain",
+      "motif_type": "自然",
+      "subtype": "雨",
+      "count": "19"
+    },
+    {
+      "chapter_id": "hongloumeng_ch045",
+      "chapter_number": "45",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch045",
+      "chapter_number": "45",
+      "motif_key": "motif_snow",
+      "motif_type": "自然",
+      "subtype": "雪",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch045",
+      "chapter_number": "45",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch045",
+      "chapter_number": "45",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch045",
+      "chapter_number": "45",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch045",
+      "chapter_number": "45",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch045",
+      "chapter_number": "45",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "10"
+    },
+    {
+      "chapter_id": "hongloumeng_ch046",
+      "chapter_number": "46",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch046",
+      "chapter_number": "46",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch046",
+      "chapter_number": "46",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "16"
+    },
+    {
+      "chapter_id": "hongloumeng_ch046",
+      "chapter_number": "46",
+      "motif_key": "motif_green",
+      "motif_type": "顏色",
+      "subtype": "綠色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch046",
+      "chapter_number": "46",
+      "motif_key": "motif_green_blue",
+      "motif_type": "顏色",
+      "subtype": "青色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch046",
+      "chapter_number": "46",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch046",
+      "chapter_number": "46",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "18"
+    },
+    {
+      "chapter_id": "hongloumeng_ch046",
+      "chapter_number": "46",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch046",
+      "chapter_number": "46",
+      "motif_key": "motif_purple",
+      "motif_type": "顏色",
+      "subtype": "紫色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch046",
+      "chapter_number": "46",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch046",
+      "chapter_number": "46",
+      "motif_key": "motif_snow",
+      "motif_type": "自然",
+      "subtype": "雪",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch046",
+      "chapter_number": "46",
+      "motif_key": "motif_song_drama",
+      "motif_type": "文藝",
+      "subtype": "曲",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch046",
+      "chapter_number": "46",
+      "motif_key": "motif_stone",
+      "motif_type": "物象",
+      "subtype": "石",
+      "count": "7"
+    },
+    {
+      "chapter_id": "hongloumeng_ch046",
+      "chapter_number": "46",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch046",
+      "chapter_number": "46",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch046",
+      "chapter_number": "46",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "7"
+    },
+    {
+      "chapter_id": "hongloumeng_ch046",
+      "chapter_number": "46",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch046",
+      "chapter_number": "46",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch047",
+      "chapter_number": "47",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch047",
+      "chapter_number": "47",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch047",
+      "chapter_number": "47",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch047",
+      "chapter_number": "47",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch047",
+      "chapter_number": "47",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch047",
+      "chapter_number": "47",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "10"
+    },
+    {
+      "chapter_id": "hongloumeng_ch047",
+      "chapter_number": "47",
+      "motif_key": "motif_lotus",
+      "motif_type": "花木",
+      "subtype": "蓮",
+      "count": "43"
+    },
+    {
+      "chapter_id": "hongloumeng_ch047",
+      "chapter_number": "47",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch047",
+      "chapter_number": "47",
+      "motif_key": "motif_rain",
+      "motif_type": "自然",
+      "subtype": "雨",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch047",
+      "chapter_number": "47",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch047",
+      "chapter_number": "47",
+      "motif_key": "motif_stone",
+      "motif_type": "物象",
+      "subtype": "石",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch047",
+      "chapter_number": "47",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch047",
+      "chapter_number": "47",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch047",
+      "chapter_number": "47",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch047",
+      "chapter_number": "47",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch047",
+      "chapter_number": "47",
+      "motif_key": "motif_willow",
+      "motif_type": "花木",
+      "subtype": "柳",
+      "count": "13"
+    },
+    {
+      "chapter_id": "hongloumeng_ch047",
+      "chapter_number": "47",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch047",
+      "chapter_number": "47",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "13"
+    },
+    {
+      "chapter_id": "hongloumeng_ch048",
+      "chapter_number": "48",
+      "motif_key": "motif_bamboo",
+      "motif_type": "花木",
+      "subtype": "竹",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch048",
+      "chapter_number": "48",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch048",
+      "chapter_number": "48",
+      "motif_key": "motif_dream",
+      "motif_type": "夢幻",
+      "subtype": "夢",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch048",
+      "chapter_number": "48",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch048",
+      "chapter_number": "48",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "46"
+    },
+    {
+      "chapter_id": "hongloumeng_ch048",
+      "chapter_number": "48",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch048",
+      "chapter_number": "48",
+      "motif_key": "motif_green_blue",
+      "motif_type": "顏色",
+      "subtype": "青色",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch048",
+      "chapter_number": "48",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch048",
+      "chapter_number": "48",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "42"
+    },
+    {
+      "chapter_id": "hongloumeng_ch048",
+      "chapter_number": "48",
+      "motif_key": "motif_lotus",
+      "motif_type": "花木",
+      "subtype": "蓮",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch048",
+      "chapter_number": "48",
+      "motif_key": "motif_medicine",
+      "motif_type": "身體",
+      "subtype": "藥",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch048",
+      "chapter_number": "48",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch048",
+      "chapter_number": "48",
+      "motif_key": "motif_plum_blossom",
+      "motif_type": "花木",
+      "subtype": "梅花",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch048",
+      "chapter_number": "48",
+      "motif_key": "motif_poetry",
+      "motif_type": "文藝",
+      "subtype": "詩",
+      "count": "34"
+    },
+    {
+      "chapter_id": "hongloumeng_ch048",
+      "chapter_number": "48",
+      "motif_key": "motif_purple",
+      "motif_type": "顏色",
+      "subtype": "紫色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch048",
+      "chapter_number": "48",
+      "motif_key": "motif_rain",
+      "motif_type": "自然",
+      "subtype": "雨",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch048",
+      "chapter_number": "48",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch048",
+      "chapter_number": "48",
+      "motif_key": "motif_stone",
+      "motif_type": "物象",
+      "subtype": "石",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch048",
+      "chapter_number": "48",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch048",
+      "chapter_number": "48",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch048",
+      "chapter_number": "48",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch048",
+      "chapter_number": "48",
+      "motif_key": "motif_willow",
+      "motif_type": "花木",
+      "subtype": "柳",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch048",
+      "chapter_number": "48",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch048",
+      "chapter_number": "48",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch049",
+      "chapter_number": "49",
+      "motif_key": "motif_bamboo",
+      "motif_type": "花木",
+      "subtype": "竹",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch049",
+      "chapter_number": "49",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch049",
+      "chapter_number": "49",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch049",
+      "chapter_number": "49",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "19"
+    },
+    {
+      "chapter_id": "hongloumeng_ch049",
+      "chapter_number": "49",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "7"
+    },
+    {
+      "chapter_id": "hongloumeng_ch049",
+      "chapter_number": "49",
+      "motif_key": "motif_green",
+      "motif_type": "顏色",
+      "subtype": "綠色",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch049",
+      "chapter_number": "49",
+      "motif_key": "motif_green_blue",
+      "motif_type": "顏色",
+      "subtype": "青色",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch049",
+      "chapter_number": "49",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch049",
+      "chapter_number": "49",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "66"
+    },
+    {
+      "chapter_id": "hongloumeng_ch049",
+      "chapter_number": "49",
+      "motif_key": "motif_lotus",
+      "motif_type": "花木",
+      "subtype": "蓮",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch049",
+      "chapter_number": "49",
+      "motif_key": "motif_medicine",
+      "motif_type": "身體",
+      "subtype": "藥",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch049",
+      "chapter_number": "49",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "8"
+    },
+    {
+      "chapter_id": "hongloumeng_ch049",
+      "chapter_number": "49",
+      "motif_key": "motif_poetry",
+      "motif_type": "文藝",
+      "subtype": "詩",
+      "count": "22"
+    },
+    {
+      "chapter_id": "hongloumeng_ch049",
+      "chapter_number": "49",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "9"
+    },
+    {
+      "chapter_id": "hongloumeng_ch049",
+      "chapter_number": "49",
+      "motif_key": "motif_snow",
+      "motif_type": "自然",
+      "subtype": "雪",
+      "count": "20"
+    },
+    {
+      "chapter_id": "hongloumeng_ch049",
+      "chapter_number": "49",
+      "motif_key": "motif_song_drama",
+      "motif_type": "文藝",
+      "subtype": "曲",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch049",
+      "chapter_number": "49",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch049",
+      "chapter_number": "49",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch049",
+      "chapter_number": "49",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch049",
+      "chapter_number": "49",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch049",
+      "chapter_number": "49",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch049",
+      "chapter_number": "49",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch050",
+      "chapter_number": "50",
+      "motif_key": "motif_bamboo",
+      "motif_type": "花木",
+      "subtype": "竹",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch050",
+      "chapter_number": "50",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch050",
+      "chapter_number": "50",
+      "motif_key": "motif_dream",
+      "motif_type": "夢幻",
+      "subtype": "夢",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch050",
+      "chapter_number": "50",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "9"
+    },
+    {
+      "chapter_id": "hongloumeng_ch050",
+      "chapter_number": "50",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "12"
+    },
+    {
+      "chapter_id": "hongloumeng_ch050",
+      "chapter_number": "50",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch050",
+      "chapter_number": "50",
+      "motif_key": "motif_green",
+      "motif_type": "顏色",
+      "subtype": "綠色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch050",
+      "chapter_number": "50",
+      "motif_key": "motif_green_blue",
+      "motif_type": "顏色",
+      "subtype": "青色",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch050",
+      "chapter_number": "50",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "57"
+    },
+    {
+      "chapter_id": "hongloumeng_ch050",
+      "chapter_number": "50",
+      "motif_key": "motif_medicine",
+      "motif_type": "身體",
+      "subtype": "藥",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch050",
+      "chapter_number": "50",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch050",
+      "chapter_number": "50",
+      "motif_key": "motif_plum_blossom",
+      "motif_type": "花木",
+      "subtype": "梅花",
+      "count": "13"
+    },
+    {
+      "chapter_id": "hongloumeng_ch050",
+      "chapter_number": "50",
+      "motif_key": "motif_poetry",
+      "motif_type": "文藝",
+      "subtype": "詩",
+      "count": "13"
+    },
+    {
+      "chapter_id": "hongloumeng_ch050",
+      "chapter_number": "50",
+      "motif_key": "motif_purple",
+      "motif_type": "顏色",
+      "subtype": "紫色",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch050",
+      "chapter_number": "50",
+      "motif_key": "motif_rain",
+      "motif_type": "自然",
+      "subtype": "雨",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch050",
+      "chapter_number": "50",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "20"
+    },
+    {
+      "chapter_id": "hongloumeng_ch050",
+      "chapter_number": "50",
+      "motif_key": "motif_snow",
+      "motif_type": "自然",
+      "subtype": "雪",
+      "count": "20"
+    },
+    {
+      "chapter_id": "hongloumeng_ch050",
+      "chapter_number": "50",
+      "motif_key": "motif_song_drama",
+      "motif_type": "文藝",
+      "subtype": "曲",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch050",
+      "chapter_number": "50",
+      "motif_key": "motif_stone",
+      "motif_type": "物象",
+      "subtype": "石",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch050",
+      "chapter_number": "50",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch050",
+      "chapter_number": "50",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch050",
+      "chapter_number": "50",
+      "motif_key": "motif_willow",
+      "motif_type": "花木",
+      "subtype": "柳",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch050",
+      "chapter_number": "50",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "9"
+    },
+    {
+      "chapter_id": "hongloumeng_ch050",
+      "chapter_number": "50",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "12"
+    },
+    {
+      "chapter_id": "hongloumeng_ch051",
+      "chapter_number": "51",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch051",
+      "chapter_number": "51",
+      "motif_key": "motif_dream",
+      "motif_type": "夢幻",
+      "subtype": "夢",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch051",
+      "chapter_number": "51",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "10"
+    },
+    {
+      "chapter_id": "hongloumeng_ch051",
+      "chapter_number": "51",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "8"
+    },
+    {
+      "chapter_id": "hongloumeng_ch051",
+      "chapter_number": "51",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch051",
+      "chapter_number": "51",
+      "motif_key": "motif_green",
+      "motif_type": "顏色",
+      "subtype": "綠色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch051",
+      "chapter_number": "51",
+      "motif_key": "motif_green_blue",
+      "motif_type": "顏色",
+      "subtype": "青色",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch051",
+      "chapter_number": "51",
+      "motif_key": "motif_haitang",
+      "motif_type": "花木",
+      "subtype": "海棠",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch051",
+      "chapter_number": "51",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "8"
+    },
+    {
+      "chapter_id": "hongloumeng_ch051",
+      "chapter_number": "51",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "45"
+    },
+    {
+      "chapter_id": "hongloumeng_ch051",
+      "chapter_number": "51",
+      "motif_key": "motif_medicine",
+      "motif_type": "身體",
+      "subtype": "藥",
+      "count": "20"
+    },
+    {
+      "chapter_id": "hongloumeng_ch051",
+      "chapter_number": "51",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "33"
+    },
+    {
+      "chapter_id": "hongloumeng_ch051",
+      "chapter_number": "51",
+      "motif_key": "motif_peony",
+      "motif_type": "花木",
+      "subtype": "牡丹",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch051",
+      "chapter_number": "51",
+      "motif_key": "motif_plum_blossom",
+      "motif_type": "花木",
+      "subtype": "梅花",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch051",
+      "chapter_number": "51",
+      "motif_key": "motif_purple",
+      "motif_type": "顏色",
+      "subtype": "紫色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch051",
+      "chapter_number": "51",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "10"
+    },
+    {
+      "chapter_id": "hongloumeng_ch051",
+      "chapter_number": "51",
+      "motif_key": "motif_snow",
+      "motif_type": "自然",
+      "subtype": "雪",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch051",
+      "chapter_number": "51",
+      "motif_key": "motif_song_drama",
+      "motif_type": "文藝",
+      "subtype": "曲",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch051",
+      "chapter_number": "51",
+      "motif_key": "motif_stone",
+      "motif_type": "物象",
+      "subtype": "石",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch051",
+      "chapter_number": "51",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch051",
+      "chapter_number": "51",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch051",
+      "chapter_number": "51",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch051",
+      "chapter_number": "51",
+      "motif_key": "motif_willow",
+      "motif_type": "花木",
+      "subtype": "柳",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch051",
+      "chapter_number": "51",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "15"
+    },
+    {
+      "chapter_id": "hongloumeng_ch052",
+      "chapter_number": "52",
+      "motif_key": "motif_bamboo",
+      "motif_type": "花木",
+      "subtype": "竹",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch052",
+      "chapter_number": "52",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch052",
+      "chapter_number": "52",
+      "motif_key": "motif_dream",
+      "motif_type": "夢幻",
+      "subtype": "夢",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch052",
+      "chapter_number": "52",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "8"
+    },
+    {
+      "chapter_id": "hongloumeng_ch052",
+      "chapter_number": "52",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch052",
+      "chapter_number": "52",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "12"
+    },
+    {
+      "chapter_id": "hongloumeng_ch052",
+      "chapter_number": "52",
+      "motif_key": "motif_green",
+      "motif_type": "顏色",
+      "subtype": "綠色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch052",
+      "chapter_number": "52",
+      "motif_key": "motif_green_blue",
+      "motif_type": "顏色",
+      "subtype": "青色",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch052",
+      "chapter_number": "52",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "14"
+    },
+    {
+      "chapter_id": "hongloumeng_ch052",
+      "chapter_number": "52",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "88"
+    },
+    {
+      "chapter_id": "hongloumeng_ch052",
+      "chapter_number": "52",
+      "motif_key": "motif_lotus",
+      "motif_type": "花木",
+      "subtype": "蓮",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch052",
+      "chapter_number": "52",
+      "motif_key": "motif_medicine",
+      "motif_type": "身體",
+      "subtype": "藥",
+      "count": "14"
+    },
+    {
+      "chapter_id": "hongloumeng_ch052",
+      "chapter_number": "52",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "30"
+    },
+    {
+      "chapter_id": "hongloumeng_ch052",
+      "chapter_number": "52",
+      "motif_key": "motif_poetry",
+      "motif_type": "文藝",
+      "subtype": "詩",
+      "count": "10"
+    },
+    {
+      "chapter_id": "hongloumeng_ch052",
+      "chapter_number": "52",
+      "motif_key": "motif_purple",
+      "motif_type": "顏色",
+      "subtype": "紫色",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch052",
+      "chapter_number": "52",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "7"
+    },
+    {
+      "chapter_id": "hongloumeng_ch052",
+      "chapter_number": "52",
+      "motif_key": "motif_snow",
+      "motif_type": "自然",
+      "subtype": "雪",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch052",
+      "chapter_number": "52",
+      "motif_key": "motif_stone",
+      "motif_type": "物象",
+      "subtype": "石",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch052",
+      "chapter_number": "52",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch052",
+      "chapter_number": "52",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch052",
+      "chapter_number": "52",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch052",
+      "chapter_number": "52",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch052",
+      "chapter_number": "52",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch052",
+      "chapter_number": "52",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch053",
+      "chapter_number": "53",
+      "motif_key": "motif_bamboo",
+      "motif_type": "花木",
+      "subtype": "竹",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch053",
+      "chapter_number": "53",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch053",
+      "chapter_number": "53",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "18"
+    },
+    {
+      "chapter_id": "hongloumeng_ch053",
+      "chapter_number": "53",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "11"
+    },
+    {
+      "chapter_id": "hongloumeng_ch053",
+      "chapter_number": "53",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "11"
+    },
+    {
+      "chapter_id": "hongloumeng_ch053",
+      "chapter_number": "53",
+      "motif_key": "motif_green",
+      "motif_type": "顏色",
+      "subtype": "綠色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch053",
+      "chapter_number": "53",
+      "motif_key": "motif_green_blue",
+      "motif_type": "顏色",
+      "subtype": "青色",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch053",
+      "chapter_number": "53",
+      "motif_key": "motif_haitang",
+      "motif_type": "花木",
+      "subtype": "海棠",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch053",
+      "chapter_number": "53",
+      "motif_key": "motif_hibiscus",
+      "motif_type": "花木",
+      "subtype": "芙蓉",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch053",
+      "chapter_number": "53",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch053",
+      "chapter_number": "53",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "15"
+    },
+    {
+      "chapter_id": "hongloumeng_ch053",
+      "chapter_number": "53",
+      "motif_key": "motif_medicine",
+      "motif_type": "身體",
+      "subtype": "藥",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch053",
+      "chapter_number": "53",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "14"
+    },
+    {
+      "chapter_id": "hongloumeng_ch053",
+      "chapter_number": "53",
+      "motif_key": "motif_plum_blossom",
+      "motif_type": "花木",
+      "subtype": "梅花",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch053",
+      "chapter_number": "53",
+      "motif_key": "motif_poetry",
+      "motif_type": "文藝",
+      "subtype": "詩",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch053",
+      "chapter_number": "53",
+      "motif_key": "motif_purple",
+      "motif_type": "顏色",
+      "subtype": "紫色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch053",
+      "chapter_number": "53",
+      "motif_key": "motif_rain",
+      "motif_type": "自然",
+      "subtype": "雨",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch053",
+      "chapter_number": "53",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "9"
+    },
+    {
+      "chapter_id": "hongloumeng_ch053",
+      "chapter_number": "53",
+      "motif_key": "motif_snow",
+      "motif_type": "自然",
+      "subtype": "雪",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch053",
+      "chapter_number": "53",
+      "motif_key": "motif_stone",
+      "motif_type": "物象",
+      "subtype": "石",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch053",
+      "chapter_number": "53",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "13"
+    },
+    {
+      "chapter_id": "hongloumeng_ch053",
+      "chapter_number": "53",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch053",
+      "chapter_number": "53",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch053",
+      "chapter_number": "53",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "14"
+    },
+    {
+      "chapter_id": "hongloumeng_ch054",
+      "chapter_number": "54",
+      "motif_key": "motif_bamboo",
+      "motif_type": "花木",
+      "subtype": "竹",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch054",
+      "chapter_number": "54",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "26"
+    },
+    {
+      "chapter_id": "hongloumeng_ch054",
+      "chapter_number": "54",
+      "motif_key": "motif_dream",
+      "motif_type": "夢幻",
+      "subtype": "夢",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch054",
+      "chapter_number": "54",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "9"
+    },
+    {
+      "chapter_id": "hongloumeng_ch054",
+      "chapter_number": "54",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "7"
+    },
+    {
+      "chapter_id": "hongloumeng_ch054",
+      "chapter_number": "54",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch054",
+      "chapter_number": "54",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "40"
+    },
+    {
+      "chapter_id": "hongloumeng_ch054",
+      "chapter_number": "54",
+      "motif_key": "motif_lotus",
+      "motif_type": "花木",
+      "subtype": "蓮",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch054",
+      "chapter_number": "54",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "14"
+    },
+    {
+      "chapter_id": "hongloumeng_ch054",
+      "chapter_number": "54",
+      "motif_key": "motif_rain",
+      "motif_type": "自然",
+      "subtype": "雨",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch054",
+      "chapter_number": "54",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch054",
+      "chapter_number": "54",
+      "motif_key": "motif_song_drama",
+      "motif_type": "文藝",
+      "subtype": "曲",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch054",
+      "chapter_number": "54",
+      "motif_key": "motif_stone",
+      "motif_type": "物象",
+      "subtype": "石",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch054",
+      "chapter_number": "54",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "8"
+    },
+    {
+      "chapter_id": "hongloumeng_ch054",
+      "chapter_number": "54",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch054",
+      "chapter_number": "54",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch054",
+      "chapter_number": "54",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "24"
+    },
+    {
+      "chapter_id": "hongloumeng_ch055",
+      "chapter_number": "55",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch055",
+      "chapter_number": "55",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch055",
+      "chapter_number": "55",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch055",
+      "chapter_number": "55",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch055",
+      "chapter_number": "55",
+      "motif_key": "motif_medicine",
+      "motif_type": "身體",
+      "subtype": "藥",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch055",
+      "chapter_number": "55",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "11"
+    },
+    {
+      "chapter_id": "hongloumeng_ch055",
+      "chapter_number": "55",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch055",
+      "chapter_number": "55",
+      "motif_key": "motif_stone",
+      "motif_type": "物象",
+      "subtype": "石",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch055",
+      "chapter_number": "55",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "8"
+    },
+    {
+      "chapter_id": "hongloumeng_ch055",
+      "chapter_number": "55",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch055",
+      "chapter_number": "55",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch055",
+      "chapter_number": "55",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "12"
+    },
+    {
+      "chapter_id": "hongloumeng_ch055",
+      "chapter_number": "55",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch055",
+      "chapter_number": "55",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch056",
+      "chapter_number": "56",
+      "motif_key": "motif_bamboo",
+      "motif_type": "花木",
+      "subtype": "竹",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch056",
+      "chapter_number": "56",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch056",
+      "chapter_number": "56",
+      "motif_key": "motif_dream",
+      "motif_type": "夢幻",
+      "subtype": "夢",
+      "count": "8"
+    },
+    {
+      "chapter_id": "hongloumeng_ch056",
+      "chapter_number": "56",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "17"
+    },
+    {
+      "chapter_id": "hongloumeng_ch056",
+      "chapter_number": "56",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch056",
+      "chapter_number": "56",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch056",
+      "chapter_number": "56",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch056",
+      "chapter_number": "56",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "43"
+    },
+    {
+      "chapter_id": "hongloumeng_ch056",
+      "chapter_number": "56",
+      "motif_key": "motif_medicine",
+      "motif_type": "身體",
+      "subtype": "藥",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch056",
+      "chapter_number": "56",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "10"
+    },
+    {
+      "chapter_id": "hongloumeng_ch056",
+      "chapter_number": "56",
+      "motif_key": "motif_rain",
+      "motif_type": "自然",
+      "subtype": "雨",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch056",
+      "chapter_number": "56",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch056",
+      "chapter_number": "56",
+      "motif_key": "motif_snow",
+      "motif_type": "自然",
+      "subtype": "雪",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch056",
+      "chapter_number": "56",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch056",
+      "chapter_number": "56",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch056",
+      "chapter_number": "56",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch056",
+      "chapter_number": "56",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch057",
+      "chapter_number": "57",
+      "motif_key": "motif_bamboo",
+      "motif_type": "花木",
+      "subtype": "竹",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch057",
+      "chapter_number": "57",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch057",
+      "chapter_number": "57",
+      "motif_key": "motif_dream",
+      "motif_type": "夢幻",
+      "subtype": "夢",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch057",
+      "chapter_number": "57",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch057",
+      "chapter_number": "57",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch057",
+      "chapter_number": "57",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch057",
+      "chapter_number": "57",
+      "motif_key": "motif_green_blue",
+      "motif_type": "顏色",
+      "subtype": "青色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch057",
+      "chapter_number": "57",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "13"
+    },
+    {
+      "chapter_id": "hongloumeng_ch057",
+      "chapter_number": "57",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "102"
+    },
+    {
+      "chapter_id": "hongloumeng_ch057",
+      "chapter_number": "57",
+      "motif_key": "motif_medicine",
+      "motif_type": "身體",
+      "subtype": "藥",
+      "count": "8"
+    },
+    {
+      "chapter_id": "hongloumeng_ch057",
+      "chapter_number": "57",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "7"
+    },
+    {
+      "chapter_id": "hongloumeng_ch057",
+      "chapter_number": "57",
+      "motif_key": "motif_peach_blossom",
+      "motif_type": "花木",
+      "subtype": "桃花",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch057",
+      "chapter_number": "57",
+      "motif_key": "motif_purple",
+      "motif_type": "顏色",
+      "subtype": "紫色",
+      "count": "63"
+    },
+    {
+      "chapter_id": "hongloumeng_ch057",
+      "chapter_number": "57",
+      "motif_key": "motif_rain",
+      "motif_type": "自然",
+      "subtype": "雨",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch057",
+      "chapter_number": "57",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "8"
+    },
+    {
+      "chapter_id": "hongloumeng_ch057",
+      "chapter_number": "57",
+      "motif_key": "motif_snow",
+      "motif_type": "自然",
+      "subtype": "雪",
+      "count": "10"
+    },
+    {
+      "chapter_id": "hongloumeng_ch057",
+      "chapter_number": "57",
+      "motif_key": "motif_stone",
+      "motif_type": "物象",
+      "subtype": "石",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch057",
+      "chapter_number": "57",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch057",
+      "chapter_number": "57",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch057",
+      "chapter_number": "57",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "13"
+    },
+    {
+      "chapter_id": "hongloumeng_ch057",
+      "chapter_number": "57",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "11"
+    },
+    {
+      "chapter_id": "hongloumeng_ch057",
+      "chapter_number": "57",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "8"
+    },
+    {
+      "chapter_id": "hongloumeng_ch057",
+      "chapter_number": "57",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch058",
+      "chapter_number": "58",
+      "motif_key": "motif_bamboo",
+      "motif_type": "花木",
+      "subtype": "竹",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch058",
+      "chapter_number": "58",
+      "motif_key": "motif_dream",
+      "motif_type": "夢幻",
+      "subtype": "夢",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch058",
+      "chapter_number": "58",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "13"
+    },
+    {
+      "chapter_id": "hongloumeng_ch058",
+      "chapter_number": "58",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "10"
+    },
+    {
+      "chapter_id": "hongloumeng_ch058",
+      "chapter_number": "58",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch058",
+      "chapter_number": "58",
+      "motif_key": "motif_green",
+      "motif_type": "顏色",
+      "subtype": "綠色",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch058",
+      "chapter_number": "58",
+      "motif_key": "motif_haitang",
+      "motif_type": "花木",
+      "subtype": "海棠",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch058",
+      "chapter_number": "58",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch058",
+      "chapter_number": "58",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "49"
+    },
+    {
+      "chapter_id": "hongloumeng_ch058",
+      "chapter_number": "58",
+      "motif_key": "motif_medicine",
+      "motif_type": "身體",
+      "subtype": "藥",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch058",
+      "chapter_number": "58",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "12"
+    },
+    {
+      "chapter_id": "hongloumeng_ch058",
+      "chapter_number": "58",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch058",
+      "chapter_number": "58",
+      "motif_key": "motif_song_drama",
+      "motif_type": "文藝",
+      "subtype": "曲",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch058",
+      "chapter_number": "58",
+      "motif_key": "motif_stone",
+      "motif_type": "物象",
+      "subtype": "石",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch058",
+      "chapter_number": "58",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch058",
+      "chapter_number": "58",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch058",
+      "chapter_number": "58",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch058",
+      "chapter_number": "58",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch058",
+      "chapter_number": "58",
+      "motif_key": "motif_willow",
+      "motif_type": "花木",
+      "subtype": "柳",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch058",
+      "chapter_number": "58",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch059",
+      "chapter_number": "59",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "13"
+    },
+    {
+      "chapter_id": "hongloumeng_ch059",
+      "chapter_number": "59",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch059",
+      "chapter_number": "59",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch059",
+      "chapter_number": "59",
+      "motif_key": "motif_green_blue",
+      "motif_type": "顏色",
+      "subtype": "青色",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch059",
+      "chapter_number": "59",
+      "motif_key": "motif_haitang",
+      "motif_type": "花木",
+      "subtype": "海棠",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch059",
+      "chapter_number": "59",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch059",
+      "chapter_number": "59",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "19"
+    },
+    {
+      "chapter_id": "hongloumeng_ch059",
+      "chapter_number": "59",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch059",
+      "chapter_number": "59",
+      "motif_key": "motif_purple",
+      "motif_type": "顏色",
+      "subtype": "紫色",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch059",
+      "chapter_number": "59",
+      "motif_key": "motif_rain",
+      "motif_type": "自然",
+      "subtype": "雨",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch059",
+      "chapter_number": "59",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch059",
+      "chapter_number": "59",
+      "motif_key": "motif_stone",
+      "motif_type": "物象",
+      "subtype": "石",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch059",
+      "chapter_number": "59",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch059",
+      "chapter_number": "59",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch059",
+      "chapter_number": "59",
+      "motif_key": "motif_willow",
+      "motif_type": "花木",
+      "subtype": "柳",
+      "count": "10"
+    },
+    {
+      "chapter_id": "hongloumeng_ch060",
+      "chapter_number": "60",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch060",
+      "chapter_number": "60",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch060",
+      "chapter_number": "60",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch060",
+      "chapter_number": "60",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "27"
+    },
+    {
+      "chapter_id": "hongloumeng_ch060",
+      "chapter_number": "60",
+      "motif_key": "motif_medicine",
+      "motif_type": "身體",
+      "subtype": "藥",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch060",
+      "chapter_number": "60",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch060",
+      "chapter_number": "60",
+      "motif_key": "motif_purple",
+      "motif_type": "顏色",
+      "subtype": "紫色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch060",
+      "chapter_number": "60",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch060",
+      "chapter_number": "60",
+      "motif_key": "motif_song_drama",
+      "motif_type": "文藝",
+      "subtype": "曲",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch060",
+      "chapter_number": "60",
+      "motif_key": "motif_stone",
+      "motif_type": "物象",
+      "subtype": "石",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch060",
+      "chapter_number": "60",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "8"
+    },
+    {
+      "chapter_id": "hongloumeng_ch060",
+      "chapter_number": "60",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch060",
+      "chapter_number": "60",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch060",
+      "chapter_number": "60",
+      "motif_key": "motif_willow",
+      "motif_type": "花木",
+      "subtype": "柳",
+      "count": "25"
+    },
+    {
+      "chapter_id": "hongloumeng_ch060",
+      "chapter_number": "60",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch060",
+      "chapter_number": "60",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch061",
+      "chapter_number": "61",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch061",
+      "chapter_number": "61",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "11"
+    },
+    {
+      "chapter_id": "hongloumeng_ch061",
+      "chapter_number": "61",
+      "motif_key": "motif_green_blue",
+      "motif_type": "顏色",
+      "subtype": "青色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch061",
+      "chapter_number": "61",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch061",
+      "chapter_number": "61",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "19"
+    },
+    {
+      "chapter_id": "hongloumeng_ch061",
+      "chapter_number": "61",
+      "motif_key": "motif_lotus",
+      "motif_type": "花木",
+      "subtype": "蓮",
+      "count": "9"
+    },
+    {
+      "chapter_id": "hongloumeng_ch061",
+      "chapter_number": "61",
+      "motif_key": "motif_medicine",
+      "motif_type": "身體",
+      "subtype": "藥",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch061",
+      "chapter_number": "61",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch061",
+      "chapter_number": "61",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch061",
+      "chapter_number": "61",
+      "motif_key": "motif_stone",
+      "motif_type": "物象",
+      "subtype": "石",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch061",
+      "chapter_number": "61",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch061",
+      "chapter_number": "61",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch061",
+      "chapter_number": "61",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "9"
+    },
+    {
+      "chapter_id": "hongloumeng_ch061",
+      "chapter_number": "61",
+      "motif_key": "motif_willow",
+      "motif_type": "花木",
+      "subtype": "柳",
+      "count": "16"
+    },
+    {
+      "chapter_id": "hongloumeng_ch061",
+      "chapter_number": "61",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch062",
+      "chapter_number": "62",
+      "motif_key": "motif_bamboo",
+      "motif_type": "花木",
+      "subtype": "竹",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch062",
+      "chapter_number": "62",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch062",
+      "chapter_number": "62",
+      "motif_key": "motif_dream",
+      "motif_type": "夢幻",
+      "subtype": "夢",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch062",
+      "chapter_number": "62",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "25"
+    },
+    {
+      "chapter_id": "hongloumeng_ch062",
+      "chapter_number": "62",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "52"
+    },
+    {
+      "chapter_id": "hongloumeng_ch062",
+      "chapter_number": "62",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch062",
+      "chapter_number": "62",
+      "motif_key": "motif_green",
+      "motif_type": "顏色",
+      "subtype": "綠色",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch062",
+      "chapter_number": "62",
+      "motif_key": "motif_green_blue",
+      "motif_type": "顏色",
+      "subtype": "青色",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch062",
+      "chapter_number": "62",
+      "motif_key": "motif_hibiscus",
+      "motif_type": "花木",
+      "subtype": "芙蓉",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch062",
+      "chapter_number": "62",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch062",
+      "chapter_number": "62",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "101"
+    },
+    {
+      "chapter_id": "hongloumeng_ch062",
+      "chapter_number": "62",
+      "motif_key": "motif_medicine",
+      "motif_type": "身體",
+      "subtype": "藥",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch062",
+      "chapter_number": "62",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "15"
+    },
+    {
+      "chapter_id": "hongloumeng_ch062",
+      "chapter_number": "62",
+      "motif_key": "motif_peony",
+      "motif_type": "花木",
+      "subtype": "牡丹",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch062",
+      "chapter_number": "62",
+      "motif_key": "motif_poetry",
+      "motif_type": "文藝",
+      "subtype": "詩",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch062",
+      "chapter_number": "62",
+      "motif_key": "motif_purple",
+      "motif_type": "顏色",
+      "subtype": "紫色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch062",
+      "chapter_number": "62",
+      "motif_key": "motif_rain",
+      "motif_type": "自然",
+      "subtype": "雨",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch062",
+      "chapter_number": "62",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "15"
+    },
+    {
+      "chapter_id": "hongloumeng_ch062",
+      "chapter_number": "62",
+      "motif_key": "motif_song_drama",
+      "motif_type": "文藝",
+      "subtype": "曲",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch062",
+      "chapter_number": "62",
+      "motif_key": "motif_stone",
+      "motif_type": "物象",
+      "subtype": "石",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch062",
+      "chapter_number": "62",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "15"
+    },
+    {
+      "chapter_id": "hongloumeng_ch062",
+      "chapter_number": "62",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch062",
+      "chapter_number": "62",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch062",
+      "chapter_number": "62",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch062",
+      "chapter_number": "62",
+      "motif_key": "motif_willow",
+      "motif_type": "花木",
+      "subtype": "柳",
+      "count": "12"
+    },
+    {
+      "chapter_id": "hongloumeng_ch062",
+      "chapter_number": "62",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch062",
+      "chapter_number": "62",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "34"
+    },
+    {
+      "chapter_id": "hongloumeng_ch063",
+      "chapter_number": "63",
+      "motif_key": "motif_bamboo",
+      "motif_type": "花木",
+      "subtype": "竹",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch063",
+      "chapter_number": "63",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch063",
+      "chapter_number": "63",
+      "motif_key": "motif_dream",
+      "motif_type": "夢幻",
+      "subtype": "夢",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch063",
+      "chapter_number": "63",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "19"
+    },
+    {
+      "chapter_id": "hongloumeng_ch063",
+      "chapter_number": "63",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "13"
+    },
+    {
+      "chapter_id": "hongloumeng_ch063",
+      "chapter_number": "63",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch063",
+      "chapter_number": "63",
+      "motif_key": "motif_green",
+      "motif_type": "顏色",
+      "subtype": "綠色",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch063",
+      "chapter_number": "63",
+      "motif_key": "motif_green_blue",
+      "motif_type": "顏色",
+      "subtype": "青色",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch063",
+      "chapter_number": "63",
+      "motif_key": "motif_haitang",
+      "motif_type": "花木",
+      "subtype": "海棠",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch063",
+      "chapter_number": "63",
+      "motif_key": "motif_hibiscus",
+      "motif_type": "花木",
+      "subtype": "芙蓉",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch063",
+      "chapter_number": "63",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch063",
+      "chapter_number": "63",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "86"
+    },
+    {
+      "chapter_id": "hongloumeng_ch063",
+      "chapter_number": "63",
+      "motif_key": "motif_medicine",
+      "motif_type": "身體",
+      "subtype": "藥",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch063",
+      "chapter_number": "63",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "12"
+    },
+    {
+      "chapter_id": "hongloumeng_ch063",
+      "chapter_number": "63",
+      "motif_key": "motif_peach_blossom",
+      "motif_type": "花木",
+      "subtype": "桃花",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch063",
+      "chapter_number": "63",
+      "motif_key": "motif_peony",
+      "motif_type": "花木",
+      "subtype": "牡丹",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch063",
+      "chapter_number": "63",
+      "motif_key": "motif_plum_blossom",
+      "motif_type": "花木",
+      "subtype": "梅花",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch063",
+      "chapter_number": "63",
+      "motif_key": "motif_poetry",
+      "motif_type": "文藝",
+      "subtype": "詩",
+      "count": "10"
+    },
+    {
+      "chapter_id": "hongloumeng_ch063",
+      "chapter_number": "63",
+      "motif_key": "motif_purple",
+      "motif_type": "顏色",
+      "subtype": "紫色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch063",
+      "chapter_number": "63",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "17"
+    },
+    {
+      "chapter_id": "hongloumeng_ch063",
+      "chapter_number": "63",
+      "motif_key": "motif_song_drama",
+      "motif_type": "文藝",
+      "subtype": "曲",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch063",
+      "chapter_number": "63",
+      "motif_key": "motif_stone",
+      "motif_type": "物象",
+      "subtype": "石",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch063",
+      "chapter_number": "63",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "8"
+    },
+    {
+      "chapter_id": "hongloumeng_ch063",
+      "chapter_number": "63",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch063",
+      "chapter_number": "63",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "7"
+    },
+    {
+      "chapter_id": "hongloumeng_ch063",
+      "chapter_number": "63",
+      "motif_key": "motif_willow",
+      "motif_type": "花木",
+      "subtype": "柳",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch063",
+      "chapter_number": "63",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch063",
+      "chapter_number": "63",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "28"
+    },
+    {
+      "chapter_id": "hongloumeng_ch064",
+      "chapter_number": "64",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch064",
+      "chapter_number": "64",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch064",
+      "chapter_number": "64",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch064",
+      "chapter_number": "64",
+      "motif_key": "motif_green",
+      "motif_type": "顏色",
+      "subtype": "綠色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch064",
+      "chapter_number": "64",
+      "motif_key": "motif_green_blue",
+      "motif_type": "顏色",
+      "subtype": "青色",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch064",
+      "chapter_number": "64",
+      "motif_key": "motif_haitang",
+      "motif_type": "花木",
+      "subtype": "海棠",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch064",
+      "chapter_number": "64",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch064",
+      "chapter_number": "64",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "58"
+    },
+    {
+      "chapter_id": "hongloumeng_ch064",
+      "chapter_number": "64",
+      "motif_key": "motif_medicine",
+      "motif_type": "身體",
+      "subtype": "藥",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch064",
+      "chapter_number": "64",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch064",
+      "chapter_number": "64",
+      "motif_key": "motif_poetry",
+      "motif_type": "文藝",
+      "subtype": "詩",
+      "count": "11"
+    },
+    {
+      "chapter_id": "hongloumeng_ch064",
+      "chapter_number": "64",
+      "motif_key": "motif_purple",
+      "motif_type": "顏色",
+      "subtype": "紫色",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch064",
+      "chapter_number": "64",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch064",
+      "chapter_number": "64",
+      "motif_key": "motif_snow",
+      "motif_type": "自然",
+      "subtype": "雪",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch064",
+      "chapter_number": "64",
+      "motif_key": "motif_stone",
+      "motif_type": "物象",
+      "subtype": "石",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch064",
+      "chapter_number": "64",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "9"
+    },
+    {
+      "chapter_id": "hongloumeng_ch064",
+      "chapter_number": "64",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch064",
+      "chapter_number": "64",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "8"
+    },
+    {
+      "chapter_id": "hongloumeng_ch064",
+      "chapter_number": "64",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch064",
+      "chapter_number": "64",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch064",
+      "chapter_number": "64",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch065",
+      "chapter_number": "65",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch065",
+      "chapter_number": "65",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch065",
+      "chapter_number": "65",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch065",
+      "chapter_number": "65",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch065",
+      "chapter_number": "65",
+      "motif_key": "motif_green",
+      "motif_type": "顏色",
+      "subtype": "綠色",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch065",
+      "chapter_number": "65",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch065",
+      "chapter_number": "65",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch065",
+      "chapter_number": "65",
+      "motif_key": "motif_lotus",
+      "motif_type": "花木",
+      "subtype": "蓮",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch065",
+      "chapter_number": "65",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch065",
+      "chapter_number": "65",
+      "motif_key": "motif_rain",
+      "motif_type": "自然",
+      "subtype": "雨",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch065",
+      "chapter_number": "65",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch065",
+      "chapter_number": "65",
+      "motif_key": "motif_snow",
+      "motif_type": "自然",
+      "subtype": "雪",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch065",
+      "chapter_number": "65",
+      "motif_key": "motif_stone",
+      "motif_type": "物象",
+      "subtype": "石",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch065",
+      "chapter_number": "65",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch065",
+      "chapter_number": "65",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch065",
+      "chapter_number": "65",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch065",
+      "chapter_number": "65",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch065",
+      "chapter_number": "65",
+      "motif_key": "motif_willow",
+      "motif_type": "花木",
+      "subtype": "柳",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch065",
+      "chapter_number": "65",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "7"
+    },
+    {
+      "chapter_id": "hongloumeng_ch065",
+      "chapter_number": "65",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "24"
+    },
+    {
+      "chapter_id": "hongloumeng_ch066",
+      "chapter_number": "66",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch066",
+      "chapter_number": "66",
+      "motif_key": "motif_dream",
+      "motif_type": "夢幻",
+      "subtype": "夢",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch066",
+      "chapter_number": "66",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch066",
+      "chapter_number": "66",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch066",
+      "chapter_number": "66",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch066",
+      "chapter_number": "66",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch066",
+      "chapter_number": "66",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "15"
+    },
+    {
+      "chapter_id": "hongloumeng_ch066",
+      "chapter_number": "66",
+      "motif_key": "motif_lotus",
+      "motif_type": "花木",
+      "subtype": "蓮",
+      "count": "37"
+    },
+    {
+      "chapter_id": "hongloumeng_ch066",
+      "chapter_number": "66",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "8"
+    },
+    {
+      "chapter_id": "hongloumeng_ch066",
+      "chapter_number": "66",
+      "motif_key": "motif_peach_blossom",
+      "motif_type": "花木",
+      "subtype": "桃花",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch066",
+      "chapter_number": "66",
+      "motif_key": "motif_rain",
+      "motif_type": "自然",
+      "subtype": "雨",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch066",
+      "chapter_number": "66",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch066",
+      "chapter_number": "66",
+      "motif_key": "motif_stone",
+      "motif_type": "物象",
+      "subtype": "石",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch066",
+      "chapter_number": "66",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch066",
+      "chapter_number": "66",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch066",
+      "chapter_number": "66",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch066",
+      "chapter_number": "66",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch066",
+      "chapter_number": "66",
+      "motif_key": "motif_willow",
+      "motif_type": "花木",
+      "subtype": "柳",
+      "count": "14"
+    },
+    {
+      "chapter_id": "hongloumeng_ch066",
+      "chapter_number": "66",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch066",
+      "chapter_number": "66",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch067",
+      "chapter_number": "67",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch067",
+      "chapter_number": "67",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch067",
+      "chapter_number": "67",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch067",
+      "chapter_number": "67",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch067",
+      "chapter_number": "67",
+      "motif_key": "motif_green",
+      "motif_type": "顏色",
+      "subtype": "綠色",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch067",
+      "chapter_number": "67",
+      "motif_key": "motif_green_blue",
+      "motif_type": "顏色",
+      "subtype": "青色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch067",
+      "chapter_number": "67",
+      "motif_key": "motif_hibiscus",
+      "motif_type": "花木",
+      "subtype": "芙蓉",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch067",
+      "chapter_number": "67",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "22"
+    },
+    {
+      "chapter_id": "hongloumeng_ch067",
+      "chapter_number": "67",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "54"
+    },
+    {
+      "chapter_id": "hongloumeng_ch067",
+      "chapter_number": "67",
+      "motif_key": "motif_lotus",
+      "motif_type": "花木",
+      "subtype": "蓮",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch067",
+      "chapter_number": "67",
+      "motif_key": "motif_medicine",
+      "motif_type": "身體",
+      "subtype": "藥",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch067",
+      "chapter_number": "67",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch067",
+      "chapter_number": "67",
+      "motif_key": "motif_purple",
+      "motif_type": "顏色",
+      "subtype": "紫色",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch067",
+      "chapter_number": "67",
+      "motif_key": "motif_rain",
+      "motif_type": "自然",
+      "subtype": "雨",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch067",
+      "chapter_number": "67",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "8"
+    },
+    {
+      "chapter_id": "hongloumeng_ch067",
+      "chapter_number": "67",
+      "motif_key": "motif_stone",
+      "motif_type": "物象",
+      "subtype": "石",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch067",
+      "chapter_number": "67",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch067",
+      "chapter_number": "67",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "8"
+    },
+    {
+      "chapter_id": "hongloumeng_ch067",
+      "chapter_number": "67",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "10"
+    },
+    {
+      "chapter_id": "hongloumeng_ch067",
+      "chapter_number": "67",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch067",
+      "chapter_number": "67",
+      "motif_key": "motif_willow",
+      "motif_type": "花木",
+      "subtype": "柳",
+      "count": "11"
+    },
+    {
+      "chapter_id": "hongloumeng_ch067",
+      "chapter_number": "67",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch067",
+      "chapter_number": "67",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch068",
+      "chapter_number": "68",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch068",
+      "chapter_number": "68",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch068",
+      "chapter_number": "68",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch068",
+      "chapter_number": "68",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch068",
+      "chapter_number": "68",
+      "motif_key": "motif_green_blue",
+      "motif_type": "顏色",
+      "subtype": "青色",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch068",
+      "chapter_number": "68",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch068",
+      "chapter_number": "68",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch068",
+      "chapter_number": "68",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch068",
+      "chapter_number": "68",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "9"
+    },
+    {
+      "chapter_id": "hongloumeng_ch068",
+      "chapter_number": "68",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch068",
+      "chapter_number": "68",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "8"
+    },
+    {
+      "chapter_id": "hongloumeng_ch068",
+      "chapter_number": "68",
+      "motif_key": "motif_willow",
+      "motif_type": "花木",
+      "subtype": "柳",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch068",
+      "chapter_number": "68",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch068",
+      "chapter_number": "68",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch069",
+      "chapter_number": "69",
+      "motif_key": "motif_dream",
+      "motif_type": "夢幻",
+      "subtype": "夢",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch069",
+      "chapter_number": "69",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch069",
+      "chapter_number": "69",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch069",
+      "chapter_number": "69",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch069",
+      "chapter_number": "69",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "13"
+    },
+    {
+      "chapter_id": "hongloumeng_ch069",
+      "chapter_number": "69",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch069",
+      "chapter_number": "69",
+      "motif_key": "motif_medicine",
+      "motif_type": "身體",
+      "subtype": "藥",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch069",
+      "chapter_number": "69",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "8"
+    },
+    {
+      "chapter_id": "hongloumeng_ch069",
+      "chapter_number": "69",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch069",
+      "chapter_number": "69",
+      "motif_key": "motif_snow",
+      "motif_type": "自然",
+      "subtype": "雪",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch069",
+      "chapter_number": "69",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch069",
+      "chapter_number": "69",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch069",
+      "chapter_number": "69",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "15"
+    },
+    {
+      "chapter_id": "hongloumeng_ch069",
+      "chapter_number": "69",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch069",
+      "chapter_number": "69",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch069",
+      "chapter_number": "69",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch070",
+      "chapter_number": "70",
+      "motif_key": "motif_bamboo",
+      "motif_type": "花木",
+      "subtype": "竹",
+      "count": "9"
+    },
+    {
+      "chapter_id": "hongloumeng_ch070",
+      "chapter_number": "70",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "9"
+    },
+    {
+      "chapter_id": "hongloumeng_ch070",
+      "chapter_number": "70",
+      "motif_key": "motif_dream",
+      "motif_type": "夢幻",
+      "subtype": "夢",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch070",
+      "chapter_number": "70",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "15"
+    },
+    {
+      "chapter_id": "hongloumeng_ch070",
+      "chapter_number": "70",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "13"
+    },
+    {
+      "chapter_id": "hongloumeng_ch070",
+      "chapter_number": "70",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch070",
+      "chapter_number": "70",
+      "motif_key": "motif_green",
+      "motif_type": "顏色",
+      "subtype": "綠色",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch070",
+      "chapter_number": "70",
+      "motif_key": "motif_green_blue",
+      "motif_type": "顏色",
+      "subtype": "青色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch070",
+      "chapter_number": "70",
+      "motif_key": "motif_haitang",
+      "motif_type": "花木",
+      "subtype": "海棠",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch070",
+      "chapter_number": "70",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "9"
+    },
+    {
+      "chapter_id": "hongloumeng_ch070",
+      "chapter_number": "70",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "69"
+    },
+    {
+      "chapter_id": "hongloumeng_ch070",
+      "chapter_number": "70",
+      "motif_key": "motif_lotus",
+      "motif_type": "花木",
+      "subtype": "蓮",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch070",
+      "chapter_number": "70",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "14"
+    },
+    {
+      "chapter_id": "hongloumeng_ch070",
+      "chapter_number": "70",
+      "motif_key": "motif_peach_blossom",
+      "motif_type": "花木",
+      "subtype": "桃花",
+      "count": "15"
+    },
+    {
+      "chapter_id": "hongloumeng_ch070",
+      "chapter_number": "70",
+      "motif_key": "motif_plum_blossom",
+      "motif_type": "花木",
+      "subtype": "梅花",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch070",
+      "chapter_number": "70",
+      "motif_key": "motif_poetry",
+      "motif_type": "文藝",
+      "subtype": "詩",
+      "count": "13"
+    },
+    {
+      "chapter_id": "hongloumeng_ch070",
+      "chapter_number": "70",
+      "motif_key": "motif_purple",
+      "motif_type": "顏色",
+      "subtype": "紫色",
+      "count": "8"
+    },
+    {
+      "chapter_id": "hongloumeng_ch070",
+      "chapter_number": "70",
+      "motif_key": "motif_rain",
+      "motif_type": "自然",
+      "subtype": "雨",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch070",
+      "chapter_number": "70",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "11"
+    },
+    {
+      "chapter_id": "hongloumeng_ch070",
+      "chapter_number": "70",
+      "motif_key": "motif_snow",
+      "motif_type": "自然",
+      "subtype": "雪",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch070",
+      "chapter_number": "70",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "9"
+    },
+    {
+      "chapter_id": "hongloumeng_ch070",
+      "chapter_number": "70",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch070",
+      "chapter_number": "70",
+      "motif_key": "motif_willow",
+      "motif_type": "花木",
+      "subtype": "柳",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch070",
+      "chapter_number": "70",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "28"
+    },
+    {
+      "chapter_id": "hongloumeng_ch070",
+      "chapter_number": "70",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch071",
+      "chapter_number": "71",
+      "motif_key": "motif_bamboo",
+      "motif_type": "花木",
+      "subtype": "竹",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch071",
+      "chapter_number": "71",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch071",
+      "chapter_number": "71",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch071",
+      "chapter_number": "71",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "10"
+    },
+    {
+      "chapter_id": "hongloumeng_ch071",
+      "chapter_number": "71",
+      "motif_key": "motif_hibiscus",
+      "motif_type": "花木",
+      "subtype": "芙蓉",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch071",
+      "chapter_number": "71",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch071",
+      "chapter_number": "71",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "16"
+    },
+    {
+      "chapter_id": "hongloumeng_ch071",
+      "chapter_number": "71",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "7"
+    },
+    {
+      "chapter_id": "hongloumeng_ch071",
+      "chapter_number": "71",
+      "motif_key": "motif_purple",
+      "motif_type": "顏色",
+      "subtype": "紫色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch071",
+      "chapter_number": "71",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "7"
+    },
+    {
+      "chapter_id": "hongloumeng_ch071",
+      "chapter_number": "71",
+      "motif_key": "motif_stone",
+      "motif_type": "物象",
+      "subtype": "石",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch071",
+      "chapter_number": "71",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch071",
+      "chapter_number": "71",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "7"
+    },
+    {
+      "chapter_id": "hongloumeng_ch071",
+      "chapter_number": "71",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch071",
+      "chapter_number": "71",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch071",
+      "chapter_number": "71",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "7"
+    },
+    {
+      "chapter_id": "hongloumeng_ch072",
+      "chapter_number": "72",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch072",
+      "chapter_number": "72",
+      "motif_key": "motif_dream",
+      "motif_type": "夢幻",
+      "subtype": "夢",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch072",
+      "chapter_number": "72",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch072",
+      "chapter_number": "72",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch072",
+      "chapter_number": "72",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch072",
+      "chapter_number": "72",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "13"
+    },
+    {
+      "chapter_id": "hongloumeng_ch072",
+      "chapter_number": "72",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch072",
+      "chapter_number": "72",
+      "motif_key": "motif_lotus",
+      "motif_type": "花木",
+      "subtype": "蓮",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch072",
+      "chapter_number": "72",
+      "motif_key": "motif_medicine",
+      "motif_type": "身體",
+      "subtype": "藥",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch072",
+      "chapter_number": "72",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "14"
+    },
+    {
+      "chapter_id": "hongloumeng_ch072",
+      "chapter_number": "72",
+      "motif_key": "motif_rain",
+      "motif_type": "自然",
+      "subtype": "雨",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch072",
+      "chapter_number": "72",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch072",
+      "chapter_number": "72",
+      "motif_key": "motif_stone",
+      "motif_type": "物象",
+      "subtype": "石",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch072",
+      "chapter_number": "72",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch072",
+      "chapter_number": "72",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch072",
+      "chapter_number": "72",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "11"
+    },
+    {
+      "chapter_id": "hongloumeng_ch072",
+      "chapter_number": "72",
+      "motif_key": "motif_willow",
+      "motif_type": "花木",
+      "subtype": "柳",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch072",
+      "chapter_number": "72",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch072",
+      "chapter_number": "72",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch073",
+      "chapter_number": "73",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "12"
+    },
+    {
+      "chapter_id": "hongloumeng_ch073",
+      "chapter_number": "73",
+      "motif_key": "motif_dream",
+      "motif_type": "夢幻",
+      "subtype": "夢",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch073",
+      "chapter_number": "73",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch073",
+      "chapter_number": "73",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch073",
+      "chapter_number": "73",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "9"
+    },
+    {
+      "chapter_id": "hongloumeng_ch073",
+      "chapter_number": "73",
+      "motif_key": "motif_green",
+      "motif_type": "顏色",
+      "subtype": "綠色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch073",
+      "chapter_number": "73",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch073",
+      "chapter_number": "73",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "21"
+    },
+    {
+      "chapter_id": "hongloumeng_ch073",
+      "chapter_number": "73",
+      "motif_key": "motif_medicine",
+      "motif_type": "身體",
+      "subtype": "藥",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch073",
+      "chapter_number": "73",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "10"
+    },
+    {
+      "chapter_id": "hongloumeng_ch073",
+      "chapter_number": "73",
+      "motif_key": "motif_poetry",
+      "motif_type": "文藝",
+      "subtype": "詩",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch073",
+      "chapter_number": "73",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch073",
+      "chapter_number": "73",
+      "motif_key": "motif_song_drama",
+      "motif_type": "文藝",
+      "subtype": "曲",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch073",
+      "chapter_number": "73",
+      "motif_key": "motif_stone",
+      "motif_type": "物象",
+      "subtype": "石",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch073",
+      "chapter_number": "73",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch073",
+      "chapter_number": "73",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch073",
+      "chapter_number": "73",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch073",
+      "chapter_number": "73",
+      "motif_key": "motif_willow",
+      "motif_type": "花木",
+      "subtype": "柳",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch073",
+      "chapter_number": "73",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch073",
+      "chapter_number": "73",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch074",
+      "chapter_number": "74",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch074",
+      "chapter_number": "74",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch074",
+      "chapter_number": "74",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "7"
+    },
+    {
+      "chapter_id": "hongloumeng_ch074",
+      "chapter_number": "74",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "10"
+    },
+    {
+      "chapter_id": "hongloumeng_ch074",
+      "chapter_number": "74",
+      "motif_key": "motif_green",
+      "motif_type": "顏色",
+      "subtype": "綠色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch074",
+      "chapter_number": "74",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "8"
+    },
+    {
+      "chapter_id": "hongloumeng_ch074",
+      "chapter_number": "74",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "28"
+    },
+    {
+      "chapter_id": "hongloumeng_ch074",
+      "chapter_number": "74",
+      "motif_key": "motif_medicine",
+      "motif_type": "身體",
+      "subtype": "藥",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch074",
+      "chapter_number": "74",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "9"
+    },
+    {
+      "chapter_id": "hongloumeng_ch074",
+      "chapter_number": "74",
+      "motif_key": "motif_purple",
+      "motif_type": "顏色",
+      "subtype": "紫色",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch074",
+      "chapter_number": "74",
+      "motif_key": "motif_rain",
+      "motif_type": "自然",
+      "subtype": "雨",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch074",
+      "chapter_number": "74",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "7"
+    },
+    {
+      "chapter_id": "hongloumeng_ch074",
+      "chapter_number": "74",
+      "motif_key": "motif_stone",
+      "motif_type": "物象",
+      "subtype": "石",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch074",
+      "chapter_number": "74",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch074",
+      "chapter_number": "74",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch074",
+      "chapter_number": "74",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch074",
+      "chapter_number": "74",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "16"
+    },
+    {
+      "chapter_id": "hongloumeng_ch074",
+      "chapter_number": "74",
+      "motif_key": "motif_willow",
+      "motif_type": "花木",
+      "subtype": "柳",
+      "count": "8"
+    },
+    {
+      "chapter_id": "hongloumeng_ch074",
+      "chapter_number": "74",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch074",
+      "chapter_number": "74",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch075",
+      "chapter_number": "75",
+      "motif_key": "motif_bamboo",
+      "motif_type": "花木",
+      "subtype": "竹",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch075",
+      "chapter_number": "75",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "7"
+    },
+    {
+      "chapter_id": "hongloumeng_ch075",
+      "chapter_number": "75",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "12"
+    },
+    {
+      "chapter_id": "hongloumeng_ch075",
+      "chapter_number": "75",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch075",
+      "chapter_number": "75",
+      "motif_key": "motif_green",
+      "motif_type": "顏色",
+      "subtype": "綠色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch075",
+      "chapter_number": "75",
+      "motif_key": "motif_hibiscus",
+      "motif_type": "花木",
+      "subtype": "芙蓉",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch075",
+      "chapter_number": "75",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "8"
+    },
+    {
+      "chapter_id": "hongloumeng_ch075",
+      "chapter_number": "75",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "16"
+    },
+    {
+      "chapter_id": "hongloumeng_ch075",
+      "chapter_number": "75",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "17"
+    },
+    {
+      "chapter_id": "hongloumeng_ch075",
+      "chapter_number": "75",
+      "motif_key": "motif_poetry",
+      "motif_type": "文藝",
+      "subtype": "詩",
+      "count": "7"
+    },
+    {
+      "chapter_id": "hongloumeng_ch075",
+      "chapter_number": "75",
+      "motif_key": "motif_purple",
+      "motif_type": "顏色",
+      "subtype": "紫色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch075",
+      "chapter_number": "75",
+      "motif_key": "motif_rain",
+      "motif_type": "自然",
+      "subtype": "雨",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch075",
+      "chapter_number": "75",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch075",
+      "chapter_number": "75",
+      "motif_key": "motif_snow",
+      "motif_type": "自然",
+      "subtype": "雪",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch075",
+      "chapter_number": "75",
+      "motif_key": "motif_song_drama",
+      "motif_type": "文藝",
+      "subtype": "曲",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch075",
+      "chapter_number": "75",
+      "motif_key": "motif_stone",
+      "motif_type": "物象",
+      "subtype": "石",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch075",
+      "chapter_number": "75",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch075",
+      "chapter_number": "75",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch075",
+      "chapter_number": "75",
+      "motif_key": "motif_willow",
+      "motif_type": "花木",
+      "subtype": "柳",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch075",
+      "chapter_number": "75",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "7"
+    },
+    {
+      "chapter_id": "hongloumeng_ch075",
+      "chapter_number": "75",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "29"
+    },
+    {
+      "chapter_id": "hongloumeng_ch076",
+      "chapter_number": "76",
+      "motif_key": "motif_bamboo",
+      "motif_type": "花木",
+      "subtype": "竹",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch076",
+      "chapter_number": "76",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch076",
+      "chapter_number": "76",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch076",
+      "chapter_number": "76",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch076",
+      "chapter_number": "76",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch076",
+      "chapter_number": "76",
+      "motif_key": "motif_green",
+      "motif_type": "顏色",
+      "subtype": "綠色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch076",
+      "chapter_number": "76",
+      "motif_key": "motif_green_blue",
+      "motif_type": "顏色",
+      "subtype": "青色",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch076",
+      "chapter_number": "76",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "11"
+    },
+    {
+      "chapter_id": "hongloumeng_ch076",
+      "chapter_number": "76",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "57"
+    },
+    {
+      "chapter_id": "hongloumeng_ch076",
+      "chapter_number": "76",
+      "motif_key": "motif_medicine",
+      "motif_type": "身體",
+      "subtype": "藥",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch076",
+      "chapter_number": "76",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "30"
+    },
+    {
+      "chapter_id": "hongloumeng_ch076",
+      "chapter_number": "76",
+      "motif_key": "motif_poetry",
+      "motif_type": "文藝",
+      "subtype": "詩",
+      "count": "12"
+    },
+    {
+      "chapter_id": "hongloumeng_ch076",
+      "chapter_number": "76",
+      "motif_key": "motif_purple",
+      "motif_type": "顏色",
+      "subtype": "紫色",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch076",
+      "chapter_number": "76",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch076",
+      "chapter_number": "76",
+      "motif_key": "motif_snow",
+      "motif_type": "自然",
+      "subtype": "雪",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch076",
+      "chapter_number": "76",
+      "motif_key": "motif_song_drama",
+      "motif_type": "文藝",
+      "subtype": "曲",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch076",
+      "chapter_number": "76",
+      "motif_key": "motif_stone",
+      "motif_type": "物象",
+      "subtype": "石",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch076",
+      "chapter_number": "76",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "12"
+    },
+    {
+      "chapter_id": "hongloumeng_ch076",
+      "chapter_number": "76",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch076",
+      "chapter_number": "76",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch076",
+      "chapter_number": "76",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "7"
+    },
+    {
+      "chapter_id": "hongloumeng_ch076",
+      "chapter_number": "76",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "13"
+    },
+    {
+      "chapter_id": "hongloumeng_ch077",
+      "chapter_number": "77",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch077",
+      "chapter_number": "77",
+      "motif_key": "motif_dream",
+      "motif_type": "夢幻",
+      "subtype": "夢",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch077",
+      "chapter_number": "77",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch077",
+      "chapter_number": "77",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch077",
+      "chapter_number": "77",
+      "motif_key": "motif_haitang",
+      "motif_type": "花木",
+      "subtype": "海棠",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch077",
+      "chapter_number": "77",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "10"
+    },
+    {
+      "chapter_id": "hongloumeng_ch077",
+      "chapter_number": "77",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "82"
+    },
+    {
+      "chapter_id": "hongloumeng_ch077",
+      "chapter_number": "77",
+      "motif_key": "motif_medicine",
+      "motif_type": "身體",
+      "subtype": "藥",
+      "count": "9"
+    },
+    {
+      "chapter_id": "hongloumeng_ch077",
+      "chapter_number": "77",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "7"
+    },
+    {
+      "chapter_id": "hongloumeng_ch077",
+      "chapter_number": "77",
+      "motif_key": "motif_poetry",
+      "motif_type": "文藝",
+      "subtype": "詩",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch077",
+      "chapter_number": "77",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "9"
+    },
+    {
+      "chapter_id": "hongloumeng_ch077",
+      "chapter_number": "77",
+      "motif_key": "motif_stone",
+      "motif_type": "物象",
+      "subtype": "石",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch077",
+      "chapter_number": "77",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "19"
+    },
+    {
+      "chapter_id": "hongloumeng_ch077",
+      "chapter_number": "77",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "11"
+    },
+    {
+      "chapter_id": "hongloumeng_ch077",
+      "chapter_number": "77",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "14"
+    },
+    {
+      "chapter_id": "hongloumeng_ch077",
+      "chapter_number": "77",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "8"
+    },
+    {
+      "chapter_id": "hongloumeng_ch077",
+      "chapter_number": "77",
+      "motif_key": "motif_willow",
+      "motif_type": "花木",
+      "subtype": "柳",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch077",
+      "chapter_number": "77",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "7"
+    },
+    {
+      "chapter_id": "hongloumeng_ch077",
+      "chapter_number": "77",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch078",
+      "chapter_number": "78",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "8"
+    },
+    {
+      "chapter_id": "hongloumeng_ch078",
+      "chapter_number": "78",
+      "motif_key": "motif_dream",
+      "motif_type": "夢幻",
+      "subtype": "夢",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch078",
+      "chapter_number": "78",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "19"
+    },
+    {
+      "chapter_id": "hongloumeng_ch078",
+      "chapter_number": "78",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "13"
+    },
+    {
+      "chapter_id": "hongloumeng_ch078",
+      "chapter_number": "78",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch078",
+      "chapter_number": "78",
+      "motif_key": "motif_green_blue",
+      "motif_type": "顏色",
+      "subtype": "青色",
+      "count": "12"
+    },
+    {
+      "chapter_id": "hongloumeng_ch078",
+      "chapter_number": "78",
+      "motif_key": "motif_haitang",
+      "motif_type": "花木",
+      "subtype": "海棠",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch078",
+      "chapter_number": "78",
+      "motif_key": "motif_hibiscus",
+      "motif_type": "花木",
+      "subtype": "芙蓉",
+      "count": "14"
+    },
+    {
+      "chapter_id": "hongloumeng_ch078",
+      "chapter_number": "78",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch078",
+      "chapter_number": "78",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "86"
+    },
+    {
+      "chapter_id": "hongloumeng_ch078",
+      "chapter_number": "78",
+      "motif_key": "motif_lotus",
+      "motif_type": "花木",
+      "subtype": "蓮",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch078",
+      "chapter_number": "78",
+      "motif_key": "motif_medicine",
+      "motif_type": "身體",
+      "subtype": "藥",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch078",
+      "chapter_number": "78",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "20"
+    },
+    {
+      "chapter_id": "hongloumeng_ch078",
+      "chapter_number": "78",
+      "motif_key": "motif_poetry",
+      "motif_type": "文藝",
+      "subtype": "詩",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch078",
+      "chapter_number": "78",
+      "motif_key": "motif_rain",
+      "motif_type": "自然",
+      "subtype": "雨",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch078",
+      "chapter_number": "78",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "8"
+    },
+    {
+      "chapter_id": "hongloumeng_ch078",
+      "chapter_number": "78",
+      "motif_key": "motif_snow",
+      "motif_type": "自然",
+      "subtype": "雪",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch078",
+      "chapter_number": "78",
+      "motif_key": "motif_stone",
+      "motif_type": "物象",
+      "subtype": "石",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch078",
+      "chapter_number": "78",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch078",
+      "chapter_number": "78",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "8"
+    },
+    {
+      "chapter_id": "hongloumeng_ch078",
+      "chapter_number": "78",
+      "motif_key": "motif_willow",
+      "motif_type": "花木",
+      "subtype": "柳",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch078",
+      "chapter_number": "78",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "14"
+    },
+    {
+      "chapter_id": "hongloumeng_ch078",
+      "chapter_number": "78",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch079",
+      "chapter_number": "79",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch079",
+      "chapter_number": "79",
+      "motif_key": "motif_dream",
+      "motif_type": "夢幻",
+      "subtype": "夢",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch079",
+      "chapter_number": "79",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "16"
+    },
+    {
+      "chapter_id": "hongloumeng_ch079",
+      "chapter_number": "79",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "20"
+    },
+    {
+      "chapter_id": "hongloumeng_ch079",
+      "chapter_number": "79",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "15"
+    },
+    {
+      "chapter_id": "hongloumeng_ch079",
+      "chapter_number": "79",
+      "motif_key": "motif_green_blue",
+      "motif_type": "顏色",
+      "subtype": "青色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch079",
+      "chapter_number": "79",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch079",
+      "chapter_number": "79",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "38"
+    },
+    {
+      "chapter_id": "hongloumeng_ch079",
+      "chapter_number": "79",
+      "motif_key": "motif_medicine",
+      "motif_type": "身體",
+      "subtype": "藥",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch079",
+      "chapter_number": "79",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch079",
+      "chapter_number": "79",
+      "motif_key": "motif_poetry",
+      "motif_type": "文藝",
+      "subtype": "詩",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch079",
+      "chapter_number": "79",
+      "motif_key": "motif_purple",
+      "motif_type": "顏色",
+      "subtype": "紫色",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch079",
+      "chapter_number": "79",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "9"
+    },
+    {
+      "chapter_id": "hongloumeng_ch079",
+      "chapter_number": "79",
+      "motif_key": "motif_song_drama",
+      "motif_type": "文藝",
+      "subtype": "曲",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch079",
+      "chapter_number": "79",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch079",
+      "chapter_number": "79",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch079",
+      "chapter_number": "79",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch079",
+      "chapter_number": "79",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch079",
+      "chapter_number": "79",
+      "motif_key": "motif_willow",
+      "motif_type": "花木",
+      "subtype": "柳",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch079",
+      "chapter_number": "79",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch079",
+      "chapter_number": "79",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch080",
+      "chapter_number": "80",
+      "motif_key": "motif_dream",
+      "motif_type": "夢幻",
+      "subtype": "夢",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch080",
+      "chapter_number": "80",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "14"
+    },
+    {
+      "chapter_id": "hongloumeng_ch080",
+      "chapter_number": "80",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "58"
+    },
+    {
+      "chapter_id": "hongloumeng_ch080",
+      "chapter_number": "80",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "45"
+    },
+    {
+      "chapter_id": "hongloumeng_ch080",
+      "chapter_number": "80",
+      "motif_key": "motif_green_blue",
+      "motif_type": "顏色",
+      "subtype": "青色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch080",
+      "chapter_number": "80",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "9"
+    },
+    {
+      "chapter_id": "hongloumeng_ch080",
+      "chapter_number": "80",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "23"
+    },
+    {
+      "chapter_id": "hongloumeng_ch080",
+      "chapter_number": "80",
+      "motif_key": "motif_lotus",
+      "motif_type": "花木",
+      "subtype": "蓮",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch080",
+      "chapter_number": "80",
+      "motif_key": "motif_medicine",
+      "motif_type": "身體",
+      "subtype": "藥",
+      "count": "17"
+    },
+    {
+      "chapter_id": "hongloumeng_ch080",
+      "chapter_number": "80",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch080",
+      "chapter_number": "80",
+      "motif_key": "motif_purple",
+      "motif_type": "顏色",
+      "subtype": "紫色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch080",
+      "chapter_number": "80",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch080",
+      "chapter_number": "80",
+      "motif_key": "motif_song_drama",
+      "motif_type": "文藝",
+      "subtype": "曲",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch080",
+      "chapter_number": "80",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "7"
+    },
+    {
+      "chapter_id": "hongloumeng_ch080",
+      "chapter_number": "80",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "10"
+    },
+    {
+      "chapter_id": "hongloumeng_ch080",
+      "chapter_number": "80",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch080",
+      "chapter_number": "80",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch080",
+      "chapter_number": "80",
+      "motif_key": "motif_willow",
+      "motif_type": "花木",
+      "subtype": "柳",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch080",
+      "chapter_number": "80",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch080",
+      "chapter_number": "80",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch081",
+      "chapter_number": "81",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "26"
+    },
+    {
+      "chapter_id": "hongloumeng_ch081",
+      "chapter_number": "81",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch081",
+      "chapter_number": "81",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "7"
+    },
+    {
+      "chapter_id": "hongloumeng_ch081",
+      "chapter_number": "81",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch081",
+      "chapter_number": "81",
+      "motif_key": "motif_green_blue",
+      "motif_type": "顏色",
+      "subtype": "青色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch081",
+      "chapter_number": "81",
+      "motif_key": "motif_haitang",
+      "motif_type": "花木",
+      "subtype": "海棠",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch081",
+      "chapter_number": "81",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "14"
+    },
+    {
+      "chapter_id": "hongloumeng_ch081",
+      "chapter_number": "81",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "77"
+    },
+    {
+      "chapter_id": "hongloumeng_ch081",
+      "chapter_number": "81",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch081",
+      "chapter_number": "81",
+      "motif_key": "motif_poetry",
+      "motif_type": "文藝",
+      "subtype": "詩",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch081",
+      "chapter_number": "81",
+      "motif_key": "motif_purple",
+      "motif_type": "顏色",
+      "subtype": "紫色",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch081",
+      "chapter_number": "81",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch081",
+      "chapter_number": "81",
+      "motif_key": "motif_stone",
+      "motif_type": "物象",
+      "subtype": "石",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch081",
+      "chapter_number": "81",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch081",
+      "chapter_number": "81",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch081",
+      "chapter_number": "81",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch081",
+      "chapter_number": "81",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch081",
+      "chapter_number": "81",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch081",
+      "chapter_number": "81",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch082",
+      "chapter_number": "82",
+      "motif_key": "motif_bamboo",
+      "motif_type": "花木",
+      "subtype": "竹",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch082",
+      "chapter_number": "82",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "23"
+    },
+    {
+      "chapter_id": "hongloumeng_ch082",
+      "chapter_number": "82",
+      "motif_key": "motif_dream",
+      "motif_type": "夢幻",
+      "subtype": "夢",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch082",
+      "chapter_number": "82",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch082",
+      "chapter_number": "82",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch082",
+      "chapter_number": "82",
+      "motif_key": "motif_green_blue",
+      "motif_type": "顏色",
+      "subtype": "青色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch082",
+      "chapter_number": "82",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "8"
+    },
+    {
+      "chapter_id": "hongloumeng_ch082",
+      "chapter_number": "82",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "132"
+    },
+    {
+      "chapter_id": "hongloumeng_ch082",
+      "chapter_number": "82",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch082",
+      "chapter_number": "82",
+      "motif_key": "motif_poetry",
+      "motif_type": "文藝",
+      "subtype": "詩",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch082",
+      "chapter_number": "82",
+      "motif_key": "motif_purple",
+      "motif_type": "顏色",
+      "subtype": "紫色",
+      "count": "36"
+    },
+    {
+      "chapter_id": "hongloumeng_ch082",
+      "chapter_number": "82",
+      "motif_key": "motif_rain",
+      "motif_type": "自然",
+      "subtype": "雨",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch082",
+      "chapter_number": "82",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch082",
+      "chapter_number": "82",
+      "motif_key": "motif_snow",
+      "motif_type": "自然",
+      "subtype": "雪",
+      "count": "14"
+    },
+    {
+      "chapter_id": "hongloumeng_ch082",
+      "chapter_number": "82",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "7"
+    },
+    {
+      "chapter_id": "hongloumeng_ch082",
+      "chapter_number": "82",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch082",
+      "chapter_number": "82",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "12"
+    },
+    {
+      "chapter_id": "hongloumeng_ch082",
+      "chapter_number": "82",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch082",
+      "chapter_number": "82",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "7"
+    },
+    {
+      "chapter_id": "hongloumeng_ch083",
+      "chapter_number": "83",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch083",
+      "chapter_number": "83",
+      "motif_key": "motif_dream",
+      "motif_type": "夢幻",
+      "subtype": "夢",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch083",
+      "chapter_number": "83",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch083",
+      "chapter_number": "83",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch083",
+      "chapter_number": "83",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "21"
+    },
+    {
+      "chapter_id": "hongloumeng_ch083",
+      "chapter_number": "83",
+      "motif_key": "motif_green",
+      "motif_type": "顏色",
+      "subtype": "綠色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch083",
+      "chapter_number": "83",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "15"
+    },
+    {
+      "chapter_id": "hongloumeng_ch083",
+      "chapter_number": "83",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "38"
+    },
+    {
+      "chapter_id": "hongloumeng_ch083",
+      "chapter_number": "83",
+      "motif_key": "motif_medicine",
+      "motif_type": "身體",
+      "subtype": "藥",
+      "count": "7"
+    },
+    {
+      "chapter_id": "hongloumeng_ch083",
+      "chapter_number": "83",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch083",
+      "chapter_number": "83",
+      "motif_key": "motif_poetry",
+      "motif_type": "文藝",
+      "subtype": "詩",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch083",
+      "chapter_number": "83",
+      "motif_key": "motif_purple",
+      "motif_type": "顏色",
+      "subtype": "紫色",
+      "count": "26"
+    },
+    {
+      "chapter_id": "hongloumeng_ch083",
+      "chapter_number": "83",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch083",
+      "chapter_number": "83",
+      "motif_key": "motif_snow",
+      "motif_type": "自然",
+      "subtype": "雪",
+      "count": "7"
+    },
+    {
+      "chapter_id": "hongloumeng_ch083",
+      "chapter_number": "83",
+      "motif_key": "motif_stone",
+      "motif_type": "物象",
+      "subtype": "石",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch083",
+      "chapter_number": "83",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch083",
+      "chapter_number": "83",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "9"
+    },
+    {
+      "chapter_id": "hongloumeng_ch083",
+      "chapter_number": "83",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch083",
+      "chapter_number": "83",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch083",
+      "chapter_number": "83",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch083",
+      "chapter_number": "83",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch084",
+      "chapter_number": "84",
+      "motif_key": "motif_bamboo",
+      "motif_type": "花木",
+      "subtype": "竹",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch084",
+      "chapter_number": "84",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "8"
+    },
+    {
+      "chapter_id": "hongloumeng_ch084",
+      "chapter_number": "84",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch084",
+      "chapter_number": "84",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch084",
+      "chapter_number": "84",
+      "motif_key": "motif_green_blue",
+      "motif_type": "顏色",
+      "subtype": "青色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch084",
+      "chapter_number": "84",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch084",
+      "chapter_number": "84",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "47"
+    },
+    {
+      "chapter_id": "hongloumeng_ch084",
+      "chapter_number": "84",
+      "motif_key": "motif_medicine",
+      "motif_type": "身體",
+      "subtype": "藥",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch084",
+      "chapter_number": "84",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch084",
+      "chapter_number": "84",
+      "motif_key": "motif_poetry",
+      "motif_type": "文藝",
+      "subtype": "詩",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch084",
+      "chapter_number": "84",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch084",
+      "chapter_number": "84",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch084",
+      "chapter_number": "84",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch084",
+      "chapter_number": "84",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch084",
+      "chapter_number": "84",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch084",
+      "chapter_number": "84",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch085",
+      "chapter_number": "85",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "10"
+    },
+    {
+      "chapter_id": "hongloumeng_ch085",
+      "chapter_number": "85",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch085",
+      "chapter_number": "85",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch085",
+      "chapter_number": "85",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch085",
+      "chapter_number": "85",
+      "motif_key": "motif_haitang",
+      "motif_type": "花木",
+      "subtype": "海棠",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch085",
+      "chapter_number": "85",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch085",
+      "chapter_number": "85",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "91"
+    },
+    {
+      "chapter_id": "hongloumeng_ch085",
+      "chapter_number": "85",
+      "motif_key": "motif_medicine",
+      "motif_type": "身體",
+      "subtype": "藥",
+      "count": "9"
+    },
+    {
+      "chapter_id": "hongloumeng_ch085",
+      "chapter_number": "85",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "12"
+    },
+    {
+      "chapter_id": "hongloumeng_ch085",
+      "chapter_number": "85",
+      "motif_key": "motif_purple",
+      "motif_type": "顏色",
+      "subtype": "紫色",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch085",
+      "chapter_number": "85",
+      "motif_key": "motif_rain",
+      "motif_type": "自然",
+      "subtype": "雨",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch085",
+      "chapter_number": "85",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "10"
+    },
+    {
+      "chapter_id": "hongloumeng_ch085",
+      "chapter_number": "85",
+      "motif_key": "motif_snow",
+      "motif_type": "自然",
+      "subtype": "雪",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch085",
+      "chapter_number": "85",
+      "motif_key": "motif_song_drama",
+      "motif_type": "文藝",
+      "subtype": "曲",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch085",
+      "chapter_number": "85",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch085",
+      "chapter_number": "85",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch085",
+      "chapter_number": "85",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch085",
+      "chapter_number": "85",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch085",
+      "chapter_number": "85",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch085",
+      "chapter_number": "85",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch086",
+      "chapter_number": "86",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "16"
+    },
+    {
+      "chapter_id": "hongloumeng_ch086",
+      "chapter_number": "86",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "9"
+    },
+    {
+      "chapter_id": "hongloumeng_ch086",
+      "chapter_number": "86",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch086",
+      "chapter_number": "86",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch086",
+      "chapter_number": "86",
+      "motif_key": "motif_green_blue",
+      "motif_type": "顏色",
+      "subtype": "青色",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch086",
+      "chapter_number": "86",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch086",
+      "chapter_number": "86",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "44"
+    },
+    {
+      "chapter_id": "hongloumeng_ch086",
+      "chapter_number": "86",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "9"
+    },
+    {
+      "chapter_id": "hongloumeng_ch086",
+      "chapter_number": "86",
+      "motif_key": "motif_purple",
+      "motif_type": "顏色",
+      "subtype": "紫色",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch086",
+      "chapter_number": "86",
+      "motif_key": "motif_rain",
+      "motif_type": "自然",
+      "subtype": "雨",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch086",
+      "chapter_number": "86",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch086",
+      "chapter_number": "86",
+      "motif_key": "motif_snow",
+      "motif_type": "自然",
+      "subtype": "雪",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch086",
+      "chapter_number": "86",
+      "motif_key": "motif_song_drama",
+      "motif_type": "文藝",
+      "subtype": "曲",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch086",
+      "chapter_number": "86",
+      "motif_key": "motif_stone",
+      "motif_type": "物象",
+      "subtype": "石",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch086",
+      "chapter_number": "86",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch086",
+      "chapter_number": "86",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch086",
+      "chapter_number": "86",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "7"
+    },
+    {
+      "chapter_id": "hongloumeng_ch086",
+      "chapter_number": "86",
+      "motif_key": "motif_willow",
+      "motif_type": "花木",
+      "subtype": "柳",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch086",
+      "chapter_number": "86",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch086",
+      "chapter_number": "86",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "20"
+    },
+    {
+      "chapter_id": "hongloumeng_ch087",
+      "chapter_number": "87",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "7"
+    },
+    {
+      "chapter_id": "hongloumeng_ch087",
+      "chapter_number": "87",
+      "motif_key": "motif_chrysanthemum",
+      "motif_type": "花木",
+      "subtype": "菊花",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch087",
+      "chapter_number": "87",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch087",
+      "chapter_number": "87",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "15"
+    },
+    {
+      "chapter_id": "hongloumeng_ch087",
+      "chapter_number": "87",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch087",
+      "chapter_number": "87",
+      "motif_key": "motif_green_blue",
+      "motif_type": "顏色",
+      "subtype": "青色",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch087",
+      "chapter_number": "87",
+      "motif_key": "motif_haitang",
+      "motif_type": "花木",
+      "subtype": "海棠",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch087",
+      "chapter_number": "87",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch087",
+      "chapter_number": "87",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "116"
+    },
+    {
+      "chapter_id": "hongloumeng_ch087",
+      "chapter_number": "87",
+      "motif_key": "motif_medicine",
+      "motif_type": "身體",
+      "subtype": "藥",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch087",
+      "chapter_number": "87",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch087",
+      "chapter_number": "87",
+      "motif_key": "motif_poetry",
+      "motif_type": "文藝",
+      "subtype": "詩",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch087",
+      "chapter_number": "87",
+      "motif_key": "motif_purple",
+      "motif_type": "顏色",
+      "subtype": "紫色",
+      "count": "16"
+    },
+    {
+      "chapter_id": "hongloumeng_ch087",
+      "chapter_number": "87",
+      "motif_key": "motif_rain",
+      "motif_type": "自然",
+      "subtype": "雨",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch087",
+      "chapter_number": "87",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "10"
+    },
+    {
+      "chapter_id": "hongloumeng_ch087",
+      "chapter_number": "87",
+      "motif_key": "motif_snow",
+      "motif_type": "自然",
+      "subtype": "雪",
+      "count": "17"
+    },
+    {
+      "chapter_id": "hongloumeng_ch087",
+      "chapter_number": "87",
+      "motif_key": "motif_song_drama",
+      "motif_type": "文藝",
+      "subtype": "曲",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch087",
+      "chapter_number": "87",
+      "motif_key": "motif_stone",
+      "motif_type": "物象",
+      "subtype": "石",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch087",
+      "chapter_number": "87",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch087",
+      "chapter_number": "87",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch087",
+      "chapter_number": "87",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch087",
+      "chapter_number": "87",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch087",
+      "chapter_number": "87",
+      "motif_key": "motif_willow",
+      "motif_type": "花木",
+      "subtype": "柳",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch087",
+      "chapter_number": "87",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "11"
+    },
+    {
+      "chapter_id": "hongloumeng_ch088",
+      "chapter_number": "88",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch088",
+      "chapter_number": "88",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch088",
+      "chapter_number": "88",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch088",
+      "chapter_number": "88",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch088",
+      "chapter_number": "88",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch088",
+      "chapter_number": "88",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "7"
+    },
+    {
+      "chapter_id": "hongloumeng_ch088",
+      "chapter_number": "88",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch088",
+      "chapter_number": "88",
+      "motif_key": "motif_poetry",
+      "motif_type": "文藝",
+      "subtype": "詩",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch088",
+      "chapter_number": "88",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "20"
+    },
+    {
+      "chapter_id": "hongloumeng_ch088",
+      "chapter_number": "88",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch088",
+      "chapter_number": "88",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch088",
+      "chapter_number": "88",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch088",
+      "chapter_number": "88",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "8"
+    },
+    {
+      "chapter_id": "hongloumeng_ch088",
+      "chapter_number": "88",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch088",
+      "chapter_number": "88",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch089",
+      "chapter_number": "89",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "9"
+    },
+    {
+      "chapter_id": "hongloumeng_ch089",
+      "chapter_number": "89",
+      "motif_key": "motif_dream",
+      "motif_type": "夢幻",
+      "subtype": "夢",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch089",
+      "chapter_number": "89",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch089",
+      "chapter_number": "89",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "10"
+    },
+    {
+      "chapter_id": "hongloumeng_ch089",
+      "chapter_number": "89",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch089",
+      "chapter_number": "89",
+      "motif_key": "motif_green",
+      "motif_type": "顏色",
+      "subtype": "綠色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch089",
+      "chapter_number": "89",
+      "motif_key": "motif_green_blue",
+      "motif_type": "顏色",
+      "subtype": "青色",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch089",
+      "chapter_number": "89",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch089",
+      "chapter_number": "89",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "109"
+    },
+    {
+      "chapter_id": "hongloumeng_ch089",
+      "chapter_number": "89",
+      "motif_key": "motif_lotus",
+      "motif_type": "花木",
+      "subtype": "蓮",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch089",
+      "chapter_number": "89",
+      "motif_key": "motif_medicine",
+      "motif_type": "身體",
+      "subtype": "藥",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch089",
+      "chapter_number": "89",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "17"
+    },
+    {
+      "chapter_id": "hongloumeng_ch089",
+      "chapter_number": "89",
+      "motif_key": "motif_poetry",
+      "motif_type": "文藝",
+      "subtype": "詩",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch089",
+      "chapter_number": "89",
+      "motif_key": "motif_purple",
+      "motif_type": "顏色",
+      "subtype": "紫色",
+      "count": "32"
+    },
+    {
+      "chapter_id": "hongloumeng_ch089",
+      "chapter_number": "89",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch089",
+      "chapter_number": "89",
+      "motif_key": "motif_snow",
+      "motif_type": "自然",
+      "subtype": "雪",
+      "count": "17"
+    },
+    {
+      "chapter_id": "hongloumeng_ch089",
+      "chapter_number": "89",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "9"
+    },
+    {
+      "chapter_id": "hongloumeng_ch089",
+      "chapter_number": "89",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch089",
+      "chapter_number": "89",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch089",
+      "chapter_number": "89",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch089",
+      "chapter_number": "89",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch090",
+      "chapter_number": "90",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "22"
+    },
+    {
+      "chapter_id": "hongloumeng_ch090",
+      "chapter_number": "90",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch090",
+      "chapter_number": "90",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch090",
+      "chapter_number": "90",
+      "motif_key": "motif_green_blue",
+      "motif_type": "顏色",
+      "subtype": "青色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch090",
+      "chapter_number": "90",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "10"
+    },
+    {
+      "chapter_id": "hongloumeng_ch090",
+      "chapter_number": "90",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "36"
+    },
+    {
+      "chapter_id": "hongloumeng_ch090",
+      "chapter_number": "90",
+      "motif_key": "motif_medicine",
+      "motif_type": "身體",
+      "subtype": "藥",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch090",
+      "chapter_number": "90",
+      "motif_key": "motif_poetry",
+      "motif_type": "文藝",
+      "subtype": "詩",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch090",
+      "chapter_number": "90",
+      "motif_key": "motif_purple",
+      "motif_type": "顏色",
+      "subtype": "紫色",
+      "count": "30"
+    },
+    {
+      "chapter_id": "hongloumeng_ch090",
+      "chapter_number": "90",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch090",
+      "chapter_number": "90",
+      "motif_key": "motif_snow",
+      "motif_type": "自然",
+      "subtype": "雪",
+      "count": "22"
+    },
+    {
+      "chapter_id": "hongloumeng_ch090",
+      "chapter_number": "90",
+      "motif_key": "motif_stone",
+      "motif_type": "物象",
+      "subtype": "石",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch090",
+      "chapter_number": "90",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch090",
+      "chapter_number": "90",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch090",
+      "chapter_number": "90",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch090",
+      "chapter_number": "90",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "8"
+    },
+    {
+      "chapter_id": "hongloumeng_ch090",
+      "chapter_number": "90",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch091",
+      "chapter_number": "91",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch091",
+      "chapter_number": "91",
+      "motif_key": "motif_dream",
+      "motif_type": "夢幻",
+      "subtype": "夢",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch091",
+      "chapter_number": "91",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch091",
+      "chapter_number": "91",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch091",
+      "chapter_number": "91",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "33"
+    },
+    {
+      "chapter_id": "hongloumeng_ch091",
+      "chapter_number": "91",
+      "motif_key": "motif_green",
+      "motif_type": "顏色",
+      "subtype": "綠色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch091",
+      "chapter_number": "91",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "7"
+    },
+    {
+      "chapter_id": "hongloumeng_ch091",
+      "chapter_number": "91",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "47"
+    },
+    {
+      "chapter_id": "hongloumeng_ch091",
+      "chapter_number": "91",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch091",
+      "chapter_number": "91",
+      "motif_key": "motif_poetry",
+      "motif_type": "文藝",
+      "subtype": "詩",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch091",
+      "chapter_number": "91",
+      "motif_key": "motif_purple",
+      "motif_type": "顏色",
+      "subtype": "紫色",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch091",
+      "chapter_number": "91",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch091",
+      "chapter_number": "91",
+      "motif_key": "motif_snow",
+      "motif_type": "自然",
+      "subtype": "雪",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch091",
+      "chapter_number": "91",
+      "motif_key": "motif_stone",
+      "motif_type": "物象",
+      "subtype": "石",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch091",
+      "chapter_number": "91",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch091",
+      "chapter_number": "91",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch091",
+      "chapter_number": "91",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch091",
+      "chapter_number": "91",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch091",
+      "chapter_number": "91",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch092",
+      "chapter_number": "92",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "7"
+    },
+    {
+      "chapter_id": "hongloumeng_ch092",
+      "chapter_number": "92",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch092",
+      "chapter_number": "92",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch092",
+      "chapter_number": "92",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch092",
+      "chapter_number": "92",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "26"
+    },
+    {
+      "chapter_id": "hongloumeng_ch092",
+      "chapter_number": "92",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "7"
+    },
+    {
+      "chapter_id": "hongloumeng_ch092",
+      "chapter_number": "92",
+      "motif_key": "motif_poetry",
+      "motif_type": "文藝",
+      "subtype": "詩",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch092",
+      "chapter_number": "92",
+      "motif_key": "motif_purple",
+      "motif_type": "顏色",
+      "subtype": "紫色",
+      "count": "35"
+    },
+    {
+      "chapter_id": "hongloumeng_ch092",
+      "chapter_number": "92",
+      "motif_key": "motif_rain",
+      "motif_type": "自然",
+      "subtype": "雨",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch092",
+      "chapter_number": "92",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch092",
+      "chapter_number": "92",
+      "motif_key": "motif_snow",
+      "motif_type": "自然",
+      "subtype": "雪",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch092",
+      "chapter_number": "92",
+      "motif_key": "motif_stone",
+      "motif_type": "物象",
+      "subtype": "石",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch092",
+      "chapter_number": "92",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch092",
+      "chapter_number": "92",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch092",
+      "chapter_number": "92",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "7"
+    },
+    {
+      "chapter_id": "hongloumeng_ch092",
+      "chapter_number": "92",
+      "motif_key": "motif_willow",
+      "motif_type": "花木",
+      "subtype": "柳",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch092",
+      "chapter_number": "92",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch093",
+      "chapter_number": "93",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "9"
+    },
+    {
+      "chapter_id": "hongloumeng_ch093",
+      "chapter_number": "93",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch093",
+      "chapter_number": "93",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch093",
+      "chapter_number": "93",
+      "motif_key": "motif_green_blue",
+      "motif_type": "顏色",
+      "subtype": "青色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch093",
+      "chapter_number": "93",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch093",
+      "chapter_number": "93",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "26"
+    },
+    {
+      "chapter_id": "hongloumeng_ch093",
+      "chapter_number": "93",
+      "motif_key": "motif_medicine",
+      "motif_type": "身體",
+      "subtype": "藥",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch093",
+      "chapter_number": "93",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "24"
+    },
+    {
+      "chapter_id": "hongloumeng_ch093",
+      "chapter_number": "93",
+      "motif_key": "motif_poetry",
+      "motif_type": "文藝",
+      "subtype": "詩",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch093",
+      "chapter_number": "93",
+      "motif_key": "motif_purple",
+      "motif_type": "顏色",
+      "subtype": "紫色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch093",
+      "chapter_number": "93",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch093",
+      "chapter_number": "93",
+      "motif_key": "motif_song_drama",
+      "motif_type": "文藝",
+      "subtype": "曲",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch093",
+      "chapter_number": "93",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch093",
+      "chapter_number": "93",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch093",
+      "chapter_number": "93",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch093",
+      "chapter_number": "93",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch093",
+      "chapter_number": "93",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch094",
+      "chapter_number": "94",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch094",
+      "chapter_number": "94",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "23"
+    },
+    {
+      "chapter_id": "hongloumeng_ch094",
+      "chapter_number": "94",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch094",
+      "chapter_number": "94",
+      "motif_key": "motif_haitang",
+      "motif_type": "花木",
+      "subtype": "海棠",
+      "count": "8"
+    },
+    {
+      "chapter_id": "hongloumeng_ch094",
+      "chapter_number": "94",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch094",
+      "chapter_number": "94",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "63"
+    },
+    {
+      "chapter_id": "hongloumeng_ch094",
+      "chapter_number": "94",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "14"
+    },
+    {
+      "chapter_id": "hongloumeng_ch094",
+      "chapter_number": "94",
+      "motif_key": "motif_poetry",
+      "motif_type": "文藝",
+      "subtype": "詩",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch094",
+      "chapter_number": "94",
+      "motif_key": "motif_purple",
+      "motif_type": "顏色",
+      "subtype": "紫色",
+      "count": "11"
+    },
+    {
+      "chapter_id": "hongloumeng_ch094",
+      "chapter_number": "94",
+      "motif_key": "motif_rain",
+      "motif_type": "自然",
+      "subtype": "雨",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch094",
+      "chapter_number": "94",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch094",
+      "chapter_number": "94",
+      "motif_key": "motif_snow",
+      "motif_type": "自然",
+      "subtype": "雪",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch094",
+      "chapter_number": "94",
+      "motif_key": "motif_stone",
+      "motif_type": "物象",
+      "subtype": "石",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch094",
+      "chapter_number": "94",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch094",
+      "chapter_number": "94",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch094",
+      "chapter_number": "94",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch094",
+      "chapter_number": "94",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "8"
+    },
+    {
+      "chapter_id": "hongloumeng_ch094",
+      "chapter_number": "94",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch094",
+      "chapter_number": "94",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch095",
+      "chapter_number": "95",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "7"
+    },
+    {
+      "chapter_id": "hongloumeng_ch095",
+      "chapter_number": "95",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch095",
+      "chapter_number": "95",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch095",
+      "chapter_number": "95",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch095",
+      "chapter_number": "95",
+      "motif_key": "motif_green_blue",
+      "motif_type": "顏色",
+      "subtype": "青色",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch095",
+      "chapter_number": "95",
+      "motif_key": "motif_haitang",
+      "motif_type": "花木",
+      "subtype": "海棠",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch095",
+      "chapter_number": "95",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "13"
+    },
+    {
+      "chapter_id": "hongloumeng_ch095",
+      "chapter_number": "95",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "101"
+    },
+    {
+      "chapter_id": "hongloumeng_ch095",
+      "chapter_number": "95",
+      "motif_key": "motif_medicine",
+      "motif_type": "身體",
+      "subtype": "藥",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch095",
+      "chapter_number": "95",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "8"
+    },
+    {
+      "chapter_id": "hongloumeng_ch095",
+      "chapter_number": "95",
+      "motif_key": "motif_purple",
+      "motif_type": "顏色",
+      "subtype": "紫色",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch095",
+      "chapter_number": "95",
+      "motif_key": "motif_rain",
+      "motif_type": "自然",
+      "subtype": "雨",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch095",
+      "chapter_number": "95",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch095",
+      "chapter_number": "95",
+      "motif_key": "motif_stone",
+      "motif_type": "物象",
+      "subtype": "石",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch095",
+      "chapter_number": "95",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch095",
+      "chapter_number": "95",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch095",
+      "chapter_number": "95",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch095",
+      "chapter_number": "95",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch095",
+      "chapter_number": "95",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch096",
+      "chapter_number": "96",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch096",
+      "chapter_number": "96",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch096",
+      "chapter_number": "96",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch096",
+      "chapter_number": "96",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "10"
+    },
+    {
+      "chapter_id": "hongloumeng_ch096",
+      "chapter_number": "96",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "88"
+    },
+    {
+      "chapter_id": "hongloumeng_ch096",
+      "chapter_number": "96",
+      "motif_key": "motif_medicine",
+      "motif_type": "身體",
+      "subtype": "藥",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch096",
+      "chapter_number": "96",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch096",
+      "chapter_number": "96",
+      "motif_key": "motif_peach_blossom",
+      "motif_type": "花木",
+      "subtype": "桃花",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch096",
+      "chapter_number": "96",
+      "motif_key": "motif_purple",
+      "motif_type": "顏色",
+      "subtype": "紫色",
+      "count": "18"
+    },
+    {
+      "chapter_id": "hongloumeng_ch096",
+      "chapter_number": "96",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch096",
+      "chapter_number": "96",
+      "motif_key": "motif_snow",
+      "motif_type": "自然",
+      "subtype": "雪",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch096",
+      "chapter_number": "96",
+      "motif_key": "motif_stone",
+      "motif_type": "物象",
+      "subtype": "石",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch096",
+      "chapter_number": "96",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "7"
+    },
+    {
+      "chapter_id": "hongloumeng_ch096",
+      "chapter_number": "96",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "9"
+    },
+    {
+      "chapter_id": "hongloumeng_ch096",
+      "chapter_number": "96",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "11"
+    },
+    {
+      "chapter_id": "hongloumeng_ch096",
+      "chapter_number": "96",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch097",
+      "chapter_number": "97",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch097",
+      "chapter_number": "97",
+      "motif_key": "motif_dream",
+      "motif_type": "夢幻",
+      "subtype": "夢",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch097",
+      "chapter_number": "97",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch097",
+      "chapter_number": "97",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch097",
+      "chapter_number": "97",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch097",
+      "chapter_number": "97",
+      "motif_key": "motif_green_blue",
+      "motif_type": "顏色",
+      "subtype": "青色",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch097",
+      "chapter_number": "97",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "19"
+    },
+    {
+      "chapter_id": "hongloumeng_ch097",
+      "chapter_number": "97",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "99"
+    },
+    {
+      "chapter_id": "hongloumeng_ch097",
+      "chapter_number": "97",
+      "motif_key": "motif_medicine",
+      "motif_type": "身體",
+      "subtype": "藥",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch097",
+      "chapter_number": "97",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch097",
+      "chapter_number": "97",
+      "motif_key": "motif_poetry",
+      "motif_type": "文藝",
+      "subtype": "詩",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch097",
+      "chapter_number": "97",
+      "motif_key": "motif_purple",
+      "motif_type": "顏色",
+      "subtype": "紫色",
+      "count": "61"
+    },
+    {
+      "chapter_id": "hongloumeng_ch097",
+      "chapter_number": "97",
+      "motif_key": "motif_rain",
+      "motif_type": "自然",
+      "subtype": "雨",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch097",
+      "chapter_number": "97",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch097",
+      "chapter_number": "97",
+      "motif_key": "motif_snow",
+      "motif_type": "自然",
+      "subtype": "雪",
+      "count": "42"
+    },
+    {
+      "chapter_id": "hongloumeng_ch097",
+      "chapter_number": "97",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch097",
+      "chapter_number": "97",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "13"
+    },
+    {
+      "chapter_id": "hongloumeng_ch097",
+      "chapter_number": "97",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "13"
+    },
+    {
+      "chapter_id": "hongloumeng_ch097",
+      "chapter_number": "97",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "12"
+    },
+    {
+      "chapter_id": "hongloumeng_ch097",
+      "chapter_number": "97",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch097",
+      "chapter_number": "97",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch098",
+      "chapter_number": "98",
+      "motif_key": "motif_bamboo",
+      "motif_type": "花木",
+      "subtype": "竹",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch098",
+      "chapter_number": "98",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch098",
+      "chapter_number": "98",
+      "motif_key": "motif_dream",
+      "motif_type": "夢幻",
+      "subtype": "夢",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch098",
+      "chapter_number": "98",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch098",
+      "chapter_number": "98",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch098",
+      "chapter_number": "98",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "24"
+    },
+    {
+      "chapter_id": "hongloumeng_ch098",
+      "chapter_number": "98",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "97"
+    },
+    {
+      "chapter_id": "hongloumeng_ch098",
+      "chapter_number": "98",
+      "motif_key": "motif_medicine",
+      "motif_type": "身體",
+      "subtype": "藥",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch098",
+      "chapter_number": "98",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch098",
+      "chapter_number": "98",
+      "motif_key": "motif_poetry",
+      "motif_type": "文藝",
+      "subtype": "詩",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch098",
+      "chapter_number": "98",
+      "motif_key": "motif_purple",
+      "motif_type": "顏色",
+      "subtype": "紫色",
+      "count": "13"
+    },
+    {
+      "chapter_id": "hongloumeng_ch098",
+      "chapter_number": "98",
+      "motif_key": "motif_rain",
+      "motif_type": "自然",
+      "subtype": "雨",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch098",
+      "chapter_number": "98",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch098",
+      "chapter_number": "98",
+      "motif_key": "motif_snow",
+      "motif_type": "自然",
+      "subtype": "雪",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch098",
+      "chapter_number": "98",
+      "motif_key": "motif_stone",
+      "motif_type": "物象",
+      "subtype": "石",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch098",
+      "chapter_number": "98",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch098",
+      "chapter_number": "98",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "23"
+    },
+    {
+      "chapter_id": "hongloumeng_ch098",
+      "chapter_number": "98",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "12"
+    },
+    {
+      "chapter_id": "hongloumeng_ch098",
+      "chapter_number": "98",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "7"
+    },
+    {
+      "chapter_id": "hongloumeng_ch098",
+      "chapter_number": "98",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch098",
+      "chapter_number": "98",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch099",
+      "chapter_number": "99",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "16"
+    },
+    {
+      "chapter_id": "hongloumeng_ch099",
+      "chapter_number": "99",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "7"
+    },
+    {
+      "chapter_id": "hongloumeng_ch099",
+      "chapter_number": "99",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch099",
+      "chapter_number": "99",
+      "motif_key": "motif_green_blue",
+      "motif_type": "顏色",
+      "subtype": "青色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch099",
+      "chapter_number": "99",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch099",
+      "chapter_number": "99",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "13"
+    },
+    {
+      "chapter_id": "hongloumeng_ch099",
+      "chapter_number": "99",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch099",
+      "chapter_number": "99",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch099",
+      "chapter_number": "99",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch099",
+      "chapter_number": "99",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "12"
+    },
+    {
+      "chapter_id": "hongloumeng_ch100",
+      "chapter_number": "100",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch100",
+      "chapter_number": "100",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch100",
+      "chapter_number": "100",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "12"
+    },
+    {
+      "chapter_id": "hongloumeng_ch100",
+      "chapter_number": "100",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "19"
+    },
+    {
+      "chapter_id": "hongloumeng_ch100",
+      "chapter_number": "100",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch100",
+      "chapter_number": "100",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "20"
+    },
+    {
+      "chapter_id": "hongloumeng_ch100",
+      "chapter_number": "100",
+      "motif_key": "motif_purple",
+      "motif_type": "顏色",
+      "subtype": "紫色",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch100",
+      "chapter_number": "100",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch100",
+      "chapter_number": "100",
+      "motif_key": "motif_snow",
+      "motif_type": "自然",
+      "subtype": "雪",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch100",
+      "chapter_number": "100",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "12"
+    },
+    {
+      "chapter_id": "hongloumeng_ch100",
+      "chapter_number": "100",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch100",
+      "chapter_number": "100",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "8"
+    },
+    {
+      "chapter_id": "hongloumeng_ch100",
+      "chapter_number": "100",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch100",
+      "chapter_number": "100",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "7"
+    },
+    {
+      "chapter_id": "hongloumeng_ch101",
+      "chapter_number": "101",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch101",
+      "chapter_number": "101",
+      "motif_key": "motif_dream",
+      "motif_type": "夢幻",
+      "subtype": "夢",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch101",
+      "chapter_number": "101",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "8"
+    },
+    {
+      "chapter_id": "hongloumeng_ch101",
+      "chapter_number": "101",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch101",
+      "chapter_number": "101",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch101",
+      "chapter_number": "101",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch101",
+      "chapter_number": "101",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "18"
+    },
+    {
+      "chapter_id": "hongloumeng_ch101",
+      "chapter_number": "101",
+      "motif_key": "motif_medicine",
+      "motif_type": "身體",
+      "subtype": "藥",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch101",
+      "chapter_number": "101",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch101",
+      "chapter_number": "101",
+      "motif_key": "motif_rain",
+      "motif_type": "自然",
+      "subtype": "雨",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch101",
+      "chapter_number": "101",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "8"
+    },
+    {
+      "chapter_id": "hongloumeng_ch101",
+      "chapter_number": "101",
+      "motif_key": "motif_stone",
+      "motif_type": "物象",
+      "subtype": "石",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch101",
+      "chapter_number": "101",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "8"
+    },
+    {
+      "chapter_id": "hongloumeng_ch101",
+      "chapter_number": "101",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "9"
+    },
+    {
+      "chapter_id": "hongloumeng_ch101",
+      "chapter_number": "101",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch101",
+      "chapter_number": "101",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch101",
+      "chapter_number": "101",
+      "motif_key": "motif_willow",
+      "motif_type": "花木",
+      "subtype": "柳",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch101",
+      "chapter_number": "101",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch101",
+      "chapter_number": "101",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch102",
+      "chapter_number": "102",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch102",
+      "chapter_number": "102",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "8"
+    },
+    {
+      "chapter_id": "hongloumeng_ch102",
+      "chapter_number": "102",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch102",
+      "chapter_number": "102",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch102",
+      "chapter_number": "102",
+      "motif_key": "motif_green",
+      "motif_type": "顏色",
+      "subtype": "綠色",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch102",
+      "chapter_number": "102",
+      "motif_key": "motif_green_blue",
+      "motif_type": "顏色",
+      "subtype": "青色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch102",
+      "chapter_number": "102",
+      "motif_key": "motif_hibiscus",
+      "motif_type": "花木",
+      "subtype": "芙蓉",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch102",
+      "chapter_number": "102",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "16"
+    },
+    {
+      "chapter_id": "hongloumeng_ch102",
+      "chapter_number": "102",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "10"
+    },
+    {
+      "chapter_id": "hongloumeng_ch102",
+      "chapter_number": "102",
+      "motif_key": "motif_medicine",
+      "motif_type": "身體",
+      "subtype": "藥",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch102",
+      "chapter_number": "102",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch102",
+      "chapter_number": "102",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch102",
+      "chapter_number": "102",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch102",
+      "chapter_number": "102",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch102",
+      "chapter_number": "102",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "8"
+    },
+    {
+      "chapter_id": "hongloumeng_ch102",
+      "chapter_number": "102",
+      "motif_key": "motif_willow",
+      "motif_type": "花木",
+      "subtype": "柳",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch102",
+      "chapter_number": "102",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch103",
+      "chapter_number": "103",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch103",
+      "chapter_number": "103",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "45"
+    },
+    {
+      "chapter_id": "hongloumeng_ch103",
+      "chapter_number": "103",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "23"
+    },
+    {
+      "chapter_id": "hongloumeng_ch103",
+      "chapter_number": "103",
+      "motif_key": "motif_green_blue",
+      "motif_type": "顏色",
+      "subtype": "青色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch103",
+      "chapter_number": "103",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch103",
+      "chapter_number": "103",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch103",
+      "chapter_number": "103",
+      "motif_key": "motif_medicine",
+      "motif_type": "身體",
+      "subtype": "藥",
+      "count": "17"
+    },
+    {
+      "chapter_id": "hongloumeng_ch103",
+      "chapter_number": "103",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch103",
+      "chapter_number": "103",
+      "motif_key": "motif_rain",
+      "motif_type": "自然",
+      "subtype": "雨",
+      "count": "11"
+    },
+    {
+      "chapter_id": "hongloumeng_ch103",
+      "chapter_number": "103",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch103",
+      "chapter_number": "103",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "11"
+    },
+    {
+      "chapter_id": "hongloumeng_ch103",
+      "chapter_number": "103",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "12"
+    },
+    {
+      "chapter_id": "hongloumeng_ch103",
+      "chapter_number": "103",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch104",
+      "chapter_number": "104",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch104",
+      "chapter_number": "104",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch104",
+      "chapter_number": "104",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch104",
+      "chapter_number": "104",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch104",
+      "chapter_number": "104",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "22"
+    },
+    {
+      "chapter_id": "hongloumeng_ch104",
+      "chapter_number": "104",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch104",
+      "chapter_number": "104",
+      "motif_key": "motif_poetry",
+      "motif_type": "文藝",
+      "subtype": "詩",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch104",
+      "chapter_number": "104",
+      "motif_key": "motif_purple",
+      "motif_type": "顏色",
+      "subtype": "紫色",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch104",
+      "chapter_number": "104",
+      "motif_key": "motif_rain",
+      "motif_type": "自然",
+      "subtype": "雨",
+      "count": "22"
+    },
+    {
+      "chapter_id": "hongloumeng_ch104",
+      "chapter_number": "104",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch104",
+      "chapter_number": "104",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch104",
+      "chapter_number": "104",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch104",
+      "chapter_number": "104",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch104",
+      "chapter_number": "104",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch104",
+      "chapter_number": "104",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch104",
+      "chapter_number": "104",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "12"
+    },
+    {
+      "chapter_id": "hongloumeng_ch105",
+      "chapter_number": "105",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch105",
+      "chapter_number": "105",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch105",
+      "chapter_number": "105",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "9"
+    },
+    {
+      "chapter_id": "hongloumeng_ch105",
+      "chapter_number": "105",
+      "motif_key": "motif_green_blue",
+      "motif_type": "顏色",
+      "subtype": "青色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch105",
+      "chapter_number": "105",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch105",
+      "chapter_number": "105",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "8"
+    },
+    {
+      "chapter_id": "hongloumeng_ch105",
+      "chapter_number": "105",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch105",
+      "chapter_number": "105",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "7"
+    },
+    {
+      "chapter_id": "hongloumeng_ch105",
+      "chapter_number": "105",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "13"
+    },
+    {
+      "chapter_id": "hongloumeng_ch105",
+      "chapter_number": "105",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch105",
+      "chapter_number": "105",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch105",
+      "chapter_number": "105",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch106",
+      "chapter_number": "106",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch106",
+      "chapter_number": "106",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch106",
+      "chapter_number": "106",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch106",
+      "chapter_number": "106",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch106",
+      "chapter_number": "106",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch106",
+      "chapter_number": "106",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "8"
+    },
+    {
+      "chapter_id": "hongloumeng_ch106",
+      "chapter_number": "106",
+      "motif_key": "motif_medicine",
+      "motif_type": "身體",
+      "subtype": "藥",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch106",
+      "chapter_number": "106",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch106",
+      "chapter_number": "106",
+      "motif_key": "motif_poetry",
+      "motif_type": "文藝",
+      "subtype": "詩",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch106",
+      "chapter_number": "106",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch106",
+      "chapter_number": "106",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "8"
+    },
+    {
+      "chapter_id": "hongloumeng_ch106",
+      "chapter_number": "106",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "16"
+    },
+    {
+      "chapter_id": "hongloumeng_ch106",
+      "chapter_number": "106",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch106",
+      "chapter_number": "106",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch106",
+      "chapter_number": "106",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch107",
+      "chapter_number": "107",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch107",
+      "chapter_number": "107",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch107",
+      "chapter_number": "107",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch107",
+      "chapter_number": "107",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch107",
+      "chapter_number": "107",
+      "motif_key": "motif_rain",
+      "motif_type": "自然",
+      "subtype": "雨",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch107",
+      "chapter_number": "107",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch107",
+      "chapter_number": "107",
+      "motif_key": "motif_stone",
+      "motif_type": "物象",
+      "subtype": "石",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch107",
+      "chapter_number": "107",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "17"
+    },
+    {
+      "chapter_id": "hongloumeng_ch107",
+      "chapter_number": "107",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "7"
+    },
+    {
+      "chapter_id": "hongloumeng_ch107",
+      "chapter_number": "107",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch107",
+      "chapter_number": "107",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch107",
+      "chapter_number": "107",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch108",
+      "chapter_number": "108",
+      "motif_key": "motif_bamboo",
+      "motif_type": "花木",
+      "subtype": "竹",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch108",
+      "chapter_number": "108",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch108",
+      "chapter_number": "108",
+      "motif_key": "motif_dream",
+      "motif_type": "夢幻",
+      "subtype": "夢",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch108",
+      "chapter_number": "108",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch108",
+      "chapter_number": "108",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch108",
+      "chapter_number": "108",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch108",
+      "chapter_number": "108",
+      "motif_key": "motif_green",
+      "motif_type": "顏色",
+      "subtype": "綠色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch108",
+      "chapter_number": "108",
+      "motif_key": "motif_green_blue",
+      "motif_type": "顏色",
+      "subtype": "青色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch108",
+      "chapter_number": "108",
+      "motif_key": "motif_hibiscus",
+      "motif_type": "花木",
+      "subtype": "芙蓉",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch108",
+      "chapter_number": "108",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch108",
+      "chapter_number": "108",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "53"
+    },
+    {
+      "chapter_id": "hongloumeng_ch108",
+      "chapter_number": "108",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch108",
+      "chapter_number": "108",
+      "motif_key": "motif_poetry",
+      "motif_type": "文藝",
+      "subtype": "詩",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch108",
+      "chapter_number": "108",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch108",
+      "chapter_number": "108",
+      "motif_key": "motif_song_drama",
+      "motif_type": "文藝",
+      "subtype": "曲",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch108",
+      "chapter_number": "108",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch108",
+      "chapter_number": "108",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "7"
+    },
+    {
+      "chapter_id": "hongloumeng_ch108",
+      "chapter_number": "108",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch108",
+      "chapter_number": "108",
+      "motif_key": "motif_willow",
+      "motif_type": "花木",
+      "subtype": "柳",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch108",
+      "chapter_number": "108",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch108",
+      "chapter_number": "108",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "16"
+    },
+    {
+      "chapter_id": "hongloumeng_ch109",
+      "chapter_number": "109",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch109",
+      "chapter_number": "109",
+      "motif_key": "motif_dream",
+      "motif_type": "夢幻",
+      "subtype": "夢",
+      "count": "14"
+    },
+    {
+      "chapter_id": "hongloumeng_ch109",
+      "chapter_number": "109",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch109",
+      "chapter_number": "109",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch109",
+      "chapter_number": "109",
+      "motif_key": "motif_green_blue",
+      "motif_type": "顏色",
+      "subtype": "青色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch109",
+      "chapter_number": "109",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "25"
+    },
+    {
+      "chapter_id": "hongloumeng_ch109",
+      "chapter_number": "109",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "94"
+    },
+    {
+      "chapter_id": "hongloumeng_ch109",
+      "chapter_number": "109",
+      "motif_key": "motif_medicine",
+      "motif_type": "身體",
+      "subtype": "藥",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch109",
+      "chapter_number": "109",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "18"
+    },
+    {
+      "chapter_id": "hongloumeng_ch109",
+      "chapter_number": "109",
+      "motif_key": "motif_poetry",
+      "motif_type": "文藝",
+      "subtype": "詩",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch109",
+      "chapter_number": "109",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "8"
+    },
+    {
+      "chapter_id": "hongloumeng_ch109",
+      "chapter_number": "109",
+      "motif_key": "motif_stone",
+      "motif_type": "物象",
+      "subtype": "石",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch109",
+      "chapter_number": "109",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "9"
+    },
+    {
+      "chapter_id": "hongloumeng_ch109",
+      "chapter_number": "109",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch109",
+      "chapter_number": "109",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch109",
+      "chapter_number": "109",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch109",
+      "chapter_number": "109",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch110",
+      "chapter_number": "110",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch110",
+      "chapter_number": "110",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch110",
+      "chapter_number": "110",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch110",
+      "chapter_number": "110",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch110",
+      "chapter_number": "110",
+      "motif_key": "motif_green",
+      "motif_type": "顏色",
+      "subtype": "綠色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch110",
+      "chapter_number": "110",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch110",
+      "chapter_number": "110",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "8"
+    },
+    {
+      "chapter_id": "hongloumeng_ch110",
+      "chapter_number": "110",
+      "motif_key": "motif_peony",
+      "motif_type": "花木",
+      "subtype": "牡丹",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch110",
+      "chapter_number": "110",
+      "motif_key": "motif_plum_blossom",
+      "motif_type": "花木",
+      "subtype": "梅花",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch110",
+      "chapter_number": "110",
+      "motif_key": "motif_poetry",
+      "motif_type": "文藝",
+      "subtype": "詩",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch110",
+      "chapter_number": "110",
+      "motif_key": "motif_purple",
+      "motif_type": "顏色",
+      "subtype": "紫色",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch110",
+      "chapter_number": "110",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch110",
+      "chapter_number": "110",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch110",
+      "chapter_number": "110",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "8"
+    },
+    {
+      "chapter_id": "hongloumeng_ch110",
+      "chapter_number": "110",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "9"
+    },
+    {
+      "chapter_id": "hongloumeng_ch110",
+      "chapter_number": "110",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch111",
+      "chapter_number": "111",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch111",
+      "chapter_number": "111",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch111",
+      "chapter_number": "111",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch111",
+      "chapter_number": "111",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch111",
+      "chapter_number": "111",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "20"
+    },
+    {
+      "chapter_id": "hongloumeng_ch111",
+      "chapter_number": "111",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch111",
+      "chapter_number": "111",
+      "motif_key": "motif_purple",
+      "motif_type": "顏色",
+      "subtype": "紫色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch111",
+      "chapter_number": "111",
+      "motif_key": "motif_rain",
+      "motif_type": "自然",
+      "subtype": "雨",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch111",
+      "chapter_number": "111",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch111",
+      "chapter_number": "111",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch111",
+      "chapter_number": "111",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "20"
+    },
+    {
+      "chapter_id": "hongloumeng_ch111",
+      "chapter_number": "111",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch111",
+      "chapter_number": "111",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch111",
+      "chapter_number": "111",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch111",
+      "chapter_number": "111",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch112",
+      "chapter_number": "112",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch112",
+      "chapter_number": "112",
+      "motif_key": "motif_dream",
+      "motif_type": "夢幻",
+      "subtype": "夢",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch112",
+      "chapter_number": "112",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch112",
+      "chapter_number": "112",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch112",
+      "chapter_number": "112",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch112",
+      "chapter_number": "112",
+      "motif_key": "motif_green_blue",
+      "motif_type": "顏色",
+      "subtype": "青色",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch112",
+      "chapter_number": "112",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch112",
+      "chapter_number": "112",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "26"
+    },
+    {
+      "chapter_id": "hongloumeng_ch112",
+      "chapter_number": "112",
+      "motif_key": "motif_medicine",
+      "motif_type": "身體",
+      "subtype": "藥",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch112",
+      "chapter_number": "112",
+      "motif_key": "motif_purple",
+      "motif_type": "顏色",
+      "subtype": "紫色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch112",
+      "chapter_number": "112",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch112",
+      "chapter_number": "112",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch112",
+      "chapter_number": "112",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "9"
+    },
+    {
+      "chapter_id": "hongloumeng_ch112",
+      "chapter_number": "112",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch113",
+      "chapter_number": "113",
+      "motif_key": "motif_dream",
+      "motif_type": "夢幻",
+      "subtype": "夢",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch113",
+      "chapter_number": "113",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch113",
+      "chapter_number": "113",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch113",
+      "chapter_number": "113",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch113",
+      "chapter_number": "113",
+      "motif_key": "motif_green_blue",
+      "motif_type": "顏色",
+      "subtype": "青色",
+      "count": "10"
+    },
+    {
+      "chapter_id": "hongloumeng_ch113",
+      "chapter_number": "113",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "16"
+    },
+    {
+      "chapter_id": "hongloumeng_ch113",
+      "chapter_number": "113",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "36"
+    },
+    {
+      "chapter_id": "hongloumeng_ch113",
+      "chapter_number": "113",
+      "motif_key": "motif_medicine",
+      "motif_type": "身體",
+      "subtype": "藥",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch113",
+      "chapter_number": "113",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "10"
+    },
+    {
+      "chapter_id": "hongloumeng_ch113",
+      "chapter_number": "113",
+      "motif_key": "motif_purple",
+      "motif_type": "顏色",
+      "subtype": "紫色",
+      "count": "24"
+    },
+    {
+      "chapter_id": "hongloumeng_ch113",
+      "chapter_number": "113",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch113",
+      "chapter_number": "113",
+      "motif_key": "motif_stone",
+      "motif_type": "物象",
+      "subtype": "石",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch113",
+      "chapter_number": "113",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch113",
+      "chapter_number": "113",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "19"
+    },
+    {
+      "chapter_id": "hongloumeng_ch113",
+      "chapter_number": "113",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch113",
+      "chapter_number": "113",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "8"
+    },
+    {
+      "chapter_id": "hongloumeng_ch113",
+      "chapter_number": "113",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch114",
+      "chapter_number": "114",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch114",
+      "chapter_number": "114",
+      "motif_key": "motif_dream",
+      "motif_type": "夢幻",
+      "subtype": "夢",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch114",
+      "chapter_number": "114",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch114",
+      "chapter_number": "114",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch114",
+      "chapter_number": "114",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch114",
+      "chapter_number": "114",
+      "motif_key": "motif_green_blue",
+      "motif_type": "顏色",
+      "subtype": "青色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch114",
+      "chapter_number": "114",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch114",
+      "chapter_number": "114",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "33"
+    },
+    {
+      "chapter_id": "hongloumeng_ch114",
+      "chapter_number": "114",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch114",
+      "chapter_number": "114",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch114",
+      "chapter_number": "114",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "13"
+    },
+    {
+      "chapter_id": "hongloumeng_ch114",
+      "chapter_number": "114",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch115",
+      "chapter_number": "115",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch115",
+      "chapter_number": "115",
+      "motif_key": "motif_dream",
+      "motif_type": "夢幻",
+      "subtype": "夢",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch115",
+      "chapter_number": "115",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "9"
+    },
+    {
+      "chapter_id": "hongloumeng_ch115",
+      "chapter_number": "115",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "110"
+    },
+    {
+      "chapter_id": "hongloumeng_ch115",
+      "chapter_number": "115",
+      "motif_key": "motif_medicine",
+      "motif_type": "身體",
+      "subtype": "藥",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch115",
+      "chapter_number": "115",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch115",
+      "chapter_number": "115",
+      "motif_key": "motif_purple",
+      "motif_type": "顏色",
+      "subtype": "紫色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch115",
+      "chapter_number": "115",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch115",
+      "chapter_number": "115",
+      "motif_key": "motif_stone",
+      "motif_type": "物象",
+      "subtype": "石",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch115",
+      "chapter_number": "115",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch115",
+      "chapter_number": "115",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch115",
+      "chapter_number": "115",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch116",
+      "chapter_number": "116",
+      "motif_key": "motif_bamboo",
+      "motif_type": "花木",
+      "subtype": "竹",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch116",
+      "chapter_number": "116",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch116",
+      "chapter_number": "116",
+      "motif_key": "motif_dream",
+      "motif_type": "夢幻",
+      "subtype": "夢",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch116",
+      "chapter_number": "116",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "11"
+    },
+    {
+      "chapter_id": "hongloumeng_ch116",
+      "chapter_number": "116",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch116",
+      "chapter_number": "116",
+      "motif_key": "motif_green_blue",
+      "motif_type": "顏色",
+      "subtype": "青色",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch116",
+      "chapter_number": "116",
+      "motif_key": "motif_hibiscus",
+      "motif_type": "花木",
+      "subtype": "芙蓉",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch116",
+      "chapter_number": "116",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "7"
+    },
+    {
+      "chapter_id": "hongloumeng_ch116",
+      "chapter_number": "116",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "95"
+    },
+    {
+      "chapter_id": "hongloumeng_ch116",
+      "chapter_number": "116",
+      "motif_key": "motif_medicine",
+      "motif_type": "身體",
+      "subtype": "藥",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch116",
+      "chapter_number": "116",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "8"
+    },
+    {
+      "chapter_id": "hongloumeng_ch116",
+      "chapter_number": "116",
+      "motif_key": "motif_poetry",
+      "motif_type": "文藝",
+      "subtype": "詩",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch116",
+      "chapter_number": "116",
+      "motif_key": "motif_purple",
+      "motif_type": "顏色",
+      "subtype": "紫色",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch116",
+      "chapter_number": "116",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch116",
+      "chapter_number": "116",
+      "motif_key": "motif_snow",
+      "motif_type": "自然",
+      "subtype": "雪",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch116",
+      "chapter_number": "116",
+      "motif_key": "motif_stone",
+      "motif_type": "物象",
+      "subtype": "石",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch116",
+      "chapter_number": "116",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "8"
+    },
+    {
+      "chapter_id": "hongloumeng_ch116",
+      "chapter_number": "116",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch116",
+      "chapter_number": "116",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "9"
+    },
+    {
+      "chapter_id": "hongloumeng_ch116",
+      "chapter_number": "116",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch117",
+      "chapter_number": "117",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "13"
+    },
+    {
+      "chapter_id": "hongloumeng_ch117",
+      "chapter_number": "117",
+      "motif_key": "motif_dream",
+      "motif_type": "夢幻",
+      "subtype": "夢",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch117",
+      "chapter_number": "117",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch117",
+      "chapter_number": "117",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch117",
+      "chapter_number": "117",
+      "motif_key": "motif_green_blue",
+      "motif_type": "顏色",
+      "subtype": "青色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch117",
+      "chapter_number": "117",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "9"
+    },
+    {
+      "chapter_id": "hongloumeng_ch117",
+      "chapter_number": "117",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "66"
+    },
+    {
+      "chapter_id": "hongloumeng_ch117",
+      "chapter_number": "117",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch117",
+      "chapter_number": "117",
+      "motif_key": "motif_purple",
+      "motif_type": "顏色",
+      "subtype": "紫色",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch117",
+      "chapter_number": "117",
+      "motif_key": "motif_rain",
+      "motif_type": "自然",
+      "subtype": "雨",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch117",
+      "chapter_number": "117",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch117",
+      "chapter_number": "117",
+      "motif_key": "motif_song_drama",
+      "motif_type": "文藝",
+      "subtype": "曲",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch117",
+      "chapter_number": "117",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "10"
+    },
+    {
+      "chapter_id": "hongloumeng_ch117",
+      "chapter_number": "117",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch117",
+      "chapter_number": "117",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch117",
+      "chapter_number": "117",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch117",
+      "chapter_number": "117",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "19"
+    },
+    {
+      "chapter_id": "hongloumeng_ch118",
+      "chapter_number": "118",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "20"
+    },
+    {
+      "chapter_id": "hongloumeng_ch118",
+      "chapter_number": "118",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch118",
+      "chapter_number": "118",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch118",
+      "chapter_number": "118",
+      "motif_key": "motif_green_blue",
+      "motif_type": "顏色",
+      "subtype": "青色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch118",
+      "chapter_number": "118",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch118",
+      "chapter_number": "118",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "67"
+    },
+    {
+      "chapter_id": "hongloumeng_ch118",
+      "chapter_number": "118",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch118",
+      "chapter_number": "118",
+      "motif_key": "motif_plum_blossom",
+      "motif_type": "花木",
+      "subtype": "梅花",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch118",
+      "chapter_number": "118",
+      "motif_key": "motif_poetry",
+      "motif_type": "文藝",
+      "subtype": "詩",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch118",
+      "chapter_number": "118",
+      "motif_key": "motif_purple",
+      "motif_type": "顏色",
+      "subtype": "紫色",
+      "count": "9"
+    },
+    {
+      "chapter_id": "hongloumeng_ch118",
+      "chapter_number": "118",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch118",
+      "chapter_number": "118",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch118",
+      "chapter_number": "118",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch118",
+      "chapter_number": "118",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "8"
+    },
+    {
+      "chapter_id": "hongloumeng_ch118",
+      "chapter_number": "118",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "8"
+    },
+    {
+      "chapter_id": "hongloumeng_ch118",
+      "chapter_number": "118",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch119",
+      "chapter_number": "119",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch119",
+      "chapter_number": "119",
+      "motif_key": "motif_dream",
+      "motif_type": "夢幻",
+      "subtype": "夢",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch119",
+      "chapter_number": "119",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch119",
+      "chapter_number": "119",
+      "motif_key": "motif_green_blue",
+      "motif_type": "顏色",
+      "subtype": "青色",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch119",
+      "chapter_number": "119",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch119",
+      "chapter_number": "119",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "41"
+    },
+    {
+      "chapter_id": "hongloumeng_ch119",
+      "chapter_number": "119",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch119",
+      "chapter_number": "119",
+      "motif_key": "motif_purple",
+      "motif_type": "顏色",
+      "subtype": "紫色",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch119",
+      "chapter_number": "119",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch119",
+      "chapter_number": "119",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "10"
+    },
+    {
+      "chapter_id": "hongloumeng_ch119",
+      "chapter_number": "119",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "25"
+    },
+    {
+      "chapter_id": "hongloumeng_ch119",
+      "chapter_number": "119",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch119",
+      "chapter_number": "119",
+      "motif_key": "motif_wind",
+      "motif_type": "自然",
+      "subtype": "風",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch119",
+      "chapter_number": "119",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch120",
+      "chapter_number": "120",
+      "motif_key": "motif_book",
+      "motif_type": "文藝",
+      "subtype": "書",
+      "count": "11"
+    },
+    {
+      "chapter_id": "hongloumeng_ch120",
+      "chapter_number": "120",
+      "motif_key": "motif_dream",
+      "motif_type": "夢幻",
+      "subtype": "夢",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch120",
+      "chapter_number": "120",
+      "motif_key": "motif_flower",
+      "motif_type": "花木",
+      "subtype": "泛花",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch120",
+      "chapter_number": "120",
+      "motif_key": "motif_fragrance",
+      "motif_type": "感官",
+      "subtype": "香氣",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch120",
+      "chapter_number": "120",
+      "motif_key": "motif_gold",
+      "motif_type": "物象",
+      "subtype": "金",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch120",
+      "chapter_number": "120",
+      "motif_key": "motif_green",
+      "motif_type": "顏色",
+      "subtype": "綠色",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch120",
+      "chapter_number": "120",
+      "motif_key": "motif_green_blue",
+      "motif_type": "顏色",
+      "subtype": "青色",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch120",
+      "chapter_number": "120",
+      "motif_key": "motif_illness",
+      "motif_type": "身體",
+      "subtype": "疾病",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch120",
+      "chapter_number": "120",
+      "motif_key": "motif_jade",
+      "motif_type": "物象",
+      "subtype": "玉石",
+      "count": "53"
+    },
+    {
+      "chapter_id": "hongloumeng_ch120",
+      "chapter_number": "120",
+      "motif_key": "motif_lotus",
+      "motif_type": "花木",
+      "subtype": "蓮",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch120",
+      "chapter_number": "120",
+      "motif_key": "motif_medicine",
+      "motif_type": "身體",
+      "subtype": "藥",
+      "count": "4"
+    },
+    {
+      "chapter_id": "hongloumeng_ch120",
+      "chapter_number": "120",
+      "motif_key": "motif_moon",
+      "motif_type": "自然",
+      "subtype": "月",
+      "count": "2"
+    },
+    {
+      "chapter_id": "hongloumeng_ch120",
+      "chapter_number": "120",
+      "motif_key": "motif_peach_blossom",
+      "motif_type": "花木",
+      "subtype": "桃花",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch120",
+      "chapter_number": "120",
+      "motif_key": "motif_poetry",
+      "motif_type": "文藝",
+      "subtype": "詩",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch120",
+      "chapter_number": "120",
+      "motif_key": "motif_rain",
+      "motif_type": "自然",
+      "subtype": "雨",
+      "count": "24"
+    },
+    {
+      "chapter_id": "hongloumeng_ch120",
+      "chapter_number": "120",
+      "motif_key": "motif_red",
+      "motif_type": "顏色",
+      "subtype": "紅色",
+      "count": "6"
+    },
+    {
+      "chapter_id": "hongloumeng_ch120",
+      "chapter_number": "120",
+      "motif_key": "motif_snow",
+      "motif_type": "自然",
+      "subtype": "雪",
+      "count": "7"
+    },
+    {
+      "chapter_id": "hongloumeng_ch120",
+      "chapter_number": "120",
+      "motif_key": "motif_song_drama",
+      "motif_type": "文藝",
+      "subtype": "曲",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch120",
+      "chapter_number": "120",
+      "motif_key": "motif_stone",
+      "motif_type": "物象",
+      "subtype": "石",
+      "count": "8"
+    },
+    {
+      "chapter_id": "hongloumeng_ch120",
+      "chapter_number": "120",
+      "motif_key": "motif_tea",
+      "motif_type": "飲食",
+      "subtype": "茶",
+      "count": "1"
+    },
+    {
+      "chapter_id": "hongloumeng_ch120",
+      "chapter_number": "120",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "哭泣",
+      "count": "9"
+    },
+    {
+      "chapter_id": "hongloumeng_ch120",
+      "chapter_number": "120",
+      "motif_key": "motif_tears",
+      "motif_type": "情感身體",
+      "subtype": "眼淚",
+      "count": "3"
+    },
+    {
+      "chapter_id": "hongloumeng_ch120",
+      "chapter_number": "120",
+      "motif_key": "motif_white",
+      "motif_type": "顏色",
+      "subtype": "白色",
+      "count": "5"
+    },
+    {
+      "chapter_id": "hongloumeng_ch120",
+      "chapter_number": "120",
+      "motif_key": "motif_wine",
+      "motif_type": "飲食",
+      "subtype": "酒",
+      "count": "1"
+    }
+  ],
+  "person_social_top_nodes": [
+    {
+      "id": "person_jia_baoyu",
+      "name": "賈寶玉",
+      "type": "PERSON",
+      "subtype": "main_character",
+      "frequency": "4068",
+      "chapter_count": "116",
+      "paragraph_count": "1205",
+      "sentence_count": "3905",
+      "degree": "47",
+      "weighted_degree": "3901",
+      "surface_forms": "寶玉|寶二爺|怡紅公子"
+    },
+    {
+      "id": "person_jia_mu",
+      "name": "賈母",
+      "type": "PERSON",
+      "subtype": "elder",
+      "frequency": "2669",
+      "chapter_count": "117",
+      "paragraph_count": "864",
+      "sentence_count": "2519",
+      "degree": "45",
+      "weighted_degree": "3336",
+      "surface_forms": "賈母|老太太|史太君"
+    },
+    {
+      "id": "person_wang_xifeng",
+      "name": "王熙鳳",
+      "type": "PERSON",
+      "subtype": "main_character",
+      "frequency": "1765",
+      "chapter_count": "104",
+      "paragraph_count": "665",
+      "sentence_count": "1713",
+      "degree": "45",
+      "weighted_degree": "2291",
+      "surface_forms": "鳳姐|鳳姐兒|璉二奶奶|熙鳳|王熙鳳"
+    },
+    {
+      "id": "person_wang_furen",
+      "name": "王夫人",
+      "type": "PERSON",
+      "subtype": "family_elder",
+      "frequency": "1071",
+      "chapter_count": "106",
+      "paragraph_count": "486",
+      "sentence_count": "1030",
+      "degree": "43",
+      "weighted_degree": "2186",
+      "surface_forms": "王夫人"
+    },
+    {
+      "id": "person_xue_baochai",
+      "name": "薛寶釵",
+      "type": "PERSON",
+      "subtype": "main_character",
+      "frequency": "1148",
+      "chapter_count": "100",
+      "paragraph_count": "500",
+      "sentence_count": "1116",
+      "degree": "43",
+      "weighted_degree": "2117",
+      "surface_forms": "寶釵|寶姑娘|薛寶釵|蘅蕪君"
+    },
+    {
+      "id": "person_lin_daiyu",
+      "name": "林黛玉",
+      "type": "PERSON",
+      "subtype": "main_character",
+      "frequency": "1535",
+      "chapter_count": "94",
+      "paragraph_count": "557",
+      "sentence_count": "1490",
+      "degree": "45",
+      "weighted_degree": "2056",
+      "surface_forms": "黛玉|林黛玉|林姑娘|顰兒|瀟湘妃子"
+    },
+    {
+      "id": "person_xiren",
+      "name": "襲人",
+      "type": "PERSON",
+      "subtype": "maid",
+      "frequency": "1151",
+      "chapter_count": "88",
+      "paragraph_count": "404",
+      "sentence_count": "1116",
+      "degree": "42",
+      "weighted_degree": "1528",
+      "surface_forms": "襲人"
+    },
+    {
+      "id": "person_li_wan",
+      "name": "李紈",
+      "type": "PERSON",
+      "subtype": "main_character",
+      "frequency": "375",
+      "chapter_count": "59",
+      "paragraph_count": "215",
+      "sentence_count": "370",
+      "degree": "40",
+      "weighted_degree": "1031",
+      "surface_forms": "李紈|稻香老農"
+    },
+    {
+      "id": "person_jia_tanchun",
+      "name": "賈探春",
+      "type": "PERSON",
+      "subtype": "main_character",
+      "frequency": "439",
+      "chapter_count": "61",
+      "paragraph_count": "219",
+      "sentence_count": "432",
+      "degree": "43",
+      "weighted_degree": "1007",
+      "surface_forms": "探春"
+    },
+    {
+      "id": "person_jia_zheng",
+      "name": "賈政",
+      "type": "PERSON",
+      "subtype": "family_elder",
+      "frequency": "939",
+      "chapter_count": "67",
+      "paragraph_count": "332",
+      "sentence_count": "919",
+      "degree": "43",
+      "weighted_degree": "1000",
+      "surface_forms": "賈政|政老爹"
+    },
+    {
+      "id": "person_jia_lian",
+      "name": "賈璉",
+      "type": "PERSON",
+      "subtype": "main_character",
+      "frequency": "805",
+      "chapter_count": "74",
+      "paragraph_count": "291",
+      "sentence_count": "783",
+      "degree": "41",
+      "weighted_degree": "965",
+      "surface_forms": "賈璉|璉二爺"
+    },
+    {
+      "id": "person_xue_yima",
+      "name": "薛姨媽",
+      "type": "PERSON",
+      "subtype": "family_elder",
+      "frequency": "455",
+      "chapter_count": "60",
+      "paragraph_count": "211",
+      "sentence_count": "450",
+      "degree": "41",
+      "weighted_degree": "945",
+      "surface_forms": "薛姨媽"
+    },
+    {
+      "id": "person_ping_er",
+      "name": "平兒",
+      "type": "PERSON",
+      "subtype": "maid",
+      "frequency": "693",
+      "chapter_count": "70",
+      "paragraph_count": "261",
+      "sentence_count": "667",
+      "degree": "43",
+      "weighted_degree": "913",
+      "surface_forms": "平兒"
+    },
+    {
+      "id": "person_shi_xiangyun",
+      "name": "史湘雲",
+      "type": "PERSON",
+      "subtype": "main_character",
+      "frequency": "417",
+      "chapter_count": "44",
+      "paragraph_count": "191",
+      "sentence_count": "411",
+      "degree": "39",
+      "weighted_degree": "790",
+      "surface_forms": "湘雲|史湘雲|雲妹妹"
+    },
+    {
+      "id": "person_yuanyang",
+      "name": "鴛鴦",
+      "type": "PERSON",
+      "subtype": "maid",
+      "frequency": "417",
+      "chapter_count": "54",
+      "paragraph_count": "160",
+      "sentence_count": "401",
+      "degree": "43",
+      "weighted_degree": "705",
+      "surface_forms": "鴛鴦"
+    },
+    {
+      "id": "person_you_shi",
+      "name": "尤氏",
+      "type": "PERSON",
+      "subtype": "family_member",
+      "frequency": "344",
+      "chapter_count": "47",
+      "paragraph_count": "168",
+      "sentence_count": "336",
+      "degree": "38",
+      "weighted_degree": "669",
+      "surface_forms": "尤氏"
+    },
+    {
+      "id": "person_jia_zhen",
+      "name": "賈珍",
+      "type": "PERSON",
+      "subtype": "family_elder",
+      "frequency": "426",
+      "chapter_count": "57",
+      "paragraph_count": "193",
+      "sentence_count": "414",
+      "degree": "35",
+      "weighted_degree": "630",
+      "surface_forms": "賈珍|珍大爺"
+    },
+    {
+      "id": "person_zijuan",
+      "name": "紫鵑",
+      "type": "PERSON",
+      "subtype": "maid",
+      "frequency": "438",
+      "chapter_count": "46",
+      "paragraph_count": "142",
+      "sentence_count": "425",
+      "degree": "39",
+      "weighted_degree": "590",
+      "surface_forms": "紫鵑"
+    },
+    {
+      "id": "person_jia_xichun",
+      "name": "賈惜春",
+      "type": "PERSON",
+      "subtype": "main_character",
+      "frequency": "192",
+      "chapter_count": "51",
+      "paragraph_count": "99",
+      "sentence_count": "188",
+      "degree": "42",
+      "weighted_degree": "571",
+      "surface_forms": "惜春"
+    },
+    {
+      "id": "person_jia_yingchun",
+      "name": "賈迎春",
+      "type": "PERSON",
+      "subtype": "main_character",
+      "frequency": "143",
+      "chapter_count": "45",
+      "paragraph_count": "94",
+      "sentence_count": "135",
+      "degree": "41",
+      "weighted_degree": "541",
+      "surface_forms": "迎春"
+    },
+    {
+      "id": "person_qingwen",
+      "name": "晴雯",
+      "type": "PERSON",
+      "subtype": "maid",
+      "frequency": "339",
+      "chapter_count": "44",
+      "paragraph_count": "147",
+      "sentence_count": "326",
+      "degree": "35",
+      "weighted_degree": "538",
+      "surface_forms": "晴雯"
+    },
+    {
+      "id": "person_she_yue",
+      "name": "麝月",
+      "type": "PERSON",
+      "subtype": "maid",
+      "frequency": "233",
+      "chapter_count": "46",
+      "paragraph_count": "110",
+      "sentence_count": "225",
+      "degree": "33",
+      "weighted_degree": "433",
+      "surface_forms": "麝月"
+    },
+    {
+      "id": "person_jia_rong",
+      "name": "賈蓉",
+      "type": "PERSON",
+      "subtype": "family_member",
+      "frequency": "231",
+      "chapter_count": "40",
+      "paragraph_count": "124",
+      "sentence_count": "223",
+      "degree": "29",
+      "weighted_degree": "432",
+      "surface_forms": "賈蓉"
+    },
+    {
+      "id": "person_jia_she",
+      "name": "賈赦",
+      "type": "PERSON",
+      "subtype": "family_elder",
+      "frequency": "194",
+      "chapter_count": "36",
+      "paragraph_count": "99",
+      "sentence_count": "192",
+      "degree": "30",
+      "weighted_degree": "430",
+      "surface_forms": "賈赦"
+    },
+    {
+      "id": "person_xiangling",
+      "name": "香菱",
+      "type": "PERSON",
+      "subtype": "servant_concubine",
+      "frequency": "282",
+      "chapter_count": "34",
+      "paragraph_count": "114",
+      "sentence_count": "264",
+      "degree": "39",
+      "weighted_degree": "372",
+      "surface_forms": "香菱|英蓮"
+    },
+    {
+      "id": "person_jia_huan",
+      "name": "賈環",
+      "type": "PERSON",
+      "subtype": "family_member",
+      "frequency": "151",
+      "chapter_count": "32",
+      "paragraph_count": "78",
+      "sentence_count": "146",
+      "degree": "36",
+      "weighted_degree": "357",
+      "surface_forms": "賈環"
+    },
+    {
+      "id": "person_xueyan",
+      "name": "雪雁",
+      "type": "PERSON",
+      "subtype": "maid",
+      "frequency": "151",
+      "chapter_count": "22",
+      "paragraph_count": "64",
+      "sentence_count": "151",
+      "degree": "30",
+      "weighted_degree": "269",
+      "surface_forms": "雪雁"
+    },
+    {
+      "id": "person_zhao_yiniang",
+      "name": "趙姨娘",
+      "type": "PERSON",
+      "subtype": "concubine",
+      "frequency": "135",
+      "chapter_count": "30",
+      "paragraph_count": "65",
+      "sentence_count": "132",
+      "degree": "32",
+      "weighted_degree": "268",
+      "surface_forms": "趙姨娘"
+    },
+    {
+      "id": "person_ying_er",
+      "name": "鶯兒",
+      "type": "PERSON",
+      "subtype": "maid",
+      "frequency": "131",
+      "chapter_count": "26",
+      "paragraph_count": "55",
+      "sentence_count": "126",
+      "degree": "33",
+      "weighted_degree": "257",
+      "surface_forms": "鶯兒"
+    },
+    {
+      "id": "person_jia_lan",
+      "name": "賈蘭",
+      "type": "PERSON",
+      "subtype": "family_member",
+      "frequency": "93",
+      "chapter_count": "24",
+      "paragraph_count": "49",
+      "sentence_count": "93",
+      "degree": "30",
+      "weighted_degree": "257",
+      "surface_forms": "賈蘭"
+    }
+  ],
+  "person_social_top_edges": [
+    {
+      "edge_id": "person_edge_000001",
+      "source": "person_jia_baoyu",
+      "source_name": "賈寶玉",
+      "target": "person_jia_mu",
+      "target_name": "賈母",
+      "relation_type": "co_occurrence",
+      "scope": "paragraph",
+      "weight": "463",
+      "shared_paragraph_count": "463",
+      "shared_sentence_count": "200",
+      "chapter_count": "104",
+      "chapters": "3|5|6|7|8|9|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|26|28|29|30|31|32|33|34|35|36|37|38|39|40|41|42|43|44|45|46|47|49|50|51|52|53|54|55|56|57|58|59|62|63|64|66|67|70|71|74|75|76|77|78|79|80|81|82|83|84|85|86|87|88|89|90|91|92|93|94|95|96|97|98|99|100|101|102|104|105|106|107|108|109|110|111|112|113|114|116|118|119|120",
+      "examples": "ch3:p17:hongloumeng_p00082|ch3:p19:hongloumeng_p00084|ch3:p21:hongloumeng_p00086|ch3:p23:hongloumeng_p00088|ch3:p24:hongloumeng_p00089"
+    },
+    {
+      "edge_id": "person_edge_000002",
+      "source": "person_jia_baoyu",
+      "source_name": "賈寶玉",
+      "target": "person_lin_daiyu",
+      "target_name": "林黛玉",
+      "relation_type": "co_occurrence",
+      "scope": "paragraph",
+      "weight": "386",
+      "shared_paragraph_count": "386",
+      "shared_sentence_count": "232",
+      "chapter_count": "84",
+      "chapters": "3|5|7|8|9|12|13|14|16|18|19|20|21|22|23|24|25|26|27|28|29|30|31|32|34|35|36|37|38|39|40|41|42|44|45|46|48|49|50|52|53|54|57|58|59|60|62|63|64|67|70|71|75|76|78|79|81|82|83|85|86|87|89|90|91|92|94|95|96|97|98|99|100|102|104|108|109|111|113|115|116|117|118|120",
+      "examples": "ch3:p17:hongloumeng_p00082|ch3:p19:hongloumeng_p00084|ch3:p21:hongloumeng_p00086|ch3:p23:hongloumeng_p00088|ch3:p24:hongloumeng_p00089"
+    },
+    {
+      "edge_id": "person_edge_000003",
+      "source": "person_jia_baoyu",
+      "source_name": "賈寶玉",
+      "target": "person_xiren",
+      "target_name": "襲人",
+      "relation_type": "co_occurrence",
+      "scope": "paragraph",
+      "weight": "348",
+      "shared_paragraph_count": "348",
+      "shared_sentence_count": "217",
+      "chapter_count": "86",
+      "chapters": "3|5|6|8|9|13|18|19|20|21|22|23|24|25|26|27|28|29|30|31|32|33|34|35|36|37|38|39|41|43|44|46|49|50|51|52|53|54|55|56|57|58|59|60|61|62|63|64|67|70|73|74|77|78|79|81|82|83|85|86|87|89|91|92|94|95|96|97|98|99|100|101|102|104|106|108|109|111|113|114|115|116|117|118|119|120",
+      "examples": "ch3:p24:hongloumeng_p00089|ch3:p25:hongloumeng_p00090|ch3:p26:hongloumeng_p00091|ch5:p9:hongloumeng_p00123|ch5:p74:hongloumeng_p00188"
+    },
+    {
+      "edge_id": "person_edge_000004",
+      "source": "person_jia_mu",
+      "source_name": "賈母",
+      "target": "person_wang_xifeng",
+      "target_name": "王熙鳳",
+      "relation_type": "co_occurrence",
+      "scope": "paragraph",
+      "weight": "337",
+      "shared_paragraph_count": "337",
+      "shared_sentence_count": "148",
+      "chapter_count": "88",
+      "chapters": "3|6|7|8|9|11|12|14|15|16|18|19|20|21|22|24|25|28|29|30|31|33|34|35|36|38|39|40|41|42|43|44|45|46|47|49|50|51|52|53|54|55|57|60|61|64|67|68|69|70|71|72|73|74|75|76|77|78|81|82|83|84|85|88|90|91|92|94|95|96|97|98|99|100|101|104|105|106|107|108|109|110|111|112|113|114|117|120",
+      "examples": "ch3:p9:hongloumeng_p00074|ch3:p18:hongloumeng_p00083|ch3:p23:hongloumeng_p00088|ch3:p27:hongloumeng_p00092|ch6:p13:hongloumeng_p00203"
+    },
+    {
+      "edge_id": "person_edge_000005",
+      "source": "person_jia_baoyu",
+      "source_name": "賈寶玉",
+      "target": "person_xue_baochai",
+      "target_name": "薛寶釵",
+      "relation_type": "co_occurrence",
+      "scope": "paragraph",
+      "weight": "328",
+      "shared_paragraph_count": "328",
+      "shared_sentence_count": "167",
+      "chapter_count": "86",
+      "chapters": "5|8|16|18|19|20|21|22|23|24|25|26|27|28|29|30|31|32|33|34|35|36|37|38|39|40|41|42|43|44|45|46|48|49|50|52|53|54|55|56|57|58|60|62|63|64|67|70|71|74|76|78|79|82|84|85|86|87|89|91|92|95|96|97|98|99|100|101|102|104|105|106|107|108|109|110|111|112|113|114|115|116|117|118|119|120",
+      "examples": "ch5:p2:hongloumeng_p00116|ch5:p71:hongloumeng_p00185|ch8:p4:hongloumeng_p00248|ch8:p5:hongloumeng_p00249|ch8:p10:hongloumeng_p00254"
+    },
+    {
+      "edge_id": "person_edge_000006",
+      "source": "person_jia_mu",
+      "source_name": "賈母",
+      "target": "person_wang_furen",
+      "target_name": "王夫人",
+      "relation_type": "co_occurrence",
+      "scope": "paragraph",
+      "weight": "295",
+      "shared_paragraph_count": "295",
+      "shared_sentence_count": "196",
+      "chapter_count": "92",
+      "chapters": "3|4|5|7|8|9|11|12|15|16|18|21|22|23|24|25|28|29|30|31|33|34|35|36|37|38|39|40|41|42|43|44|45|46|47|48|49|51|52|53|54|55|56|57|58|59|62|64|67|68|69|70|71|73|74|75|76|77|78|79|80|81|82|83|84|85|88|89|90|91|92|94|95|96|97|98|100|101|102|103|104|105|106|107|108|109|110|111|112|117|118|119",
+      "examples": "ch3:p11:hongloumeng_p00076|ch3:p17:hongloumeng_p00082|ch3:p18:hongloumeng_p00083|ch3:p27:hongloumeng_p00092|ch4:p20:hongloumeng_p00112"
+    },
+    {
+      "edge_id": "person_edge_000007",
+      "source": "person_jia_baoyu",
+      "source_name": "賈寶玉",
+      "target": "person_wang_furen",
+      "target_name": "王夫人",
+      "relation_type": "co_occurrence",
+      "scope": "paragraph",
+      "weight": "284",
+      "shared_paragraph_count": "284",
+      "shared_sentence_count": "139",
+      "chapter_count": "89",
+      "chapters": "3|7|8|9|11|13|15|18|21|22|23|24|25|27|28|29|30|31|32|33|34|35|36|37|38|39|40|41|42|43|45|46|47|49|51|52|53|54|56|57|58|60|62|64|69|70|72|73|74|75|76|77|78|79|80|81|82|83|84|85|88|89|90|91|92|94|95|96|97|98|100|101|102|104|105|106|107|108|109|110|111|112|114|115|116|117|118|119|120",
+      "examples": "ch3:p17:hongloumeng_p00082|ch7:p8:hongloumeng_p00226|ch7:p16:hongloumeng_p00234|ch8:p3:hongloumeng_p00247|ch8:p26:hongloumeng_p00270"
+    },
+    {
+      "edge_id": "person_edge_000008",
+      "source": "person_jia_baoyu",
+      "source_name": "賈寶玉",
+      "target": "person_wang_xifeng",
+      "target_name": "王熙鳳",
+      "relation_type": "co_occurrence",
+      "scope": "paragraph",
+      "weight": "231",
+      "shared_paragraph_count": "231",
+      "shared_sentence_count": "80",
+      "chapter_count": "79",
+      "chapters": "3|7|8|9|11|13|14|15|18|19|20|21|22|24|25|27|28|29|30|31|33|34|35|36|38|39|40|41|42|43|44|45|46|49|50|51|53|54|55|57|61|62|63|64|67|69|70|71|72|74|78|79|81|82|83|84|85|90|91|92|94|95|96|97|98|99|101|104|105|106|107|108|109|110|111|112|114|116|120",
+      "examples": "ch3:p23:hongloumeng_p00088|ch7:p16:hongloumeng_p00234|ch7:p17:hongloumeng_p00235|ch7:p18:hongloumeng_p00236|ch7:p19:hongloumeng_p00237"
+    },
+    {
+      "edge_id": "person_edge_000009",
+      "source": "person_lin_daiyu",
+      "source_name": "林黛玉",
+      "target": "person_xue_baochai",
+      "target_name": "薛寶釵",
+      "relation_type": "co_occurrence",
+      "scope": "paragraph",
+      "weight": "224",
+      "shared_paragraph_count": "224",
+      "shared_sentence_count": "130",
+      "chapter_count": "67",
+      "chapters": "4|5|8|16|18|19|20|21|22|23|25|26|27|28|29|30|31|32|34|35|36|37|38|39|40|41|42|43|44|45|48|49|50|51|52|53|54|57|58|59|60|62|63|64|65|67|70|71|73|76|78|79|82|85|86|87|89|92|96|97|98|99|100|104|108|109|111",
+      "examples": "ch4:p22:hongloumeng_p00114|ch5:p2:hongloumeng_p00116|ch5:p71:hongloumeng_p00185|ch8:p14:hongloumeng_p00258|ch8:p17:hongloumeng_p00261"
+    },
+    {
+      "edge_id": "person_edge_000010",
+      "source": "person_jia_mu",
+      "source_name": "賈母",
+      "target": "person_lin_daiyu",
+      "target_name": "林黛玉",
+      "relation_type": "co_occurrence",
+      "scope": "paragraph",
+      "weight": "215",
+      "shared_paragraph_count": "215",
+      "shared_sentence_count": "71",
+      "chapter_count": "73",
+      "chapters": "3|4|5|7|8|9|12|13|14|18|19|20|21|22|23|25|26|28|29|30|31|32|34|35|36|37|38|39|40|41|42|43|45|46|48|49|50|53|54|57|58|62|64|65|66|67|70|71|73|75|76|81|82|83|84|85|86|87|89|90|91|92|94|95|96|97|98|99|100|104|108|111|120",
+      "examples": "ch3:p5:hongloumeng_p00070|ch3:p6:hongloumeng_p00071|ch3:p7:hongloumeng_p00072|ch3:p8:hongloumeng_p00073|ch3:p9:hongloumeng_p00074"
+    },
+    {
+      "edge_id": "person_edge_000011",
+      "source": "person_wang_furen",
+      "source_name": "王夫人",
+      "target": "person_wang_xifeng",
+      "target_name": "王熙鳳",
+      "relation_type": "co_occurrence",
+      "scope": "paragraph",
+      "weight": "213",
+      "shared_paragraph_count": "213",
+      "shared_sentence_count": "129",
+      "chapter_count": "78",
+      "chapters": "3|6|7|8|11|12|13|14|15|16|18|20|21|22|23|25|27|28|29|30|31|33|35|36|38|39|40|41|42|43|44|46|47|49|51|52|53|54|55|62|64|68|69|70|71|72|73|74|75|76|77|78|81|82|83|84|85|86|88|90|91|92|94|95|96|97|98|101|104|105|106|107|108|109|110|112|113|114",
+      "examples": "ch3:p10:hongloumeng_p00075|ch3:p18:hongloumeng_p00083|ch3:p27:hongloumeng_p00092|ch6:p6:hongloumeng_p00196|ch7:p15:hongloumeng_p00233"
+    },
+    {
+      "edge_id": "person_edge_000012",
+      "source": "person_jia_mu",
+      "source_name": "賈母",
+      "target": "person_xue_baochai",
+      "target_name": "薛寶釵",
+      "relation_type": "co_occurrence",
+      "scope": "paragraph",
+      "weight": "201",
+      "shared_paragraph_count": "201",
+      "shared_sentence_count": "72",
+      "chapter_count": "75",
+      "chapters": "4|5|8|18|20|21|22|23|24|25|28|29|30|31|33|34|35|36|37|38|39|40|41|42|43|44|45|46|47|48|49|50|53|54|55|56|57|58|61|64|65|67|70|71|73|74|75|76|82|83|84|85|86|89|91|92|96|97|98|99|100|101|102|104|105|106|107|108|109|110|111|113|114|117|118",
+      "examples": "ch4:p22:hongloumeng_p00114|ch5:p2:hongloumeng_p00116|ch8:p4:hongloumeng_p00248|ch8:p5:hongloumeng_p00249|ch8:p16:hongloumeng_p00260"
+    },
+    {
+      "edge_id": "person_edge_000013",
+      "source": "person_jia_baoyu",
+      "source_name": "賈寶玉",
+      "target": "person_jia_zheng",
+      "target_name": "賈政",
+      "relation_type": "co_occurrence",
+      "scope": "paragraph",
+      "weight": "168",
+      "shared_paragraph_count": "168",
+      "shared_sentence_count": "105",
+      "chapter_count": "52",
+      "chapters": "2|9|13|14|15|16|17|18|22|23|25|26|33|35|36|37|60|62|70|72|73|75|77|78|79|81|82|83|84|85|87|89|91|92|93|95|96|97|98|104|105|106|107|110|111|112|113|114|115|116|118|120",
+      "examples": "ch2:p18:hongloumeng_p00058|ch9:p2:hongloumeng_p00274|ch9:p3:hongloumeng_p00275|ch9:p4:hongloumeng_p00276|ch13:p7:hongloumeng_p00351"
+    },
+    {
+      "edge_id": "person_edge_000014",
+      "source": "person_wang_furen",
+      "source_name": "王夫人",
+      "target": "person_xue_baochai",
+      "target_name": "薛寶釵",
+      "relation_type": "co_occurrence",
+      "scope": "paragraph",
+      "weight": "155",
+      "shared_paragraph_count": "155",
+      "shared_sentence_count": "76",
+      "chapter_count": "66",
+      "chapters": "4|7|18|21|22|23|24|25|28|29|30|31|32|33|34|35|36|38|39|40|41|42|43|45|46|47|48|49|53|54|55|57|58|64|67|70|76|77|78|82|84|85|89|91|96|97|98|100|101|102|103|104|106|107|108|109|110|111|112|114|115|116|117|118|119|120",
+      "examples": "ch4:p22:hongloumeng_p00114|ch7:p3:hongloumeng_p00221|ch18:p3:hongloumeng_p00474|ch18:p5:hongloumeng_p00476|ch18:p15:hongloumeng_p00486"
+    },
+    {
+      "edge_id": "person_edge_000015",
+      "source": "person_ping_er",
+      "source_name": "平兒",
+      "target": "person_wang_xifeng",
+      "target_name": "王熙鳳",
+      "relation_type": "co_occurrence",
+      "scope": "paragraph",
+      "weight": "149",
+      "shared_paragraph_count": "149",
+      "shared_sentence_count": "99",
+      "chapter_count": "55",
+      "chapters": "6|7|11|12|13|14|16|21|24|25|27|29|35|36|38|39|42|43|44|45|46|47|49|50|51|55|56|60|61|62|64|67|68|69|71|72|74|83|84|88|90|92|93|94|101|105|106|107|109|110|111|112|113|114|117",
+      "examples": "ch6:p15:hongloumeng_p00205|ch6:p18:hongloumeng_p00208|ch6:p20:hongloumeng_p00210|ch6:p21:hongloumeng_p00211|ch6:p26:hongloumeng_p00216"
+    },
+    {
+      "edge_id": "person_edge_000016",
+      "source": "person_jia_mu",
+      "source_name": "賈母",
+      "target": "person_xiren",
+      "target_name": "襲人",
+      "relation_type": "co_occurrence",
+      "scope": "paragraph",
+      "weight": "146",
+      "shared_paragraph_count": "146",
+      "shared_sentence_count": "40",
+      "chapter_count": "66",
+      "chapters": "3|6|8|9|13|19|20|21|23|24|25|26|28|29|31|32|33|34|35|36|37|38|39|40|43|44|46|49|51|52|54|55|56|57|58|60|62|63|64|67|70|71|74|77|78|81|82|85|86|87|89|92|94|95|96|97|98|100|101|104|106|108|109|111|118|120",
+      "examples": "ch3:p24:hongloumeng_p00089|ch3:p25:hongloumeng_p00090|ch6:p3:hongloumeng_p00193|ch6:p4:hongloumeng_p00194|ch8:p25:hongloumeng_p00269"
+    },
+    {
+      "edge_id": "person_edge_000017",
+      "source": "person_jia_mu",
+      "source_name": "賈母",
+      "target": "person_jia_zheng",
+      "target_name": "賈政",
+      "relation_type": "co_occurrence",
+      "scope": "paragraph",
+      "weight": "137",
+      "shared_paragraph_count": "137",
+      "shared_sentence_count": "89",
+      "chapter_count": "51",
+      "chapters": "3|4|9|15|16|17|18|22|23|25|33|36|37|43|62|70|71|75|76|78|79|81|82|83|84|85|87|89|91|92|93|94|95|96|97|98|99|100|104|105|106|107|108|109|110|111|112|114|116|118|120",
+      "examples": "ch3:p6:hongloumeng_p00071|ch4:p21:hongloumeng_p00113|ch4:p22:hongloumeng_p00114|ch9:p2:hongloumeng_p00274|ch15:p4:hongloumeng_p00393"
+    },
+    {
+      "edge_id": "person_edge_000018",
+      "source": "person_jia_lian",
+      "source_name": "賈璉",
+      "target": "person_wang_xifeng",
+      "target_name": "王熙鳳",
+      "relation_type": "co_occurrence",
+      "scope": "paragraph",
+      "weight": "132",
+      "shared_paragraph_count": "132",
+      "shared_sentence_count": "78",
+      "chapter_count": "51",
+      "chapters": "3|6|7|11|13|14|15|16|18|21|22|23|25|38|44|46|47|53|64|65|66|67|68|69|70|71|72|73|74|83|84|86|88|92|93|95|96|97|101|104|105|106|107|109|110|111|112|113|114|117|118",
+      "examples": "ch3:p9:hongloumeng_p00074|ch6:p15:hongloumeng_p00205|ch7:p11:hongloumeng_p00229|ch11:p2:hongloumeng_p00307|ch13:p1:hongloumeng_p00345"
+    },
+    {
+      "edge_id": "person_edge_000019",
+      "source": "person_jia_baoyu",
+      "source_name": "賈寶玉",
+      "target": "person_qingwen",
+      "target_name": "晴雯",
+      "relation_type": "co_occurrence",
+      "scope": "paragraph",
+      "weight": "131",
+      "shared_paragraph_count": "131",
+      "shared_sentence_count": "47",
+      "chapter_count": "42",
+      "chapters": "5|8|9|19|20|26|28|30|31|34|35|36|37|49|51|52|53|57|58|59|61|62|63|64|67|70|73|74|76|77|78|79|82|87|89|92|94|101|102|104|109|116",
+      "examples": "ch5:p9:hongloumeng_p00123|ch8:p21:hongloumeng_p00265|ch8:p22:hongloumeng_p00266|ch9:p2:hongloumeng_p00274|ch19:p13:hongloumeng_p00527"
+    },
+    {
+      "edge_id": "person_edge_000020",
+      "source": "person_jia_mu",
+      "source_name": "賈母",
+      "target": "person_xue_yima",
+      "target_name": "薛姨媽",
+      "relation_type": "co_occurrence",
+      "scope": "paragraph",
+      "weight": "129",
+      "shared_paragraph_count": "129",
+      "shared_sentence_count": "65",
+      "chapter_count": "46",
+      "chapters": "4|8|16|18|22|25|29|33|34|35|36|38|40|41|43|44|46|47|49|50|52|53|54|57|58|59|62|67|71|80|83|84|85|86|88|89|91|92|95|97|98|99|106|108|109|110",
+      "examples": "ch4:p20:hongloumeng_p00112|ch4:p21:hongloumeng_p00113|ch4:p22:hongloumeng_p00114|ch8:p5:hongloumeng_p00249|ch8:p16:hongloumeng_p00260"
+    },
+    {
+      "edge_id": "person_edge_000021",
+      "source": "person_xiren",
+      "source_name": "襲人",
+      "target": "person_xue_baochai",
+      "target_name": "薛寶釵",
+      "relation_type": "co_occurrence",
+      "scope": "paragraph",
+      "weight": "122",
+      "shared_paragraph_count": "122",
+      "shared_sentence_count": "62",
+      "chapter_count": "44",
+      "chapters": "20|21|22|24|25|27|28|30|31|32|33|34|35|36|38|39|49|55|62|63|67|78|82|95|96|97|98|99|100|101|102|104|106|108|109|111|113|114|115|116|117|118|119|120",
+      "examples": "ch20:p1:hongloumeng_p00549|ch20:p2:hongloumeng_p00550|ch20:p3:hongloumeng_p00551|ch20:p9:hongloumeng_p00557|ch21:p4:hongloumeng_p00568"
+    },
+    {
+      "edge_id": "person_edge_000022",
+      "source": "person_lin_daiyu",
+      "source_name": "林黛玉",
+      "target": "person_zijuan",
+      "target_name": "紫鵑",
+      "relation_type": "co_occurrence",
+      "scope": "paragraph",
+      "weight": "119",
+      "shared_paragraph_count": "119",
+      "shared_sentence_count": "84",
+      "chapter_count": "41",
+      "chapters": "8|21|24|25|26|27|29|30|35|40|45|52|57|59|62|64|67|70|76|79|81|82|83|85|86|87|89|90|91|94|95|96|97|98|100|104|111|113|115|116|118",
+      "examples": "ch8:p17:hongloumeng_p00261|ch21:p2:hongloumeng_p00566|ch21:p3:hongloumeng_p00567|ch24:p1:hongloumeng_p00656|ch25:p13:hongloumeng_p00699"
+    },
+    {
+      "edge_id": "person_edge_000023",
+      "source": "person_jia_mu",
+      "source_name": "賈母",
+      "target": "person_yuanyang",
+      "target_name": "鴛鴦",
+      "relation_type": "co_occurrence",
+      "scope": "paragraph",
+      "weight": "119",
+      "shared_paragraph_count": "119",
+      "shared_sentence_count": "64",
+      "chapter_count": "44",
+      "chapters": "20|24|29|31|38|39|40|41|42|43|44|46|47|50|52|53|54|56|59|69|70|71|72|74|75|76|77|81|82|83|84|88|94|95|97|100|106|107|108|109|110|111|112|120",
+      "examples": "ch20:p6:hongloumeng_p00554|ch24:p2:hongloumeng_p00657|ch29:p4:hongloumeng_p00833|ch29:p5:hongloumeng_p00834|ch31:p8:hongloumeng_p00878"
+    },
+    {
+      "edge_id": "person_edge_000024",
+      "source": "person_wang_xifeng",
+      "source_name": "王熙鳳",
+      "target": "person_xue_baochai",
+      "target_name": "薛寶釵",
+      "relation_type": "co_occurrence",
+      "scope": "paragraph",
+      "weight": "115",
+      "shared_paragraph_count": "115",
+      "shared_sentence_count": "39",
+      "chapter_count": "55",
+      "chapters": "18|20|21|22|25|27|28|29|30|31|35|36|38|40|41|42|43|44|45|46|49|50|53|54|55|56|62|64|67|70|71|74|76|77|78|82|84|85|90|91|92|95|97|98|101|104|105|106|107|108|109|110|111|112|114",
+      "examples": "ch18:p5:hongloumeng_p00476|ch18:p15:hongloumeng_p00486|ch18:p42:hongloumeng_p00513|ch20:p4:hongloumeng_p00552|ch21:p1:hongloumeng_p00565"
+    },
+    {
+      "edge_id": "person_edge_000025",
+      "source": "person_jia_lian",
+      "source_name": "賈璉",
+      "target": "person_jia_mu",
+      "target_name": "賈母",
+      "relation_type": "co_occurrence",
+      "scope": "paragraph",
+      "weight": "111",
+      "shared_paragraph_count": "111",
+      "shared_sentence_count": "36",
+      "chapter_count": "50",
+      "chapters": "3|4|6|11|12|18|22|24|25|38|42|44|46|47|53|54|59|64|65|68|69|70|71|72|73|74|75|77|83|84|92|93|95|96|97|101|102|103|104|105|106|107|109|110|111|112|113|114|116|117",
+      "examples": "ch3:p9:hongloumeng_p00074|ch4:p21:hongloumeng_p00113|ch6:p14:hongloumeng_p00204|ch11:p2:hongloumeng_p00307|ch12:p15:hongloumeng_p00344"
+    },
+    {
+      "edge_id": "person_edge_000026",
+      "source": "person_jia_baoyu",
+      "source_name": "賈寶玉",
+      "target": "person_jia_tanchun",
+      "target_name": "賈探春",
+      "relation_type": "co_occurrence",
+      "scope": "paragraph",
+      "weight": "108",
+      "shared_paragraph_count": "108",
+      "shared_sentence_count": "27",
+      "chapter_count": "46",
+      "chapters": "3|5|7|18|20|22|23|27|28|29|35|37|38|39|40|42|43|45|46|48|49|50|52|55|58|60|61|62|63|70|71|75|76|81|83|84|85|92|94|95|98|99|100|102|109|119",
+      "examples": "ch3:p21:hongloumeng_p00086|ch5:p2:hongloumeng_p00116|ch7:p8:hongloumeng_p00226|ch18:p40:hongloumeng_p00511|ch20:p10:hongloumeng_p00558"
+    },
+    {
+      "edge_id": "person_edge_000027",
+      "source": "person_xue_baochai",
+      "source_name": "薛寶釵",
+      "target": "person_xue_yima",
+      "target_name": "薛姨媽",
+      "relation_type": "co_occurrence",
+      "scope": "paragraph",
+      "weight": "108",
+      "shared_paragraph_count": "108",
+      "shared_sentence_count": "66",
+      "chapter_count": "51",
+      "chapters": "4|7|8|18|20|22|25|29|33|34|35|36|38|40|41|43|46|47|48|49|53|54|57|58|60|62|67|71|79|80|82|83|84|85|86|89|90|91|92|95|97|98|99|100|103|106|108|109|110|119|120",
+      "examples": "ch4:p22:hongloumeng_p00114|ch7:p3:hongloumeng_p00221|ch8:p5:hongloumeng_p00249|ch8:p16:hongloumeng_p00260|ch8:p17:hongloumeng_p00261"
+    },
+    {
+      "edge_id": "person_edge_000028",
+      "source": "person_jia_baoyu",
+      "source_name": "賈寶玉",
+      "target": "person_li_wan",
+      "target_name": "李紈",
+      "relation_type": "co_occurrence",
+      "scope": "paragraph",
+      "weight": "108",
+      "shared_paragraph_count": "108",
+      "shared_sentence_count": "21",
+      "chapter_count": "46",
+      "chapters": "7|18|21|22|25|27|37|38|39|40|41|42|43|44|45|46|48|49|50|53|54|55|56|61|62|63|64|67|70|71|85|88|92|94|95|97|98|99|102|105|108|110|112|117|118|119",
+      "examples": "ch7:p8:hongloumeng_p00226|ch18:p20:hongloumeng_p00491|ch18:p42:hongloumeng_p00513|ch21:p1:hongloumeng_p00565|ch22:p5:hongloumeng_p00590"
+    },
+    {
+      "edge_id": "person_edge_000029",
+      "source": "person_jia_baoyu",
+      "source_name": "賈寶玉",
+      "target": "person_zijuan",
+      "target_name": "紫鵑",
+      "relation_type": "co_occurrence",
+      "scope": "paragraph",
+      "weight": "107",
+      "shared_paragraph_count": "107",
+      "shared_sentence_count": "38",
+      "chapter_count": "42",
+      "chapters": "8|21|25|26|27|29|30|35|38|40|45|52|57|62|64|67|70|74|79|81|82|83|85|86|87|89|90|91|94|95|96|97|98|100|104|111|113|115|116|117|118|119",
+      "examples": "ch8:p17:hongloumeng_p00261|ch21:p2:hongloumeng_p00566|ch21:p3:hongloumeng_p00567|ch25:p13:hongloumeng_p00699|ch26:p16:hongloumeng_p00733"
+    },
+    {
+      "edge_id": "person_edge_000030",
+      "source": "person_lin_daiyu",
+      "source_name": "林黛玉",
+      "target": "person_shi_xiangyun",
+      "target_name": "史湘雲",
+      "relation_type": "co_occurrence",
+      "scope": "paragraph",
+      "weight": "106",
+      "shared_paragraph_count": "106",
+      "shared_sentence_count": "46",
+      "chapter_count": "34",
+      "chapters": "20|21|22|29|31|32|35|36|38|40|41|42|49|50|53|54|55|57|58|59|62|63|70|71|76|82|83|85|87|92|94|99|102|108",
+      "examples": "ch20:p10:hongloumeng_p00558|ch20:p13:hongloumeng_p00561|ch20:p16:hongloumeng_p00564|ch21:p1:hongloumeng_p00565|ch21:p2:hongloumeng_p00566"
+    },
+    {
+      "edge_id": "person_edge_000031",
+      "source": "person_lin_daiyu",
+      "source_name": "林黛玉",
+      "target": "person_xiren",
+      "target_name": "襲人",
+      "relation_type": "co_occurrence",
+      "scope": "paragraph",
+      "weight": "105",
+      "shared_paragraph_count": "105",
+      "shared_sentence_count": "36",
+      "chapter_count": "52",
+      "chapters": "3|8|13|18|19|20|21|22|23|25|26|27|28|29|31|32|34|35|36|38|44|46|49|52|57|58|59|60|62|63|64|67|78|81|82|83|85|87|89|91|92|94|95|96|97|98|100|104|108|109|111|116",
+      "examples": "ch3:p24:hongloumeng_p00089|ch3:p26:hongloumeng_p00091|ch8:p22:hongloumeng_p00266|ch13:p6:hongloumeng_p00350|ch18:p2:hongloumeng_p00473"
+    },
+    {
+      "edge_id": "person_edge_000032",
+      "source": "person_jia_baoyu",
+      "source_name": "賈寶玉",
+      "target": "person_shi_xiangyun",
+      "target_name": "史湘雲",
+      "relation_type": "co_occurrence",
+      "scope": "paragraph",
+      "weight": "105",
+      "shared_paragraph_count": "105",
+      "shared_sentence_count": "38",
+      "chapter_count": "36",
+      "chapters": "20|21|22|29|31|32|33|35|36|37|38|39|40|41|42|49|50|53|54|56|57|58|62|63|70|71|76|83|85|92|94|99|102|108|110|119",
+      "examples": "ch20:p10:hongloumeng_p00558|ch20:p13:hongloumeng_p00561|ch20:p16:hongloumeng_p00564|ch21:p1:hongloumeng_p00565|ch21:p2:hongloumeng_p00566"
+    },
+    {
+      "edge_id": "person_edge_000033",
+      "source": "person_jia_zheng",
+      "source_name": "賈政",
+      "target": "person_wang_furen",
+      "target_name": "王夫人",
+      "relation_type": "co_occurrence",
+      "scope": "paragraph",
+      "weight": "102",
+      "shared_paragraph_count": "102",
+      "shared_sentence_count": "44",
+      "chapter_count": "49",
+      "chapters": "3|4|9|13|18|22|23|25|33|36|43|60|62|70|71|72|75|76|77|78|79|81|82|83|84|85|86|89|91|92|94|95|96|97|98|100|104|105|106|107|108|109|110|111|112|115|116|118|120",
+      "examples": "ch3:p16:hongloumeng_p00081|ch4:p21:hongloumeng_p00113|ch4:p22:hongloumeng_p00114|ch9:p2:hongloumeng_p00274|ch13:p12:hongloumeng_p00356"
+    },
+    {
+      "edge_id": "person_edge_000034",
+      "source": "person_lin_daiyu",
+      "source_name": "林黛玉",
+      "target": "person_wang_furen",
+      "target_name": "王夫人",
+      "relation_type": "co_occurrence",
+      "scope": "paragraph",
+      "weight": "100",
+      "shared_paragraph_count": "100",
+      "shared_sentence_count": "32",
+      "chapter_count": "47",
+      "chapters": "3|4|7|8|18|21|22|25|28|29|30|31|34|35|36|37|38|40|41|48|49|53|54|57|58|64|67|70|75|76|78|79|82|83|84|85|89|90|94|96|97|98|100|104|111|115|118",
+      "examples": "ch3:p11:hongloumeng_p00076|ch3:p15:hongloumeng_p00080|ch3:p16:hongloumeng_p00081|ch3:p17:hongloumeng_p00082|ch3:p18:hongloumeng_p00083"
+    },
+    {
+      "edge_id": "person_edge_000035",
+      "source": "person_wang_furen",
+      "source_name": "王夫人",
+      "target": "person_xiren",
+      "target_name": "襲人",
+      "relation_type": "co_occurrence",
+      "scope": "paragraph",
+      "weight": "98",
+      "shared_paragraph_count": "98",
+      "shared_sentence_count": "39",
+      "chapter_count": "45",
+      "chapters": "9|23|24|25|29|31|32|34|35|36|38|39|43|51|54|55|56|57|62|71|74|77|78|82|89|94|95|96|97|98|100|101|102|104|106|108|109|111|114|115|116|117|118|119|120",
+      "examples": "ch9:p2:hongloumeng_p00274|ch23:p9:hongloumeng_p00639|ch24:p26:hongloumeng_p00681|ch25:p7:hongloumeng_p00693|ch25:p19:hongloumeng_p00705"
+    },
+    {
+      "edge_id": "person_edge_000036",
+      "source": "person_jia_mu",
+      "source_name": "賈母",
+      "target": "person_li_wan",
+      "target_name": "李紈",
+      "relation_type": "co_occurrence",
+      "scope": "paragraph",
+      "weight": "97",
+      "shared_paragraph_count": "97",
+      "shared_sentence_count": "32",
+      "chapter_count": "45",
+      "chapters": "7|16|18|21|22|37|38|39|40|41|42|43|44|45|46|48|49|50|53|54|55|56|58|61|62|64|67|68|70|71|73|75|76|85|88|90|92|94|95|97|98|99|105|108|110",
+      "examples": "ch7:p8:hongloumeng_p00226|ch7:p15:hongloumeng_p00233|ch16:p4:hongloumeng_p00411|ch18:p15:hongloumeng_p00486|ch18:p20:hongloumeng_p00491"
+    },
+    {
+      "edge_id": "person_edge_000037",
+      "source": "person_jia_baoyu",
+      "source_name": "賈寶玉",
+      "target": "person_she_yue",
+      "target_name": "麝月",
+      "relation_type": "co_occurrence",
+      "scope": "paragraph",
+      "weight": "96",
+      "shared_paragraph_count": "96",
+      "shared_sentence_count": "46",
+      "chapter_count": "41",
+      "chapters": "5|9|20|21|24|30|31|35|36|37|49|51|52|53|54|56|58|59|62|63|64|67|70|73|74|77|78|81|82|85|89|92|94|95|101|104|109|113|115|116|118",
+      "examples": "ch5:p9:hongloumeng_p00123|ch9:p2:hongloumeng_p00274|ch20:p6:hongloumeng_p00554|ch20:p7:hongloumeng_p00555|ch20:p8:hongloumeng_p00556"
+    },
+    {
+      "edge_id": "person_edge_000038",
+      "source": "person_jia_tanchun",
+      "source_name": "賈探春",
+      "target": "person_lin_daiyu",
+      "target_name": "林黛玉",
+      "relation_type": "co_occurrence",
+      "scope": "paragraph",
+      "weight": "95",
+      "shared_paragraph_count": "95",
+      "shared_sentence_count": "43",
+      "chapter_count": "42",
+      "chapters": "3|5|7|20|22|23|27|28|29|35|37|38|39|40|42|48|49|50|51|52|55|58|62|63|67|70|71|73|75|76|82|83|85|87|90|92|94|95|98|99|100|102",
+      "examples": "ch3:p18:hongloumeng_p00083|ch3:p21:hongloumeng_p00086|ch3:p27:hongloumeng_p00092|ch5:p2:hongloumeng_p00116|ch7:p8:hongloumeng_p00226"
+    },
+    {
+      "edge_id": "person_edge_000039",
+      "source": "person_jia_tanchun",
+      "source_name": "賈探春",
+      "target": "person_xue_baochai",
+      "target_name": "薛寶釵",
+      "relation_type": "co_occurrence",
+      "scope": "paragraph",
+      "weight": "95",
+      "shared_paragraph_count": "95",
+      "shared_sentence_count": "41",
+      "chapter_count": "40",
+      "chapters": "5|20|22|23|27|28|29|35|37|38|39|40|42|45|46|48|49|50|51|55|56|58|62|63|67|70|71|73|75|76|84|85|87|92|98|99|100|102|109|119",
+      "examples": "ch5:p2:hongloumeng_p00116|ch20:p10:hongloumeng_p00558|ch22:p22:hongloumeng_p00607|ch22:p41:hongloumeng_p00626|ch23:p11:hongloumeng_p00641"
+    },
+    {
+      "edge_id": "person_edge_000040",
+      "source": "person_jia_baoyu",
+      "source_name": "賈寶玉",
+      "target": "person_xue_yima",
+      "target_name": "薛姨媽",
+      "relation_type": "co_occurrence",
+      "scope": "paragraph",
+      "weight": "95",
+      "shared_paragraph_count": "95",
+      "shared_sentence_count": "25",
+      "chapter_count": "41",
+      "chapters": "8|20|22|25|29|33|34|35|36|38|40|41|43|46|47|49|50|53|54|57|60|62|63|71|77|82|84|86|88|89|91|92|95|97|98|99|106|108|110|119|120",
+      "examples": "ch8:p5:hongloumeng_p00249|ch8:p16:hongloumeng_p00260|ch8:p17:hongloumeng_p00261|ch8:p18:hongloumeng_p00262|ch8:p19:hongloumeng_p00263"
+    },
+    {
+      "edge_id": "person_edge_000041",
+      "source": "person_lin_daiyu",
+      "source_name": "林黛玉",
+      "target": "person_wang_xifeng",
+      "target_name": "王熙鳳",
+      "relation_type": "co_occurrence",
+      "scope": "paragraph",
+      "weight": "94",
+      "shared_paragraph_count": "94",
+      "shared_sentence_count": "31",
+      "chapter_count": "47",
+      "chapters": "3|8|13|14|18|20|21|22|24|25|27|28|29|30|31|34|35|36|38|40|41|44|45|46|49|50|53|54|62|64|70|71|74|82|83|84|85|90|92|94|96|97|98|99|104|108|120",
+      "examples": "ch3:p9:hongloumeng_p00074|ch3:p18:hongloumeng_p00083|ch3:p23:hongloumeng_p00088|ch3:p27:hongloumeng_p00092|ch8:p3:hongloumeng_p00247"
+    },
+    {
+      "edge_id": "person_edge_000042",
+      "source": "person_wang_furen",
+      "source_name": "王夫人",
+      "target": "person_xue_yima",
+      "target_name": "薛姨媽",
+      "relation_type": "co_occurrence",
+      "scope": "paragraph",
+      "weight": "94",
+      "shared_paragraph_count": "94",
+      "shared_sentence_count": "49",
+      "chapter_count": "40",
+      "chapters": "4|7|16|18|22|25|29|35|36|38|40|41|43|44|46|47|52|53|54|57|58|59|62|67|77|80|84|85|86|88|89|91|95|97|98|103|106|108|119|120",
+      "examples": "ch4:p20:hongloumeng_p00112|ch4:p21:hongloumeng_p00113|ch4:p22:hongloumeng_p00114|ch7:p2:hongloumeng_p00220|ch7:p3:hongloumeng_p00221"
+    },
+    {
+      "edge_id": "person_edge_000043",
+      "source": "person_jia_mu",
+      "source_name": "賈母",
+      "target": "person_jia_tanchun",
+      "target_name": "賈探春",
+      "relation_type": "co_occurrence",
+      "scope": "paragraph",
+      "weight": "91",
+      "shared_paragraph_count": "91",
+      "shared_sentence_count": "26",
+      "chapter_count": "46",
+      "chapters": "3|5|7|20|22|23|28|29|35|37|38|39|40|42|43|45|46|47|49|50|55|56|58|61|62|67|70|71|73|74|75|76|81|82|83|84|85|92|94|95|98|99|100|104|109|118",
+      "examples": "ch3:p18:hongloumeng_p00083|ch3:p21:hongloumeng_p00086|ch3:p27:hongloumeng_p00092|ch5:p2:hongloumeng_p00116|ch7:p8:hongloumeng_p00226"
+    },
+    {
+      "edge_id": "person_edge_000044",
+      "source": "person_li_wan",
+      "source_name": "李紈",
+      "target": "person_xue_baochai",
+      "target_name": "薛寶釵",
+      "relation_type": "co_occurrence",
+      "scope": "paragraph",
+      "weight": "91",
+      "shared_paragraph_count": "91",
+      "shared_sentence_count": "32",
+      "chapter_count": "41",
+      "chapters": "18|21|22|25|27|37|38|39|40|41|42|44|45|46|48|49|50|51|53|54|55|56|58|62|63|64|67|70|75|76|85|92|98|99|105|108|110|112|117|118|119",
+      "examples": "ch18:p15:hongloumeng_p00486|ch18:p42:hongloumeng_p00513|ch21:p1:hongloumeng_p00565|ch22:p5:hongloumeng_p00590|ch25:p15:hongloumeng_p00701"
+    },
+    {
+      "edge_id": "person_edge_000045",
+      "source": "person_jia_mu",
+      "source_name": "賈母",
+      "target": "person_ping_er",
+      "target_name": "平兒",
+      "relation_type": "co_occurrence",
+      "scope": "paragraph",
+      "weight": "91",
+      "shared_paragraph_count": "91",
+      "shared_sentence_count": "16",
+      "chapter_count": "46",
+      "chapters": "24|25|29|31|35|38|39|42|43|44|45|46|47|48|49|52|55|56|60|61|62|63|64|67|68|69|71|72|74|84|88|90|92|94|97|101|105|106|107|108|109|111|112|113|114|117",
+      "examples": "ch24:p19:hongloumeng_p00674|ch25:p16:hongloumeng_p00702|ch25:p19:hongloumeng_p00705|ch25:p31:hongloumeng_p00717|ch29:p4:hongloumeng_p00833"
+    },
+    {
+      "edge_id": "person_edge_000046",
+      "source": "person_jia_tanchun",
+      "source_name": "賈探春",
+      "target": "person_li_wan",
+      "target_name": "李紈",
+      "relation_type": "co_occurrence",
+      "scope": "paragraph",
+      "weight": "89",
+      "shared_paragraph_count": "89",
+      "shared_sentence_count": "52",
+      "chapter_count": "36",
+      "chapters": "7|18|27|37|38|39|40|42|43|45|46|48|49|50|51|55|56|58|60|61|62|63|70|71|73|74|75|85|86|92|94|95|98|99|102|119",
+      "examples": "ch7:p8:hongloumeng_p00226|ch18:p26:hongloumeng_p00497|ch27:p4:hongloumeng_p00754|ch37:p7:hongloumeng_p00955|ch37:p8:hongloumeng_p00956"
+    },
+    {
+      "edge_id": "person_edge_000047",
+      "source": "person_qingwen",
+      "source_name": "晴雯",
+      "target": "person_xiren",
+      "target_name": "襲人",
+      "relation_type": "co_occurrence",
+      "scope": "paragraph",
+      "weight": "88",
+      "shared_paragraph_count": "88",
+      "shared_sentence_count": "36",
+      "chapter_count": "36",
+      "chapters": "5|8|9|19|20|26|28|30|31|34|36|37|49|51|52|53|57|58|59|60|61|62|63|64|67|70|73|74|77|78|79|82|89|101|104|109",
+      "examples": "ch5:p9:hongloumeng_p00123|ch8:p22:hongloumeng_p00266|ch9:p2:hongloumeng_p00274|ch19:p13:hongloumeng_p00527|ch20:p5:hongloumeng_p00553"
+    },
+    {
+      "edge_id": "person_edge_000048",
+      "source": "person_shi_xiangyun",
+      "source_name": "史湘雲",
+      "target": "person_xue_baochai",
+      "target_name": "薛寶釵",
+      "relation_type": "co_occurrence",
+      "scope": "paragraph",
+      "weight": "86",
+      "shared_paragraph_count": "86",
+      "shared_sentence_count": "41",
+      "chapter_count": "35",
+      "chapters": "20|21|22|29|31|32|33|35|36|37|38|39|40|41|42|49|50|53|54|57|58|59|62|63|70|71|75|76|85|87|92|99|108|110|119",
+      "examples": "ch20:p10:hongloumeng_p00558|ch20:p13:hongloumeng_p00561|ch21:p1:hongloumeng_p00565|ch22:p2:hongloumeng_p00587|ch22:p4:hongloumeng_p00589"
+    },
+    {
+      "edge_id": "person_edge_000049",
+      "source": "person_jia_mu",
+      "source_name": "賈母",
+      "target": "person_shi_xiangyun",
+      "target_name": "史湘雲",
+      "relation_type": "co_occurrence",
+      "scope": "paragraph",
+      "weight": "85",
+      "shared_paragraph_count": "85",
+      "shared_sentence_count": "21",
+      "chapter_count": "34",
+      "chapters": "20|21|22|29|31|32|33|35|36|37|38|39|40|41|42|49|50|53|54|56|57|58|62|71|76|82|83|85|92|94|99|108|109|110",
+      "examples": "ch20:p10:hongloumeng_p00558|ch20:p13:hongloumeng_p00561|ch21:p1:hongloumeng_p00565|ch22:p2:hongloumeng_p00587|ch22:p4:hongloumeng_p00589"
+    },
+    {
+      "edge_id": "person_edge_000050",
+      "source": "person_wang_xifeng",
+      "source_name": "王熙鳳",
+      "target": "person_you_shi",
+      "target_name": "尤氏",
+      "relation_type": "co_occurrence",
+      "scope": "paragraph",
+      "weight": "84",
+      "shared_paragraph_count": "84",
+      "shared_sentence_count": "47",
+      "chapter_count": "29",
+      "chapters": "7|8|10|11|14|16|18|43|44|52|53|54|58|62|63|64|68|69|70|71|73|74|75|91|97|106|108|110|112",
+      "examples": "ch7:p16:hongloumeng_p00234|ch7:p17:hongloumeng_p00235|ch7:p18:hongloumeng_p00236|ch7:p20:hongloumeng_p00238|ch7:p21:hongloumeng_p00239"
+    }
+  ]
+};

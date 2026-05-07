@@ -1,0 +1,67 @@
+{
+  "siteTitle": "紅樓夢知識圖譜",
+  "textTitle": "紅樓夢",
+  "githubUrl": "https://github.com/cclintw/red-chamber-dream",
+  "footerText": "本站為實驗性網站，使用 Codex 協作完成。專案原始檔以及相關語料庫請至 GitHub 下載。",
+  "mobileBreakpoint": 1024,
+  "reader": {
+    "maxWidth": "960px",
+    "fontFamily": "\"Noto Serif TC\", \"Songti TC\", \"PingFang TC\", \"Microsoft JhengHei\", serif",
+    "fontSize": "16px",
+    "lineHeight": 1.95,
+    "paragraphIndent": "2em"
+  },
+  "theme": {
+    "border": "#d9dee7",
+    "muted": "#5f6b7a",
+    "background": "#ffffff",
+    "panel": "#ffffff",
+    "ink": "#182230",
+    "accent": "#b42318"
+  },
+  "entityTags": [
+    {
+      "key": "person",
+      "label": "人物",
+      "types": ["PERSON"],
+      "color": "#fff3bf",
+      "underline": "#eab308"
+    },
+    {
+      "key": "place",
+      "label": "地點",
+      "types": ["PLACE", "GPE", "LOC"],
+      "color": "#ede9fe",
+      "underline": "#8b5cf6"
+    },
+    {
+      "key": "building",
+      "label": "建築",
+      "types": ["BUILDING", "FAC"],
+      "color": "#dbeafe",
+      "underline": "#3b82f6"
+    },
+    {
+      "key": "role",
+      "label": "身份",
+      "types": ["TITLE_ROLE"],
+      "color": "#dcfce7",
+      "underline": "#22c55e"
+    },
+    {
+      "key": "flower",
+      "label": "花",
+      "types": ["FLOWER"],
+      "color": "#fce7f3",
+      "underline": "#ec4899"
+    }
+  ],
+  "views": {
+    "reader": true,
+    "search": true,
+    "personGraph": true,
+    "cooccurrenceGraph": true,
+    "statistics": true,
+    "articles": false
+  }
+}
