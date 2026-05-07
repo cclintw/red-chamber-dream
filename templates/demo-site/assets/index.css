@@ -206,32 +206,32 @@
     .stat-icon svg { width: 42px; height: 42px; display: block; stroke: currentColor; }
     .stat-number { font-size: 42px; line-height: 1; font-weight: 700; color: #111827; font-variant-numeric: tabular-nums; }
     .stat-title { font-size: 16px; color: #475569; font-weight: 600; }
-    #stats .content { max-width: 960px; width: 100%; margin: 0 auto; }
+    #stats .content { max-width: 960px; width: 100%; margin: 0 auto; box-sizing: border-box; }
     .chart-grid { display: grid; grid-template-columns: minmax(0, 1fr); gap: 16px; margin: 0 0 32px; align-items: start; justify-items: center; }
-    .chart-section { width: 100%; max-width: 960px; }
+    .chart-section { width: 100%; max-width: 960px; box-sizing: border-box; }
     .chart-section:first-child { margin-top: 1.5rem; }
     .chart-section:not(:first-child) { margin-top: 3rem; }
     .chart-section h3 { margin: 0 0 4px; font-size: 16px; }
-    .chart-panel { border: 1px solid var(--border); border-radius: 8px; background: #fff; padding: 14px; min-width: 0; width: 100%; }
+    .chart-panel { border: 1px solid var(--border); border-radius: 8px; background: #fff; padding: 14px; min-width: 0; width: 100%; max-width: 100%; box-sizing: border-box; overflow: hidden; }
     .chart-note { margin: 0 0 10px; color: #64748b; font-size: 13px; line-height: 1.5; }
     .bar-list { display: grid; gap: 8px; }
-    .bar-row { display: grid; grid-template-columns: 160px minmax(220px, 1fr) 72px; gap: 10px; align-items: center; font-size: 13px; }
+    .bar-row { display: grid; grid-template-columns: 160px minmax(0, 1fr) 72px; gap: 10px; align-items: center; font-size: 13px; }
     .bar-label { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; color: #334155; }
-    .bar-track { min-height: 18px; display: flex; align-items: center; gap: 6px; background: #f8fafc; overflow: visible; position: relative; }
-    .bar-progress { width: var(--bar-width, 0%); flex: 0 0 var(--bar-width, 0%); height: 12px; display: block; appearance: none; -webkit-appearance: none; border: 0; overflow: hidden; background: #edf2f7; }
+    .bar-track { min-width: 0; min-height: 18px; display: flex; align-items: center; gap: 6px; background: #f8fafc; overflow: visible; position: relative; }
+    .bar-progress { width: var(--bar-width, 0%); max-width: 100%; flex: 0 0 var(--bar-width, 0%); height: 12px; display: block; appearance: none; -webkit-appearance: none; border: 0; overflow: hidden; background: #edf2f7; }
     .bar-progress::-webkit-progress-bar { background: #edf2f7; }
     .bar-progress::-webkit-progress-value { background: var(--bar-color, #64748b); }
     .bar-progress::-moz-progress-bar { background: var(--bar-color, #64748b); }
     .bar-percent { position: static; color: #64748b; font-size: 11px; font-variant-numeric: tabular-nums; white-space: nowrap; }
     .bar-value { color: #64748b; text-align: right; font-variant-numeric: tabular-nums; }
     .donut-wrap { display: grid; grid-template-columns: minmax(220px, .46fr) minmax(0, .54fr); gap: 18px; align-items: center; }
-    .pie-chart { width: 100%; max-width: 330px; aspect-ratio: 1; display: block; justify-self: center; }
+    .pie-chart { width: 100%; max-width: min(330px, 100%); aspect-ratio: 1; display: block; justify-self: center; }
     .pie-label { fill: #fff; font-size: 11px; font-weight: 600; text-anchor: middle; dominant-baseline: middle; paint-order: stroke; stroke: rgba(15, 23, 42, .45); stroke-width: 2px; stroke-linejoin: round; }
     .legend-list { display: grid; gap: 7px; font-size: 13px; min-width: 0; }
     .legend-item { display: flex; align-items: center; justify-content: space-between; gap: 10px; color: #334155; }
     .legend-key { display: inline-flex; align-items: center; gap: 7px; min-width: 0; }
     .legend-swatch { width: 10px; height: 10px; border-radius: 3px; flex: 0 0 auto; }
-    .trend-chart { width: 100%; height: 260px; display: block; }
+    .trend-chart { width: 100%; max-width: 100%; height: 260px; display: block; }
     .trend-axis { stroke: #cbd5e1; stroke-width: 1; }
     .trend-line { fill: none; stroke-width: 2; }
     .trend-area { opacity: .14; }
@@ -307,4 +307,13 @@
       .search-mode button { flex: 1; min-height: 38px; }
       .active-terms { grid-template-columns: 1fr; gap: 4px; }
       .active-terms .entity-summary { white-space: normal; }
+    }
+    @media (max-width: 520px) {
+      .chart-panel { padding: 12px; }
+      .bar-row { grid-template-columns: minmax(0, 1fr); gap: 4px; padding-bottom: 8px; border-bottom: 1px solid #f1f5f9; }
+      .bar-row:last-child { border-bottom: 0; padding-bottom: 0; }
+      .bar-track { width: 100%; }
+      .bar-value { text-align: left; }
+      .pie-chart { max-width: 260px; }
+      .stats-mini-row { grid-template-columns: minmax(0, 1fr); gap: 2px; }
     }
