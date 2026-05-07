@@ -20,7 +20,6 @@
 
 - 站名
 - 專案 GitHub URL
-- 分享預覽圖 `assets/og-image.png`
 - 文本名稱
 - 作者
 - 標註類型
