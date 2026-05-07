@@ -1,5 +1,7 @@
 # 紅樓夢知識圖譜
 
+展示網站：[https://cclintw.github.io/red-chamber-dream/](https://cclintw.github.io/red-chamber-dream/)
+
 本專案是一個以《紅樓夢》為範例的中文古典小說數位人文工作流。它從純文字文本開始，逐步建立章節、段落、句子、token、NER、意象、人物關係、共現統計、SQLite 資料庫，以及可部署到 GitHub Pages 的靜態展示網站。
 
 目前專案包含兩個網站版本：

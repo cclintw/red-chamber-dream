@@ -1,5 +1,7 @@
 # 網站生成與發布說明
 
+目前展示網站：[https://cclintw.github.io/red-chamber-dream/](https://cclintw.github.io/red-chamber-dream/)
+
 本文件說明如何把已處理好的 CSV、JSON 或 SQLite 資料轉成靜態展示網站，並部署到 GitHub Pages。
 
 ## 網站定位
