@@ -20,6 +20,17 @@
     main { min-height: calc(100vh - 98px); overflow: visible; background: #fff; }
     .view { display: none; min-height: calc(100vh - 98px); }
     .view.active { display: grid; }
+    #home.view.active { display: grid; place-items: center; padding: 48px 20px; background: #fff; }
+    .home-hero { width: min(760px, 100%); text-align: center; }
+    .home-kicker { margin: 0 0 12px; color: #b42318; font-size: 13px; line-height: 1.4; letter-spacing: .02em; text-indent: 0; }
+    .home-hero h2 { margin: 0 0 16px; padding: 0; border: 0; font-family: "Noto Serif TC","Songti TC","PingFang TC","Microsoft JhengHei",serif; font-size: clamp(36px, 7vw, 72px); line-height: 1.12; color: #111827; }
+    .home-subtitle { max-width: 620px; margin: 0 auto 28px; color: #475569; font-size: 17px; line-height: 1.8; text-indent: 0; }
+    .home-actions { display: flex; justify-content: center; gap: 12px; flex-wrap: wrap; }
+    .home-actions button { min-width: 132px; min-height: 42px; border-radius: 999px; cursor: pointer; padding: 0 18px; font-size: 15px; }
+    .home-primary { border: 1px solid #b42318; background: #b42318; color: #fff; }
+    .home-primary:hover { background: #912018; border-color: #912018; }
+    .home-secondary { border: 1px solid #d0d7de; background: #fff; color: #334155; }
+    .home-secondary:hover { border-color: #94a3b8; background: #f8fafc; }
     .layout { grid-template-columns: 260px minmax(0,1fr) 340px; }
     #reader { transition: grid-template-columns .24s ease; }
     #reader.reader-left-collapsed { grid-template-columns: 0 minmax(0,1fr) 340px; }

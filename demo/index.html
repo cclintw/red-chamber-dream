@@ -12,20 +12,15 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="紅樓夢知識圖譜">
   <meta name="twitter:description" content="一個結合全文閱讀、檢索、命名實體、人物關係、共現分析與統計視覺化的《紅樓夢》數位研究平台。">
-  <script src="data/articles.json.js"></script>
-  <script src="data/basic_entity_index.json.js"></script>
-  <script src="data/ebook.json.js"></script>
-  <script src="data/person_social_network.json.js"></script>
-  <script src="data/search_index.json.js"></script>
-  <script src="data/statistics.json.js"></script>
   <link rel="stylesheet" href="assets/index.css">
 </head>
-<body class="reader-view">
+<body>
 <header>
   <button id="toggleReaderLeft" class="reader-toggle" title="展開/收合章節" aria-label="展開/收合章節"></button>
   <h1>紅樓夢知識圖譜</h1>
   <nav>
-    <button data-view="reader" class="active">閱讀</button>
+    <button data-view="home" class="active">首頁</button>
+    <button data-view="reader">閱讀</button>
     <button data-view="search">查詢</button>
     <button data-view="network">人物關係圖</button>
     <button data-view="coGraph">共現圖</button>
@@ -42,7 +37,19 @@
   <button id="toggleReaderRight" class="reader-toggle" title="展開/收合詞頻資訊" aria-label="展開/收合詞頻資訊"></button>
 </header>
 <main>
-  <section id="reader" class="view layout active reader-left-collapsed reader-right-collapsed">
+  <section id="home" class="view active">
+    <article class="home-hero">
+      <p class="home-kicker">Dream of the Red Chamber Knowledge Graph</p>
+      <h2>紅樓夢知識圖譜</h2>
+      <p class="home-subtitle">一個結合全文閱讀、檢索、命名實體、人物關係、共現分析與統計視覺化的《紅樓夢》數位研究平台。</p>
+      <div class="home-actions">
+        <button type="button" class="home-primary" data-home-view="reader">開始閱讀</button>
+        <button type="button" class="home-secondary" data-home-view="search">全文檢索</button>
+      </div>
+    </article>
+  </section>
+
+  <section id="reader" class="view layout reader-left-collapsed reader-right-collapsed">
     <aside class="side">
       <div class="panel-head"><h3 id="readerLeftTitle">章節</h3></div>
       <div id="chapterList"></div>
@@ -115,7 +122,7 @@
 <footer class="site-footer">本站為實驗性網站，使用 Codex 協作完成。</footer>
 
 <script>
-const state = {};
+const state = {dataPromises: {}};
 let chapterNavigationToken = 0;
 const $ = sel => document.querySelector(sel);
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -127,8 +134,26 @@ const readerIcons = {
 };
 async function loadJson(path) {
   if (window.DEMO_JSON && window.DEMO_JSON[path]) return window.DEMO_JSON[path];
-  const r = await fetch(path);
-  return r.json();
+  if (state.dataPromises[path]) return state.dataPromises[path];
+  state.dataPromises[path] = fetch(path)
+    .then(r => {
+      if (!r.ok) throw new Error(`HTTP ${r.status}`);
+      return r.json();
+    })
+    .catch(() => loadJsonScript(path));
+  return state.dataPromises[path];
+}
+function loadJsonScript(path) {
+  return new Promise((resolve, reject) => {
+    const script = document.createElement('script');
+    script.src = `${path}.js`;
+    script.onload = () => {
+      if (window.DEMO_JSON && window.DEMO_JSON[path]) resolve(window.DEMO_JSON[path]);
+      else reject(new Error(`Loaded ${script.src}, but ${path} was not registered.`));
+    };
+    script.onerror = () => reject(new Error(`Cannot load ${path}`));
+    document.head.appendChild(script);
+  });
 }
 function paragraphPreview(text, length = 30) { return [...String(text)].slice(0, length).join(''); }
 function searchPreview(text, expanded = false) {
@@ -137,28 +162,19 @@ function searchPreview(text, expanded = false) {
 }
 
 async function init() {
-  [state.ebook, state.search, state.entityIndex, state.network, state.stats, state.articles] = await Promise.all([
-    loadJson('data/ebook.json'),
-    loadJson('data/search_index.json'),
-    loadJson('data/basic_entity_index.json'),
-    loadJson('data/person_social_network.json'),
-    loadJson('data/statistics.json'),
-    loadJson('data/articles.json')
-  ]);
   initNav();
-  renderChapterList();
-  renderChapter(state.ebook.chapters[0].id);
   initReaderPanels();
   initTagToggles();
   initSearch();
-  initStats();
-  initArticles();
 }
 
 function initNav() {
   document.querySelectorAll('header nav button').forEach(btn => btn.addEventListener('click', () => {
-    switchView(btn.dataset.view);
+    switchView(btn.dataset.view).catch(showLoadError);
     closeMobileMenu();
+  }));
+  document.querySelectorAll('[data-home-view]').forEach(btn => btn.addEventListener('click', () => {
+    switchView(btn.dataset.homeView).catch(showLoadError);
   }));
   $('#mobileMenuToggle').addEventListener('click', () => {
     const open = document.querySelector('header').classList.toggle('nav-open');
@@ -168,8 +184,11 @@ function initNav() {
   });
 }
 
-function switchView(viewId) {
+async function switchView(viewId) {
   const wasActive = document.getElementById(viewId)?.classList.contains('active');
+  if (viewId === 'reader') await ensureReader();
+  if (viewId === 'search') await ensureSearch();
+  if (viewId === 'stats') await ensureStats();
   document.querySelectorAll('header nav button').forEach(b => b.classList.toggle('active', b.dataset.view === viewId));
   document.querySelectorAll('.view').forEach(v => v.classList.toggle('active', v.id === viewId));
   document.body.classList.toggle('reader-view', viewId === 'reader');
@@ -177,6 +196,40 @@ function switchView(viewId) {
   updateReaderToggleAvailability();
   if (viewId === 'stats') animateStatNumbers();
   if ((viewId === 'network' || viewId === 'coGraph') && !wasActive) reloadGraphFrame(viewId);
+}
+
+async function ensureReader() {
+  if (state.readerReady) return;
+  $('#readerContent').innerHTML = '<p class="meta">資料載入中...</p>';
+  [state.ebook, state.entityIndex] = await Promise.all([
+    state.ebook ? Promise.resolve(state.ebook) : loadJson('data/ebook.json'),
+    state.entityIndex ? Promise.resolve(state.entityIndex) : loadJson('data/basic_entity_index.json')
+  ]);
+  renderChapterList();
+  renderChapter(state.ebook.chapters[0].id);
+  state.readerReady = true;
+}
+
+async function ensureSearch() {
+  if (state.searchReady) return;
+  [state.search, state.entityIndex, state.ebook] = await Promise.all([
+    state.search ? Promise.resolve(state.search) : loadJson('data/search_index.json'),
+    state.entityIndex ? Promise.resolve(state.entityIndex) : loadJson('data/basic_entity_index.json'),
+    state.ebook ? Promise.resolve(state.ebook) : loadJson('data/ebook.json')
+  ]);
+  state.searchReady = true;
+}
+
+async function ensureStats() {
+  if (state.statsReady) return;
+  state.stats = await loadJson('data/statistics.json');
+  initStats();
+  state.statsReady = true;
+}
+
+function showLoadError(err) {
+  console.error(err);
+  alert('資料載入失敗，請稍後再試或重新整理頁面。');
 }
 
 function closeMobileMenu() {
@@ -346,12 +399,13 @@ document.addEventListener('click', e => {
 });
 function initSearch() {
   const searchState = {q: '', mode: 'entity', entityRows: [], rows: [], page: 1, pageSize: 50};
-  const run = () => {
+  const run = async () => {
     const q = $('#fulltextQuery').value.trim();
     const mode = document.querySelector('[data-search-mode].active')?.dataset.searchMode || 'entity';
     updateSearchClear(q);
     updateSearchAssist(q);
     if (!q) { $('#activeSearchTerms').textContent = ''; $('#searchResults').innerHTML = ''; return; }
+    await ensureSearch();
     const entityRows = mode === 'entity' ? Object.values(state.entityIndex.entities)
       .filter(item => item.label === q || item.surface_forms.some(s => s === q))
       .sort((a, b) => b.frequency - a.frequency)
@@ -364,25 +418,25 @@ function initSearch() {
     searchState.page = 1;
     renderSearchResults(searchState);
   };
-  $('#fulltextQuery').addEventListener('input', run);
+  $('#fulltextQuery').addEventListener('input', () => run().catch(showLoadError));
   $('#clearSearch').addEventListener('click', () => {
     $('#fulltextQuery').value = '';
-    run();
+    run().catch(showLoadError);
     $('#fulltextQuery').focus();
   });
   document.querySelectorAll('[data-search-mode]').forEach(btn => {
     btn.addEventListener('click', () => {
       document.querySelectorAll('[data-search-mode]').forEach(item => item.classList.toggle('active', item === btn));
-      run();
+      run().catch(showLoadError);
     });
   });
   document.querySelectorAll('[data-search-example]').forEach(btn => {
     btn.addEventListener('click', () => {
       $('#fulltextQuery').value = btn.dataset.searchExample;
-      run();
+      run().catch(showLoadError);
     });
   });
-  document.addEventListener('click', e => {
+  document.addEventListener('click', async e => {
     const pageButton = e.target.closest('[data-search-page]');
     if (pageButton) {
       e.preventDefault();
@@ -395,7 +449,7 @@ function initSearch() {
     const entityResult = e.target.closest('[data-entity-result]');
     if (entityResult) {
       e.preventDefault();
-      switchView('reader');
+      await switchView('reader');
       showEntity(entityResult.dataset.entityResult);
       return;
     }
@@ -427,7 +481,7 @@ function initSearch() {
     }
     const a = e.target.closest('[data-search-jump]'); if (!a) return;
     e.preventDefault();
-    switchView('reader');
+    await switchView('reader');
     renderChapter(`hongloumeng_ch${String(a.dataset.searchJump).padStart(3,'0')}`);
     setTimeout(() => document.getElementById(a.dataset.pid)?.scrollIntoView({behavior:'smooth', block:'start'}), 50);
   });
