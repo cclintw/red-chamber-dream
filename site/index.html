@@ -19,9 +19,8 @@
   <button id="toggleReaderLeft" class="reader-toggle" title="展開/收合章節" aria-label="展開/收合章節"></button>
   <h1>紅樓夢知識圖譜</h1>
   <nav>
-    <button data-view="home" class="active">首頁</button>
-    <button data-view="reader">閱讀</button>
-    <button data-view="search">查詢</button>
+    <button data-view="reader">瀏覽</button>
+    <button data-view="search" class="active">查詢</button>
     <button data-view="network">人物關係圖</button>
     <button data-view="coGraph">共現圖</button>
     <button data-view="stats">統計</button>
@@ -37,18 +36,6 @@
   <button id="toggleReaderRight" class="reader-toggle" title="展開/收合詞頻資訊" aria-label="展開/收合詞頻資訊"></button>
 </header>
 <main>
-  <section id="home" class="view active">
-    <article class="home-hero">
-      <p class="home-kicker">Dream of the Red Chamber Knowledge Graph</p>
-      <h2>紅樓夢知識圖譜</h2>
-      <p class="home-subtitle">一個結合全文閱讀、檢索、命名實體、人物關係、共現分析與統計視覺化的《紅樓夢》數位研究平台。</p>
-      <div class="home-actions">
-        <button type="button" class="home-primary" data-home-view="reader">開始閱讀</button>
-        <button type="button" class="home-secondary" data-home-view="search">全文檢索</button>
-      </div>
-    </article>
-  </section>
-
   <section id="reader" class="view layout reader-left-collapsed reader-right-collapsed">
     <aside class="side">
       <div class="panel-head"><h3 id="readerLeftTitle">章節</h3></div>
@@ -61,7 +48,7 @@
     </aside>
   </section>
 
-  <section id="search" class="view">
+  <section id="search" class="view active">
     <article class="content">
       <div class="search-intro">
         <h2>全文檢索</h2>
@@ -172,9 +159,6 @@ function initNav() {
   document.querySelectorAll('header nav button').forEach(btn => btn.addEventListener('click', () => {
     switchView(btn.dataset.view).catch(showLoadError);
     closeMobileMenu();
-  }));
-  document.querySelectorAll('[data-home-view]').forEach(btn => btn.addEventListener('click', () => {
-    switchView(btn.dataset.homeView).catch(showLoadError);
   }));
   $('#mobileMenuToggle').addEventListener('click', () => {
     const open = document.querySelector('header').classList.toggle('nav-open');
