@@ -395,6 +395,15 @@ function initSearch() {
       setAllSearchSnippets(snippetAction.dataset.snippetAction === 'expand');
       return;
     }
+    const cooccurrenceToggle = e.target.closest('[data-cooccurrence-toggle]');
+    if (cooccurrenceToggle) {
+      e.preventDefault();
+      const section = cooccurrenceToggle.closest('[data-cooccurrence-collapsible]');
+      const collapsed = section.classList.toggle('is-collapsed');
+      cooccurrenceToggle.setAttribute('aria-expanded', String(!collapsed));
+      cooccurrenceToggle.querySelector('.search-cooccurrence-state').textContent = collapsed ? '展開' : '收合';
+      return;
+    }
     const toggle = e.target.closest('.snippet-toggle');
     if (toggle) {
       const snippet = toggle.closest('.snippet');
@@ -516,6 +525,10 @@ function cooccurrenceSectionHtml(paragraphIds, excludedKeys = new Set(), classNa
     if (!items.length) return '';
     return `<div class="co-group"><h4>${group}</h4><div class="co-tags">${items.map(c => `<button data-co="${esc(c.key)}">${esc(c.label)}(${c.count})</button>`).join('')}</div></div>`;
   }).join('');
+  if (className.includes('search-cooccurrence')) {
+    const body = html || '<p class="meta">無可顯示共現</p>';
+    return `<section class="${className} is-collapsed" data-cooccurrence-collapsible><button type="button" class="search-cooccurrence-toggle" data-cooccurrence-toggle aria-expanded="false"><span>共現分析</span><span class="search-cooccurrence-state">展開</span></button><div class="search-cooccurrence-body">${body}</div></section>`;
+  }
   if (!html) return `<h4>共現</h4><p class="meta">無可顯示共現</p>`;
   return `<section class="${className}"><h3>共現</h3>${html}</section>`;
 }
