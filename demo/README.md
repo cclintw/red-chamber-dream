@@ -22,6 +22,34 @@ Demo 同時支援兩種打開方式：
 
 ## 本機測試
 
+### 只下載 demo 到本機展示
+
+如果只想瀏覽展示版，不需要下載整個專案或重新建置資料。請保留並下載完整 `demo/` 資料夾，目錄結構至少要包含：
+
+```text
+demo/
+├── index.html
+├── person_social_graph.html
+├── cooccurrence_graph.html
+├── assets/
+├── data/
+└── vendor/
+```
+
+下載後可直接用瀏覽器打開：
+
+```text
+demo/index.html
+```
+
+`demo/data/*.json.js` 是為了支援直接用 `file://` 開啟而產生的資料包裝檔，因此一般瀏覽功能、查詢、統計、人物關係圖與共現圖都可以在本機展示。
+
+注意事項：
+
+- 不要只複製單一 `index.html`，否則 CSS、JSON 與圖表函式庫會無法載入。
+- `vendor/` 內含本地版 D3，人物關係圖與共現圖需要它。
+- 若瀏覽器限制本機檔案讀取，請改用下方本機伺服器方式開啟。
+
 在專案根目錄執行：
 
 ```bash

@@ -686,6 +686,34 @@ window.DEMO_JSON["data/ebook.json"] = {...};
 
 ## 本機預覽
 
+### 只下載 demo 到本機展示
+
+如果只想試用展示網站，不需要下載整個專案、安裝 Python 套件或重新建立 CSV/JSON。請下載並保留完整 `demo/` 資料夾：
+
+```text
+demo/
+├── index.html
+├── person_social_graph.html
+├── cooccurrence_graph.html
+├── assets/
+├── data/
+└── vendor/
+```
+
+下載後可直接用瀏覽器打開：
+
+```text
+demo/index.html
+```
+
+`demo/` 已包含靜態 HTML、CSS、JavaScript、JSON、`data/*.json.js` 與圖表所需的本地函式庫。`data/*.json.js` 用於支援直接以 `file://` 開啟，因此不一定需要啟動本機伺服器。
+
+注意事項：
+
+- 必須保留整個 `demo/` 資料夾結構，不能只複製 `index.html`。
+- `data/` 是網站資料，`assets/` 是樣式，`vendor/` 是圖表函式庫。
+- 若瀏覽器或作業系統限制本機檔案讀取，請改用下方 `python3 -m http.server` 的方式預覽。
+
 預覽 `site/`：
 
 ```bash
