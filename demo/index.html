@@ -504,7 +504,7 @@ function searchPager(page, totalPages, totalRows, start, count) {
   if (!totalRows) return '';
   const from = start + 1;
   const to = start + count;
-  return `<nav class="pager"><span>第 ${page} / ${totalPages} 頁｜${from}-${to} / ${totalRows}</span><span class="pager-controls"><button type="button" data-search-page="${page - 1}" ${page <= 1 ? 'disabled' : ''}>上一頁</button><button type="button" data-search-page="${page + 1}" ${page >= totalPages ? 'disabled' : ''}>下一頁</button></span></nav>`;
+  return `<nav class="pager"><span>第 ${from}-${to} 筆（${page} / ${totalPages} 頁）</span><span class="pager-controls"><button type="button" data-search-page="${page - 1}" ${page <= 1 ? 'disabled' : ''}>上一頁</button><button type="button" data-search-page="${page + 1}" ${page >= totalPages ? 'disabled' : ''}>下一頁</button></span></nav>`;
 }
 
 function highlightText(text, q) {
