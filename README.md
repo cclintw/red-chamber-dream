@@ -2,7 +2,7 @@
 
 展示網站：[https://cclintw.github.io/red-chamber-dream/](https://cclintw.github.io/red-chamber-dream/)
 
-《紅樓夢知識圖譜》是一個以《紅樓夢》為範例的中文古典小說數位人文研究平台。它不只是一個《紅樓夢》網站，而是一套可重用的 Digital Humanities workflow：從純文字文本出發，逐步建立章節、段落、句子、token、命名實體、意象標註、人物關係、共現網絡、SQLite 資料庫與可部署到 GitHub Pages 的展示網站。
+《紅樓夢知識圖譜》是一個以《紅樓夢》為範例的數位人文研究平台。它不只是一個《紅樓夢》網站，而是一套可重用的 Digital Humanities workflow：從純文字文本出發，逐步建立章節、段落、句子、token、命名實體、意象標註、人物關係、共現網絡、SQLite 資料庫與可部署到 GitHub Pages 的展示網站。
 
 本專案結合 NLP、規則標註、權威表校對、Knowledge Graph 與靜態網站發布流程，展示如何把章回小說轉換成可查詢、可分析、可視覺化、可重建的研究資料集。它同時保留演算法產物與人工校對空間，適合作為中文古典小說、文學社會網絡、語料標註、知識圖譜與數位策展的教學與研究範本。
 
@@ -190,7 +190,7 @@ http://127.0.0.1:8767/
 建議引用格式：
 
 ```text
-林春成. 紅樓夢知識圖譜：中文古典小說數位人文工作流與知識圖譜建構示範. GitHub repository, 2026.
+林春成. 紅樓夢知識圖譜：數位人文工作流與知識圖譜建構示範. GitHub repository, 2026.
 https://github.com/cclintw/red-chamber-dream
 ```
 
@@ -199,7 +199,7 @@ BibTeX：
 ```bibtex
 @misc{lin2026redchamberdream,
   author       = {Lin, Chance},
-  title        = {紅樓夢知識圖譜：中文古典小說數位人文工作流與知識圖譜建構示範},
+  title        = {紅樓夢知識圖譜：數位人文工作流與知識圖譜建構示範},
   year         = {2026},
   howpublished = {GitHub repository},
   url          = {https://github.com/cclintw/red-chamber-dream}
