@@ -155,7 +155,7 @@ python3 -m http.server 8767 --directory demo
 http://127.0.0.1:8767/
 ```
 
-`demo/index.html` 也可以直接用瀏覽器打開，因為它包含 `data/*.json.js` 作為 `file://` 預覽支援。完整本機預覽與 GitHub Pages 部署流程請見 [DEPLOY.md](DEPLOY.md)。
+`demo/index.html` 也可以直接用瀏覽器打開，因為它包含 `data/*.json.js` 作為 `file://` 預覽支援。
 
 ## Repository Structure
 
@@ -178,7 +178,6 @@ http://127.0.0.1:8767/
 ├── templates/demo-site/            # demo 版型與 CSS 範本
 ├── WORKFLOW.md                     # 完整 pipeline 與重建流程
 ├── DATA_SCHEMA.md                  # CSV / SQLite / JSON 結構說明
-├── DEPLOY.md                       # 本機預覽與 GitHub Pages 部署
 └── CITATION.md                     # 學術引用與方法論引用規範
 ```
 
