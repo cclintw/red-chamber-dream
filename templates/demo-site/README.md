@@ -1,6 +1,6 @@
-# Demo Site Template
+# Static Site Template
 
-此資料夾記錄《紅樓夢知識圖譜》demo 站的固定版型規格。未來要為其他文本產生展示站時，應依此模板產生，而不是重新手刻 CSS/HTML。
+此資料夾記錄《紅樓夢知識平台》靜態展示站的固定版型規格。正式預覽與 Firebase Hosting 以 `site/` 為準；`demo/` 是 file-openable / GitHub Pages 相容 mirror。未來要為其他文本產生展示站時，應依此模板產生，而不是重新手刻 CSS/HTML。
 
 ## 模板目標
 
@@ -10,7 +10,8 @@
 - 閱讀頁左右側欄
 - 文內 tag 標註樣式
 - 查詢頁版型
-- 人物關係圖版型
+- 社會網絡圖版型
+- 人物譜版型
 - 共現圖版型
 - 統計圖表版型
 - footer
@@ -35,13 +36,13 @@
 
 - `reader`：閱讀
 - `search`：查詢
-- `network`：人物關係圖 iframe
+- `network`：社會網絡圖 iframe
 - `coGraph`：共現圖 iframe
 - `stats`：統計
 
 目前「探索」選單已關閉，但資料與函式仍可保留。
 
-### 人物關係圖
+### 社會網絡圖
 
 檔案：
 
@@ -63,6 +64,27 @@ data/person_relationships.json
 - D3 force graph
 - 人物節點與家族節點分形狀
 - 共現線與語義關係線分線型
+
+### 人物譜
+
+檔案：
+
+```text
+person_relationship_graph.html
+```
+
+資料：
+
+```text
+data/person_relationship_graph.json
+data/person_family_tree.json
+```
+
+主要設計：
+
+- 以家族為區塊
+- 呈現世代、配偶、妻妾、旁系、姻親與僕役
+- 用於人物關係閱讀，不作為共現網絡解讀
 
 ### 共現圖
 
@@ -88,7 +110,7 @@ data/ebook.json
 
 ## Style Tokens
 
-目前 demo 站的實際 CSS 已抽出到：
+目前展示站的實際 CSS 已抽出到：
 
 ```text
 templates/demo-site/assets/index.css
@@ -96,7 +118,7 @@ templates/demo-site/assets/person-social-graph.css
 templates/demo-site/assets/cooccurrence-graph.css
 ```
 
-對應到展示站：
+對應到 `demo/` mirror：
 
 ```text
 demo/assets/index.css
@@ -104,7 +126,7 @@ demo/assets/person-social-graph.css
 demo/assets/cooccurrence-graph.css
 ```
 
-對應到一般靜態站：
+對應到正式靜態站：
 
 ```text
 site/assets/index.css
@@ -125,7 +147,7 @@ HTML 只保留 stylesheet link：
 <link rel="stylesheet" href="assets/cooccurrence-graph.css">
 ```
 
-目前 demo 站核心風格參數：
+目前展示站核心風格參數：
 
 ```text
 font.sans: -apple-system, BlinkMacSystemFont, "Noto Sans TC", "PingFang TC", sans-serif
@@ -199,7 +221,7 @@ data/person_social_network.json
 data/person_relationships.json
 ```
 
-demo 若要支援 `file://`，還需：
+`demo/` 若要支援 `file://`，還需：
 
 ```text
 data/*.json.js
@@ -214,7 +236,7 @@ window.DEMO_JSON["data/ebook.json"] = {...};
 
 ## 下一步模板化工作
 
-目前已完成第一階段：將 HTML 內的 `<style>` 區塊抽出為 `assets/*.css`。後續若要進一步模板化，建議把目前 `demo/index.html` 拆成：
+目前已完成第一階段：將 HTML 內的 `<style>` 區塊抽出為 `assets/*.css`。後續若要進一步模板化，建議把目前 `site/index.html` / `demo/index.html` 拆成：
 
 ```text
 templates/demo-site/
@@ -238,7 +260,7 @@ templates/demo-site/
 build_demo_site.py
 ```
 
-由 `site.config.json` 與 `site/data/*.json` 自動產生完整 `demo/`。
+由 `site.config.json` 與 `site/data/*.json` 自動產生正式 `site/`，再同步出 `demo/` mirror。
 
 ## 套用到新專案
 
@@ -263,7 +285,7 @@ site/assets/
 <link rel="stylesheet" href="assets/index.css">
 ```
 
-人物關係圖：
+社會網絡圖：
 
 ```html
 <link rel="stylesheet" href="assets/person-social-graph.css">

@@ -46,6 +46,14 @@ def load_authority() -> dict[str, dict[str, str]]:
     return {row["entity_key"]: row for row in read_csv(AUTHORITY_CSV)}
 
 
+def candidate_inputs_are_current() -> bool:
+    if not NER_CANDIDATE_CSV.exists():
+        return False
+    input_paths = [SENTENCE_CSV, TOKEN_CSV, AUTHORITY_CSV, ALIAS_CSV, RULE_CSV]
+    candidate_mtime = NER_CANDIDATE_CSV.stat().st_mtime
+    return all(path.exists() and path.stat().st_mtime <= candidate_mtime for path in input_paths)
+
+
 def sentence_metadata(row: dict[str, str]) -> dict[str, str]:
     return {
         "document_id": row["document_id"],
@@ -358,7 +366,7 @@ def main() -> None:
         "confidence",
         "rule_or_alias",
     ]
-    if NER_CANDIDATE_CSV.exists():
+    if candidate_inputs_are_current():
         candidates = read_csv(NER_CANDIDATE_CSV)
     else:
         candidates = []

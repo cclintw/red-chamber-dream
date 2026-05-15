@@ -1,33 +1,35 @@
 # 網站生成與發布說明
 
-目前展示網站：[https://cclintw.github.io/red-chamber-dream/](https://cclintw.github.io/red-chamber-dream/)
+展示網站由作者另行部署維護；public repository 不包含 generated site data。
 
-本文件說明如何把已處理好的 CSV、JSON 或 SQLite 資料轉成靜態展示網站，並部署到 GitHub Pages。
+本文件說明如何把已處理好的 CSV、JSON 或 SQLite 資料轉成靜態展示網站，並部署到 Firebase Hosting。
 
 ## 網站定位
 
 目前專案有兩個網站目錄：
 
-- `site/`：一般靜態網站 prototype，使用 `fetch("data/*.json")` 載入資料。
-- `demo/`：GitHub Pages 展示站，額外用 `data/*.json.js` 支援直接打開 `index.html`。
+- `site/`：本機正式靜態網站輸出目錄，使用 `fetch("data/*.json")` 載入資料。Firebase Hosting 與正式 review 以此目錄為準。
+- `demo/`：本機 file-openable mirror，額外用 `data/*.json.js` 支援直接打開 `index.html`。
 
 目前建議：
 
-- GitHub repo 保留完整專案。
-- GitHub Pages 指向 `/demo`。
-- `demo/` 只展示，不接 AI API，不做後台維護。
-- 正式網站、AI API、資料維護後台，未來另開 app 或 repo。
+- GitHub repo 保留程式、模板、方法論文件、citation 與授權。
+- Firebase Hosting 指向 `/site`。
+- `site/`、`demo/`、完整 CSV、SQLite 與 generated JSON 不建議進 public git。
+- `site/` 與 `demo/` 都只展示，不接 AI API，不做後台維護。
+- AI API、資料維護後台，未來另開 app 或 repo。
 
-## 目前 demo 網站頁面
+## 目前靜態網站頁面
 
-`demo/` 包含：
+`site/` 與 `demo/` 包含：
 
 - `index.html`：主入口，包含閱讀、查詢、統計，以及 iframe 載入圖表頁。
-- `person_social_graph.html`：人物關係圖。
+- `person_social_graph.html`：社會網絡圖。
+- `person_relationship_graph.html`：人物譜。
 - `cooccurrence_graph.html`：共現圖。
 - `vendor/d3.v7.min.js`：圖表使用的 D3。
-- `data/*.json`：server 或 GitHub Pages 使用。
-- `data/*.json.js`：`file://` 直接開啟時使用。
+- `data/*.json`：`site/` 與一般靜態主機使用。
+- `data/*.json.js`：`demo/` 在 `file://` 直接開啟時使用。
 - `csv/`：可選下載資料，不直接被前端讀取。
 
 ## 頁面與資料依賴
@@ -63,12 +65,12 @@
 - `data/basic_entity_index.json`
 - `data/ebook.json`
 
-### 人物關係圖
+### 社會網絡圖
 
 功能：
 
 - 人物共現
-- 家族 / 陣營
+- 家族節點
 - 語義關係：親屬、婚姻、主僕、情感、衝突等
 - D3 force graph
 
@@ -76,6 +78,19 @@
 
 - `data/person_social_network.json`
 - `data/person_relationships.json`
+
+### 人物譜
+
+功能：
+
+- 以家族為主要區塊呈現人物樹狀關係
+- 區分血親、姻親、配偶、妻妾、僕役與旁系人物
+- 用於閱讀人物世代、婚姻與家族位置，不等同於共現網絡
+
+主要資料：
+
+- `data/person_relationship_graph.json`
+- `data/person_family_tree.json`
 
 ### 共現圖
 
@@ -128,7 +143,7 @@ templates/demo-site/assets/
 目前可重用的 CSS 檔：
 
 - `assets/index.css`：主站、閱讀頁、查詢頁、統計頁、header、footer、RWD。
-- `assets/person-social-graph.css`：人物關係圖。
+- `assets/person-social-graph.css`：社會網絡圖與人物譜共用的深色圖表頁樣式。
 - `assets/cooccurrence-graph.css`：共現圖。
 
 ## 建議的網站生成流程
@@ -141,7 +156,7 @@ python3 build_platform_site.py
 
 產生 `site/data/*.json`。
 
-接著同步到 `demo/data/`，並產生 `.json.js`：
+接著同步網站 assets，並建立 `demo/` mirror：
 
 ```bash
 python3 build_demo_site.py
@@ -152,44 +167,69 @@ python3 build_demo_site.py
 1. 讀取 `site/data/*.json`
 2. 複製到 `demo/data/*.json`
 3. 產生 `demo/data/*.json.js`
-4. 從 `templates/demo-site/assets/` 同步 CSS 到 `demo/assets/`
+4. 從 `templates/demo-site/assets/` 同步 CSS 到 `site/assets/` 與 `demo/assets/`
 
 HTML template 產生、graph html 更新與依 `templates/demo-site/site.config.json` 套用站名/顏色仍是後續工作。
 
-## GitHub Pages 發布
+## Firebase Hosting 發布
 
-建議先使用同一個 repo：
+正式發布建議使用 `site/`：
+
+```text
+red-chamber-dream/
+├── firebase.json
+├── site/
+└── demo/
+```
+
+`firebase.json` 已設定：
+
+```json
+{
+  "hosting": {
+    "public": "site"
+  }
+}
+```
+
+正式預覽：
+
+```bash
+make preview
+```
+
+部署：
+
+```bash
+firebase deploy
+```
+
+若需指定 project：
+
+```bash
+make deploy-firebase FIREBASE_PROJECT=your-project-id
+```
+
+## GitHub repository 發布
+
+公開 GitHub repository 建議只保留：
 
 ```text
 red-chamber-dream/
 ├── README.md
 ├── build_*.py
-├── *.csv
-├── site/
-└── demo/
+├── templates/
+├── DATA_SCHEMA.md
+├── WORKFLOW.md
+├── CITATION.md
+└── LICENSE
 ```
 
-本專案已提供 GitHub Actions workflow：
+若不希望公開資料架構與 generated data，不建議把 `site/` 或 `demo/` 發布到 GitHub Pages。展示網站應由本機 `site/` deploy 到 Firebase Hosting 或其他自有靜態主機。
 
-```text
-.github/workflows/pages.yml
-```
+## site 與 demo 的差異
 
-它會在 push 到 `main` 時，把 `demo/` 目錄發布到 GitHub Pages。
-
-GitHub Pages 設定：
-
-1. 到 GitHub repo。
-2. `Settings` -> `Pages`。
-3. Source 選 `GitHub Actions`。
-4. 儲存。
-5. push 到 `main` 後，到 `Actions` 查看 `Deploy demo to GitHub Pages` 是否成功。
-
-注意：若使用 GitHub Pages 的 `Deploy from a branch` 模式，GitHub 只能選 root `/` 或 `/docs` 作為發布資料夾；本專案要發布 `demo/`，所以使用 GitHub Actions。
-
-## 正式網站與 demo 的差異
-
-`demo/` 是靜態展示站，不建議加入：
+`site/` 是 Firebase Hosting 的正式輸出；`demo/` 是 file-openable mirror。兩者都是本機 generated output，不建議加入 public git，也不建議加入：
 
 - AI API
 - 登入

@@ -19,6 +19,8 @@ TABLES = [
     ("token", Path("token.csv")),
     ("entity_authority", Path("entity_authority.csv")),
     ("entity_alias", Path("entity_alias.csv")),
+    ("person_authority", Path("person_authority.csv")),
+    ("person_alias", Path("person_alias.csv")),
     ("ner_rule", Path("ner_rule.csv")),
     ("ner_candidate", Path("ner_candidate.csv")),
     ("ner", Path("ner.csv")),
@@ -30,9 +32,14 @@ TABLES = [
     ("motif_summary", Path("motif_summary.csv")),
     ("motif_chapter_summary", Path("motif_chapter_summary.csv")),
     ("person_motif_cooccurrence", Path("person_motif_cooccurrence.csv")),
+    ("person_occurrence_summary", Path("person_occurrence_summary.csv")),
     ("person_social_nodes", Path("person_social_nodes.csv")),
     ("person_social_edges", Path("person_social_edges.csv")),
     ("person_relationship", Path("person_relationship.csv")),
+    ("person_semantic_relationship", Path("person_semantic_relationship.csv")),
+    ("person_kinship", Path("person_kinship.csv")),
+    ("person_marriage", Path("person_marriage.csv")),
+    ("person_service_relation", Path("person_service_relation.csv")),
 ]
 
 INDEXES = [

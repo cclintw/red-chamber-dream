@@ -11,7 +11,9 @@ from pathlib import Path
 
 DEFAULT_STEPS = [
     "build_tables.py",
+    "build_person_authority.py",
     "build_ner_tables.py",
+    "build_person_occurrence_summary.py",
     "build_motif_tables.py",
     "build_person_social_network.py",
     "build_platform_site.py",
@@ -31,7 +33,7 @@ def run_script(script: str) -> None:
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Rebuild corpus CSV, JSON, demo data, and SQLite outputs.")
+    parser = argparse.ArgumentParser(description="Rebuild corpus CSV, production site JSON/assets, demo mirror data, and SQLite outputs.")
     parser.add_argument(
         "--with-seed",
         action="store_true",
@@ -45,7 +47,7 @@ def main() -> None:
     parser.add_argument(
         "--skip-demo",
         action="store_true",
-        help="skip build_demo_site.py",
+        help="skip build_demo_site.py. This leaves demo/ unsynced but keeps site/ as the production output.",
     )
     args = parser.parse_args()
 

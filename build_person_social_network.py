@@ -8,6 +8,7 @@ from pathlib import Path
 
 NER_CSV = Path("ner.csv")
 ENTITY_AUTHORITY_CSV = Path("entity_authority.csv")
+PERSON_AUTHORITY_CSV = Path("person_authority.csv")
 
 PERSON_NODE_CSV = Path("person_social_nodes.csv")
 PERSON_EDGE_CSV = Path("person_social_edges.csv")
@@ -27,11 +28,22 @@ def write_csv(path: Path, fieldnames: list[str], rows: list[dict[str, object]]) 
 
 
 def load_person_authority() -> dict[str, dict[str, str]]:
-    return {
+    people = {
         row["entity_key"]: row
         for row in read_csv(ENTITY_AUTHORITY_CSV)
         if row["entity_type"] == "PERSON"
     }
+    person_metadata = {
+        row["person_key"]: row
+        for row in read_csv(PERSON_AUTHORITY_CSV)
+        if row.get("person_key")
+    }
+    for key, row in people.items():
+        metadata = person_metadata.get(key, {})
+        row["family_group"] = metadata.get("family_group", "")
+        row["household"] = metadata.get("household", "")
+        row["role_category"] = metadata.get("role_category", "")
+    return people
 
 
 def person_mentions() -> list[dict[str, str]]:
@@ -64,6 +76,9 @@ def build_nodes(mentions: list[dict[str, str]], people: dict[str, dict[str, str]
                 "name": authority["canonical_name"],
                 "type": "PERSON",
                 "subtype": authority["subtype"],
+                "family_group": authority.get("family_group", ""),
+                "household": authority.get("household", ""),
+                "role_category": authority.get("role_category", ""),
                 "frequency": len(rows),
                 "chapter_count": len(chapter_set),
                 "paragraph_count": len(paragraph_set),
@@ -169,6 +184,9 @@ def build_graph_json(nodes: list[dict[str, object]], edges: list[dict[str, objec
                 "name": node["name"],
                 "type": node["type"],
                 "subtype": node["subtype"],
+                "family_group": node.get("family_group", ""),
+                "household": node.get("household", ""),
+                "role_category": node.get("role_category", ""),
                 "frequency": node["frequency"],
                 "chapter_count": node["chapter_count"],
                 "paragraph_count": node["paragraph_count"],
@@ -209,6 +227,9 @@ def main() -> None:
             "name",
             "type",
             "subtype",
+            "family_group",
+            "household",
+            "role_category",
             "frequency",
             "chapter_count",
             "paragraph_count",

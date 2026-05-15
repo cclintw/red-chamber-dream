@@ -1,8 +1,8 @@
-# 紅樓夢知識圖譜
+# 紅樓夢知識平台
 
-展示網站：[https://cclintw.github.io/red-chamber-dream/](https://cclintw.github.io/red-chamber-dream/)
+展示網站由作者另行部署維護；本 public repository 不包含 generated site data。
 
-《紅樓夢知識圖譜》是一個以《紅樓夢》為範例的數位人文研究平台。它不只是一個《紅樓夢》網站，而是一套可重用的 Digital Humanities workflow：從純文字文本出發，逐步建立章節、段落、句子、token、命名實體、意象標註、人物關係、共現網絡、SQLite 資料庫與可部署到 GitHub Pages 的展示網站。
+《紅樓夢知識平台》是一個以《紅樓夢》為範例的數位人文研究平台。它不只是一個《紅樓夢》網站，而是一套可重用的 Digital Humanities workflow：從純文字文本出發，逐步建立章節、段落、句子、token、命名實體、意象標註、人物關係、共現網絡、SQLite 資料庫與可部署到 Firebase Hosting 的靜態展示網站。
 
 本專案結合 NLP、規則標註、權威表校對、Knowledge Graph 與靜態網站發布流程，展示如何把章回小說轉換成可查詢、可分析、可視覺化、可重建的研究資料集。它同時保留演算法產物與人工校對空間，適合作為中文古典小說、文學社會網絡、語料標註、知識圖譜與數位策展的教學與研究範本。
 
@@ -17,19 +17,19 @@
 - Knowledge Graph：建立人物、地點、建築、身份、意象與關係資料。
 - Annotation：保留標註來源、offset、entity key、canonical name 與規則優先權。
 - Hybrid Workflow：結合模型輸出、規則比對與人工整理，而非完全依賴自動化。
-- GitHub Pages demo：以靜態網站展示全文閱讀、查詢、統計與圖譜視覺化。
+- Static site deployment：以 Firebase Hosting 展示全文閱讀、查詢、統計與圖譜視覺化。
 
 ## Live Demo
 
-展示網站：
+展示網站由作者另行部署維護。為避免公開 production data 與 generated JSON，本 public repository 不包含 `site/` 或 `demo/`。
 
-[https://cclintw.github.io/red-chamber-dream/](https://cclintw.github.io/red-chamber-dream/)
+本機建置後會產生兩個網站版本：
 
-目前專案包含兩個網站版本：
-
-- `site/`：一般靜態網站版本，透過 `fetch()` 讀取 `data/*.json`，建議用本機 server 或正式網站伺服器開啟。
-- `demo/`：GitHub Pages 展示版網站，額外包含 `data/*.json.js`，可直接雙擊 `demo/index.html`，也可部署到 GitHub Pages。
+- `site/`：正式靜態網站輸出目錄，透過 `fetch()` 讀取 `data/*.json`。正式 review 與 Firebase Hosting deployment 以此目錄為準。
+- `demo/`：file-openable mirror，額外包含 `data/*.json.js`，可直接雙擊 `demo/index.html`。
 - `templates/demo-site/`：展示網站版型規格與可重用 CSS。
+
+公開 GitHub repository 不建議附上完整 `site/`、`demo/`、production CSV、SQLite 或 generated JSON。這些檔案屬於本機研究資料與部署輸出，可由研究者在本機 rebuild 後部署到自己的網站。
 
 ## Research Goals
 
@@ -41,7 +41,7 @@
 - 文學文本中的人物、地點、建築、身份與意象如何被標註與校對？
 - 自動 NER、人工權威表與規則補強如何形成可解釋的 annotation pipeline？
 - 人物共現網絡與人工語義關係如何同時存在於一個 knowledge graph？
-- 研究資料如何以 CSV、SQLite、JSON 與 GitHub Pages 形式公開、重建與引用？
+- 研究資料如何以 CSV、SQLite、JSON 與靜態網站形式公開、重建與引用？
 
 ## Core Features
 
@@ -49,12 +49,13 @@
 - 查詢：支援精確字串與實體擴展查詢。
 - NER：以 CKIP、權威表、別名表、規則表建立基本實體標註。
 - Annotation pipeline：保留 char offset、token 對應、source、priority 與 confidence。
-- 人物關係圖：整合人物共現與人工整理的親屬、婚姻、主僕、情感等關係。
+- 社會網絡圖：整合人物共現、家族節點與人工整理的語義關係。
+- 人物譜：以樹狀圖呈現家族世代、婚姻、妻妾、旁系與僕役關係。
 - 共現圖：依段落建立人物、建築、地點、身份、花草等實體共現。
 - 意象分析：以 motif 規則標註花、香、夢、淚、病等研究詞群。
 - 統計資料：人物、NER 類型、意象、章回字數與段落統計。
 - SQLite：可將主要 CSV 表匯入 `corpus.sqlite`，供查詢、API 或後續研究使用。
-- GitHub Pages demo：展示站可部署為純靜態網站，不依賴後端服務。
+- 靜態網站部署：展示站可部署到 Firebase Hosting，不依賴後端服務。
 
 ## Core Workflow
 
@@ -79,7 +80,7 @@ motif annotations + person cooccurrence + semantic relationships
 SQLite database + site/data JSON
         |
         v
-site/ and demo/ static websites
+site/ production static website + demo/ mirror
 ```
 
 簡化後的重建命令：
@@ -118,7 +119,7 @@ python3 -m pip install jieba
 python3 build_all.py
 ```
 
-只重建 CSV、JSON 與 demo，不建立 SQLite：
+只重建 CSV、JSON 與靜態網站，不建立 SQLite：
 
 ```bash
 python3 build_all.py --skip-sqlite
@@ -131,22 +132,10 @@ python3 build_platform_site.py
 python3 build_demo_site.py
 ```
 
-預覽 `site/`：
+正式預覽 `site/`：
 
 ```bash
-python3 -m http.server 8766 --directory site
-```
-
-打開：
-
-```text
-http://127.0.0.1:8766/
-```
-
-預覽 `demo/`：
-
-```bash
-python3 -m http.server 8767 --directory demo
+make preview
 ```
 
 打開：
@@ -155,7 +144,43 @@ python3 -m http.server 8767 --directory demo
 http://127.0.0.1:8767/
 ```
 
-`demo/index.html` 也可以直接用瀏覽器打開，因為它包含 `data/*.json.js` 作為 `file://` 預覽支援。
+或不用 Makefile：
+
+```bash
+python3 -m http.server 8767 --bind 127.0.0.1 --directory site
+```
+
+部署到 Firebase Hosting：
+
+```bash
+firebase deploy
+```
+
+若需要指定 Firebase project：
+
+```bash
+make deploy-firebase FIREBASE_PROJECT=your-project-id
+```
+
+預覽 `demo/` mirror：
+
+```bash
+make preview-demo
+```
+
+或：
+
+```bash
+python3 -m http.server 8767 --bind 127.0.0.1 --directory demo
+```
+
+打開：
+
+```text
+http://127.0.0.1:8767/
+```
+
+正式發布前請以 `site/` 為驗收標準；`demo/index.html` 仍可直接用瀏覽器打開，因為它包含 `data/*.json.js` 作為 `file://` 預覽支援。
 
 ## Repository Structure
 
@@ -165,16 +190,20 @@ http://127.0.0.1:8767/
 ├── build_all.py                   # 一鍵重建主要資料流程
 ├── build_tables.py                # 建立 document/chapter/paragraph/sentence/token
 ├── build_ner_seed_tables.py        # 建立權威表、別名表、NER 規則表
+├── build_person_authority.py        # 建立人物權威表並同步 NER 人物別名
 ├── build_ner_tables.py             # 建立 NER 候選、結果、衝突與摘要
+├── build_person_occurrence_summary.py # 由 NER 產生人物出現摘要
 ├── build_motif_tables.py           # 建立 motif 標註與統計
 ├── build_person_social_network.py  # 建立人物共現網絡
 ├── build_person_relationships.py   # 建立人物語義關係
 ├── build_platform_site.py          # 建立 site/data/*.json
-├── build_demo_site.py              # 同步 demo/data 並產生 demo/data/*.json.js
+├── build_demo_site.py              # 同步 site/assets，並建立 demo mirror
+├── firebase.json                   # Firebase Hosting 設定，public 指向 site/
+├── Makefile                        # rebuild / preview / deploy 指令入口
 ├── build_sqlite.py                 # 將主要 CSV 匯入 corpus.sqlite
-├── *.csv                           # 語料表、NER 表、意象表、人物關係表
-├── site/                           # 一般靜態網站
-├── demo/                           # GitHub Pages 展示網站
+├── *.csv                           # 語料表、人物權威表、NER 表、意象表、人物關係表
+├── site/                           # 本機產生；Firebase Hosting 正式靜態網站輸出，不建議進 public git
+├── demo/                           # 本機產生；file-openable mirror，不建議進 public git
 ├── templates/demo-site/            # demo 版型與 CSS 範本
 ├── WORKFLOW.md                     # 完整 pipeline 與重建流程
 ├── DATA_SCHEMA.md                  # CSV / SQLite / JSON 結構說明
@@ -190,7 +219,7 @@ http://127.0.0.1:8767/
 建議引用格式：
 
 ```text
-林春成. 紅樓夢知識圖譜：數位人文工作流與知識圖譜建構示範. GitHub repository, 2026.
+林春成. 紅樓夢知識平台：數位人文工作流與知識圖譜建構示範. GitHub repository, 2026.
 https://github.com/cclintw/red-chamber-dream
 ```
 
@@ -199,7 +228,7 @@ BibTeX：
 ```bibtex
 @misc{lin2026redchamberdream,
   author       = {Lin, Chance},
-  title        = {紅樓夢知識圖譜：數位人文工作流與知識圖譜建構示範},
+  title        = {紅樓夢知識平台：數位人文工作流與知識圖譜建構示範},
   year         = {2026},
   howpublished = {GitHub repository},
   url          = {https://github.com/cclintw/red-chamber-dream}
@@ -215,20 +244,20 @@ BibTeX：
 - 從純文字到章節、段落、句子、token 的語料建構流程。
 - 權威表、別名表與規則表結合的 NER 標註流程。
 - 文學文本中的人物、地點、建築、身份、意象與共現分析。
-- 人物關係圖、共現網絡與統計資料的產生方式。
+- 人物譜、共現網絡與統計資料的產生方式。
 - CSV、SQLite、JSON 與靜態網站之間的轉換流程。
-- 可部署至 GitHub Pages 的數位人文展示網站架構。
+- 可部署至 Firebase Hosting 的數位人文展示網站架構。
 - annotation pipeline、schema 設計、knowledge graph 設計與 hybrid workflow。
 
 若您改作本專案，建議在 README、論文註腳、網站說明或專案文件中註明：
 
-> 本專案部分方法、資料流程或系統設計參考自 Chance Lin 的「紅樓夢知識圖譜」專案。
+> 本專案部分方法、資料流程或系統設計參考自 Chance Lin 的「紅樓夢知識平台」專案。
 
 本專案保留原創方法論與學術引用權利。程式碼授權不代表放棄研究方法、文件架構、schema 設計、標註流程與 knowledge graph workflow 的學術署名需求。
 
 ## License and Sources
 
-本專案授權資訊請以 repository 中的正式授權檔案或 citation metadata 為準；目前 citation metadata 標示為 MIT。
+本專案授權資訊請以 repository 中的正式授權檔案或 citation metadata 為準；目前採用 GPL-3.0-or-later。
 
 本專案方法論、文件、資料流程與架構說明，引用時請依照本文「Citation」與 [CITATION.md](CITATION.md) 註明來源。
 

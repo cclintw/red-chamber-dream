@@ -1,6 +1,6 @@
 # Data Schema
 
-This document provides a public overview of the corpus and annotation architecture used in the Red Chamber Dream Knowledge Graph project. It is intended as a methodological guide for digital humanities readers, not as production database documentation.
+This document provides a public overview of the corpus and annotation architecture used in the Red Chamber Dream Knowledge Platform project. It is intended as a methodological guide for digital humanities readers, not as production database documentation.
 
 ## Overview
 
@@ -12,6 +12,7 @@ At a conceptual level, the data flow is:
 plain text
   -> chapters / paragraphs / sentences
   -> tokens
+  -> person authority and aliases
   -> named entities and annotations
   -> motifs and thematic markers
   -> person relationships and social graph
@@ -47,6 +48,16 @@ Stores tokenized text and basic linguistic segmentation results. This table supp
 
 Stores named entity annotations, including entities such as people, places, buildings, identities, and other domain-relevant categories. It is the central annotation table for linking textual occurrences to normalized entities.
 
+### `person_authority.csv`
+
+Stores curated person identities independently from textual occurrence records. It defines who a person is, while `ner.csv` records where that person appears in the text.
+
+The person authority layer separates broad household affiliation from spatial residence. `household` records府第 / 家宅層級 such as 榮國府 or 寧國府, while `residence` and `residence_detail` are reserved for spaces such as 大觀園, 怡紅院, 瀟湘館, or other nested literary locations.
+
+### `person_alias.csv`
+
+Stores names, aliases, variant names, and forms of address used to connect textual mentions to person authority records.
+
 ### `motif.csv`
 
 Stores motif and thematic annotations, such as flowers, dreams, illness, tears, fragrance, and other recurring literary markers. This layer supports interpretive and thematic analysis beyond named entities.
@@ -54,6 +65,10 @@ Stores motif and thematic annotations, such as flowers, dreams, illness, tears, 
 ### `person_relationship.csv`
 
 Stores curated semantic relationships among characters, such as kinship, marriage, master-servant relations, emotional relations, and conflict. This table complements statistical co-occurrence with human-readable relationship interpretation.
+
+### `person_occurrence_summary.csv`
+
+Stores derived occurrence summaries for people, including first and last chapter appearances computed from the current NER result. These values are treated as textual evidence, not as fixed authority metadata.
 
 ## Architecture Layers
 
@@ -63,15 +78,15 @@ The corpus layer converts the source text into structured units: document, chapt
 
 ### Annotation Layer
 
-The annotation layer records named entities, normalized entity references, rule-based annotations, and motif markers. It is designed for a hybrid workflow in which NLP output, authority tables, aliases, rules, and human review can coexist.
+The annotation layer records named entities, normalized entity references, person authority records, aliases, rule-based annotations, and motif markers. It is designed for a hybrid workflow in which NLP output, authority tables, aliases, rules, and human review can coexist.
 
 ### Graph Layer
 
-The graph layer represents relationships and co-occurrence patterns. It includes curated character relationships as well as network-oriented data derived from textual proximity. This distinction keeps interpretive relationships separate from statistical co-occurrence.
+The graph layer represents relationships and co-occurrence patterns. It includes curated character relationships, kinship-oriented data, marriage relations, service relations, and network-oriented data derived from textual proximity. This distinction keeps interpretive relationships separate from statistical co-occurrence.
 
 ### Website Layer
 
-The website layer converts research data into static JSON files for reading, search, statistics, and visualization. This allows the project to be published as a GitHub Pages demo without requiring a backend service.
+The website layer converts research data into static JSON files for reading, search, statistics, and visualization. This allows the project to be published as a static digital humanities website through Firebase Hosting without requiring a backend service.
 
 ## SQLite
 

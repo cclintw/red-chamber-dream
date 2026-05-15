@@ -1,6 +1,6 @@
 # Workflow
 
-本文件保存《紅樓夢知識圖譜》的完整 pipeline、步驟 0~9、各 `build_*.py` 腳本用途、完整重建流程、常見問題與重跑對照表。README 僅保留首頁導覽；操作細節集中於此。
+本文件保存《紅樓夢知識平台》的完整 pipeline、步驟 0~9、各 `build_*.py` 腳本用途、完整重建流程、常見問題與重跑對照表。README 僅保留首頁導覽；操作細節集中於此。
 
 ## Workflow Overview
 
@@ -14,8 +14,8 @@ raw text
   -> motif annotations
   -> person social network / semantic relationships
   -> SQLite
-  -> site JSON
-  -> demo JSON and JSONP-style JS
+  -> site JSON and production static site
+  -> demo mirror and JSONP-style JS
 ```
 
 目前流程以《紅樓夢》為預設，但設計上可遷移到其他章回小說。更換文本時，最重要的是重新整理文本 metadata、章回規則、NER 權威表、別名表、規則表、motif 規則與人物語義關係。
@@ -42,16 +42,18 @@ python3 -m pip install jieba
 
 | 腳本 | 用途 | 主要輸出 |
 | --- | --- | --- |
-| `build_all.py` | 依序執行主要重建流程 | CSV、JSON、demo data、SQLite |
+| `build_all.py` | 依序執行主要重建流程 | CSV、site JSON、demo mirror、SQLite |
 | `build_tables.py` | 建立文獻、章節、段落、句子、token 表 | `document.csv`、`chapter.csv`、`paragraph.csv`、`sentence.csv`、`token.csv` |
 | `build_ner_seed_tables.py` | 建立第一版權威表、別名表、NER 規則表 | `entity_authority.csv`、`entity_alias.csv`、`ner_rule.csv` |
+| `build_person_authority.py` | 建立人物權威表、人物別名表，並同步 PERSON rows 到 NER 權威表 | `person_authority.csv`、`person_alias.csv`、`entity_authority.csv`、`entity_alias.csv` |
 | `build_ner_tables.py` | 整合 CKIP NER、別名表與規則表 | `ner_candidate.csv`、`ner.csv`、`ner_conflict.csv`、`ner_summary.csv` |
+| `build_person_occurrence_summary.py` | 從 NER 結果建立人物出現摘要 | `person_occurrence_summary.csv` |
 | `build_annotated_texts.py` | 產生 HTML/XML/JSON 標註文本 | `annotated_paragraphs.html`、`annotated_text.xml`、`annotated_paragraphs.json` |
 | `build_motif_tables.py` | 建立意象與 motif 統計 | `motif.csv`、`motif_summary.csv`、`motif_chapter_summary.csv` |
 | `build_person_social_network.py` | 建立人物共現網絡 | `person_social_nodes.csv`、`person_social_edges.csv`、`person_social_network.json` |
 | `build_person_relationships.py` | 建立人物語義關係 | `person_relationship.csv`、`site/data/person_relationships.json` |
 | `build_platform_site.py` | 建立網站所需 JSON | `site/data/*.json` |
-| `build_demo_site.py` | 同步 demo data 並產生 `*.json.js` | `demo/data/*.json`、`demo/data/*.json.js` |
+| `build_demo_site.py` | 同步 `site/` assets，並建立 `demo/` mirror 與 `*.json.js` | `site/assets/*.css`、`demo/data/*.json`、`demo/data/*.json.js` |
 | `build_sqlite.py` | 將主要 CSV 匯入 SQLite | `corpus.sqlite` |
 | `build_basic_annotation_browser.py` | 建立基礎標註瀏覽資料 | `basic_entity_index.json`、`basic_entity_summary.md` |
 
@@ -392,13 +394,13 @@ python3 build_platform_site.py
 - `site/data/person_social_network.json`
 - `site/data/articles.json`
 
-同步 demo：
+同步正式網站 assets，並建立 `demo/` mirror：
 
 ```bash
 python3 build_demo_site.py
 ```
 
-`build_demo_site.py` 會複製 `site/data/*.json` 到 `demo/data/*.json`，並產生對應的 `demo/data/*.json.js`：
+`build_demo_site.py` 會同步 `templates/demo-site/assets/*.css` 到 `site/assets/` 與 `demo/assets/`，並複製 `site/data/*.json` 到 `demo/data/*.json`。同時，它會產生對應的 `demo/data/*.json.js`，讓 `demo/` 可以支援 `file://` 直接開啟：
 
 ```javascript
 window.DEMO_JSON["data/ebook.json"] = {...};
@@ -500,13 +502,13 @@ python3 build_all.py
 python3 build_all.py --with-seed
 ```
 
-若只想重建 CSV/JSON/demo，不建立 SQLite：
+若只想重建 CSV、site JSON 與 demo mirror，不建立 SQLite：
 
 ```bash
 python3 build_all.py --skip-sqlite
 ```
 
-若只想重建 CSV/JSON/SQLite，不同步 demo：
+若只想重建 CSV、site JSON 與 SQLite，不同步 demo mirror：
 
 ```bash
 python3 build_all.py --skip-demo
@@ -516,7 +518,9 @@ python3 build_all.py --skip-demo
 
 ```bash
 python3 build_tables.py
+python3 build_person_authority.py
 python3 build_ner_tables.py
+python3 build_person_occurrence_summary.py
 python3 build_motif_tables.py
 python3 build_person_social_network.py
 python3 build_platform_site.py
@@ -538,13 +542,13 @@ python3 build_sqlite.py
 | 修改 NER 種子產生邏輯 | `build_ner_seed_tables.py` | `python3 build_ner_seed_tables.py`，人工校對後再跑 `python3 build_ner_tables.py` 與後續腳本 |
 | 修改意象 / motif 規則 | `motif_rule.csv` | `python3 build_motif_tables.py`、`python3 build_platform_site.py`、`python3 build_demo_site.py`、`python3 build_sqlite.py` |
 | 修改人物共現演算法 | `build_person_social_network.py` | `python3 build_person_social_network.py`、`python3 build_platform_site.py`、`python3 build_person_relationships.py`、`python3 build_demo_site.py`、`python3 build_sqlite.py` |
-| 修改人物語義關係 | `build_person_relationships.py` 內的 `RELATIONS`，或後續改成 `person_relationship.csv` | `python3 build_person_relationships.py`、`python3 build_demo_site.py`、`python3 build_sqlite.py` |
+| 修改人物語義關係 | `person_semantic_relationship.csv`、`person_kinship.csv`、`person_marriage.csv`、`person_service_relation.csv`，或 `build_person_relationships.py` 相關轉換邏輯 | `python3 build_person_relationships.py`、`python3 build_demo_site.py`、`python3 build_sqlite.py` |
 | 修改網站資料產生邏輯 | `build_platform_site.py` | `python3 build_platform_site.py`，必要時再跑 `python3 build_person_relationships.py`，最後跑 `python3 build_demo_site.py` |
 | 修改 SQLite 匯入表或索引 | `build_sqlite.py` | `python3 build_sqlite.py` |
 | 只修改網站樣式 | `demo/assets/*.css`、`site/assets/*.css`、`templates/demo-site/assets/*.css` | 不需重跑資料腳本，重新整理瀏覽器即可 |
 | 只修改 `site/` 或 `demo/` HTML/JS | `site/*.html`、`demo/*.html` | 不需重跑資料腳本，重新整理瀏覽器即可 |
 
-如果只要把已產生的 `site/data/*.json` 同步到展示站，執行：
+如果只要同步已產生的 `site/data/*.json` 到 `demo/` mirror，並同步 `site/` / `demo/` CSS assets，執行：
 
 ```bash
 python3 build_demo_site.py

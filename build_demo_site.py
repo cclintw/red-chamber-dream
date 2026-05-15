@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
-"""Sync site data into the file-openable demo site."""
+"""Sync production site assets and mirror site data into the demo site.
+
+The production preview/deploy target is ``site/``. The ``demo/`` directory is
+kept as a file-openable and GitHub Pages-compatible mirror.
+"""
 
 from __future__ import annotations
 
@@ -11,6 +15,7 @@ from pathlib import Path
 SITE_DATA = Path("site/data")
 DEMO_DATA = Path("demo/data")
 TEMPLATE_ASSETS = Path("templates/demo-site/assets")
+SITE_ASSETS = Path("site/assets")
 DEMO_ASSETS = Path("demo/assets")
 JSON_FILES = [
     "articles.json",
@@ -18,6 +23,8 @@ JSON_FILES = [
     "ebook.json",
     "entity_chapter_summary.json",
     "entity_paragraph_index.json",
+    "person_family_tree.json",
+    "person_relationship_graph.json",
     "person_relationships.json",
     "person_social_network.json",
     "search_index.json",
@@ -51,8 +58,12 @@ def sync_data() -> None:
 def sync_assets() -> None:
     if not TEMPLATE_ASSETS.exists():
         return
+    SITE_ASSETS.mkdir(parents=True, exist_ok=True)
     DEMO_ASSETS.mkdir(parents=True, exist_ok=True)
     for src in TEMPLATE_ASSETS.glob("*.css"):
+        site_dst = SITE_ASSETS / src.name
+        shutil.copyfile(src, site_dst)
+        print(f"synced {src} -> {site_dst}")
         dst = DEMO_ASSETS / src.name
         shutil.copyfile(src, dst)
         print(f"synced {src} -> {dst}")
@@ -63,7 +74,7 @@ def main() -> None:
         raise SystemExit("site/data does not exist. Run python3 build_platform_site.py first.")
     sync_data()
     sync_assets()
-    print("demo site data ready")
+    print("site assets and demo mirror ready")
 
 
 if __name__ == "__main__":
