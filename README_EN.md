@@ -1,7 +1,5 @@
 # Red Chamber Dream Knowledge Platform
 
-The demonstration site is maintained separately by the author. This public repository does not include generated site data.
-
 The Red Chamber Dream Knowledge Platform is a digital humanities research platform for classical Chinese fiction, using *Dream of the Red Chamber* as its primary example. It is not only a website about *Dream of the Red Chamber*, but also a reusable Digital Humanities workflow: starting from plain text, it progressively builds chapters, paragraphs, sentences, tokens, named entities, motif annotations, character relationships, co-occurrence networks, a SQLite database, and a static website deployable to Firebase Hosting.
 
 This project combines NLP, rule-based annotation, authority table curation, Knowledge Graph construction, and static website publishing to demonstrate how a chapter-based classical novel can be transformed into a searchable, analyzable, visualizable, and reproducible research dataset. It preserves both algorithmic outputs and space for human review, making it suitable as a teaching and research model for classical Chinese fiction, literary social networks, corpus annotation, knowledge graphs, and digital curation.
