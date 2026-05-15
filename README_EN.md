@@ -57,15 +57,15 @@ plain text
   -> static digital humanities website
 ```
 
-## Minimal Data Requirements
+## Minimal Conceptual Requirements
 
 A compatible system requires, at a conceptual level:
 
-- corpus tables: text, chapters, paragraphs, sentences, and tokens
-- authority tables: persons, aliases, and normalized entity names
-- annotation tables: NER, motifs, and reviewed annotations
-- relationship tables: semantic person relationships, kinship, marriage, service relations, or other research-defined relations
-- derived outputs: search indexes, statistics, network data, and website-ready JSON
+- corpus segmentation: textual hierarchy and citable reading units
+- authority normalization: methods for resolving persons, aliases, and normalized entities
+- annotation workflow: NER, motifs, and human review
+- relationship modeling: semantic character relations, kinship, marriage, service relations, or other research-defined relations
+- presentation outputs: derived materials for search, statistics, network views, and display layers
 
 This repository does not list production field-level details. The public version only provides a methodological and architectural overview.
 

@@ -57,15 +57,15 @@ plain text
   -> static digital humanities website
 ```
 
-## Minimal Data Requirements
+## Minimal Conceptual Requirements
 
-若要建立相容系統，至少需要準備下列概念層資料：
+若要建立相容系統，至少需要準備下列概念層材料：
 
-- corpus tables：文本、章回、段落、句子、token
-- authority tables：人物、別名、實體標準名
-- annotation tables：NER、motif、人工校對標註
-- relationship tables：人物語義關係、婚姻、親屬、主僕或其他研究關係
-- derived outputs：查詢索引、統計資料、網絡資料與展示用 JSON
+- corpus segmentation：文本層級與可引用的閱讀單位
+- authority normalization：人物、別名與實體標準化方法
+- annotation workflow：NER、motif 與人工校對流程
+- relationship modeling：人物語義關係、親屬、婚姻、主僕或其他研究關係
+- presentation outputs：查詢、統計、網絡與展示層所需的衍生資料
 
 本 repo 不列出 production 欄位細節。公開版只提供方法論與架構層說明。
 
