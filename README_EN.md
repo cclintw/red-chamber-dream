@@ -2,7 +2,7 @@
 
 The Red Chamber Dream Knowledge Platform is a digital humanities research workflow project using *Dream of the Red Chamber* as its primary example. It is not only a website about the novel, but also a reusable Digital Humanities framework for transforming literary texts into searchable, analyzable, visualizable, and citable research data.
 
-This public repository preserves only the methodological overview, conceptual data architecture, citation guidelines, and license information. It does not include production data, complete tables, SQLite databases, generated JSON, website output, deployment settings, or full rebuild scripts.
+This public repository preserves the methodological overview, conceptual data architecture, citation guidelines, license information, and selected workflow scripts. It does not include production data, complete tables, SQLite databases, generated JSON, website output, deployment settings, or full orchestration scripts.
 
 ## Project Overview
 
@@ -38,9 +38,21 @@ This public repository does not publish the full production implementation. It e
 - generated JSON
 - generated website output
 - deployment settings
-- production rebuild scripts
+- production orchestration scripts
 
 The full research data, generated website output, and deployment workflow are maintained by the author in a private repository and local environment.
+
+## Public Scripts
+
+This repository keeps selected workflow `.py` scripts as references for the research process and methodology implementation. Researchers may read, adapt, or modify these scripts for their own corpus and annotation data.
+
+The public scripts are intended to:
+
+- show the workflow logic for corpus construction, annotation, motif analysis, network modeling, and relationship modeling
+- provide adaptable research-code structure
+- avoid publishing production data, complete output data, or deployment artifacts
+
+The public repository does not include one-command rebuild orchestration, SQLite import, website export, demo mirror generation, Firebase deployment, or full production orchestration.
 
 ## Conceptual Workflow
 

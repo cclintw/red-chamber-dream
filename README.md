@@ -2,7 +2,7 @@
 
 《紅樓夢知識平台》是一個以《紅樓夢》為範例的數位人文研究 workflow 說明專案。它不只是《紅樓夢》網站，而是一套可重用的 Digital Humanities 方法框架：從古典小說文本出發，透過 NLP、權威表、標註、知識圖譜與靜態展示資料，建立可查詢、可分析、可視覺化、可引用的研究平台。
 
-本 public repository 只保留方法論概覽、資料架構說明、引用規範與授權資訊。不包含 production data、完整資料表、SQLite、generated JSON、展示網站輸出、部署設定或完整 rebuild scripts。
+本 public repository 保留方法論概覽、資料架構說明、引用規範、授權資訊與部分 workflow scripts。不包含 production data、完整資料表、SQLite、generated JSON、展示網站輸出、部署設定或完整 orchestration scripts。
 
 ## Project Overview
 
@@ -38,9 +38,21 @@
 - generated JSON
 - generated website output
 - deployment settings
-- production rebuild scripts
+- production orchestration scripts
 
 完整研究資料、展示網站輸出與部署流程由作者在 private repository 與本機環境維護。
+
+## Public Scripts
+
+本 repo 保留部分 workflow `.py`，作為研究流程與方法實作的參考。這些 scripts 可供研究者閱讀、改作或依自身語料調整後使用。
+
+公開 scripts 的定位是：
+
+- 展示 corpus construction、annotation、motif、network 與 relationship modeling 的流程邏輯。
+- 提供可改作的研究程式骨架。
+- 不附 production data、完整輸出資料或部署成品。
+
+不公開的部分包括一鍵重建、SQLite 匯入、網站輸出、demo mirror、Firebase deploy 與完整 production orchestration。
 
 ## Conceptual Workflow
 

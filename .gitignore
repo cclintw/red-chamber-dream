@@ -25,6 +25,13 @@ demo/
 # Generated JSON / annotation outputs
 *.json
 
+# Private orchestration / deployment scripts
+build_all.py
+build_demo_site.py
+build_platform_site.py
+build_sqlite.py
+migrate_person_notes_to_relations.py
+
 # Generated database
 corpus.sqlite
 corpus.sqlite-*
