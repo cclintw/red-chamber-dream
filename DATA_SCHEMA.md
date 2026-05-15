@@ -86,7 +86,7 @@ The graph layer represents relationships and co-occurrence patterns. It includes
 
 ### Website Layer
 
-The website layer converts research data into static JSON files for reading, search, statistics, and visualization. This allows the project to be published as a static digital humanities website through Firebase Hosting without requiring a backend service.
+The website layer converts research data into static JSON files for reading, search, statistics, and visualization. This allows the project to be published as a static digital humanities website without requiring a backend service.
 
 ## SQLite
 

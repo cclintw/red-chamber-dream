@@ -18,16 +18,12 @@ red-chamber-dream.txt
 *.db
 *.db-*
 
-# Generated static websites.
-# Firebase deploys site/ from the local machine, but site/ and demo/ are not
-# part of the public repository.
+# Generated static websites
 site/
 demo/
 
 # Generated JSON / annotation outputs
 *.json
-!firebase.json
-!templates/demo-site/site.config.json
 
 # Generated database
 corpus.sqlite

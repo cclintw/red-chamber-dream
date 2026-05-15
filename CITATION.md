@@ -36,7 +36,7 @@ https://github.com/cclintw/red-chamber-dream
 - 文學文本中的人物、地點、建築、身份、意象與共現分析。
 - 人物關係圖、共現網絡與統計資料的產生方式。
 - CSV、SQLite、JSON 與靜態網站之間的轉換流程。
-- 可部署至 Firebase Hosting 的數位人文展示網站架構。
+- 數位人文靜態展示網站架構。
 - annotation pipeline、schema 設計、knowledge graph 設計與 hybrid workflow。
 
 若您改作本專案，建議在 README、論文註腳、網站說明或專案文件中註明：
@@ -51,7 +51,7 @@ https://github.com/cclintw/red-chamber-dream
 - 若使用資料表或 schema，請引用資料流程與 schema 設計。
 - 若使用標註方法，請引用 annotation pipeline 與 hybrid workflow。
 - 若使用人物網絡或共現方法，請引用 knowledge graph 與 network construction workflow。
-- 若使用展示網站架構，請引用 static DH platform design、Firebase Hosting 發布流程與展示網站方法。
+- 若使用展示網站架構，請引用 static DH platform design 與展示網站方法。
 
 ## Suggested Chinese Note
 
