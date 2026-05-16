@@ -2,11 +2,11 @@
 
 The Red Chamber Dream Knowledge Platform is a digital humanities research workflow project using *Dream of the Red Chamber* as its primary example. It is not only a website about the novel, but also a reusable Digital Humanities framework for transforming literary texts into searchable, analyzable, visualizable, and citable research data.
 
-This public repository preserves the methodological overview, conceptual data architecture, citation guidelines, license information, and selected workflow scripts. It does not include production data, complete tables, SQLite databases, generated JSON, website output, deployment settings, or full orchestration scripts.
+This repository provides a methodological overview, conceptual data architecture, research scripts, citation guidelines, and license information for digital humanities work on classical Chinese fiction.
 
 ## Project Overview
 
-This project demonstrates an annotation-oriented corpus architecture. Its purpose is not to publish a complete production database, but to describe a research workflow for converting literary texts into inspectable, reproducible, and extensible research data.
+This project demonstrates an annotation-oriented corpus architecture for converting literary texts into inspectable, reproducible, and extensible research data.
 
 The project emphasizes:
 
@@ -27,32 +27,17 @@ This project addresses questions such as:
 - How can character co-occurrence networks and curated semantic relationships coexist?
 - How can digital humanities data be rebuilt, cited, preserved, and presented?
 
-## Public Repository Scope
+## Repository Contents
 
-This public repository does not publish the full production implementation. It excludes:
+This repository includes:
 
-- source text
-- complete CSV tables
-- complete field schema
-- SQLite databases
-- generated JSON
-- generated website output
-- deployment settings
-- production orchestration scripts
+- a digital humanities workflow overview
+- an overview of annotation-oriented corpus architecture
+- scripts related to corpus construction, annotation, motif analysis, network modeling, and relationship modeling
+- academic citation and Research Attribution guidelines
+- GPL-3.0-or-later licensing
 
-The full research data, generated website output, and deployment workflow are maintained by the author in a private repository and local environment.
-
-## Public Scripts
-
-This repository keeps selected workflow `.py` scripts as references for the research process and methodology implementation. Researchers may read, adapt, or modify these scripts for their own corpus and annotation data.
-
-The public scripts are intended to:
-
-- show the workflow logic for corpus construction, annotation, motif analysis, network modeling, and relationship modeling
-- provide adaptable research-code structure
-- avoid publishing production data, complete output data, or deployment artifacts
-
-The public repository does not include one-command rebuild orchestration, SQLite import, website export, demo mirror generation, Firebase deployment, or full production orchestration.
+Researchers may adapt the scripts according to their own corpus, annotation rules, and research questions.
 
 ## Conceptual Workflow
 
@@ -69,17 +54,15 @@ plain text
   -> static digital humanities website
 ```
 
-## Minimal Conceptual Requirements
+## Getting Started
 
-A compatible system requires, at a conceptual level:
+When adapting this workflow, first clarify the following research layers:
 
 - corpus segmentation: textual hierarchy and citable reading units
 - authority normalization: methods for resolving persons, aliases, and normalized entities
 - annotation workflow: NER, motifs, and human review
 - relationship modeling: semantic character relations, kinship, marriage, service relations, or other research-defined relations
 - presentation outputs: derived materials for search, statistics, network views, and display layers
-
-This repository does not list production field-level details. The public version only provides a methodological and architectural overview.
 
 For a public data architecture overview, see [DATA_SCHEMA.md](DATA_SCHEMA.md).
 
