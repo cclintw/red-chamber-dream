@@ -66,6 +66,31 @@ When adapting this workflow, first clarify the following research layers:
 
 For a public data architecture overview, see [DATA_SCHEMA.md](DATA_SCHEMA.md).
 
+## Run the Example Workflow
+
+This repository includes a minimal example for testing the workflow scripts:
+
+```bash
+python3 build_tables.py
+python3 build_ner_seed_tables.py
+python3 build_person_authority.py
+python3 build_ner_tables.py
+python3 build_motif_tables.py
+python3 build_person_relationships.py
+python3 build_person_occurrence_summary.py
+python3 build_person_social_network.py
+python3 build_annotated_texts.py
+python3 build_basic_annotation_browser.py
+```
+
+Outputs are written to:
+
+```text
+public_output/
+```
+
+The example demonstrates a basic path from text segmentation, entity annotation, motif annotation, person relationships, co-occurrence networks, and simple HTML review pages.
+
 ## Citation
 
 If you use, cite, adapt, or refer to this project's methodology, data workflow, annotation workflow, knowledge graph design, or display architecture in a paper, research project, teaching material, website, software, database, digital humanities platform, or derived system, please cite the source.

@@ -66,6 +66,31 @@ plain text
 
 更多概念層資料架構說明請見 [DATA_SCHEMA.md](DATA_SCHEMA.md)。
 
+## Run the Example Workflow
+
+本 repo 內含一組 minimal example，可用來測試 workflow scripts：
+
+```bash
+python3 build_tables.py
+python3 build_ner_seed_tables.py
+python3 build_person_authority.py
+python3 build_ner_tables.py
+python3 build_motif_tables.py
+python3 build_person_relationships.py
+python3 build_person_occurrence_summary.py
+python3 build_person_social_network.py
+python3 build_annotated_texts.py
+python3 build_basic_annotation_browser.py
+```
+
+輸出會產生於：
+
+```text
+public_output/
+```
+
+這組 example 展示從文本切分、實體標註、motif 標註、人物關係、共現網絡到簡易 HTML 檢視頁的基本流程。
+
 ## Citation
 
 若您在論文、研究計畫、教學、網站、軟體、資料庫、數位人文平台或衍生系統中使用、引用、改作或參考本專案的方法論、資料流程、標註流程、knowledge graph 設計或展示架構，請註明來源。

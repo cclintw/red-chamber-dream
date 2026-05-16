@@ -1,74 +1,36 @@
 #!/usr/bin/env python3
-"""Build person occurrence summaries from NER output."""
+"""Summarize minimal person mentions."""
 
 from __future__ import annotations
 
 import csv
-from collections import defaultdict
+from collections import Counter
 from pathlib import Path
 
 
-NER_CSV = Path("ner.csv")
-PERSON_AUTHORITY_CSV = Path("person_authority.csv")
-PERSON_OCCURRENCE_SUMMARY_CSV = Path("person_occurrence_summary.csv")
-
-FIELDS = [
-    "person_key",
-    "canonical_name",
-    "total_occurrences",
-    "first_chapter",
-    "last_chapter",
-    "chapter_count",
-    "paragraph_count",
-    "sentence_count",
-    "surface_forms",
-]
+ANNOTATIONS_CSV = Path("public_output/annotations.csv")
+PERSONS_CSV = Path("public_output/persons.csv")
+OUTPUT = Path("public_output/person_occurrences.csv")
 
 
 def read_csv(path: Path) -> list[dict[str, str]]:
-    if not path.exists():
-        return []
-    with path.open(encoding="utf-8-sig", newline="") as fh:
+    with path.open(encoding="utf-8", newline="") as fh:
         return list(csv.DictReader(fh))
 
 
-def write_csv(path: Path, fieldnames: list[str], rows: list[dict[str, object]]) -> None:
-    with path.open("w", encoding="utf-8-sig", newline="") as fh:
-        writer = csv.DictWriter(fh, fieldnames=fieldnames)
-        writer.writeheader()
-        writer.writerows([{field: row.get(field, "") for field in fieldnames} for row in rows])
-
-
 def main() -> None:
-    people = {row["person_key"]: row for row in read_csv(PERSON_AUTHORITY_CSV)}
-    grouped: dict[str, list[dict[str, str]]] = defaultdict(list)
-    for row in read_csv(NER_CSV):
-        if row.get("entity_type") != "PERSON":
-            continue
-        key = row.get("entity_key", "")
-        if key and key in people:
-            grouped[key].append(row)
-
-    rows = []
-    for key, mentions in sorted(grouped.items()):
-        chapters = sorted({int(row["chapter_number"]) for row in mentions if row.get("chapter_number")}, key=int)
-        rows.append(
-            {
-                "person_key": key,
-                "canonical_name": people[key]["canonical_name"],
-                "total_occurrences": len(mentions),
-                "first_chapter": chapters[0] if chapters else "",
-                "last_chapter": chapters[-1] if chapters else "",
-                "chapter_count": len(set(chapters)),
-                "paragraph_count": len({row["paragraph_id"] for row in mentions}),
-                "sentence_count": len({row["sentence_id"] for row in mentions}),
-                "surface_forms": "|".join(sorted({row["entity_text"] for row in mentions})),
-            }
-        )
-
-    rows.sort(key=lambda row: (-int(row["total_occurrences"]), row["canonical_name"]))
-    write_csv(PERSON_OCCURRENCE_SUMMARY_CSV, FIELDS, rows)
-    print(f"wrote {PERSON_OCCURRENCE_SUMMARY_CSV}: {len(rows)} rows")
+    if not ANNOTATIONS_CSV.exists():
+        raise SystemExit("run build_ner_tables.py first")
+    if not PERSONS_CSV.exists():
+        raise SystemExit("run build_person_authority.py first")
+    names = {row["id"]: row["name"] for row in read_csv(PERSONS_CSV)}
+    counts = Counter(row["entity_id"] for row in read_csv(ANNOTATIONS_CSV) if row["entity_id"] in names)
+    rows = [{"id": key, "name": names[key], "count": count} for key, count in sorted(counts.items())]
+    with OUTPUT.open("w", encoding="utf-8", newline="") as fh:
+        writer = csv.DictWriter(fh, fieldnames=["id", "name", "count"])
+        writer.writeheader()
+        writer.writerows(rows)
+    print(f"wrote {OUTPUT}: {len(rows)} rows")
 
 
 if __name__ == "__main__":

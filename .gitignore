@@ -13,6 +13,7 @@ data-private/
 # Source corpus and production research data
 red-chamber-dream.txt
 *.csv
+!examples/*.csv
 *.sqlite
 *.sqlite-*
 *.db
@@ -24,6 +25,7 @@ demo/
 
 # Generated JSON / annotation outputs
 *.json
+public_output/
 
 # Private orchestration / deployment scripts
 build_all.py
