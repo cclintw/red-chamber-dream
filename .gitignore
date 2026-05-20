@@ -21,10 +21,10 @@ red-chamber-dream.txt
 
 # Generated static websites
 site/
-demo/
 
 # Generated JSON / annotation outputs
 *.json
+!demo/data/*.json
 public_output/
 
 # Private orchestration / deployment scripts
@@ -46,8 +46,6 @@ annotated_text.xml
 
 # Early visual/reference prototypes
 3d.html
-demo/read-sample.html
-demo/article/
 
 article/
 

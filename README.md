@@ -4,6 +4,10 @@
 
 本 repo 提供數位人文 workflow 的方法論概覽、資料架構說明、研究腳本、引用規範與授權資訊，適合作為古典小說語料處理、標註設計與知識圖譜建構的參考基礎。
 
+展示頁面：
+
+[https://projects.cclin.cc/red-chamber-dream/](https://projects.cclin.cc/red-chamber-dream/)
+
 ## Project Overview
 
 本專案展示一種 annotation-oriented corpus architecture。其核心不是單一資料庫或單一網站，而是將文學文本轉換為可檢查、可重建、可延伸的研究資料流程。
@@ -117,7 +121,11 @@ https://github.com/cclintw/red-chamber-dream
 
 ## License
 
-本專案授權資訊請以 repository 中的正式授權檔案或 citation metadata 為準；目前採用 GPL-3.0-or-later。
+本專案採用分層授權，以區分程式、文件與研究資料的使用方式：
+
+- Code：GPL-3.0-or-later。
+- Documentation：CC BY 4.0。
+- Data：CC BY-NC 4.0，除非個別資料檔或來源另有明確標示。
 
 程式碼授權不代表放棄研究方法、文件架構、schema 設計、標註流程與 knowledge graph workflow 的學術署名需求。若引用、改作、移植或延伸本專案的研究流程與方法論，請保留適當學術引用與來源說明。
 

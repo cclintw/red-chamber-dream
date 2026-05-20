@@ -4,6 +4,10 @@ The Red Chamber Dream Knowledge Platform is a digital humanities research workfl
 
 This repository provides a methodological overview, conceptual data architecture, research scripts, citation guidelines, and license information for digital humanities work on classical Chinese fiction.
 
+Demo:
+
+[https://projects.cclin.cc/red-chamber-dream/](https://projects.cclin.cc/red-chamber-dream/)
+
 ## Project Overview
 
 This project demonstrates an annotation-oriented corpus architecture for converting literary texts into inspectable, reproducible, and extensible research data.
@@ -117,7 +121,11 @@ This project is a demonstration platform for a digital humanities research workf
 
 ## License
 
-Licensing information follows the repository's official license file and citation metadata. The project currently uses GPL-3.0-or-later.
+This project uses layered licensing to distinguish code, documentation, and research data:
+
+- Code: GPL-3.0-or-later.
+- Documentation: CC BY 4.0.
+- Data: CC BY-NC 4.0, unless a specific data file or source states otherwise.
 
 Code licensing does not waive the need for scholarly attribution of the research methodology, documentation architecture, schema design, annotation workflow, and knowledge graph workflow. If you cite, adapt, migrate, or extend this project's research workflow and methodology, please retain appropriate attribution.
 
