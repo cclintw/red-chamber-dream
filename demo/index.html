@@ -18,11 +18,11 @@
   <button id="toggleReaderLeft" class="reader-toggle" title="展開/收合章節" aria-label="展開/收合章節"></button>
   <h1>紅樓夢知識圖譜</h1>
   <nav>
-    <button data-view="reader">瀏覽</button>
-    <button data-view="search" class="active">查詢</button>
-    <button data-view="network">人物關係圖</button>
-    <button data-view="coGraph">共現圖</button>
-    <button data-view="stats">統計</button>
+    <button type="button" data-view="reader" onclick="switchView('reader').catch(showLoadError)">瀏覽</button>
+    <button type="button" data-view="search" class="active" onclick="switchView('search').catch(showLoadError)">查詢</button>
+    <button type="button" data-view="network" onclick="switchView('network').catch(showLoadError)">人物關係圖</button>
+    <button type="button" data-view="coGraph" onclick="switchView('coGraph').catch(showLoadError)">共現圖</button>
+    <button type="button" data-view="stats" onclick="switchView('stats').catch(showLoadError)">統計</button>
   </nav>
   <button id="mobileMenuToggle" class="mobile-menu-toggle" type="button" title="展開選單" aria-label="展開選單" aria-expanded="false"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
   <div class="reader-tags" aria-label="瀏覽標記圖例">
