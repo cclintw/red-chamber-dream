@@ -1,13 +1,13 @@
 cff-version: 1.2.0
 message: "If you use this project, please cite it as below."
-title: "紅樓夢知識平台：中文古典小說數位人文工作流與知識圖譜建構示範"
+title: "Red Chamber Dream Knowledge Platform: A Digital Humanities Workflow and Knowledge Graph Demonstration for Classical Chinese Fiction"
 authors:
   - family-names: Lin
     given-names: Chance
 year: 2026
 repository-code: "https://github.com/cclintw/red-chamber-dream"
 url: "https://cclintw.github.io/red-chamber-dream/"
-abstract: "A digital humanities workflow and demonstration platform for building structured corpora, named entity annotations, motifs, social networks, co-occurrence graphs, SQLite databases, and static websites from the Chinese classical novel Dream of the Red Chamber."
+abstract: "A digital humanities workflow and demonstration platform for building structured corpora, named entity annotations, motifs, social networks, co-occurrence graphs, SQLite databases, knowledge graphs, and static websites from the Chinese classical novel Dream of the Red Chamber."
 keywords:
   - digital humanities
   - knowledge graph
