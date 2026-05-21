@@ -1,47 +1,47 @@
-# 紅樓夢知識平台
+# Red Chamber Dream Knowledge Platform
 
-《紅樓夢知識平台》是一個以《紅樓夢》為範例的數位人文研究 workflow 說明專案。它不只是《紅樓夢》網站，而是一套可重用的 Digital Humanities 方法框架：從古典小說文本出發，透過 NLP、權威表、標註、知識圖譜與靜態展示資料，建立可查詢、可分析、可視覺化、可引用的研究平台。
+The Red Chamber Dream Knowledge Platform is a digital humanities research workflow project using *Dream of the Red Chamber* as its primary example. It is not only a website about the novel, but also a reusable Digital Humanities framework for transforming literary texts into searchable, analyzable, visualizable, and citable research data.
 
-本 repo 提供數位人文 workflow 的方法論概覽、資料架構說明、研究腳本、引用規範與授權資訊，適合作為古典小說語料處理、標註設計與知識圖譜建構的參考基礎。
+This repository provides a methodological overview, conceptual data architecture, research scripts, citation guidelines, and license information for digital humanities work on classical Chinese fiction.
 
-展示頁面：
+Demo:
 
 [https://projects.cclin.cc/red-chamber-dream/](https://projects.cclin.cc/red-chamber-dream/)
 
 ## Project Overview
 
-本專案展示一種 annotation-oriented corpus architecture。其核心不是單一資料庫或單一網站，而是將文學文本轉換為可檢查、可重建、可延伸的研究資料流程。
+This project demonstrates an annotation-oriented corpus architecture for converting literary texts into inspectable, reproducible, and extensible research data.
 
-方法特色包括：
+The project emphasizes:
 
-- Digital Humanities：以可引用、可重建的方式整理文學文本。
-- NLP：使用斷詞、命名實體辨識與規則補強建立初步標註。
-- Annotation：結合自動處理、權威表、別名表與人工校對。
-- Knowledge Graph：整理人物、地點、建築、身份、意象與關係。
-- Hybrid Workflow：保留演算法產物與人工研究判讀的共存空間。
-- Static Publication：將研究資料轉為可部署的靜態展示資料。
+- Digital Humanities: preserving literary texts as citable and reproducible research data.
+- NLP: using segmentation, named entity recognition, and rule-based reinforcement.
+- Annotation: combining automatic processing, authority tables, aliases, and human review.
+- Knowledge Graph: modeling characters, places, buildings, identities, motifs, and relationships.
+- Hybrid Workflow: allowing computational output and scholarly interpretation to coexist.
+- Static Publication: converting research data into static website-ready outputs.
 
 ## Research Goals
 
-本專案希望回答：
+This project addresses questions such as:
 
-- 古典小說如何從純文字轉換為結構化語料？
-- 人物、地點、建築、身份與意象如何被標註與校對？
-- 自動 NER、人工權威表與規則補強如何形成可解釋的 annotation pipeline？
-- 人物共現網絡與人工整理的語義關係如何並存？
-- 數位人文資料如何以可重建、可引用、可展示的方式保存？
+- How can classical fiction be transformed from plain text into a structured corpus?
+- How can characters, places, buildings, identities, and motifs be annotated and reviewed?
+- How can automatic NER, authority tables, and rule-based reinforcement form an interpretable annotation pipeline?
+- How can character co-occurrence networks and curated semantic relationships coexist?
+- How can digital humanities data be rebuilt, cited, preserved, and presented?
 
 ## Repository Contents
 
-本 repo 主要包含：
+This repository includes:
 
-- 數位人文 workflow 說明
-- annotation-oriented corpus architecture 概覽
-- corpus construction、annotation、motif、network 與 relationship modeling 相關 scripts
-- 學術引用與 Research Attribution 規範
-- GPL-3.0-or-later 授權
+- a digital humanities workflow overview
+- an overview of annotation-oriented corpus architecture
+- scripts related to corpus construction, annotation, motif analysis, network modeling, and relationship modeling
+- academic citation and Research Attribution guidelines
+- GPL-3.0-or-later licensing
 
-研究者可依自身語料、標註規則與研究問題調整 scripts，建立適合不同古典小說或文學文本的 annotation workflow。
+Researchers may adapt the scripts according to their own corpus, annotation rules, and research questions.
 
 ## Conceptual Workflow
 
@@ -60,19 +60,19 @@ plain text
 
 ## Getting Started
 
-使用本 repo 時，建議先釐清下列研究層次：
+When adapting this workflow, first clarify the following research layers:
 
-- corpus segmentation：文本層級與可引用的閱讀單位
-- authority normalization：人物、別名與實體標準化方法
-- annotation workflow：NER、motif 與人工校對流程
-- relationship modeling：人物語義關係、親屬、婚姻、主僕或其他研究關係
-- presentation outputs：查詢、統計、網絡與展示層所需的衍生資料
+- corpus segmentation: textual hierarchy and citable reading units
+- authority normalization: methods for resolving persons, aliases, and normalized entities
+- annotation workflow: NER, motifs, and human review
+- relationship modeling: semantic character relations, kinship, marriage, service relations, or other research-defined relations
+- presentation outputs: derived materials for search, statistics, network views, and display layers
 
-更多概念層資料架構說明請見 [DATA_SCHEMA.md](DATA_SCHEMA.md)。
+For a public data architecture overview, see [DATA_SCHEMA.md](DATA_SCHEMA.md).
 
 ## Run the Example Workflow
 
-本 repo 內含一組 minimal example，可用來測試 workflow scripts：
+This repository includes a minimal example for testing the workflow scripts:
 
 ```bash
 python3 build_tables.py
@@ -87,50 +87,50 @@ python3 build_annotated_texts.py
 python3 build_basic_annotation_browser.py
 ```
 
-輸出會產生於：
+Outputs are written to:
 
 ```text
 public_output/
 ```
 
-這組 example 展示從文本切分、實體標註、motif 標註、人物關係、共現網絡到簡易 HTML 檢視頁的基本流程。
+The example demonstrates a basic path from text segmentation, entity annotation, motif annotation, person relationships, co-occurrence networks, and simple HTML review pages.
 
 ## Citation
 
-若您在論文、研究計畫、教學、網站、軟體、資料庫、數位人文平台或衍生系統中使用、引用、改作或參考本專案的方法論、資料流程、標註流程、knowledge graph 設計或展示架構，請註明來源。
+If you use, cite, adapt, or refer to this project's methodology, data workflow, annotation workflow, knowledge graph design, or display architecture in a paper, research project, teaching material, website, software, database, digital humanities platform, or derived system, please cite the source.
 
-建議引用格式：
+Recommended citation:
 
 ```text
-林春成. 紅樓夢知識平台：數位人文工作流與知識圖譜建構示範. GitHub repository, 2026.
+Chun-Cheng Lin. Red Chamber Dream Knowledge Platform: A Digital Humanities Workflow and Knowledge Graph Construction Demonstration for Classical Chinese Fiction. GitHub repository, 2026.
 https://github.com/cclintw/red-chamber-dream
 ```
 
-完整引用格式與方法論引用規範請見 [CITATION.md](CITATION.md)。
+For full citation formats and methodological attribution guidelines, see [CITATION.md](CITATION.md).
 
 ## Research Attribution
 
-本專案屬於數位人文研究 workflow 示範平台。若引用、改作或延伸以下內容，請保留方法論來源說明：
+This project is a demonstration platform for a digital humanities research workflow. If you cite, adapt, or extend any of the following, please retain methodological attribution:
 
-- 從文本到 corpus layer 的建構流程。
-- 權威表、別名表與規則補強結合的 annotation workflow。
-- 人物、地點、建築、身份與意象的標註方法。
-- 人物譜、共現網絡與知識圖譜的概念設計。
-- annotation-oriented corpus architecture。
-- hybrid workflow 在古典小說研究中的應用。
+- corpus construction from text to structured corpus layers
+- annotation workflows combining authority tables, aliases, and rule-based reinforcement
+- annotation methods for characters, places, buildings, identities, and motifs
+- conceptual design of genealogy views, co-occurrence networks, and knowledge graphs
+- annotation-oriented corpus architecture
+- hybrid workflow for classical fiction research
 
 ## License
 
-本專案採用分層授權，以區分程式、文件與研究資料的使用方式：
+This project uses layered licensing to distinguish code, documentation, and research data:
 
-- Code：GPL-3.0-or-later。
-- Documentation：CC BY 4.0。
-- Data：CC BY-NC 4.0，除非個別資料檔或來源另有明確標示。
+- Code: GPL-3.0-or-later.
+- Documentation: CC BY 4.0.
+- Data: CC BY-NC 4.0, unless a specific data file or source states otherwise.
 
-程式碼授權不代表放棄研究方法、文件架構、schema 設計、標註流程與 knowledge graph workflow 的學術署名需求。若引用、改作、移植或延伸本專案的研究流程與方法論，請保留適當學術引用與來源說明。
+Code licensing does not waive the need for scholarly attribution of the research methodology, documentation architecture, schema design, annotation workflow, and knowledge graph workflow. If you cite, adapt, migrate, or extend this project's research workflow and methodology, please retain appropriate attribution.
 
 ## Documentation
 
-- [DATA_SCHEMA.md](DATA_SCHEMA.md)：公開版資料架構概覽。
-- [CITATION.md](CITATION.md)：學術引用格式、Research Attribution 與方法論引用規範。
-- [LICENSE](LICENSE)：授權條款。
+- [DATA_SCHEMA.md](DATA_SCHEMA.md): public data architecture overview.
+- [CITATION.md](CITATION.md): academic citation formats, Research Attribution, and methodological citation guidelines.
+- [LICENSE](LICENSE): license terms.
